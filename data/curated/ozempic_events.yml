@@ -1,0 +1,143 @@
+# Curated Ozempic / semaglutide event timeline.
+#
+# 12 events covering GLP-1 hormone biology → Novo peptide engineering
+# → Ozempic/Wegovy/Rybelsus approvals → Lilly tirzepatide competition →
+# SELECT cardiovascular outcome approval.
+
+drugs:
+  - chembl_id: CHEMBL2108724
+    generic_name: semaglutide
+    events:
+      - id_slug: glp1_discovery_1987
+        event_type: scientific_validation
+        event_date: "1987-06-01"
+        significance: landmark
+        headline: "GLP-1 characterized as a potent incretin hormone (Ørskov, Holst)"
+        triggered_by: null
+        description: |
+          Copenhagen researchers establish GLP-1 as the gut hormone
+          responsible for the "incretin effect" — glucose-dependent
+          insulin amplification. Foundational work behind all GLP-1 RA
+          drug development.
+        source_refs: ["Ørskov & Holst, Scand J Clin Lab Invest 1987"]
+
+      - id_slug: novo_glp1_program_1993
+        event_type: clinical_development
+        event_date: "1993-01-01"
+        significance: major
+        headline: "Novo Nordisk initiates GLP-1 analogue discovery program"
+        triggered_by: glp1_discovery_1987
+        description: |
+          Program led by Lotte Bjerre Knudsen focuses on fatty-acid-
+          anchored albumin-binding analogues to overcome GLP-1's
+          2-minute half-life.
+
+      - id_slug: liraglutide_us_2010
+        event_type: regulatory_approval
+        event_date: "2010-01-25"
+        significance: major
+        headline: "FDA approves Victoza (liraglutide) — Novo's first long-acting GLP-1 RA, once-daily"
+        triggered_by: novo_glp1_program_1993
+        description: |
+          First-generation product; C16 fatty acid linker, ~13 hr
+          half-life. Established the albumin-binding peptide platform
+          that semaglutide extends.
+
+      - id_slug: semaglutide_discovery_2012
+        event_type: clinical_development
+        event_date: "2012-01-01"
+        significance: major
+        headline: "Novo files first semaglutide IND — once-weekly GLP-1 RA candidate"
+        triggered_by: liraglutide_us_2010
+        description: |
+          C18 diacid linker with AEEAc spacer plus Aib8/Arg34 substitutions.
+          Preclinical half-life ~165 hours — supports once-weekly SC dosing.
+
+      - id_slug: fda_ozempic_2017
+        event_type: regulatory_approval
+        event_date: "2017-12-05"
+        significance: landmark
+        headline: "FDA approves Ozempic (semaglutide SC) for type 2 diabetes — once-weekly"
+        triggered_by: semaglutide_discovery_2012
+        description: |
+          BLA 209637. Competed against Lilly's dulaglutide (Trulicity,
+          once-weekly, 2014). SUSTAIN-6 cardiovascular outcome trial
+          published October 2016 supported approval.
+
+      - id_slug: fda_rybelsus_2019
+        event_type: regulatory_approval
+        event_date: "2019-09-20"
+        significance: major
+        headline: "FDA approves Rybelsus (oral semaglutide) — first oral GLP-1 RA"
+        triggered_by: fda_ozempic_2017
+        description: |
+          NDA 213051. Uses SNAC (sodium N-(8-(2-hydroxybenzoyl)amino)-
+          caprylate) permeation enhancer licensed from Emisphere
+          Technologies. Novo acquired Emisphere outright in 2020 for
+          ~$1.35B to consolidate the oral-peptide platform.
+
+      - id_slug: fda_wegovy_2021
+        event_type: regulatory_approval
+        event_date: "2021-06-04"
+        significance: landmark
+        headline: "FDA approves Wegovy (semaglutide 2.4 mg weekly) for chronic weight management"
+        triggered_by: fda_ozempic_2017
+        description: |
+          BLA 215256. Same molecule at a higher dose. STEP 1 trial
+          showed ~15% mean weight reduction vs ~2.4% with placebo.
+          Opens obesity market to Novo's GLP-1 platform.
+
+      - id_slug: wegovy_shortage_2022
+        event_type: supply_disruption
+        event_date: "2022-06-01"
+        significance: major
+        headline: "Wegovy supply shortage triggers off-label Ozempic use and social-media phenomenon"
+        triggered_by: fda_wegovy_2021
+        description: |
+          Demand overwhelms manufacturing capacity. Patients with
+          BMI <30 obtain Ozempic off-label for weight management.
+          "Ozempic" becomes a common noun on TikTok and broader media,
+          catalyzing the GLP-1 obesity category.
+
+      - id_slug: lilly_zepbound_2023
+        event_type: competitive_launch
+        event_date: "2023-11-08"
+        significance: major
+        headline: "FDA approves Eli Lilly Zepbound (tirzepatide) — GIP/GLP-1 dual agonist, principal competitor"
+        triggered_by: fda_wegovy_2021
+        description: |
+          SURMOUNT-1 showed 22.5% weight reduction at 72 weeks vs
+          Wegovy's ~15%. Threatens Novo's obesity share but validates
+          the category.
+
+      - id_slug: select_cv_2023
+        event_type: clinical_readout
+        event_date: "2023-08-08"
+        significance: landmark
+        headline: "Novo reports SELECT trial — Wegovy cuts cardiovascular events 20% in overweight adults without diabetes"
+        triggered_by: fda_wegovy_2021
+        description: |
+          First demonstration that obesity pharmacotherapy reduces hard
+          CV endpoints independent of glycemic effect. Reframes GLP-1
+          RAs from weight-loss drugs to cardiometabolic-risk drugs.
+
+      - id_slug: fda_wegovy_cv_2024
+        event_type: label_expansion
+        event_date: "2024-03-08"
+        significance: landmark
+        headline: "FDA approves Wegovy for cardiovascular risk reduction — first obesity drug approved on a CV outcome"
+        triggered_by: select_cv_2023
+        description: |
+          Creates pathway for CMS / payer reimbursement in cardiovascular
+          indication, circumventing the historical obesity-drug coverage
+          exclusion under Medicare Part D.
+
+      - id_slug: novo_europe_top_2023
+        event_type: market_milestone
+        event_date: "2023-09-01"
+        significance: major
+        headline: "Novo Nordisk becomes Europe's most valuable public company, surpassing LVMH"
+        triggered_by: fda_wegovy_2021
+        description: |
+          Novo market cap reached ~€428B in September 2023, driven by
+          Ozempic + Wegovy demand. Semaglutide franchise ~$21B in 2023.

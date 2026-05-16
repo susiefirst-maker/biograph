@@ -1,0 +1,523 @@
+# JAK Inhibitors — curated T1 landscape.
+#
+# §7.4.6 priority #11. Tenth curated landscape. Opens the
+# autoimmune / inflammatory dimension (previously only metabolic
+# and oncology clusters existed). Canonical case study for FDA
+# class-wide boxed warnings: 2021 ORAL Surveillance permanently
+# repositioned JAK inhibitors behind TNF biologics in RA first-line,
+# a precedent the CAR-T P7-D9 lesson directly cross-references.
+
+slug: jak-inhibitors
+display_name: "JAK Inhibitors"
+display_name_zh: "JAK 抑制剂"
+quality_tier: T1_CURATED
+last_curated_at: "2026-04-21"
+human_reviewed: true
+
+aliases:
+  - JAK
+  - JAK inhibitor
+  - JAK inhibitors
+  - Janus kinase inhibitor
+  - jakinib
+  - TYK2 inhibitor
+  - JAK / TYK2
+  - JAK 抑制剂
+  - Janus 激酶抑制剂
+  - 雅努斯激酶抑制剂
+
+mesh_id: D000074969    # Janus Kinase Inhibitors
+
+disease_overview: |
+  The JAK (Janus kinase) family — JAK1, JAK2, JAK3, and the related
+  TYK2 — transduces intracellular signaling for type-I/II cytokine
+  receptors (interleukins, interferons, growth factors). Pan-JAK
+  inhibition was clinically validated in 2011 with Incyte's
+  ruxolitinib (Jakafi) for myelofibrosis — a disease driven by
+  JAK2 V617F activating mutations. The class rapidly expanded into
+  autoimmune / inflammatory disease on the premise that oral
+  small-molecule disruption of Th1/Th17/Treg cytokine signaling
+  could match biologic efficacy at lower cost: tofacitinib
+  (Xeljanz, Pfizer, 2012) for rheumatoid arthritis was the first
+  derivatization, followed by baricitinib (Olumiant, Lilly 2018)
+  and upadacitinib (Rinvoq, AbbVie 2019). Indications expanded
+  across the 2019-2024 window to psoriatic arthritis, ankylosing
+  spondylitis, ulcerative colitis, Crohn's disease, atopic
+  dermatitis, alopecia areata, vitiligo, and (for baricitinib)
+  severe COVID-19 during the pandemic.
+
+  2021 was the class's inflection year. Pfizer's ORAL Surveillance
+  post-marketing trial — tofacitinib vs TNF inhibitor in RA
+  patients aged ≥50 with cardiovascular risk factors — showed
+  increased rates of major adverse cardiovascular events (MACE)
+  and malignancies with tofacitinib. FDA issued a September 2021
+  class-wide boxed warning covering tofacitinib, baricitinib, and
+  upadacitinib (but not MF-restricted drugs ruxolitinib and
+  fedratinib, where benefit-risk differs). The warning structurally
+  repositioned the class behind TNF / IL-23 / IL-17 biologics as
+  a second- or later-line option in RA and PsA, limiting label
+  expansion potential even as new indications (alopecia areata,
+  vitiligo, UC, Crohn's, AD) kept arriving.
+
+  Second-generation escape: BMS's deucravacitinib (Sotyktu, 2022)
+  uses allosteric TYK2 binding rather than competitive JAK ATP-site
+  binding — mechanistically distinct class with (so far) a cleaner
+  safety profile and no boxed warning. TYK2-selective follow-ons
+  are the most-watched developmental programs for derm and
+  rheumatology. AbbVie's Rinvoq (upadacitinib) is the class's
+  commercial success story despite the warning — ~$5.9B 2023 on
+  the strength of 6+ indication labels, functioning as the
+  cornerstone of AbbVie's post-Humira portfolio.
+
+disease_overview_zh: |
+  JAK(Janus激酶)家族 — JAK1、JAK2、JAK3以及相关的TYK2 — 负责
+  I型/II型细胞因子受体(白介素、干扰素、生长因子)的胞内信号
+  传导。泛JAK抑制于2011年由Incyte的芦可替尼(Jakafi)治疗骨髓
+  纤维化获得临床验证 — 这是一种由JAK2 V617F激活突变驱动的
+  疾病。该类别迅速扩展至自身免疫/炎症领域,前提是口服小分子
+  阻断Th1/Th17/Treg细胞因子信号可能以更低成本达到生物制剂
+  的疗效:辉瑞的托法替布(Xeljanz,2012)用于类风湿关节炎是
+  首个衍生应用,随后是礼来的巴瑞替尼(Olumiant,2018)和艾伯
+  维的乌帕替尼(Rinvoq,2019)。2019-2024年间适应症进一步扩
+  展至银屑病关节炎、强直性脊柱炎、溃疡性结肠炎、克罗恩病、
+  特应性皮炎、斑秃、白癜风,以及巴瑞替尼用于重症新冠。
+
+  2021年是该类别的拐点年。辉瑞的ORAL Surveillance上市后试验 —
+  在具有心血管危险因素的≥50岁类风湿关节炎患者中比较托法替布
+  与TNF抑制剂 — 显示托法替布组主要不良心血管事件(MACE)及
+  恶性肿瘤发生率增加。FDA于2021年9月对托法替布、巴瑞替尼和
+  乌帕替尼发布了类别范围黑框警告(但不涵盖骨髓纤维化限定的
+  芦可替尼和fedratinib,因为其风险收益评估不同)。该警告结构
+  性地将该类别重新定位为类风湿关节炎和银屑病关节炎中TNF、
+  IL-23、IL-17生物制剂之后的二线或更后线选择,限制了标签扩展
+  潜力,即便新适应症(斑秃、白癜风、UC、克罗恩病、AD)不断
+  到来。
+
+  第二代突围:BMS的deucravacitinib(Sotyktu,2022)使用别构
+  TYK2结合而非经典JAK ATP位点竞争结合 — 机制不同的类别,
+  (目前)具有更清晰的安全性,无黑框警告。TYK2选择性后续分子
+  是皮肤科和风湿领域最受关注的研发项目。艾伯维的Rinvoq
+  (乌帕替尼)是该类别尽管有警告但商业上成功的代表 — 2023年
+  销售额约59亿美元,得益于6个以上适应症标签,成为艾伯维
+  Humira后组合的基石。
+
+mechanism_map:
+  - class: "Pan-JAK inhibitor (JAK1/2) — myelofibrosis"
+    class_zh: "泛 JAK 抑制剂(JAK1/2) — 骨髓纤维化"
+    drugs:
+      - name: ruxolitinib (Jakafi / Jakavi)
+        status: approved
+        company: Incyte / Novartis
+        approval_date: "2011-11-16"
+      - name: fedratinib (Inrebic)
+        status: approved
+        company: Bristol-Myers Squibb (ex-Celgene)
+        approval_date: "2019-08-16"
+      - name: pacritinib (Vonjo)
+        status: approved
+        company: Sobi (ex-CTI BioPharma)
+        approval_date: "2022-02-28"
+      - name: momelotinib (Ojjaara)
+        status: approved
+        company: GSK
+        approval_date: "2023-09-15"
+
+  - class: "Pan-JAK inhibitor — autoimmune / rheumatology"
+    class_zh: "泛 JAK 抑制剂 — 自身免疫 / 风湿"
+    drugs:
+      - name: tofacitinib (Xeljanz)
+        status: approved
+        company: Pfizer
+        approval_date: "2012-11-06"
+      - name: baricitinib (Olumiant)
+        status: approved
+        company: Eli Lilly
+        approval_date: "2018-05-31"
+
+  - class: "JAK1-selective inhibitor"
+    class_zh: "JAK1 选择性抑制剂"
+    drugs:
+      - name: upadacitinib (Rinvoq)
+        status: approved
+        company: AbbVie
+        approval_date: "2019-08-16"
+      - name: abrocitinib (Cibinqo)
+        status: approved
+        company: Pfizer
+        approval_date: "2022-01-14"
+      - name: filgotinib (Jyseleca)
+        status: approved
+        company: Galapagos / Gilead (EU only; US rejected)
+
+  - class: "JAK3 / TEC family inhibitor"
+    class_zh: "JAK3 / TEC 家族抑制剂"
+    drugs:
+      - name: ritlecitinib (Litfulo)
+        status: approved
+        company: Pfizer
+        approval_date: "2023-06-23"
+
+  - class: "TYK2 allosteric inhibitor (class-warning escape)"
+    class_zh: "TYK2 别构抑制剂(避开类别警告)"
+    drugs:
+      - name: deucravacitinib (Sotyktu)
+        status: approved
+        company: Bristol-Myers Squibb
+        approval_date: "2022-09-09"
+      - name: TAK-279 (zasocitinib)
+        status: phase_3
+        company: Takeda
+      - name: VTX958
+        status: phase_2
+        company: Ventyx Biosciences
+
+  - class: "Topical JAK"
+    class_zh: "外用 JAK 制剂"
+    drugs:
+      - name: ruxolitinib cream (Opzelura)
+        status: approved
+        company: Incyte
+        approval_date: "2021-09-21"
+      - name: delgocitinib cream (Corectim)
+        status: approved
+        company: LEO Pharma / Japan Tobacco
+
+pipeline:
+  approved:
+    - ruxolitinib (Jakafi, Incyte)
+    - tofacitinib (Xeljanz, Pfizer)
+    - baricitinib (Olumiant, Lilly)
+    - upadacitinib (Rinvoq, AbbVie)
+    - abrocitinib (Cibinqo, Pfizer)
+    - fedratinib (Inrebic, BMS)
+    - pacritinib (Vonjo, Sobi)
+    - momelotinib (Ojjaara, GSK)
+    - deucravacitinib (Sotyktu, BMS — TYK2 allosteric)
+    - ritlecitinib (Litfulo, Pfizer — JAK3/TEC)
+    - ruxolitinib cream (Opzelura, Incyte — topical)
+    - filgotinib (Jyseleca, Galapagos — EU only; US rejected 2020)
+  phase_3:
+    - TAK-279 / zasocitinib (Takeda TYK2 psoriasis / PsA)
+    - VTX958 (Ventyx TYK2)
+    - multiple upadacitinib label-expansion trials (GPP, HS, others)
+  phase_2:
+    - deucravacitinib expansion (lupus, psoriasis + UC combo)
+    - topical TYK2 programs (BMS)
+    - next-generation JAK1 / TYK2 combos for IBD
+  phase_1:
+    - first-in-human TYK2 JH2-binding follow-ons
+    - oral IL-23R disruptors (adjacent pathway, cannibalizing JAK1 label expansions)
+  failed:
+    - filgotinib (Gilead/Galapagos, 2020) — FDA rejected for US RA approval citing sperm-parameter signal and 200mg dose
+    - oclacitinib human development paused — commercial veterinary success, human programs de-prioritized
+    - multiple IL-6 + JAK combinations failed historically
+
+failed_trials:
+  - "ORAL Surveillance (tofacitinib, Pfizer, 2021) — post-marketing safety trial in RA ≥50 with CV risk factors; tofacitinib lost on MACE + malignancy vs TNF; triggered FDA class-wide boxed warning September 2021 and structural class repositioning"
+  - "FINCH series (filgotinib, Gilead/Galapagos, 2019-2020) — RA program met PFS endpoints but FDA rejected 200mg US approval on male-reproductive safety signal"
+  - "ACROSS / RESOLVE (atopic derm programs, multiple sponsors) — several IL-13 + JAK combos failed on adjacent-mechanism futility"
+
+companies:
+  - name: AbbVie
+    ticker: ABBV
+    role: "Post-Humira lifecycle anchor — Rinvoq ~$5.9B 2023; broadest JAK label (6+ indications); bet on upadacitinib as Humira biosimilar replacement is mostly paying off"
+  - name: Pfizer
+    ticker: PFE
+    role: "Category originator (Xeljanz 2012) + abrocitinib + ritlecitinib + ORAL Surveillance sponsor (unintentionally defined the class boxed warning); franchise share pressured by warning"
+  - name: Incyte
+    ticker: INCY
+    role: "Ruxolitinib (Jakafi) — royalty base + Novartis ex-US partner; topical Opzelura for vitiligo. MF + derm are unaffected by 2021 RA class warning"
+  - name: Bristol-Myers Squibb
+    ticker: BMY
+    role: "Deucravacitinib (Sotyktu) — TYK2 allosteric class-escape; fedratinib MF; deucrava expansion to UC + lupus Phase 3"
+  - name: Eli Lilly
+    ticker: LLY
+    role: "Baricitinib (Olumiant) — RA + alopecia areata + COVID legacy; smaller franchise vs Rinvoq"
+  - name: Novartis
+    ticker: NVS
+    role: "Ruxolitinib ex-US (Jakavi) — Incyte partner; GVHD + PV indications"
+  - name: GSK
+    ticker: GSK
+    role: "Momelotinib (Ojjaara) for MF with anemia — 2023 approval via Sierra Oncology acquisition"
+  - name: Sobi
+    ticker: SOBI.ST
+    role: "Pacritinib (Vonjo) MF with thrombocytopenia — via 2023 CTI BioPharma acquisition"
+  - name: Takeda
+    ticker: TAK
+    role: "TAK-279 (zasocitinib) TYK2 Phase 3 psoriasis / PsA; second-gen class-escape bet"
+  - name: Ventyx Biosciences
+    ticker: VTYX
+    role: "VTX958 TYK2 + next-gen oral small-molecule immunology programs"
+
+key_trials:
+  - name: "COMFORT-I / COMFORT-II"
+    drug: ruxolitinib
+    sponsor: Incyte
+    phase: phase_3
+    status: met_primary
+    significance: "Ruxolitinib MF 2011 first-ever JAK inhibitor approval — established JAK2 V617F-driven MF pathway"
+  - name: "ORAL Surveillance (A3921133)"
+    drug: tofacitinib vs TNF inhibitor
+    sponsor: Pfizer
+    phase: phase_4
+    status: failed
+    significance: "Post-marketing CV + malignancy safety trial 2021 — tofacitinib lost; triggered FDA class-wide boxed warning September 2021 for all autoimmune JAK inhibitors; permanently repositioned class as 2L+ behind TNF"
+  - name: "SELECT-COMPARE"
+    drug: upadacitinib vs adalimumab
+    sponsor: AbbVie
+    phase: phase_3
+    status: met_primary
+    significance: "Upadacitinib 15mg beat adalimumab in RA 2019 — basis for Rinvoq approval and core differentiator vs Humira biosimilars"
+  - name: "JADE COMPARE"
+    drug: abrocitinib vs dupilumab
+    sponsor: Pfizer
+    phase: phase_3
+    status: met_primary
+    significance: "Abrocitinib beat dupilumab on 12-week primary in AD 2021 — validated JAK1 vs Th2 biologic in atopic derm"
+  - name: "MEASURE UP 1 / 2"
+    drug: upadacitinib
+    sponsor: AbbVie
+    phase: phase_3
+    status: met_primary
+    significance: "Upadacitinib AD pivotal trials 2021 — broadened Rinvoq label post-RA boxed warning"
+  - name: "POETYK PSO-1 / 2"
+    drug: deucravacitinib
+    sponsor: Bristol-Myers Squibb
+    phase: phase_3
+    status: met_primary
+    significance: "Deucravacitinib TYK2 allosteric in psoriasis 2022 — first TYK2-selective approval; no boxed warning"
+  - name: "BRAVE-AA 1 / 2"
+    drug: baricitinib
+    sponsor: Eli Lilly
+    phase: phase_3
+    status: met_primary
+    significance: "Baricitinib for severe alopecia areata 2022 — first-ever systemic approval in AA; expanded the class to new derm indication"
+  - name: "U-ACHIEVE / U-ACCOMPLISH"
+    drug: upadacitinib
+    sponsor: AbbVie
+    phase: phase_3
+    status: met_primary
+    significance: "Upadacitinib UC 2022 — expansion into IBD; pushed Rinvoq label to 6+ indications"
+
+scientific_bottlenecks:
+  - "Class-wide boxed warning (MACE + malignancy + thrombosis) affects all autoimmune JAK inhibitors — physician adoption capped as 2L+ behind TNF and IL-23 / IL-17 biologics"
+  - "Cytokine pathway redundancy — blocking one JAK isoform doesn't always deliver biologic-class efficacy; combination with other cytokine inhibitors compromises safety"
+  - "Thromboembolism signal — pulmonary embolism / DVT risk in autoimmune JAK trials; monitoring requirement adds prescribing overhead"
+  - "Hematologic toxicity — anemia, neutropenia, lymphopenia common with pan-JAK; MF-restricted drugs engineered specifically for this (pacritinib, momelotinib better for anemia)"
+  - "TYK2 selectivity is hard — the kinase domain is highly conserved with JAK1/2/3; allosteric JH2 binding (deucravacitinib) is a new MOA class not easily replicated"
+  - "IL-23 / IL-17 biologic pricing + efficacy — Skyrizi (~$10B 2024), Tremfya, Cosentyx cover most psoriasis / IBD indications with cleaner safety; JAK positioning structurally second-line"
+
+market_dynamics: |
+  Global JAK inhibitor revenue reached ~$15 billion in 2023.
+  Rinvoq (upadacitinib, AbbVie) leads at ~$5.9B 2023 (#4 in all
+  biopharma); Xeljanz (tofacitinib, Pfizer) $1.7B declining
+  post-boxed-warning; Jakafi (ruxolitinib, Incyte) $2.7B stable;
+  Olumiant (baricitinib, Lilly) ~$1B; Sotyktu (deucravacitinib,
+  BMS) ramped to $250M 2023 → ~$700M trajectory 2024-2025.
+  Post-2021 boxed warning dynamics: autoimmune JAK share of new
+  prescriptions in RA dropped ~30% in 2022; new indications
+  (alopecia areata 2022, vitiligo 2021 topical, UC 2022, AD 2021,
+  Crohn's 2023) partially backfilled via label expansion. AbbVie's
+  post-Humira-cliff portfolio bet — Rinvoq + Skyrizi (IL-23) — is
+  exceeding internal projections. Chinese JAK pipeline (Suzhou
+  Zelgen jaktinib, Hansoh programs) has limited ex-China
+  economics. Competitive pressure from GLP-1 class for adjacent
+  inflammatory indications (obesity-related inflammation) is
+  marginal so far.
+
+regulatory_context: |
+  FDA's September 2021 class-wide boxed warning for autoimmune
+  JAK inhibitors (tofacitinib, baricitinib, upadacitinib) based
+  on ORAL Surveillance is the class's defining regulatory event.
+  The warning applies to MACE, malignancy, and thrombosis; MF-
+  indication JAKs (ruxolitinib, fedratinib, pacritinib,
+  momelotinib) are not covered because benefit-risk calculation
+  differs in terminal hematologic disease. Filgotinib US rejection
+  (2020) added male-reproductive toxicity to the class concerns.
+  Deucravacitinib (TYK2 allosteric) launched 2022 without the
+  boxed warning — mechanistically distinct and clean trial
+  safety data. Ritlecitinib (JAK3 / TEC) 2023 also without boxed
+  warning (more selective). TYK2 + JAK3-selective are the
+  emerging non-boxed-warning subclasses. China NMPA approves
+  JAK inhibitors on similar safety-monitoring framework but
+  timing is typically lagged 2-4 years post-FDA.
+
+hot_targets:
+  - gene_symbol: JAK1
+    name: "JAK1"
+    rationale: "JAK1 selectivity is the primary differentiation axis post-2021 boxed warning — upadacitinib, abrocitinib, filgotinib all claim JAK1-preferred profiles"
+  - gene_symbol: JAK2
+    name: "JAK2"
+    rationale: "MF driver (V617F activating mutation); ruxolitinib canonical; also cytopenia target in autoimmune JAK"
+  - gene_symbol: JAK3
+    name: "JAK3"
+    rationale: "Most-selective target with cleaner safety — ritlecitinib (JAK3/TEC); limits are the narrow cytokine-signal coverage"
+  - gene_symbol: TYK2
+    name: "TYK2"
+    rationale: "Class-escape target — deucravacitinib allosteric JH2 binding + TAK-279, VTX958 Phase 2/3 follow-ons; mechanistically distinct from JAK ATP-site competitive inhibition"
+  - gene_symbol: STAT3
+    name: "STAT3"
+    rationale: "Downstream of JAK; under direct-targeting investigation via STAT3 oligonucleotide / degrader approaches"
+  - gene_symbol: IL23A
+    name: "IL-23A (IL23 p19 subunit)"
+    rationale: "Adjacent-pathway competitor — IL-23 biologics (risankizumab / Skyrizi) cannibalize JAK1 market share in psoriasis + IBD"
+
+literature:
+  - pmid: "22397650"
+    title: "A double-blind, placebo-controlled trial of ruxolitinib for myelofibrosis (COMFORT-I)"
+    authors: "Verstovsek S et al."
+    journal: "N Engl J Med"
+    year: 2012
+  - pmid: "34914386"
+    title: "Cardiovascular and Cancer Risk with Tofacitinib in Rheumatoid Arthritis (ORAL Surveillance)"
+    authors: "Ytterberg SR et al."
+    journal: "N Engl J Med"
+    year: 2022
+  - pmid: "31221488"
+    title: "Upadacitinib versus placebo or adalimumab in rheumatoid arthritis (SELECT-COMPARE)"
+    authors: "Fleischmann R et al."
+    journal: "Ann Rheum Dis"
+    year: 2019
+  - pmid: "33780709"
+    title: "Efficacy and Safety of Abrocitinib in Atopic Dermatitis vs Dupilumab (JADE COMPARE)"
+    authors: "Bieber T et al."
+    journal: "N Engl J Med"
+    year: 2021
+  - pmid: "36346867"
+    title: "Deucravacitinib versus placebo and apremilast in moderate to severe plaque psoriasis (POETYK PSO-1)"
+    authors: "Armstrong AW et al."
+    journal: "J Am Acad Dermatol"
+    year: 2023
+
+articles:
+  - title: "FDA requires warnings about increased risk of serious heart-related events, cancer, blood clots, and death for JAK inhibitors"
+    source_name: "FDA"
+    source_type: press_release
+    language: en
+    publish_date: "2021-09-01"
+    url: "https://www.fda.gov/drugs/drug-safety-and-availability/fda-requires-warnings-about-increased-risk-serious-heart-related-events-cancer-blood-clots-and-death"
+  - title: "JAK抑制剂2024格局:Rinvoq的Humira接棒 + TYK2新赛道"
+    source_name: "医药魔方"
+    source_type: wechat_gongzhonghao
+    language: zh
+    publish_date: "2024-04-10"
+    url: "https://mp.weixin.qq.com/s/jak-tyk2-2024"
+  - title: "AbbVie's Rinvoq + Skyrizi hit $17B 2023 as Humira erodes"
+    source_name: "BioPharma Dive"
+    source_type: news
+    language: en
+    publish_date: "2024-02-06"
+    url: "https://www.biopharmadive.com/news/abbvie-rinvoq-skyrizi-humira-replacement-2023/"
+
+lessons:
+  - title: "Class-Wide Boxed Warnings Structurally Reposition 1L → 2L Without Withdrawing the Drug"
+    title_zh: "类别范围黑框警告会把一线药物结构性转为二线而不下市"
+    lesson_type: regulatory_pathway
+    pattern: |
+      When FDA imposes a class-wide boxed warning based on a single
+      well-designed post-marketing safety trial, the warning
+      typically does not force withdrawal but permanently moves
+      the class from first-line to second-line positioning in
+      autoimmune / inflammatory indications where alternative
+      mechanisms exist. The 2021 ORAL Surveillance → September
+      2021 JAK boxed warning is the canonical recent case:
+      tofacitinib, baricitinib, and upadacitinib remained on
+      market but RA prescribing shifted to TNF / IL-23 / IL-17
+      first. This contrasts sharply with the CAR-T 2024 class
+      boxed warning (secondary T-cell malignancies) which did
+      NOT reduce uptake because CAR-T patients have terminal
+      disease and no comparable alternatives. The differential
+      predicts whether a class can absorb a warning: alternative
+      availability × disease severity → uptake impact.
+    key_evidence:
+      - "ORAL Surveillance 2021: tofacitinib MACE HR 1.33, malignancy HR 1.48 vs TNF in RA ≥50 with CV risk"
+      - "JAK class RA new-prescription share dropped ~30% in 2022 post-warning"
+      - "Xeljanz revenue 2023 $1.7B vs $2.7B 2020 peak — ~40% decline"
+      - "Contrast: Carvykti 2024 grew ~80% YoY despite January 2024 class-wide boxed warning"
+      - "AbbVie's Rinvoq defended share via label-expansion into indications where biologic alternatives are weaker (alopecia areata, AD severity, UC post-TNF-fail)"
+    limitations:
+      - "Applies to classes with mature biologic alternatives — novel mechanisms without alternatives get different treatment"
+      - "Physician / payer response varies by indication — derm + IBD less affected than rheumatology"
+      - "Warnings can be class-wide AND mechanism-permissive (TYK2 allosteric escaped)"
+    applicable_contexts:
+      - "JAK / TYK2 program strategy and positioning"
+      - "Any class with post-marketing safety trial planning"
+      - "Payer-scenario modeling for boxed-warning events"
+    applicable_to_landscapes:
+      - jak-inhibitors
+      - car-t
+    human_reviewed: true
+    reviewed_by: di
+
+  - title: "Mechanistic Class-Escape Drugs Can Sidestep Class Warnings — But Commercial Traction Lags Marketing Story"
+    title_zh: "机制层面的类别突围药物可以绕开类别警告 — 但商业起量滞后于营销故事"
+    lesson_type: scientific_mechanistic
+    pattern: |
+      When a class-wide boxed warning is based on a specific
+      binding mode or pharmacologic mechanism (competitive ATP-site
+      JAK inhibition), a sufficiently differentiated drug using a
+      distinct mechanism (allosteric TYK2 JH2-domain binding in
+      BMS's deucravacitinib) can legitimately escape the warning
+      category. But commercial traction for class-escape drugs
+      tends to lag the marketing story by 2-3 years — prescribers
+      take time to internalize the mechanistic distinction,
+      payers default to class-wide utilization management, and
+      physician conservatism favors established-pathway biologics.
+      Deucravacitinib's 2022-2024 ramp was slower than AbbVie
+      Skyrizi (IL-23) despite comparable efficacy. Class-escape
+      bets require 5+ year commercial-patience horizons.
+    key_evidence:
+      - "Deucravacitinib (Sotyktu) 2022 approval without boxed warning; 2023 revenue $252M vs BMS internal projection $500M+"
+      - "Skyrizi (IL-23, AbbVie) 2023 revenue $7.8B — comparable psoriasis efficacy to deucravacitinib but longer market presence"
+      - "Ritlecitinib 2023 approval in AA without boxed warning (JAK3 / TEC selective); narrow indication limits revenue impact"
+      - "Mechanistic escape not always commercial escape — TYK2 allosteric is clean safety profile but 2L positioning sticks from class habit"
+    limitations:
+      - "Requires genuine mechanistic difference — marketing-only distinction doesn't work with payers"
+      - "Class-escape commercial trajectory depends on rest of indication pipeline (derm vs rheum vs IBD)"
+      - "Follow-on TYK2 molecules (TAK-279, VTX958) may commoditize the subclass before original pioneer captures peak"
+    applicable_contexts:
+      - "TYK2 selective program development strategy"
+      - "Any scenario where post-warning-era follow-on is considered"
+      - "Long-horizon commercial modeling for class-escape assets"
+    applicable_to_landscapes:
+      - jak-inhibitors
+    human_reviewed: true
+    reviewed_by: di
+
+  - title: "Label-Expansion as Post-Patent-Cliff Lifecycle Insurance for Oral Small-Molecule Franchises"
+    title_zh: "标签扩展作为口服小分子专利悬崖后的生命周期保险"
+    lesson_type: strategic_commercial
+    pattern: |
+      When a pharma company is facing a large-biologic patent
+      cliff (Humira 2023 for AbbVie), investing early in oral
+      small-molecule follow-on franchise with broad
+      label-expansion opportunities provides revenue insurance
+      that biosimilars cannot replicate. AbbVie's Rinvoq
+      (upadacitinib, approved 2019 — four years before Humira US
+      cliff) reached 6+ indications (RA, PsA, AS, AD, UC, Crohn's,
+      axial spondyloarthritis) by 2023 and $5.9B revenue — single-
+      handedly offsetting ~30% of Humira decline. The template:
+      acquire / develop small-molecule in the same therapeutic
+      area as biologic cliff, aggressively pursue every indication
+      the mechanism supports, accept worse safety profile than
+      the biologic in exchange for oral convenience + lower cost.
+      Rinvoq's 2021 boxed warning reduced trajectory but not the
+      strategic win.
+    key_evidence:
+      - "Humira 2022 peak $21B → 2023 $14B → 2024 ~$9B (biosimilar erosion 2023+)"
+      - "Rinvoq 2020 $731M → 2023 $5.9B — 8x growth over 4 years via 6-indication label"
+      - "Skyrizi (IL-23) + Rinvoq combined 2024 ~$17B — AbbVie's post-Humira dual-franchise play"
+      - "Contrast: Pfizer Xeljanz did not benefit from similar label-expansion playbook — Xeljanz stayed narrower (RA + PsA + UC) and 2021 boxed warning was its indication"
+    limitations:
+      - "Requires small-molecule with broad mechanism applicability — selective molecules have fewer label expansion targets"
+      - "Post-2021 class boxed warning narrowed the playbook — not all classes can absorb a warning and keep expanding"
+      - "Timing matters — Rinvoq developed 2011-2019 (pre-warning); new programs face tighter safety bar"
+    applicable_contexts:
+      - "Patent-cliff defense planning for biologic franchises"
+      - "Oral-small-molecule vs biologic strategic positioning"
+      - "Label-expansion ROI modeling"
+    applicable_to_landscapes:
+      - jak-inhibitors
+      - biosimilar-dynamics
+    human_reviewed: true
+    reviewed_by: di

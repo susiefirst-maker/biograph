@@ -1,0 +1,125 @@
+# Curated Keytruda event timeline.
+#
+# 12 events covering the PD-1 checkpoint discovery → Schering-Plough /
+# Merck acquisitions → KEYNOTE clinical program → Humira-displacement.
+
+drugs:
+  - chembl_id: CHEMBL3137343
+    generic_name: pembrolizumab
+    events:
+      - id_slug: honjo_pd1_1992
+        event_type: scientific_validation
+        event_date: "1992-06-01"
+        significance: landmark
+        headline: "Tasuku Honjo discovers PD-1 receptor as a T-cell immune checkpoint"
+        triggered_by: null
+        description: |
+          Kyoto University team led by Honjo characterizes PD-1 as a
+          cell-surface receptor induced on activated T cells. Nobel-worthy
+          discovery that triggers the checkpoint-inhibitor biologic race.
+        source_refs: ["Ishida et al., EMBO J 1992", "Nobel Prize 2018 press release"]
+
+      - id_slug: organon_mk3475_2006
+        event_type: clinical_development
+        event_date: "2006-01-01"
+        significance: major
+        headline: "Organon BioSciences develops MK-3475 (future pembrolizumab)"
+        triggered_by: honjo_pd1_1992
+        description: |
+          Organon's antibody engineers develop MK-3475 as a humanized
+          IgG4 anti-PD-1. Internal Organon asset; pre-Schering-Plough.
+
+      - id_slug: sp_organon_2007
+        event_type: acquisition
+        event_date: "2007-03-12"
+        significance: major
+        headline: "Schering-Plough acquires Organon BioSciences from Akzo Nobel for $14.4B"
+        triggered_by: organon_mk3475_2006
+        description: |
+          Brings MK-3475 into Schering-Plough's oncology pipeline.
+          Deal valued Organon entirely on pipeline + specialty portfolio.
+
+      - id_slug: merck_sp_2009
+        event_type: acquisition
+        event_date: "2009-03-09"
+        significance: landmark
+        headline: "Merck acquires Schering-Plough for $41B — MK-3475 enters Merck pipeline"
+        triggered_by: sp_organon_2007
+        description: |
+          One of the largest pharma M&A deals of the decade. MK-3475
+          was one of ~100 pipeline assets absorbed; Merck initially
+          deprioritized it.
+
+      - id_slug: bms_nivolumab_2010
+        event_type: clinical_development
+        event_date: "2010-06-01"
+        significance: major
+        headline: "BMS nivolumab shows transformative activity in refractory melanoma (Phase I)"
+        triggered_by: honjo_pd1_1992
+        description: |
+          BMS Phase I readout validated the anti-PD-1 class and
+          catalyzed Merck to revive MK-3475 investment.
+
+      - id_slug: merck_revives_mk3475
+        event_type: clinical_development
+        event_date: "2010-09-01"
+        significance: major
+        headline: "Merck revives MK-3475 development after nivolumab's Phase I readout"
+        triggered_by: bms_nivolumab_2010
+
+      - id_slug: fda_breakthrough_2013
+        event_type: regulatory_approval
+        event_date: "2013-04-24"
+        significance: major
+        headline: "FDA grants MK-3475 breakthrough therapy designation for melanoma"
+        triggered_by: merck_revives_mk3475
+
+      - id_slug: fda_keytruda_2014
+        event_type: regulatory_approval
+        event_date: "2014-09-04"
+        significance: landmark
+        headline: "FDA approves Keytruda for advanced melanoma — first anti-PD-1 approved, narrowly beating Opdivo to market"
+        triggered_by: fda_breakthrough_2013
+        description: |
+          BLA 125514 approval under accelerated pathway. Opdivo
+          (nivolumab) followed with FDA approval on 2014-12-22,
+          cementing Keytruda's first-in-class US position by ~3.5 months.
+
+      - id_slug: keynote_program_2015
+        event_type: clinical_development
+        event_date: "2015-01-01"
+        significance: major
+        headline: "Merck launches the KEYNOTE clinical-trial program — ultimately 1000+ trials across 30+ indications"
+        triggered_by: fda_keytruda_2014
+
+      - id_slug: fda_nsclc_2016
+        event_type: label_expansion
+        event_date: "2016-10-24"
+        significance: major
+        headline: "Keytruda label expanded to first-line metastatic NSCLC (PD-L1 ≥50%)"
+        triggered_by: keynote_program_2015
+        description: |
+          KEYNOTE-024 results established pembrolizumab monotherapy as
+          new standard of care in PD-L1-high advanced NSCLC.
+
+      - id_slug: keytruda_top_drug_2023
+        event_type: revenue_milestone
+        event_date: "2023-12-31"
+        significance: landmark
+        headline: "Keytruda becomes top-selling drug globally, ~$25B revenue — surpassing Humira"
+        triggered_by: keynote_program_2015
+        description: |
+          First oncology biologic to take the top-selling position from
+          Humira, which held it 2012-2022. Driven by 30+ indications
+          label + 2023 Humira biosimilar erosion.
+
+      - id_slug: keytruda_patent_cliff_2028
+        event_type: patent_filing
+        event_date: "2024-06-01"
+        significance: major
+        headline: "Merck begins Phase 3 program for subcutaneous Keytruda — patent-cliff defense preparation"
+        triggered_by: keytruda_top_drug_2023
+        description: |
+          Keytruda composition patent expires 2028 (US). SC formulation
+          (KEYNOTE-555) creates a new dosing-form patent window and
+          shifts clinical standard-of-care before biosimilar IV entry.

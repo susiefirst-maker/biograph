@@ -1,0 +1,105 @@
+# Curated Humira biosimilars — 10 approved biosimilars.
+#
+# Each entry creates a Drug row with biosimilar_of_id pointing at the
+# reference drug (adalimumab / CHEMBL1201580). Sources: FDA Purple Book,
+# EMA biosimilar register, manufacturer press releases.
+#
+# brand_names are the common trade names; first is the most recognizable.
+# generic_name uses FDA's "-suffix" convention for US biosimilars where
+# assigned (adalimumab-adbm, -atto, etc.).
+
+reference_chembl_id: CHEMBL1201580   # adalimumab (Humira)
+
+biosimilars:
+  - generic_name: adalimumab-atto
+    brand_names: ["Amjevita", "Amgevita"]
+    manufacturer: "Amgen"
+    modality: antibody
+    status: approved
+    first_fda_approval: "2016-09-23"     # first FDA-approved Humira biosimilar
+    us_launch: "2023-01-31"              # patent-settlement-delayed
+    bla_number: "761024"
+    notes: "First Humira biosimilar approved by FDA (2016) but launch blocked until 2023 by AbbVie patent settlement."
+
+  - generic_name: adalimumab-adbm
+    brand_names: ["Cyltezo"]
+    manufacturer: "Boehringer Ingelheim"
+    modality: antibody
+    status: approved
+    first_fda_approval: "2017-08-25"
+    us_launch: "2023-07-01"
+    bla_number: "761058"
+    notes: "First interchangeable Humira biosimilar (designation granted 2021)."
+
+  - generic_name: adalimumab-bwwd
+    brand_names: ["Hadlima"]
+    manufacturer: "Samsung Bioepis / Organon"
+    modality: antibody
+    status: approved
+    first_fda_approval: "2019-07-23"
+    us_launch: "2023-07-01"
+    bla_number: "761059"
+
+  - generic_name: adalimumab-afzb
+    brand_names: ["Abrilada"]
+    manufacturer: "Pfizer"
+    modality: antibody
+    status: approved
+    first_fda_approval: "2019-11-15"
+    us_launch: "2023-07-01"
+    bla_number: "761118"
+
+  - generic_name: adalimumab-adaz
+    brand_names: ["Hyrimoz"]
+    manufacturer: "Sandoz"
+    modality: antibody
+    status: approved
+    first_fda_approval: "2018-10-30"
+    us_launch: "2023-07-01"
+    bla_number: "761071"
+
+  - generic_name: adalimumab-fkjp
+    brand_names: ["Hulio"]
+    manufacturer: "Fresenius Kabi / Viatris"
+    modality: antibody
+    status: approved
+    first_fda_approval: "2020-07-06"
+    us_launch: "2023-07-01"
+    bla_number: "761144"
+
+  - generic_name: adalimumab-aqvh
+    brand_names: ["Yusimry"]
+    manufacturer: "Coherus"
+    modality: antibody
+    status: approved
+    first_fda_approval: "2021-12-17"
+    us_launch: "2023-07-01"
+    bla_number: "761216"
+
+  - generic_name: adalimumab-aaty
+    brand_names: ["Idacio"]
+    manufacturer: "Fresenius Kabi"
+    modality: antibody
+    status: approved
+    first_fda_approval: "2022-12-13"
+    us_launch: "2023-07-03"
+    bla_number: "761255"
+
+  - generic_name: adalimumab-aacf
+    brand_names: ["Yuflyma"]
+    manufacturer: "Celltrion"
+    modality: antibody
+    status: approved
+    first_fda_approval: "2023-05-23"
+    us_launch: "2023-07-02"
+    bla_number: "761250"
+
+  - generic_name: adalimumab-ryvk
+    brand_names: ["Simlandi"]
+    manufacturer: "Alvotech / Teva"
+    modality: antibody
+    status: approved
+    first_fda_approval: "2024-02-23"
+    us_launch: "2024-05-01"
+    bla_number: "761268"
+    notes: "High-concentration (100mg/mL) interchangeable biosimilar."

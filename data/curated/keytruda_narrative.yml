@@ -1,0 +1,95 @@
+# Curated Keytruda (pembrolizumab) golden narrative.
+#
+# Golden-entity quality per design doc §14.1. MK-3475 originated at
+# Organon BioSciences, came to Merck via the 2009 $41B Schering-Plough
+# acquisition, and became the first-approved anti-PD-1 for melanoma
+# in 2014. Now the highest-revenue drug globally (~$25B, 2023).
+
+drugs:
+  - chembl_id: CHEMBL3137343
+    generic_name: pembrolizumab
+
+    discovery_narrative: |
+      Keytruda (pembrolizumab, originally MK-3475) was discovered at
+      Organon BioSciences — the pharmaceutical division of Dutch firm
+      Akzo Nobel — in the mid-2000s. Organon's antibody-engineering team
+      developed an IgG4 humanized antibody against programmed cell
+      death protein 1 (PD-1), a T-cell checkpoint receptor whose
+      immunosuppressive role had been characterized by Tasuku Honjo
+      (Kyoto University) from 1992 onward. Honjo shared the 2018 Nobel
+      Prize in Physiology or Medicine with James Allison for PD-1 /
+      CTLA-4 checkpoint inhibition.
+
+      Schering-Plough acquired Organon BioSciences from Akzo Nobel in
+      2007 for $14.4 billion, bringing MK-3475 into its pipeline. In
+      March 2009 Merck acquired Schering-Plough for $41 billion;
+      MK-3475 was one of ~100 pipeline assets absorbed. Initially
+      Merck deprioritized the program in favor of other oncology work.
+
+      The program was revived in 2010 after Bristol-Myers Squibb's
+      nivolumab (a competing anti-PD-1) showed transformative activity
+      in refractory melanoma. Merck filed an accelerated BLA based on
+      the KEYNOTE-001 trial; FDA granted breakthrough-therapy designation
+      in April 2013 and approved Keytruda for advanced melanoma on
+      September 4, 2014 — narrowly beating Opdivo (nivolumab) to market
+      in the US.
+
+      The KEYNOTE clinical program (1000+ trials across 30+ indications)
+      established Keytruda as the broadest-labeled checkpoint inhibitor
+      and drove its 2023 peak revenue of approximately $25 billion —
+      surpassing Humira as the top-selling pharmaceutical product globally.
+
+    discovery_narrative_zh: |
+      Keytruda(pembrolizumab,原代号MK-3475)最初由荷兰阿克苏诺贝尔
+      (Akzo Nobel)旗下Organon BioSciences制药部门在2000年代中期
+      开发。Organon的抗体工程团队研发了一种IgG4人源化抗体,靶向
+      程序性死亡受体1(PD-1)— 一种T细胞免疫检查点受体。PD-1的
+      免疫抑制作用由京都大学本庶佑(Tasuku Honjo)教授从1992年起
+      系统阐明。本庶佑与James Allison因发现免疫检查点抑制机制,
+      共同获得2018年诺贝尔生理学或医学奖。
+
+      2007年,先灵葆雅(Schering-Plough)以144亿美元收购Organon
+      BioSciences,MK-3475随之进入先灵葆雅管线。2009年3月,
+      默沙东(Merck)以410亿美元收购先灵葆雅,MK-3475作为约100个
+      管线资产之一被纳入。初期默沙东对该项目优先级不高,直至2010年
+      BMS公司的nivolumab(竞品抗PD-1)在难治性黑色素瘤中显示突破性
+      疗效,默沙东才加速推进MK-3475的研发。
+
+      基于KEYNOTE-001试验,FDA于2013年4月授予突破性疗法认定,
+      并于2014年9月4日批准Keytruda用于晚期黑色素瘤,在美国市场
+      抢先Opdivo(nivolumab)。KEYNOTE项目(涵盖30多个适应症
+      的1000余项临床试验)使Keytruda成为标签最广的免疫检查点抑制剂,
+      推动其2023年销售额达约250亿美元峰值,超越Humira成为全球最
+      畅销药物。
+
+    discovery_narrative_source_refs:
+      - "Honjo et al., 'Induced expression of PD-1 on peripheral T cells', PNAS 1992"
+      - "Schering-Plough / Organon BioSciences acquisition announcement, March 2007"
+      - "Merck + Schering-Plough merger announcement, 2009-03-09"
+      - "FDA breakthrough therapy designation for MK-3475, April 2013"
+      - "FDA BLA 125514 approval letter, 2014-09-04"
+      - "Nobel Prize in Physiology or Medicine 2018 press release"
+
+    mechanism_of_action: |
+      Keytruda (pembrolizumab) is a humanized IgG4 kappa monoclonal
+      antibody that binds programmed cell death protein 1 (PD-1) on
+      activated T cells and blocks its interaction with the ligands
+      PD-L1 and PD-L2 expressed on tumor cells and antigen-presenting
+      cells. This blockade releases PD-1-mediated inhibition of T-cell
+      activation, restoring cytotoxic immune response against tumors.
+      The IgG4 format with stabilizing S228P mutation minimizes
+      antibody-dependent cellular cytotoxicity (ADCC), preserving the
+      antibody's sole function as a receptor blocker rather than as a
+      cell-killing agent.
+
+    mechanism_of_action_zh: |
+      Keytruda(pembrolizumab)是一种人源化IgG4 kappa单克隆抗体,
+      结合活化T细胞表面的程序性死亡受体1(PD-1),阻断其与肿瘤细胞
+      及抗原提呈细胞表面PD-L1和PD-L2配体的相互作用。阻断后解除
+      PD-1介导的T细胞活化抑制,恢复对肿瘤的细胞毒性免疫反应。
+      其IgG4格式(含S228P稳定突变)最小化抗体依赖的细胞毒作用
+      (ADCC),使抗体仅作为受体阻断剂发挥作用,而非直接杀伤细胞。
+
+    mechanism_of_action_source_refs:
+      - "FDA-approved Keytruda prescribing information (current revision)"
+      - "Honjo et al., PD-1 biology papers 1992-2010"

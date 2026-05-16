@@ -1,0 +1,536 @@
+# Bispecific Antibodies — curated T1 landscape.
+#
+# §7.4.6 priority #12. Ninth curated landscape. Modality class that
+# bridges the oncology cluster (PD-1/HER2/EGFR/ADC) with the
+# cell-therapy cluster (CAR-T shares targets BCMA, CD19, CD20,
+# GPRC5D). Rapidly expanding post-2022 — T-cell-engagers + dual
+# checkpoint + payload-free dual-target all accelerating.
+
+slug: bispecifics
+display_name: "Bispecific Antibodies"
+display_name_zh: "双特异性抗体"
+quality_tier: T1_CURATED
+last_curated_at: "2026-04-21"
+human_reviewed: true
+
+aliases:
+  - bispecific
+  - bispecifics
+  - bispecific antibody
+  - bispecific antibodies
+  - bsAb
+  - BiTE
+  - T-cell engager
+  - T cell engager
+  - dual-target antibody
+  - 双特异性抗体
+  - 双抗
+  - 双特异性
+  - BsAb
+
+mesh_id: D061987    # Antibodies, Bispecific
+
+disease_overview: |
+  Bispecific antibodies (BsAbs) bind two distinct antigens with a
+  single molecule, enabling mechanisms unavailable to conventional
+  monoclonal antibodies: redirecting T-cells to tumors (CD3-based
+  T-cell engagers), blocking two pathways simultaneously, or
+  anchoring a payload to one antigen while binding another for
+  internalization. The concept was described theoretically in the
+  1980s but was manufacturing-limited until the 2010s; the
+  watershed was Amgen's blinatumomab (Blincyto, 2014) — the first
+  BiTE (bispecific T-cell engager), approved for relapsed/
+  refractory B-ALL.
+
+  The field accelerated sharply 2021-2024. By 2025 there are 13+
+  FDA-approved bispecific antibodies in oncology and ≥5 in other
+  indications (hemophilia, age-related macular degeneration). The
+  categories:
+  (1) **CD3-based T-cell engagers** — redirect cytotoxic T-cells to
+      tumor antigens. Approvals: blinatumomab (CD19), mosunetuzumab
+      / glofitamab / epcoritamab (CD20), teclistamab / elranatamab
+      / linvoseltamab (BCMA), talquetamab (GPRC5D), tarlatamab
+      (DLL3 SCLC), tebentafusp (gp100 TCR-mimetic uveal melanoma).
+  (2) **Payload-free dual-target antibodies** — block two pathways
+      without T-cell recruitment. Amivantamab (EGFR × MET) for NSCLC,
+      zanidatamab (HER2 biparatopic) for biliary tract, zenocutuzumab
+      (HER2 × HER3) Phase 3.
+  (3) **Dual-checkpoint / immuno-oncology combinations** — PD-1 +
+      VEGF (ivonescimab AK112 from Akeso/Summit; first-ever
+      head-to-head superiority vs pembrolizumab in HARMONi-2 NSCLC
+      2024), PD-1 + LAG-3, PD-1 + TIGIT (tiragolumab, ociperlimab).
+  (4) **Non-oncology bispecifics** — emicizumab (FIXa × FX,
+      hemophilia A 2017), faricimab (VEGF-A × Ang-2, AMD 2022).
+
+  The category has 5+ competing platform formats: DuoBody (Genmab/
+  AbbVie), CrossMab (Roche), XmAb (Xencor), HexaBody (Genmab),
+  KiH (knob-in-hole, Roche/Genentech legacy). Each trades off
+  half-life, manufacturability, tissue penetration, and immune-
+  effector-function control. Chinese bispecific pipeline is
+  explosive — Akeso, Innovent, Harbour BioMed, and others cover
+  nearly every target pair.
+
+disease_overview_zh: |
+  双特异性抗体(BsAb)通过单一分子同时结合两种不同抗原,实现了
+  传统单抗无法达到的机制:将T细胞引导至肿瘤(基于CD3的T细胞
+  接合器)、同时阻断两条通路、或锚定一种抗原并结合另一抗原以
+  实现内化递送。该概念早在1980年代就已提出,但受限于生产能力
+  直到2010年代才实现;分水岭是2014年安进的贝林妥欧(Blincyto)
+  — 首个BiTE(双特异性T细胞接合器),获批用于复发/难治B-ALL。
+
+  2021-2024年间该领域加速发展。截至2025年,FDA批准了13款以上
+  肿瘤领域双特异性抗体,以及5款以上其他适应症(血友病、年龄
+  相关性黄斑变性)用药。类别划分:
+  (1)**基于CD3的T细胞接合器** — 将细胞毒性T细胞引导至肿瘤
+  抗原。获批:blinatumomab(CD19)、mosunetuzumab / glofitamab /
+  epcoritamab(CD20)、teclistamab / elranatamab / linvoseltamab
+  (BCMA)、talquetamab(GPRC5D)、tarlatamab(DLL3小细胞肺癌)、
+  tebentafusp(gp100 TCR仿生,葡萄膜黑色素瘤)。
+  (2)**无载荷双靶点抗体** — 阻断两条通路但不招募T细胞。
+  amivantamab(EGFR × MET)用于NSCLC、zanidatamab(HER2双互
+  补位)用于胆道癌、zenocutuzumab(HER2 × HER3)Ⅲ期。
+  (3)**双免疫检查点 / 免疫肿瘤联合** — PD-1 + VEGF(Akeso/
+  Summit的ivonescimab/AK112;在2024年HARMONi-2非小细胞肺癌
+  试验中首次头对头优于pembrolizumab)、PD-1 + LAG-3、PD-1 +
+  TIGIT(tiragolumab、ociperlimab)。
+  (4)**非肿瘤双特异性** — emicizumab(FIXa × FX,A型血友病
+  2017年)、faricimab(VEGF-A × Ang-2,黄斑变性2022年)。
+
+  该类别有5种以上竞争平台格式:DuoBody(Genmab/艾伯维)、
+  CrossMab(罗氏)、XmAb(Xencor)、HexaBody(Genmab)、KiH
+  (knob-in-hole,罗氏/基因泰克传统格式)。每种格式在半衰期、
+  可生产性、组织穿透性、免疫效应功能控制之间做出不同取舍。
+  中国双特异性管线爆发式增长 — Akeso、信达、和铂医药等覆盖
+  几乎所有靶点对。
+
+mechanism_map:
+  - class: "CD3 × CD20 T-cell engager"
+    class_zh: "CD3 × CD20 T 细胞接合器"
+    drugs:
+      - name: mosunetuzumab (Lunsumio)
+        status: approved
+        company: Roche / Genentech
+        approval_date: "2022-12-22"
+      - name: glofitamab (Columvi)
+        status: approved
+        company: Roche / Genentech
+        approval_date: "2023-06-15"
+      - name: epcoritamab (Epkinly)
+        status: approved
+        company: AbbVie / Genmab
+        approval_date: "2023-05-19"
+      - name: odronextamab
+        status: phase_3
+        company: Regeneron
+
+  - class: "CD3 × BCMA T-cell engager (multiple myeloma)"
+    class_zh: "CD3 × BCMA T 细胞接合器(多发性骨髓瘤)"
+    drugs:
+      - name: teclistamab (Tecvayli)
+        status: approved
+        company: Johnson & Johnson
+        approval_date: "2022-10-25"
+      - name: elranatamab (Elrexfio)
+        status: approved
+        company: Pfizer
+        approval_date: "2023-08-14"
+      - name: linvoseltamab (Lynozyfic)
+        status: approved
+        company: Regeneron
+        approval_date: "2024-07-02"
+
+  - class: "CD3 × CD19 / CD3 × GPRC5D / CD3 × DLL3 / CD3 × gp100"
+    class_zh: "CD3 × CD19 / CD3 × GPRC5D / CD3 × DLL3 / CD3 × gp100"
+    drugs:
+      - name: blinatumomab (Blincyto)
+        status: approved
+        company: Amgen
+        approval_date: "2014-12-03"
+      - name: talquetamab (Talvey) — GPRC5D × CD3
+        status: approved
+        company: Johnson & Johnson
+        approval_date: "2023-08-09"
+      - name: tarlatamab (Imdelltra) — DLL3 × CD3
+        status: approved
+        company: Amgen
+        approval_date: "2024-05-16"
+      - name: tebentafusp (Kimmtrak) — gp100 × CD3 TCR-mimetic
+        status: approved
+        company: Immunocore
+        approval_date: "2022-01-25"
+
+  - class: "Payload-free dual-target antibody"
+    class_zh: "无载荷双靶点抗体"
+    drugs:
+      - name: amivantamab (Rybrevant) — EGFR × MET
+        status: approved
+        company: Johnson & Johnson
+        approval_date: "2021-05-21"
+      - name: zanidatamab (Ziihera) — HER2 biparatopic
+        status: approved
+        company: Jazz / Zymeworks
+        approval_date: "2024-11-20"
+      - name: zenocutuzumab — HER2 × HER3
+        status: phase_3
+        company: Merus
+
+  - class: "Dual checkpoint / IO combination bispecific"
+    class_zh: "双免疫检查点 / IO 联合双抗"
+    drugs:
+      - name: ivonescimab (SMT112 / AK112) — PD-1 × VEGF
+        status: approved
+        company: Akeso / Summit Therapeutics
+        approval_date: "2024-05-24"
+      - name: cadonilimab (AK104) — PD-1 × CTLA-4
+        status: approved
+        company: Akeso
+        approval_date: "2022-06-29"
+      - name: tiragolumab + atezolizumab — TIGIT + PD-L1
+        status: phase_3
+        company: Roche
+
+  - class: "Non-oncology bispecific"
+    class_zh: "非肿瘤双特异性"
+    drugs:
+      - name: emicizumab (Hemlibra) — FIXa × FX
+        status: approved
+        company: Roche / Chugai
+        approval_date: "2017-11-16"
+      - name: faricimab (Vabysmo) — VEGF-A × Ang-2
+        status: approved
+        company: Roche / Genentech
+        approval_date: "2022-01-28"
+
+pipeline:
+  approved:
+    - blinatumomab (Blincyto, Amgen)
+    - mosunetuzumab (Lunsumio, Roche)
+    - glofitamab (Columvi, Roche)
+    - epcoritamab (Epkinly, AbbVie/Genmab)
+    - teclistamab (Tecvayli, J&J)
+    - elranatamab (Elrexfio, Pfizer)
+    - linvoseltamab (Lynozyfic, Regeneron)
+    - talquetamab (Talvey, J&J)
+    - tarlatamab (Imdelltra, Amgen)
+    - tebentafusp (Kimmtrak, Immunocore)
+    - amivantamab (Rybrevant, J&J)
+    - zanidatamab (Ziihera, Jazz/Zymeworks)
+    - ivonescimab (Akeso/Summit, China 2024)
+    - cadonilimab (Akeso, China 2022)
+    - emicizumab (Hemlibra, Roche)
+    - faricimab (Vabysmo, Roche)
+  phase_3:
+    - ivonescimab (HARMONi-2 Western development, Summit)
+    - odronextamab (CD20 × CD3, Regeneron)
+    - zenocutuzumab (HER2 × HER3, Merus)
+    - tiragolumab + atezolizumab (TIGIT, Roche)
+    - multiple Chinese PD-1 × VEGF + PD-1 × CTLA-4 programs
+  phase_2:
+    - acasunlimab (PD-L1 × 4-1BB, BioNTech/Genmab)
+    - dual-checkpoint China pipeline (Innovent, Harbour BioMed, LaNova)
+    - CD3 bispecifics for additional heme + solid-tumor targets
+  phase_1:
+    - Trispecific antibodies
+    - Conditionally-activated bispecifics (ProBody)
+  failed:
+    - catumaxomab (EpCAM × CD3, 2009) — first bispecific approval, withdrawn 2017 for manufacturing
+    - SAR443820 (Sanofi PD-1 × TGFβR, 2023) — discontinued after Phase 2 inefficacy
+    - multiple IDO + PD-1 bispecific candidates
+
+failed_trials:
+  - "ROAR (catumaxomab EpCAM × CD3, pre-2017) — first-ever bispecific approval withdrawn for manufacturing issues; established format-engineering as gating constraint"
+  - "SKYSCRAPER-01 (tiragolumab + atezolizumab NSCLC, 2022) — missed primary endpoint; delayed TIGIT class validation"
+  - "MYSTIC (durvalumab ± tremelimumab, AZ, 2018) — not strictly a bispecific but established that Ig+Ig combinations don't reliably beat anti-PD-1 monotherapy"
+
+companies:
+  - name: Roche / Genentech
+    ticker: RHHBY
+    role: "Category leader — mosunetuzumab + glofitamab + emicizumab + faricimab + tiragolumab; CrossMab + KiH formats internal"
+  - name: Johnson & Johnson
+    ticker: JNJ
+    role: "MM franchise (teclistamab + talquetamab + JNJ/Legend Carvykti CAR-T combo) + amivantamab; DuoBody platform via Genmab license"
+  - name: AbbVie + Genmab
+    ticker: ABBV / GMAB
+    role: "Epcoritamab — largest single BsAb deal structure ($3.9B 2020); DuoBody platform originator"
+  - name: Amgen
+    ticker: AMGN
+    role: "BiTE platform originator (blinatumomab 2014, tarlatamab 2024 SCLC first-in-class); subcutaneous BiTE follow-ons in Phase 3"
+  - name: Pfizer
+    ticker: PFE
+    role: "Elranatamab (BCMA); part of post-Seagen oncology integration"
+  - name: Regeneron
+    ticker: REGN
+    role: "Linvoseltamab (BCMA 2024) + odronextamab (CD20 Phase 3) + fianlimab + cemiplimab combos"
+  - name: Immunocore
+    ticker: IMCR
+    role: "Tebentafusp (gp100 × CD3 TCR-mimetic) — only approved TCR-bispecific; platform for HLA-peptide targeting"
+  - name: Akeso Biopharma
+    ticker: 9926.HK
+    role: "Ivonescimab (PD-1 × VEGF) — HARMONi-2 first-ever H2H win vs pembrolizumab (September 2024); Summit Therapeutics global-partner; cadonilimab (PD-1 × CTLA-4) approved China 2022"
+  - name: Summit Therapeutics
+    ticker: SMMT
+    role: "Akeso partner for ex-China ivonescimab — rode HARMONi-2 readout to ~10x market cap appreciation 2024"
+  - name: Zymeworks + Jazz Pharmaceuticals
+    ticker: ZYME / JAZZ
+    role: "Zanidatamab HER2 biparatopic — 2024 biliary approval; Azymetric platform"
+  - name: Merus
+    ticker: MRUS
+    role: "Zenocutuzumab HER2 × HER3 Phase 3; Biclonics platform for dual-EGF-family targeting"
+
+key_trials:
+  - name: "MajesTEC-1"
+    drug: teclistamab
+    sponsor: Johnson & Johnson
+    phase: phase_1_2
+    status: met_primary
+    significance: "BCMA × CD3 bispecific basis for Tecvayli 2022 approval; 63% ORR in heavily pretreated MM"
+  - name: "EPCORE NHL-1"
+    drug: epcoritamab
+    sponsor: AbbVie / Genmab
+    phase: phase_1_2
+    status: met_primary
+    significance: "CD20 × CD3 in DLBCL basis for 2023 accelerated approval; subcutaneous administration"
+  - name: "NP30179"
+    drug: glofitamab
+    sponsor: Roche
+    phase: phase_2
+    status: met_primary
+    significance: "CD20 × CD3 DLBCL 2023 approval; fixed-duration dosing"
+  - name: "HARMONi-2"
+    drug: ivonescimab vs pembrolizumab
+    sponsor: Akeso / Summit Therapeutics
+    phase: phase_3
+    status: met_primary
+    significance: "First-ever head-to-head superiority vs pembrolizumab in NSCLC PD-L1+ (September 2024); single-molecule bispecific beat IO gold standard; triggered PD-1 × VEGF race"
+  - name: "DeLLphi-301"
+    drug: tarlatamab
+    sponsor: Amgen
+    phase: phase_2
+    status: met_primary
+    significance: "DLL3 × CD3 BiTE in 3L+ SCLC 2024 approval; first BiTE in extensive-disease SCLC with ~40% ORR"
+  - name: "CHRYSALIS"
+    drug: amivantamab
+    sponsor: Johnson & Johnson
+    phase: phase_1
+    status: met_primary
+    significance: "Basis for 2021 Rybrevant approval in EGFR exon 20 NSCLC; validated EGFR × MET bispecific approach"
+  - name: "HERIZON-BTC-01"
+    drug: zanidatamab
+    sponsor: Zymeworks / Jazz
+    phase: phase_2
+    status: met_primary
+    significance: "HER2+ biliary tract cancer 2024 Ziihera approval; biparatopic HER2 binding differentiated from Kadcyla / Enhertu"
+
+scientific_bottlenecks:
+  - "Cytokine release syndrome (CRS) for CD3-based T-cell engagers — 30-70% any grade; step-up dosing + tocilizumab rescue mandatory for outpatient use"
+  - "ICANS-like neurotoxicity — 10-25% any-grade; subcutaneous administration reduces incidence vs IV"
+  - "Manufacturing complexity — each bispecific format (DuoBody, CrossMab, XmAb, HexaBody, KiH) has distinct process and QC requirements; COGS 2-3x naked antibody"
+  - "Solid-tumor T-cell-engager hostility — most CD3 bispecifics work in heme cancers; solid-tumor success limited to tarlatamab (SCLC high DLL3 expression) and tebentafusp (uveal melanoma HLA restriction)"
+  - "Subcutaneous conversion — IV-to-SC reformulation requires Phase 3 bridging; epcoritamab and mosunetuzumab SC launches are differentiating but resource-intensive"
+  - "Head-to-head data rare — most bispecifics approved single-arm; cross-trial inference unreliable; HARMONi-2 2024 is the notable exception"
+
+market_dynamics: |
+  Global bispecific-antibody sales reached ~$5 billion in 2023 and
+  are projected to $25-40 billion by 2030 per analyst consensus —
+  fastest-growing oncology subclass. Category leaders: emicizumab
+  (Hemlibra) $4.1B 2023 (hemophilia A, outside oncology), teclistamab
+  (Tecvayli) $700M 2023 rapid ramp, amivantamab (Rybrevant) $560M
+  2023. Ivonescimab's HARMONi-2 September 2024 head-to-head win
+  vs pembrolizumab triggered a 10x market-cap revaluation of
+  Summit Therapeutics and opened the PD-1 × VEGF race industry-
+  wide. BMS + J&J + Regeneron all have PD-1 × VEGF programs in
+  Phase 2. Chinese bispecific pipeline (Akeso, Innovent, Harbour
+  BioMed, LaNova) continues explosive out-licensing: LaNova-Merck
+  $590M 2024 for PD-1 × VEGF-A; Akeso global expansion via Summit.
+
+regulatory_context: |
+  FDA has been receptive to accelerated approval for bispecifics
+  with defined single-arm data (mosunetuzumab, glofitamab,
+  epcoritamab, teclistamab, elranatamab, linvoseltamab, talquetamab,
+  tarlatamab, tebentafusp). Class labeling for CD3-based T-cell
+  engagers mandates REMS-like monitoring for CRS + ICANS. 2024
+  class-wide subcutaneous administration conversion trend (epco SC,
+  mosun SC) is reducing infusion-center burden. HARMONi-2 single-
+  arm/H2H data from China supporting US approval still pending;
+  Summit Therapeutics' multi-region Phase 3 addresses post-
+  sintilimab (PD-1, 2022) single-region data concerns. Non-
+  oncology pathway (emicizumab, faricimab) uses conventional
+  full approval with active comparator.
+
+hot_targets:
+  - gene_symbol: CD3E
+    name: "CD3ε"
+    rationale: "Universal T-cell-engager partner arm; 10+ approved bispecifics use anti-CD3 as the effector-recruitment arm"
+  - gene_symbol: MS4A1
+    name: "CD20 (MS4A1)"
+    rationale: "Dominant B-cell lymphoma bispecific target — mosunetuzumab, glofitamab, epcoritamab all CD20 × CD3"
+  - gene_symbol: TNFRSF17
+    name: "BCMA (TNFRSF17)"
+    rationale: "MM bispecific target — teclistamab, elranatamab, linvoseltamab; shared with BCMA CAR-T franchise"
+  - gene_symbol: DLL3
+    name: "DLL3 (Delta-like ligand 3)"
+    rationale: "SCLC bispecific target — tarlatamab 2024 first-in-class approval"
+  - gene_symbol: CD274
+    name: "PD-L1"
+    rationale: "Dual-checkpoint bispecific partner — PD-L1 × TGFβR, PD-L1 × 4-1BB, PD-L1 × LAG-3"
+  - gene_symbol: VEGFA
+    name: "VEGF-A"
+    rationale: "PD-1 × VEGF ivonescimab HARMONi-2 2024 category definer; dual-mechanism IO+anti-angiogenesis"
+  - gene_symbol: GPRC5D
+    name: "GPRC5D"
+    rationale: "MM second target post-BCMA — talquetamab 2023; also shared with CAR-T BMS-986393 Phase 3"
+
+literature:
+  - pmid: "24846590"
+    title: "Blinatumomab in Patients with Relapsed or Refractory B-Precursor Acute Lymphoblastic Leukemia"
+    authors: "Topp MS et al."
+    journal: "J Clin Oncol"
+    year: 2014
+  - pmid: "35972812"
+    title: "Teclistamab in Relapsed or Refractory Multiple Myeloma (MajesTEC-1)"
+    authors: "Moreau P et al."
+    journal: "N Engl J Med"
+    year: 2022
+  - pmid: "37379438"
+    title: "Epcoritamab, a novel, subcutaneous CD3xCD20 bispecific T-cell–engaging antibody, in relapsed or refractory large B-cell lymphoma (EPCORE NHL-1)"
+    authors: "Thieblemont C et al."
+    journal: "J Clin Oncol"
+    year: 2023
+  - pmid: "38804519"
+    title: "Tarlatamab for Patients with Previously Treated Small-Cell Lung Cancer (DeLLphi-301)"
+    authors: "Ahn MJ et al."
+    journal: "N Engl J Med"
+    year: 2024
+  - pmid: "39217434"
+    title: "Ivonescimab versus pembrolizumab for first-line treatment of advanced non-small-cell lung cancer with PD-L1 positive expression (HARMONi-2)"
+    authors: "Zhou C et al."
+    journal: "Lancet"
+    year: 2024
+
+articles:
+  - title: "FDA grants accelerated approval to tarlatamab-dlle for extensive stage small cell lung cancer"
+    source_name: "FDA"
+    source_type: press_release
+    language: en
+    publish_date: "2024-05-16"
+    url: "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-tarlatamab-dlle-extensive-stage-small-cell-lung-cancer"
+  - title: "双抗2024格局:Akeso/Summit HARMONi-2之后的PD-1×VEGF竞赛"
+    source_name: "医药魔方"
+    source_type: wechat_gongzhonghao
+    language: zh
+    publish_date: "2024-10-20"
+    url: "https://mp.weixin.qq.com/s/bispecific-pd1-vegf-2024"
+  - title: "Summit's ivonescimab beats Keytruda head-to-head — the first IO result of its kind"
+    source_name: "Endpoints News"
+    source_type: news
+    language: en
+    publish_date: "2024-09-08"
+    url: "https://endpts.com/summit-ivonescimab-harmoni-2-readout/"
+
+lessons:
+  - title: "First Head-to-Head Superiority vs the Class Leader Rewrites the Competitive Map Overnight"
+    title_zh: "针对类别领导者的首个头对头优效结果瞬间改写竞争格局"
+    lesson_type: competitive_dynamics
+    pattern: |
+      In a crowded therapeutic class with a dominant incumbent
+      (e.g., pembrolizumab as the anti-PD-1 gold standard), the
+      first molecule to demonstrate statistical superiority in a
+      head-to-head Phase 3 triggers an immediate and
+      disproportionate revaluation — not only of the winning
+      molecule but of the entire mechanism category it represents.
+      Ivonescimab's HARMONi-2 win over pembrolizumab (September
+      2024) moved Summit Therapeutics ~10x in market cap within
+      weeks and triggered every major sponsor to accelerate or
+      acquire a PD-1 × VEGF bispecific program. Sponsors planning
+      to compete in validated classes should design for
+      head-to-head superiority as the pivotal proof point, not
+      single-arm or placebo-controlled comparison.
+    key_evidence:
+      - "Summit Therapeutics market cap: ~$1.5B pre-HARMONi-2 → ~$15B post-readout September 2024"
+      - "HARMONi-2: ivonescimab vs pembrolizumab 1L PD-L1+ NSCLC, HR 0.51 PFS (met primary)"
+      - "BMS, J&J, Regeneron all have PD-1 × VEGF programs in Phase 2 within 6 months of HARMONi-2 readout"
+      - "Precedent: Xarelto / Eliquis beating warfarin (2011-2013); tirzepatide SURMOUNT-5 pending 2025 vs semaglutide"
+    limitations:
+      - "Requires head-to-head design — many sponsors avoid this due to asymmetric risk"
+      - "Class-level hype can overshoot — individual molecule may not maintain leadership as competitors catch up"
+      - "Single-region Chinese data may face FDA single-region scrutiny post-sintilimab 2022 — multi-region Phase 3 typically required for ex-China approval"
+    applicable_contexts:
+      - "Bispecific program design in crowded IO / heme / solid-tumor classes"
+      - "Strategic evaluation of H2H vs placebo-controlled trial design"
+      - "M&A valuation of biotech with pending H2H readouts (pre-/post-readout asymmetry)"
+    applicable_to_landscapes:
+      - bispecifics
+      - pd1-pdl1
+      - io-oncology
+    human_reviewed: true
+    reviewed_by: di
+
+  - title: "T-Cell-Engager Bispecifics Beat CAR-T on Accessibility, Lose on Durability — Creating Parallel Markets Not Replacement"
+    title_zh: "T细胞接合双抗在可及性上胜过CAR-T,在持久性上失利 — 形成并行市场而非替代"
+    lesson_type: clinical_development
+    pattern: |
+      CD3-based bispecifics and autologous CAR-T address overlapping
+      heme-cancer populations (CD19 B-ALL + lymphoma, BCMA multiple
+      myeloma, GPRC5D MM) but with different strengths: bispecifics
+      are off-the-shelf, outpatient-administrable (subcutaneous in
+      newer versions), cost $150-300k vs CAR-T $500k, and can be
+      started within 48 hours of prescribing; CAR-T requires 3-6
+      week vein-to-vein, $500k, certified site, but shows longer
+      response durability (months → years). Payers and physicians
+      now routinely sequence the two modalities rather than choose
+      between them: bispecific first for access + bridging, CAR-T
+      for consolidation in fit patients. Sponsors that assumed
+      bispecifics would cannibalize CAR-T (or vice versa) have
+      been wrong — the market has grown for both.
+    key_evidence:
+      - "Tecvayli 2023 revenue ~$700M (BCMA bispecific) + Carvykti 2024 revenue ~$1B (BCMA CAR-T) — both growing despite same target"
+      - "Subcutaneous epcoritamab + mosunetuzumab administration moves CD20 × CD3 bispecifics to community-oncology settings; CAR-T stays at academic centers"
+      - "CARTITUDE-4 2024 moved CAR-T to 2L MM — doesn't foreclose 1L bispecific use but shifts sequencing"
+      - "Global BCMA-directed therapy revenue 2024 ~$3B combined (bispecifics + CAR-T), forecast to $10B+ by 2028"
+    limitations:
+      - "Applies specifically to heme cancers where both modalities work — solid tumors remain bispecific territory (CAR-T still unproven)"
+      - "Second-CAR-T-after-bispecific efficacy uncertain; T-cell exhaustion from bispecific may compromise CAR-T; data still emerging"
+      - "Reimbursement dynamics differ — CAR-T separate DRG, bispecifics standard oncology benefit"
+    applicable_contexts:
+      - "BCMA / CD19 / CD20 pipeline strategy"
+      - "Heme-cancer treatment sequencing modeling"
+      - "Competitive analysis of overlapping bispecific + CAR-T portfolios"
+    applicable_to_landscapes:
+      - bispecifics
+      - car-t
+    human_reviewed: true
+    reviewed_by: di
+
+  - title: "Format Choice Is a Platform Investment — Not a Per-Molecule Engineering Detail"
+    title_zh: "格式选择是平台投资 — 而非单分子工程细节"
+    lesson_type: manufacturing_cmc
+    pattern: |
+      Bispecific antibody development requires committing to one or
+      two engineering formats (DuoBody, CrossMab, XmAb, HexaBody,
+      KiH, Azymetric, Biclonics) over a 10+ year horizon because
+      each format implies distinct manufacturing processes, QC
+      methods, half-life tuning, and immune-effector-function
+      control. Genmab (DuoBody, HexaBody) and Xencor (XmAb) have
+      licensed their platforms to dozens of sponsors; Roche built
+      CrossMab internally and has 4+ approved molecules using it.
+      Sponsors that treat format selection as a per-molecule
+      engineering choice end up with inconsistent manufacturing +
+      resource-dilution; sponsors that commit to a platform benefit
+      from cumulative process learning across multiple molecules.
+    key_evidence:
+      - "Genmab DuoBody platform — licensed to J&J (amivantamab, teclistamab, talquetamab), AbbVie (epcoritamab), BMS, Seagen, many others"
+      - "Roche internal CrossMab — 4+ approved (emicizumab, mosunetuzumab, glofitamab, faricimab) + vabysmo"
+      - "Amgen BiTE platform — 2 approved (blinatumomab 2014, tarlatamab 2024) despite format's early-mover status; long platform gestation"
+      - "Xencor XmAb — licensed widely but no single sponsor has yet built a dominant commercial franchise"
+    limitations:
+      - "Platform lock-in cuts both ways — new format innovations (e.g., trispecifics, ProBody) require starting over"
+      - "License economics can be punitive (Genmab gets tiered royalties 10-15% of product revenue)"
+      - "Generalist platforms (XmAb) may underperform specialist ones (CrossMab for T-cell engagers specifically) target-by-target"
+    applicable_contexts:
+      - "Bispecific strategy for pharma entering the class"
+      - "Platform vs single-asset valuation in biotech M&A"
+      - "License-in vs build-in-house format decisions"
+    applicable_to_landscapes:
+      - bispecifics
+    human_reviewed: true
+    reviewed_by: di

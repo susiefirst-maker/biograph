@@ -1,0 +1,525 @@
+# HER2 — curated T1 landscape.
+#
+# §7.4.6 priority #8. Fifth curated landscape. Target-centric view
+# crossing breast, gastric, NSCLC, CRC, and pan-tumor indications.
+# High content overlap with ADC landscape — T-DXd, Kadcyla,
+# disitamab vedotin, trastuzumab deruxtecan HER2-low story recycled.
+
+slug: her2
+display_name: "HER2"
+display_name_zh: "HER2(人表皮生长因子受体2)"
+quality_tier: T1_CURATED
+last_curated_at: "2026-04-21"
+human_reviewed: true
+
+aliases:
+  - HER2
+  - ERBB2
+  - HER-2
+  - HER2/neu
+  - Her2-neu
+  - HER2-positive
+  - HER2+
+  - HER2-low
+  - HER2低表达
+  - 人表皮生长因子受体2
+
+mesh_id: D018719    # Receptor, ErbB-2
+
+disease_overview: |
+  HER2 (ERBB2) is a receptor tyrosine kinase amplified or overexpressed
+  in ~15-20% of breast cancers, ~15-20% of gastric/GEJ adenocarcinomas,
+  ~2-4% of NSCLC (mutation-driven), ~3-5% of colorectal (amplified),
+  and subsets of urothelial, biliary, and salivary cancers. Dennis
+  Slamon's 1987 paper linking HER2 amplification to aggressive breast
+  cancer (and later to trastuzumab efficacy) is the canonical
+  precision-oncology origin story; trastuzumab (Herceptin, Genentech
+  / Roche) received FDA approval in 1998 — the first targeted therapy
+  for a solid-tumor biomarker. The following 25 years produced a
+  unique therapeutic cascade: naked monoclonal antibodies
+  (trastuzumab, pertuzumab, margetuximab), antibody-drug conjugates
+  (T-DM1, T-DXd, disitamab vedotin), and small-molecule kinase
+  inhibitors (lapatinib, neratinib, tucatinib).
+
+  The 2022 DESTINY-Breast04 readout fundamentally restructured the
+  HER2 diagnostic category. Trastuzumab deruxtecan (T-DXd) showed
+  activity in tumors historically considered "HER2-negative" — IHC
+  1+ or IHC 2+/ISH-negative — establishing a new "HER2-low"
+  category. DESTINY-Breast06 (2023) extended further to HER2-
+  ultralow. By 2025 the HER2-addressable breast cancer population
+  has roughly doubled. Tucatinib's brain-penetrant pharmacology
+  (HER2CLIMB, 2020) addressed the ~30-50% of metastatic HER2+ BC
+  patients who develop CNS metastases — a gap the antibody class
+  couldn't cross. MOUNTAINEER (2022) and DESTINY-PanTumor02 (2024)
+  carried HER2-targeted therapy beyond breast and gastric into
+  colorectal, biliary, and tissue-agnostic approvals.
+
+  Commercial concentration: the Roche Herceptin + Perjeta + Kadcyla
+  franchise peaked at ~$11B/year before biosimilar erosion; Enhertu
+  (Daiichi Sankyo / AstraZeneca) reached ~$3.8B in 2024 with
+  trajectory to $10-12B peak. Biosimilar trastuzumab launched in
+  2019+ and now represents majority of naked-antibody volume. The
+  next frontier is HER2-low diagnostic reform and resistance
+  mechanisms (HER3, PI3K, ER crosstalk).
+
+disease_overview_zh: |
+  HER2(ERBB2)是一种受体酪氨酸激酶,约15-20%的乳腺癌、15-20%的
+  胃/胃食管结合部腺癌、2-4%的非小细胞肺癌(突变驱动)、3-5%的
+  结直肠癌(扩增)以及部分尿路上皮癌、胆道癌和唾液腺癌中存在
+  扩增或过表达。Dennis Slamon 1987年将HER2扩增与侵袭性乳腺癌
+  (后与曲妥珠单抗疗效)联系起来的论文是精准肿瘤学的经典起源
+  故事;曲妥珠单抗(Herceptin,Genentech/罗氏)于1998年获FDA
+  批准 — 成为首个针对实体瘤生物标志物的靶向治疗药物。随后的
+  25年催生了独特的治疗级联:裸单抗(曲妥珠单抗、帕妥珠单抗、
+  margetuximab)、抗体偶联药物(T-DM1、T-DXd、disitamab vedotin)、
+  以及小分子激酶抑制剂(lapatinib、neratinib、tucatinib)。
+
+  2022年DESTINY-Breast04试验读出从根本上重构了HER2诊断分类。
+  曲妥珠单抗德鲁替康(T-DXd)在历来被认为"HER2阴性"(IHC 1+
+  或IHC 2+/ISH阴性)的肿瘤中显示出活性,由此确立了全新的
+  "HER2低表达"类别。DESTINY-Breast06(2023)进一步延伸至
+  HER2超低表达。到2025年,可治疗HER2的乳腺癌患者群体大约翻
+  倍。Tucatinib的透脑药理学(HER2CLIMB,2020)解决了30-50%
+  发生CNS转移的晚期HER2+乳腺癌患者的未满足需求 — 这是抗体类
+  药物无法跨越的屏障。MOUNTAINEER(2022)和DESTINY-PanTumor02
+  (2024)将HER2靶向治疗带出乳腺癌和胃癌,进入结直肠癌、胆
+  道癌及不限肿瘤类型的适应症。
+
+  商业集中度:罗氏的Herceptin + Perjeta + Kadcyla组合曾在生物
+  类似药侵蚀前年峰值约110亿美元;Enhertu(第一三共/阿斯利康)
+  2024年达到约38亿美元,轨迹指向100-120亿美元峰值。曲妥珠单
+  抗生物类似药于2019年起陆续上市,目前占裸抗体用量的大多数。
+  下一个前沿是HER2低表达诊断改革以及耐药机制(HER3、PI3K、
+  雌激素受体交叉对话)。
+
+mechanism_map:
+  - class: "Naked HER2 monoclonal antibody"
+    class_zh: "HER2 裸单抗"
+    drugs:
+      - name: trastuzumab (Herceptin)
+        status: approved
+        company: Roche / Genentech
+        approval_date: "1998-09-25"
+      - name: pertuzumab (Perjeta)
+        status: approved
+        company: Roche / Genentech
+        approval_date: "2012-06-08"
+      - name: pertuzumab + trastuzumab + hyaluronidase (Phesgo)
+        status: approved
+        company: Roche / Genentech
+        approval_date: "2020-06-29"
+      - name: margetuximab (Margenza)
+        status: approved
+        company: MacroGenics
+        approval_date: "2020-12-16"
+      - name: zanidatamab (Ziihera)
+        status: approved
+        company: Jazz Pharmaceuticals / Zymeworks
+        approval_date: "2024-11-20"
+
+  - class: "HER2 antibody-drug conjugate"
+    class_zh: "HER2 抗体偶联药物"
+    drugs:
+      - name: trastuzumab emtansine (Kadcyla)
+        status: approved
+        company: Roche / Genentech
+        approval_date: "2013-02-22"
+      - name: trastuzumab deruxtecan (Enhertu)
+        status: approved
+        company: Daiichi Sankyo / AstraZeneca
+        approval_date: "2019-12-20"
+      - name: disitamab vedotin (Aidixi)
+        status: approved
+        company: RemeGen
+        approval_date: "2021-06-08"
+
+  - class: "HER2 small-molecule tyrosine kinase inhibitor"
+    class_zh: "HER2 小分子酪氨酸激酶抑制剂"
+    drugs:
+      - name: lapatinib (Tykerb)
+        status: approved
+        company: Novartis
+        approval_date: "2007-03-13"
+      - name: neratinib (Nerlynx)
+        status: approved
+        company: Puma Biotechnology
+        approval_date: "2017-07-17"
+      - name: tucatinib (Tukysa)
+        status: approved
+        company: Seagen / Pfizer
+        approval_date: "2020-04-17"
+      - name: pyrotinib (Irene)
+        status: approved
+        company: Hengrui
+        approval_date: "2018-08-12"
+
+  - class: "Trastuzumab biosimilar"
+    class_zh: "曲妥珠单抗生物类似药"
+    drugs:
+      - name: trastuzumab-dkst (Ogivri)
+        status: approved
+        company: Viatris / Biocon
+        approval_date: "2017-12-01"
+      - name: trastuzumab-pkrb (Herzuma)
+        status: approved
+        company: Celltrion / Teva
+        approval_date: "2018-12-14"
+      - name: trastuzumab-dttb (Ontruzant)
+        status: approved
+        company: Samsung Bioepis / Merck
+        approval_date: "2019-01-18"
+      - name: trastuzumab-anns (Kanjinti)
+        status: approved
+        company: Amgen / Allergan
+        approval_date: "2019-06-13"
+      - name: trastuzumab-qyyp (Trazimera)
+        status: approved
+        company: Pfizer
+        approval_date: "2019-03-11"
+      - name: trastuzumab-strf (Hercessi)
+        status: approved
+        company: Accord BioPharma
+        approval_date: "2024-04-19"
+
+  - class: "Next-generation / biparatopic / developmental"
+    class_zh: "下一代 / 双互补位 / 研发中"
+    drugs:
+      - name: BNT323 / DB-1303
+        status: phase_3
+        company: DualityBio / BioNTech
+      - name: zenocutuzumab (HER2×HER3 bispecific)
+        status: phase_3
+        company: Merus
+
+pipeline:
+  approved:
+    - trastuzumab (Herceptin, Roche) + 6 biosimilars
+    - pertuzumab (Perjeta, Roche)
+    - Phesgo (P+T+hyaluronidase, Roche)
+    - margetuximab (Margenza, MacroGenics)
+    - zanidatamab (Ziihera, Jazz/Zymeworks)
+    - trastuzumab emtansine / Kadcyla (Roche)
+    - trastuzumab deruxtecan / Enhertu (Daiichi/AZ)
+    - disitamab vedotin / Aidixi (RemeGen)
+    - lapatinib (Tykerb, Novartis)
+    - neratinib (Nerlynx, Puma)
+    - tucatinib (Tukysa, Seagen/Pfizer)
+    - pyrotinib (Irene, Hengrui)
+  phase_3:
+    - BNT323 (DualityBio/BioNTech HER2 ADC)
+    - zenocutuzumab (Merus HER2×HER3)
+    - multiple tucatinib combination trials (HER2+ metastatic)
+    - T-DXd DESTINY-Breast11 (early BC adjuvant)
+  phase_2:
+    - MRG002 (Miracogen HER2 ADC)
+    - multiple Chinese-originator HER2 bispecifics
+    - HER2 × HER3 bispecific follow-ons
+  failed:
+    - several lapatinib combination failures in adjuvant (ALTTO, 2014) — no added benefit over trastuzumab monotherapy in early BC
+    - afatinib in HER2+ BC (LUX-Breast 1, 2016) — missed OS endpoint
+
+failed_trials:
+  - "ALTTO (lapatinib + trastuzumab adjuvant BC, 2014) — Phase 3 missed primary; did not displace trastuzumab monotherapy in adjuvant"
+  - "LUX-Breast 1 (afatinib HER2+ BC, 2016) — missed OS primary; effectively retired afatinib from HER2 breast development"
+  - "KAITLIN (T-DM1 + pertuzumab vs T+P+taxane adjuvant, 2020) — missed IDFS primary; T-DM1 did not replace the taxane backbone in adjuvant"
+
+companies:
+  - name: Roche / Genentech
+    ticker: RHHBY
+    role: "Category founder — Herceptin (1998), Perjeta (2012), Kadcyla (2013), Phesgo (2020). Pre-biosimilar franchise ~$11B/yr peak; post-biosimilar focused on HER2-low and resistance strategy"
+  - name: Daiichi Sankyo
+    ticker: 4568.T
+    role: "Enhertu originator via deruxtecan platform; biggest single molecule disrupting Roche's HER2 franchise"
+  - name: AstraZeneca
+    ticker: AZN
+    role: "Enhertu ex-Japan co-commercialization via 2019 + 2020 Daiichi deals ($6.9B + $6B upfront+milestones)"
+  - name: Pfizer
+    ticker: PFE
+    role: "Acquired Seagen 2023 ($43B) including tucatinib/Tukysa franchise; also commercializes Trazimera biosimilar"
+  - name: Novartis
+    ticker: NVS
+    role: "Lapatinib legacy + follow-on investment; limited current HER2 pipeline"
+  - name: Puma Biotechnology
+    ticker: PBYI
+    role: "Neratinib — extended adjuvant post-trastuzumab; smaller franchise with tolerability headwinds"
+  - name: MacroGenics
+    ticker: MGNX
+    role: "Margetuximab — Fc-engineered variant; Phase 3 SOPHIA 2020 approval; limited commercial uptake"
+  - name: Jazz Pharmaceuticals + Zymeworks
+    ticker: JAZZ
+    role: "Zanidatamab biparatopic — 2024 approval in HER2+ biliary tract cancer; breast + gastric Phase 3 ongoing"
+  - name: RemeGen
+    ticker: 9995.HK
+    role: "Disitamab vedotin (Aidixi) — first Chinese HER2 ADC approval 2021"
+  - name: Hengrui Medicine
+    ticker: 600276.SS
+    role: "Pyrotinib TKI — dominant China-market HER2 oral; limited ex-China expansion"
+  - name: DualityBio
+    role: "BNT323 HER2 ADC — Phase 3 via BioNTech partnership ($1.5B deal 2023)"
+
+key_trials:
+  - name: "HERA"
+    drug: trastuzumab
+    sponsor: Roche
+    phase: phase_3
+    status: met_primary
+    significance: "Adjuvant trastuzumab in HER2+ early BC (2005) — established biomarker-targeted adjuvant therapy paradigm"
+  - name: "APHINITY"
+    drug: pertuzumab + trastuzumab
+    sponsor: Roche
+    phase: phase_3
+    status: met_primary
+    significance: "Dual HER2 blockade adjuvant 2017 — smaller absolute benefit than expected but established P+T adjuvant"
+  - name: "KATHERINE"
+    drug: trastuzumab emtansine
+    sponsor: Roche
+    phase: phase_3
+    status: met_primary
+    significance: "T-DM1 vs trastuzumab in post-neoadjuvant residual disease 2019 — cut recurrence ~50%; canonical residual-disease escalation paradigm"
+  - name: "DESTINY-Breast03"
+    drug: trastuzumab deruxtecan vs trastuzumab emtansine
+    sponsor: Daiichi Sankyo / AstraZeneca
+    phase: phase_3
+    status: met_primary
+    significance: "T-DXd head-to-head win vs Kadcyla in HER2+ 2L metastatic BC — Kadcyla dethroned 2022"
+  - name: "DESTINY-Breast04"
+    drug: trastuzumab deruxtecan
+    sponsor: Daiichi Sankyo / AstraZeneca
+    phase: phase_3
+    status: met_primary
+    significance: "T-DXd in HER2-low BC — created a new diagnostic category 2022"
+  - name: "DESTINY-Breast06"
+    drug: trastuzumab deruxtecan
+    sponsor: Daiichi Sankyo / AstraZeneca
+    phase: phase_3
+    status: met_primary
+    significance: "Extension to HER2-ultralow 2023 — further doubled addressable population"
+  - name: "HER2CLIMB"
+    drug: tucatinib + trastuzumab + capecitabine
+    sponsor: Seagen
+    phase: phase_3
+    status: met_primary
+    significance: "Brain-metastasis penetrant HER2 TKI 2020 — filled critical gap for 30-50% of metastatic HER2+ BC patients with CNS disease"
+  - name: "MOUNTAINEER"
+    drug: tucatinib + trastuzumab
+    sponsor: Seagen
+    phase: phase_2
+    status: met_primary
+    significance: "First HER2 approval in CRC 2023; opened pan-tumor HER2 therapeutic category"
+  - name: "DESTINY-PanTumor02"
+    drug: trastuzumab deruxtecan
+    sponsor: Daiichi Sankyo / AstraZeneca
+    phase: phase_2
+    status: met_primary
+    significance: "Tissue-agnostic HER2+ approval 2024 — first pan-tumor HER2 approval, covering biliary/endometrial/ovarian/bladder"
+
+scientific_bottlenecks:
+  - "HER2 IHC / ISH scoring heterogeneity — inter-reader agreement for IHC 1+ vs 0 is poor (κ ~0.4); HER2-low requires widespread lab retraining"
+  - "Brain-metastasis penetration — trastuzumab and T-DM1 cross blood-brain barrier poorly; ~30-50% of metastatic HER2+ BC patients develop CNS mets where only tucatinib + T-DXd show activity"
+  - "Resistance via HER3 / PI3K / ER crosstalk — most HER2+ tumors eventually progress; mechanistically heterogeneous escape routes not solved by any single agent"
+  - "Cardiotoxicity — LVEF monitoring required across the class; concurrent anthracycline limitation still shapes neoadjuvant regimens"
+  - "HER2-low diagnostic infrastructure — most labs don't routinely report IHC 1+; implementation gap is 2-5 years behind label expansion"
+  - "T-DXd interstitial lung disease — ~10-15% any-grade ILD; dose-reduction / interruption algorithm adds management overhead"
+
+market_dynamics: |
+  Combined HER2-targeted global revenue crossed $20 billion in 2023
+  (Herceptin franchise + biosimilars + Perjeta + Kadcyla + Enhertu +
+  tucatinib + lapatinib/neratinib/pyrotinib + margetuximab). Biosimilar
+  trastuzumab has absorbed ~70-80% of volume share in the US post-
+  2019, pressing net price ~40-50% below branded. Enhertu reached
+  ~$3.8B in 2024 — the fastest-growing HER2 asset — with analyst
+  trajectory to $10-12B peak from HER2-low + HER2-ultralow + pan-
+  tumor expansions. Roche's post-biosimilar strategy centers on
+  Phesgo (subcutaneous P+T fixed-dose) + Kadcyla (adjuvant
+  KATHERINE use) + next-generation programs. Chinese HER2 franchise
+  (pyrotinib + disitamab vedotin + BNT323) is growing 25%+ YoY
+  domestically; outbound-licensing wave mirrors the broader ADC
+  pattern (DualityBio/BioNTech $1.5B). M&A activity concentrated
+  in ADC sub-segment: Pfizer-Seagen 2023 ($43B) brought tucatinib.
+
+regulatory_context: |
+  HER2 was the first companion-diagnostic-defined solid-tumor
+  biomarker (FDA 1998 trastuzumab approval included mandatory
+  HER2 IHC testing). The 2022 HER2-low category (DESTINY-Breast04
+  → FDA August 2022) was the biggest companion-diagnostic
+  redefinition since the original: every HER2 IHC vendor had to
+  re-validate, laboratories had to retrain. FDA guidance on HER2
+  scoring updated 2023 with explicit HER2-low criteria. 2024
+  DESTINY-PanTumor02 tissue-agnostic approval templated a path for
+  HER2-directed therapy across rare tumors. ILD monitoring
+  requirements mandatory for all deruxtecan-payload ADCs per 2023
+  class labeling. Biosimilar pathway (351(k)) well-established;
+  cross-indication extrapolation standard.
+
+hot_targets:
+  - gene_symbol: ERBB2
+    name: "HER2 (ERBB2)"
+    rationale: "Canonical target; 14+ approved drugs; HER2-low / HER2-ultralow redefinition 2022-2023 opened new diagnostic categories"
+  - gene_symbol: ERBB3
+    name: "HER3 (ERBB3)"
+    rationale: "Resistance escape valve — combinations (zenocutuzumab HER2×HER3 bispecific, patritumab deruxtecan) address post-HER2 progression"
+  - gene_symbol: EGFR
+    name: "EGFR (ERBB1)"
+    rationale: "Pan-HER combos (lapatinib, neratinib, tucatinib) exploit family cross-reactivity"
+  - gene_symbol: PIK3CA
+    name: "PI3Kα (PIK3CA)"
+    rationale: "Downstream HER2 signaling; PIK3CA mutations correlate with HER2+ resistance; alpelisib + HER2-directed combos under study"
+  - gene_symbol: ESR1
+    name: "Estrogen receptor (ESR1)"
+    rationale: "Hormone-receptor crosstalk in HR+/HER2-low; endocrine + T-DXd combinations active area"
+  - gene_symbol: TOP2A
+    name: "Topoisomerase II alpha"
+    rationale: "Anthracycline co-target; HER2 amplification often co-occurs on 17q with TOP2A amplification, driving cardiotox concerns"
+
+literature:
+  - pmid: "3798106"
+    title: "Human breast cancer: correlation of relapse and survival with amplification of the HER-2/neu oncogene"
+    authors: "Slamon DJ et al."
+    journal: "Science"
+    year: 1987
+  - pmid: "15738553"
+    title: "Trastuzumab after adjuvant chemotherapy in HER2-positive breast cancer (HERA)"
+    authors: "Piccart-Gebhart MJ et al."
+    journal: "N Engl J Med"
+    year: 2005
+  - pmid: "34534430"
+    title: "Trastuzumab Deruxtecan versus Trastuzumab Emtansine in HER2-Positive Metastatic Breast Cancer (DESTINY-Breast03)"
+    authors: "Cortés J et al."
+    journal: "N Engl J Med"
+    year: 2022
+  - pmid: "35671349"
+    title: "Trastuzumab Deruxtecan in Previously Treated HER2-Low Advanced Breast Cancer (DESTINY-Breast04)"
+    authors: "Modi S et al."
+    journal: "N Engl J Med"
+    year: 2022
+  - pmid: "31825569"
+    title: "Tucatinib, trastuzumab, and capecitabine for HER2-positive metastatic breast cancer (HER2CLIMB)"
+    authors: "Murthy RK et al."
+    journal: "N Engl J Med"
+    year: 2020
+
+articles:
+  - title: "FDA approves fam-trastuzumab deruxtecan-nxki for HER2-low breast cancer"
+    source_name: "FDA"
+    source_type: press_release
+    language: en
+    publish_date: "2022-08-05"
+    url: "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-fam-trastuzumab-deruxtecan-nxki-her2-low-breast-cancer"
+  - title: "HER2低表达时代:从Enhertu到国产ADC的2024年全景"
+    source_name: "医药魔方"
+    source_type: wechat_gongzhonghao
+    language: zh
+    publish_date: "2024-06-18"
+    url: "https://mp.weixin.qq.com/s/her2-low-china-2024"
+  - title: "FDA approves first tissue-agnostic HER2 therapy (trastuzumab deruxtecan)"
+    source_name: "FDA"
+    source_type: press_release
+    language: en
+    publish_date: "2024-04-05"
+    url: "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-fam-trastuzumab-deruxtecan-nxki-unresectable-or-metastatic-her2"
+
+lessons:
+  - title: "Biomarker-Defined Indications Compound Through Diagnostic-Category Redefinition"
+    title_zh: "生物标志物定义的适应症通过诊断分类重新定义实现复合增长"
+    lesson_type: strategic_commercial
+    pattern: |
+      Once a target like HER2 is established as a clinically
+      actionable biomarker, sustained investment in redefining the
+      diagnostic threshold expands the addressable population more
+      efficiently than chasing new targets. The HER2 progression —
+      HER2+ (1998) → HER2-low (2022) → HER2-ultralow (2023) →
+      tissue-agnostic HER2+ (2024) — tripled the eligible patient
+      population over 25 years without adding a target. Each
+      category required (a) a therapy with activity below the old
+      threshold and (b) regulatory + diagnostic infrastructure to
+      formalize the new scoring. Sponsors investing in both layers
+      capture the expansion; sponsors investing in only the therapy
+      (Kadcyla stayed HER2+ only, lost HER2-low to Enhertu) miss it.
+    key_evidence:
+      - "HER2+ breast cancer ~15-20% prevalence; HER2-low adds ~40-50% of breast; HER2-ultralow adds another ~10-15% → ~3x population expansion"
+      - "T-DXd HER2-low sales segment from 2022 approval → $1B+ by 2024"
+      - "FDA updated HER2 scoring guidance in 2023 specifically for HER2-low — companion-diagnostic infrastructure followed the therapy"
+      - "Tissue-agnostic approval (DESTINY-PanTumor02 2024) extended HER2 beyond breast/gastric to biliary, endometrial, ovarian, bladder — fourth expansion"
+    limitations:
+      - "Requires mechanism that works at lower target expression — not all biomarker classes qualify (e.g., EGFR T790M is binary)"
+      - "Diagnostic-redefinition regulatory effort is 3-5 years; competitors can catch up during the window"
+      - "Lab implementation lag means commercial uptake trails label by 12-24 months"
+    applicable_contexts:
+      - "HER2, HER3, TROP2, FRα biomarker programs"
+      - "Long-horizon pharma strategy for validated solid-tumor targets"
+      - "Diagnostic company partnership decisions"
+    applicable_to_landscapes:
+      - her2
+      - adc
+      - oncology-biomarkers
+    human_reviewed: true
+    reviewed_by: di
+
+  - title: "Brain-Penetrant Follow-ons Capture Disproportionate Share in CNS-Heavy Disease Contexts"
+    title_zh: "透脑后来者在中枢神经系统高发疾病中获取超额份额"
+    lesson_type: clinical_development
+    pattern: |
+      When 30-50% of a metastatic patient population develops CNS
+      metastases and the established therapy doesn't cross the blood-
+      brain barrier, a brain-penetrant follow-on captures a
+      disproportionate share of late-line treatment and expands
+      total franchise value even when intrinsic systemic activity is
+      similar. Tucatinib (Seagen 2020) was a third-generation HER2
+      TKI — later, smaller, less-marketed than lapatinib or
+      neratinib — but its brain-penetrant profile gave it a HER2CLIMB
+      label expansion that none of the earlier HER2 agents could
+      match. Pfizer's $43B Seagen acquisition priced the brain-
+      penetrant franchise as a meaningful chunk of the deal.
+    key_evidence:
+      - "HER2+ metastatic BC: ~30-50% lifetime CNS metastasis incidence"
+      - "HER2CLIMB 2020 showed tucatinib+trastuzumab+capecitabine doubled CNS-PFS vs trastuzumab+cap"
+      - "Tucatinib share in HER2+ 3L+ grew from 0 (2019) to ~40% (2023) driven by CNS prescribing"
+      - "T-DXd also crosses BBB better than trastuzumab — extends same logic to ADC modality"
+    limitations:
+      - "Specific to brain-metastasis-prone cancers (HER2+ BC, EGFR-mutant NSCLC, melanoma); less relevant for primary CNS non-tumor contexts"
+      - "Brain-penetrant chemistry is hard — small molecules have more success than antibodies; always a late-line design constraint"
+      - "CNS-benefit differentiation requires explicit trial design (CNS-PFS endpoints, active CNS disease inclusion)"
+    applicable_contexts:
+      - "HER2 program lifecycle planning"
+      - "EGFR-mutant NSCLC TKI generations (osimertinib CNS-penetrant vs gefitinib)"
+      - "Late-stage follow-on differentiation strategy in crowded targeted-therapy classes"
+    applicable_to_landscapes:
+      - her2
+      - egfr-nsclc
+    human_reviewed: true
+    reviewed_by: di
+
+  - title: "Biosimilar Entry Reshapes Net Pricing Without Eliminating Franchise Value"
+    title_zh: "生物类似药进入重塑净价格但不消灭特许经营权价值"
+    lesson_type: market_access_pricing
+    pattern: |
+      When a biologic franchise faces biosimilar entry, list price
+      stays nominal while net realized price falls 40-60% over 3-5
+      years. But brand-franchise investment in adjacent
+      improvements (subcutaneous formulation, fixed-dose combinations,
+      ADC follow-ons, adjuvant indications) preserves substantial
+      franchise value. Herceptin (biosimilar 2019+) saw volume
+      share drop to ~20-30% in the US within 3 years — but Roche
+      total HER2 franchise (Phesgo + Kadcyla + share of Enhertu
+      milestones via Genentech legacy) remained multi-billion.
+      Sponsors who plan biosimilar defense as a lifecycle problem
+      (not a cliff event) retain more economics than those who
+      treat it as terminal.
+    key_evidence:
+      - "Trastuzumab biosimilars launched 2019 (US); 6 approved by 2024"
+      - "Herceptin US net revenue dropped ~50% between 2019 and 2022"
+      - "Phesgo (subcutaneous P+T, 2020) + Kadcyla adjuvant (KATHERINE) backfilled meaningful volume"
+      - "Roche total HER2 franchise revenue 2022 ~$6B despite biosimilar erosion from peak ~$11B"
+    limitations:
+      - "Requires a portfolio of adjacent assets to backfill — single-molecule franchises get hit harder"
+      - "Subcutaneous / fixed-dose reformulations require Phase 3 bridging studies + manufacturing capex"
+      - "Next-generation molecule (T-DXd in Roche's case via Genentech partnership quirks) may partially substitute even before biosimilars — double-pressure"
+    applicable_contexts:
+      - "Biologic lifecycle planning 5-10 years before patent cliff"
+      - "Biosimilar-vs-reformulation strategy decisions (Phesgo precedent)"
+      - "Financial modeling of post-cliff franchise revenue"
+    applicable_to_landscapes:
+      - her2
+      - biosimilar-dynamics
+    human_reviewed: true
+    reviewed_by: di

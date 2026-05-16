@@ -1,0 +1,147 @@
+# Curated Humira lessons — golden-entity quality per §14.2.
+#
+# Lessons are bilingual (ADR-0006: Lesson.pattern + pattern_zh, author by
+# system-compiled, both languages valid). Each carries:
+#   - title / title_zh
+#   - lesson_type (enum per app/models/_helpers.py LessonType)
+#   - pattern (the generalizable principle)
+#   - key_evidence (structured list of supporting facts)
+#   - limitations (when the lesson does NOT apply)
+#   - applicable_contexts (where it applies)
+#   - applicable_to_landscapes (slug list — for Phase 3 landscape pages)
+#
+# All 3 are marked human_reviewed=true. Design doc §14.2 lists these
+# exact 3 as required Humira lessons.
+
+drugs:
+  - chembl_id: CHEMBL1201580
+    generic_name: adalimumab
+    lessons:
+      - title: "Patent Thicket as Biosimilar Defense"
+        title_zh: "专利丛林作为生物类似药防御策略"
+        lesson_type: strategic_commercial
+
+        pattern: |
+          Post-approval patent filing can extend a biologic's market
+          exclusivity by 5-7 years in the US — but the strategy faces
+          growing antitrust scrutiny, has limited effectiveness in
+          jurisdictions without patent linkage (e.g., EU), and trades
+          near-term revenue defense for long-term reputational and
+          regulatory risk.
+        pattern_zh: |
+          在原研药获批后继续申请大量外围专利,可在美国延长生物药的
+          市场独占期5-7年 — 但该策略面临日益严格的反垄断审查,
+          在没有专利链接制度的司法管辖区(如欧盟)效力有限,
+          并以近期收入保护换取长期的声誉和监管风险。
+
+        key_evidence:
+          - "AbbVie filed 247 patent applications for Humira (2002-2018); 132 granted (Harvard Petrie-Flom)"
+          - "90% of Humira patents filed post-initial-approval — I-MAK 2018 report"
+          - "US biosimilar entry delayed ~6 years past US6090382 core-patent expiry (2016 → 2023)"
+          - "EU biosimilars launched 2018, US biosimilars 2023 — 5-year differential attributable to patent-thicket defense"
+          - "FTC investigations + Congressional testimony 2019-2022 on pharmaceutical patent-thicket practices"
+
+        limitations:
+          - "Ineffective in EU (no patent linkage): Humira lost EU market to biosimilars 5 years before US"
+          - "Creates concentrated antitrust exposure that can trigger class-action litigation"
+          - "Works best for complex biologics where each manufacturing step can support claims; less effective for small molecules"
+          - "May accelerate regulatory reform — the Affordable Drug Manufacturing Act (proposed) directly targets the tactic"
+
+        applicable_contexts:
+          - "Complex biologic approaching core-composition patent expiry"
+          - "High-revenue product where legal defense cost is small relative to revenue at risk"
+          - "US market (patent linkage regime); less effective ex-US"
+
+        applicable_to_landscapes:
+          - "adalimumab"  # self — this lesson is from Humira's case
+          - "patent-thicket-strategy"  # Phase 3 landscape when it exists
+
+        human_reviewed: true
+        reviewed_by: di
+
+      - title: "Corporate Spinoff for Pharma Pure-Play Valuation Optimization"
+        title_zh: "企业分拆实现制药纯业务估值优化"
+        lesson_type: strategic_commercial
+
+        pattern: |
+          A diversified healthcare conglomerate can unlock valuation
+          premium by spinning off its research-based pharma business
+          as a standalone pure-play. The spun-off entity trades at the
+          higher multiple pharma investors assign to innovation cycles,
+          while the parent retains medical-devices / diagnostics /
+          consumer-health revenue at their natural (lower) multiple.
+        pattern_zh: |
+          多元化的医疗健康集团可通过将其研发型制药业务分拆为独立的
+          "纯制药"公司来释放估值溢价。分拆后的实体以制药投资人赋予
+          创新周期的更高估值倍数交易,而母公司保留医疗器械、诊断、
+          消费者健康业务,以其自然的较低倍数交易。
+
+        key_evidence:
+          - "Abbott spun off AbbVie in January 2013"
+          - "Pre-spinoff Abbott traded at ~13x earnings; post-spinoff AbbVie traded at ~18-20x pharma-peer multiples"
+          - "Humira represented ~50% of AbbVie's day-1 revenue — a concentration ratio that required pure-play status to command the premium multiple"
+          - "Similar pattern: Pfizer spinoff of Upjohn (→ Viatris 2020), Merck spinoff of Organon (2021), J&J spinoff of Kenvue (2023)"
+
+        limitations:
+          - "Premium only holds if the spun-off pharma has a credible pipeline beyond the anchor product — otherwise concentration risk tanks the multiple (see Viatris post-spinoff struggles)"
+          - "Spinoffs lock in contractual relationships (supply, shared services) that constrain operational flexibility for years"
+          - "Markets penalize spinoffs when the anchor product faces imminent patent cliff (AbbVie's multiple compressed in 2018-2020 as Humira 2023 cliff approached, rescued only by Allergan acquisition)"
+
+        applicable_contexts:
+          - "Large diversified healthcare company with a high-growth pharma segment"
+          - "Segment has 5+ years of patent life and pipeline depth"
+          - "Capital markets favor specialization (market-cycle dependent)"
+
+        applicable_to_landscapes:
+          - "adalimumab"
+          - "pharma-corporate-structure"  # Phase 3 landscape
+
+        human_reviewed: true
+        reviewed_by: di
+
+      - title: "Anti-TNF Class Effect: Breakthrough-Mechanism to Commodity Transition"
+        title_zh: "抗TNF类药物:突破性机制到商品化的转型"
+        lesson_type: scientific_mechanistic
+
+        pattern: |
+          A therapeutic class that begins as a breakthrough science
+          advance (anti-TNF biologics for inflammatory disease)
+          commoditizes over 20-25 years through three predictable
+          stages: (1) first-in-class approval establishes the mechanism,
+          (2) fast-followers validate the class with differentiated
+          formulation / dosing / subcutaneous delivery, and (3) biosimilar
+          entry collapses pricing by 60-85%. Investors who treat a mature
+          class the same as an emerging one overpay.
+        pattern_zh: |
+          一个治疗类别从突破性科学进展(抗TNF生物药治疗炎症性疾病)
+          开始,在20-25年间经历三个可预测的阶段实现商品化:
+          (1) 同类首个(first-in-class)获批确立机制,
+          (2) 快速跟进者(fast-followers)通过差异化的剂型/给药方式/
+          皮下给药验证该类别,
+          (3) 生物类似药进入使定价崩塌60-85%。
+          将成熟类别当作新兴类别对待的投资人会出价过高。
+
+        key_evidence:
+          - "Infliximab (Remicade, 1998) first-in-class anti-TNF for RA/CD"
+          - "Etanercept (Enbrel, 1998) differentiated fusion-protein format"
+          - "Adalimumab (Humira, 2002) fully human SC administration"
+          - "Golimumab (Simponi, 2009), certolizumab (Cimzia, 2008) — 5 approved by 2009"
+          - "2018-2023 biosimilar wave: EU Humira revenue -32% in year 1; US biosimilars priced 55-85% below Humira WAC"
+          - "Global anti-TNF market fell from ~$40B (2019 peak) to projected ~$18B (2027) per Evaluate Pharma consensus"
+
+        limitations:
+          - "Class-commodity framework doesn't apply uniformly — anti-TNF in inflammatory bowel disease shows slower biosimilar switch than RA due to physician inertia"
+          - "A 'mature' class can get rejuvenated by new indication discoveries (e.g., GLP-1 originally for T2D, now obesity/CV) — don't over-index on age alone"
+          - "Patent-thicket defense can artificially extend 'breakthrough' pricing 5-7 years past the natural curve; misreading that as mechanistic strength leads to overinvestment in similar assets"
+
+        applicable_contexts:
+          - "Evaluating a therapeutic class that is 10+ years post first-in-class approval"
+          - "Modeling biosimilar-erosion curves for portfolio-concentrated pharmas"
+          - "Class-selection strategy for biosimilar developers"
+
+        applicable_to_landscapes:
+          - "adalimumab"
+          - "anti-tnf-class"  # Phase 3 landscape
+
+        human_reviewed: true
+        reviewed_by: di

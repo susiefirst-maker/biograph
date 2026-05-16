@@ -1,0 +1,42 @@
+# Curated product-level financial facts.
+#
+# Why this file exists:
+#   SEC XBRL exposes Company-total revenue but NOT product-level revenue.
+#   Product figures (e.g., Humira $20.7B peak) live in 10-K text / segment
+#   tables without clean structured access. Rather than build a fragile
+#   text parser, we curate high-confidence public numbers here and source
+#   them explicitly.
+#
+# How to add a new drug:
+#   - source_ref must name the SEC filing (accession number) or analyst
+#     consensus source.
+#   - Numbers are USD.
+#   - Keep to well-documented peaks; don't add speculative projections.
+
+drugs:
+  - chembl_id: CHEMBL1201580          # adalimumab (Humira)
+    generic_name: adalimumab
+    revenue_peak_usd: 20694000000     # $20.694B, 2021
+    revenue_peak_year: 2021
+    cumulative_revenue_usd: 219000000000  # ~$219B through 2024
+    source_refs:
+      - "AbbVie 10-K FY2021 (accn 0001551152-22-000008), Immunology segment"
+      - "AbbVie 10-K FY2023 — Humira US net revenues $20,694M reported in 2021 peak"
+
+  - chembl_id: CHEMBL3137343          # pembrolizumab (Keytruda)
+    generic_name: pembrolizumab
+    revenue_peak_usd: 25011000000     # $25.011B, 2023 — first year surpassing Humira
+    revenue_peak_year: 2023
+    cumulative_revenue_usd: 100000000000  # ~$100B cumulative through 2024
+    source_refs:
+      - "Merck & Co. FY2023 10-K, Oncology segment disclosure"
+      - "Evaluate Pharma top-selling drugs 2023 report"
+
+  - chembl_id: CHEMBL2108724          # semaglutide (Ozempic / Wegovy / Rybelsus)
+    generic_name: semaglutide
+    revenue_peak_usd: 21100000000     # ~$21.1B in 2023 (combined Ozempic+Wegovy+Rybelsus)
+    revenue_peak_year: 2023
+    cumulative_revenue_usd: 55000000000  # ~$55B cumulative through 2024
+    source_refs:
+      - "Novo Nordisk FY2023 Annual Report — Diabetes and Obesity care segment"
+      - "Evaluate Pharma 2023 top-drug ranking (semaglutide franchise)"

@@ -1,0 +1,362 @@
+{
+  "data": {
+    "drug": {
+      "id": "CHEMBL1201580",
+      "name": "ADALIMUMAB",
+      "synonyms": [
+        "AVT-02",
+        "Abp-501",
+        "Abrilada",
+        "Adalimumab",
+        "Adalimumab (abbvie)",
+        "Adalimumab (genetical recombination)",
+        "Adalimumab (humira)",
+        "Adalimumab aacf",
+        "Adalimumab adaz",
+        "Adalimumab adbm",
+        "Adalimumab afzb",
+        "Adalimumab aqvh",
+        "Adalimumab atto",
+        "Adalimumab beta",
+        "Adalimumab biosimilar (alvotech)",
+        "Adalimumab biosimilar (amgen)",
+        "Adalimumab biosimilar (avt02)",
+        "Adalimumab biosimilar (celltrion)",
+        "Adalimumab biosimilar (ct-p17)",
+        "Adalimumab biosimilar (fkb-327)",
+        "Adalimumab biosimilar (msb11022)",
+        "Adalimumab biosimilar (mylan)",
+        "Adalimumab biosimilar (pfizer)",
+        "Adalimumab biosimilar (sandoz)",
+        "Adalimumab biosimilar (yusimry)",
+        "Adalimumab biosimilar (zrc-3197)",
+        "Adalimumab bwwd",
+        "Adalimumab fkjp",
+        "Adalimumab-aacf",
+        "Adalimumab-aaty",
+        "Adalimumab-adaz",
+        "Adalimumab-adbm",
+        "Adalimumab-afzb",
+        "Adalimumab-aqvh",
+        "Adalimumab-atto",
+        "Adalimumab-bwwd",
+        "Adalimumab-fkjp",
+        "Adalimumab-ryvk",
+        "Amjevita",
+        "Amsparity",
+        "Avt02",
+        "BI695501",
+        "Bcd-057",
+        "Bi 695501",
+        "Bi-695501",
+        "CT-P17",
+        "CTP17",
+        "Chs-1420",
+        "Cyltezo",
+        "D2E7",
+        "D3E7",
+        "Exemptia",
+        "FKB-327",
+        "FKB327",
+        "GP2017",
+        "Gp-2017",
+        "HLX-03",
+        "HLX03",
+        "Hadlima",
+        "Hulio",
+        "Hyrimoz",
+        "Idacio",
+        "LU-200134",
+        "LU200134",
+        "M-923",
+        "M923",
+        "MSB-11022",
+        "MSB11022",
+        "Ons-3010",
+        "Pf-06410293",
+        "SB-5",
+        "SB5",
+        "Simlandi",
+        "Trudexa",
+        "Yuflyma",
+        "Yusimry",
+        "ZRC-3197",
+        "ZRC3197"
+      ],
+      "tradeNames": [
+        "Amgevita",
+        "Amsparity",
+        "Cyltezo",
+        "Halimatoz",
+        "Hefiya",
+        "Hulio",
+        "Humira",
+        "Idacio",
+        "Imraldi",
+        "Kromeya",
+        "Libmyris",
+        "Solymbic",
+        "Trudexa"
+      ],
+      "drugType": "Antibody",
+      "maximumClinicalStage": "APPROVAL",
+      "mechanismsOfAction": {
+        "rows": [
+          {
+            "mechanismOfAction": "TNF-alpha inhibitor",
+            "actionType": "INHIBITOR",
+            "targets": [
+              {
+                "id": "ENSG00000232810",
+                "approvedSymbol": "TNF",
+                "approvedName": "tumor necrosis factor"
+              }
+            ]
+          }
+        ]
+      },
+      "indications": {
+        "rows": [
+          {
+            "maxClinicalStage": "PHASE_2",
+            "disease": {
+              "id": "EFO_0000284",
+              "name": "benign prostatic hyperplasia"
+            }
+          },
+          {
+            "maxClinicalStage": "APPROVAL",
+            "disease": {
+              "id": "EFO_0000384",
+              "name": "Crohn's disease"
+            }
+          },
+          {
+            "maxClinicalStage": "PHASE_2",
+            "disease": {
+              "id": "MONDO_0810000",
+              "name": "choroidal neovascularization"
+            }
+          },
+          {
+            "maxClinicalStage": "PHASE_2",
+            "disease": {
+              "id": "EFO_0001365",
+              "name": "age-related macular degeneration"
+            }
+          },
+          {
+            "maxClinicalStage": "APPROVAL",
+            "disease": {
+              "id": "EFO_1001494",
+              "name": "psoriasis vulgaris"
+            }
+          },
+          {
+            "maxClinicalStage": "APPROVAL",
+            "disease": {
+              "id": "EFO_0000676",
+              "name": "psoriasis"
+            }
+          },
+          {
+            "maxClinicalStage": "APPROVAL",
+            "disease": {
+              "id": "EFO_0005856",
+              "name": "arthritis"
+            }
+          },
+          {
+            "maxClinicalStage": "PHASE_2",
+            "disease": {
+              "id": "HP_0011868",
+              "name": "Sciatica"
+            }
+          },
+          {
+            "maxClinicalStage": "APPROVAL",
+            "disease": {
+              "id": "EFO_1001082",
+              "name": "panuveitis"
+            }
+          },
+          {
+            "maxClinicalStage": "APPROVAL",
+            "disease": {
+              "id": "EFO_0002609",
+              "name": "juvenile idiopathic arthritis"
+            }
+          },
+          {
+            "maxClinicalStage": "PHASE_2",
+            "disease": {
+              "id": "MONDO_0019338",
+              "name": "sarcoidosis"
+            }
+          },
+          {
+            "maxClinicalStage": "PHASE_3",
+            "disease": {
+              "id": "MONDO_0005178",
+              "name": "osteoarthritis"
+            }
+          },
+          {
+            "maxClinicalStage": "APPROVAL",
+            "disease": {
+              "id": "EFO_0000540",
+              "name": "immune system disease"
+            }
+          },
+          {
+            "maxClinicalStage": "PHASE_2",
+            "disease": {
+              "id": "EFO_0004229",
+              "name": "Dupuytren Contracture"
+            }
+          },
+          {
+            "maxClinicalStage": "APPROVAL",
+            "disease": {
+              "id": "EFO_0000685",
+              "name": "rheumatoid arthritis"
+            }
+          },
+          {
+            "maxClinicalStage": "APPROVAL",
+            "disease": {
+              "id": "EFO_1000710",
+              "name": "hidradenitis suppurativa"
+            }
+          },
+          {
+            "maxClinicalStage": "PHASE_2",
+            "disease": {
+              "id": "EFO_0004236",
+              "name": "focal segmental glomerulosclerosis"
+            }
+          },
+          {
+            "maxClinicalStage": "PHASE_3",
+            "disease": {
+              "id": "HP_0000999",
+              "name": "Pyoderma"
+            }
+          },
+          {
+            "maxClinicalStage": "PHASE_2",
+            "disease": {
+              "id": "MONDO_0009735",
+              "name": "Netherton syndrome"
+            }
+          },
+          {
+            "maxClinicalStage": "APPROVAL",
+            "disease": {
+              "id": "EFO_0003898",
+              "name": "ankylosing spondylitis"
+            }
+          },
+          {
+            "maxClinicalStage": "PHASE_1",
+            "disease": {
+              "id": "MONDO_0002108",
+              "name": "thyroid cancer"
+            }
+          },
+          {
+            "maxClinicalStage": "PHASE_3",
+            "disease": {
+              "id": "MONDO_0100096",
+              "name": "COVID-19"
+            }
+          },
+          {
+            "maxClinicalStage": "PHASE_2",
+            "disease": {
+              "id": "EFO_0004616",
+              "name": "osteoarthritis, knee"
+            }
+          },
+          {
+            "maxClinicalStage": "APPROVAL",
+            "disease": {
+              "id": "EFO_1001231",
+              "name": "uveitis"
+            }
+          },
+          {
+            "maxClinicalStage": "APPROVAL",
+            "disease": {
+              "id": "MONDO_0022205",
+              "name": "pustular psoriasis"
+            }
+          },
+          {
+            "maxClinicalStage": "PHASE_3",
+            "disease": {
+              "id": "EFO_0003767",
+              "name": "inflammatory bowel disease"
+            }
+          },
+          {
+            "maxClinicalStage": "PHASE_2",
+            "disease": {
+              "id": "EFO_0007462",
+              "name": "REM sleep behavior disorder"
+            }
+          },
+          {
+            "maxClinicalStage": "PHASE_2_3",
+            "disease": {
+              "id": "EFO_1000941",
+              "name": "frozen shoulder"
+            }
+          },
+          {
+            "maxClinicalStage": "PHASE_3",
+            "disease": {
+              "id": "EFO_0000706",
+              "name": "spondyloarthropathy"
+            }
+          },
+          {
+            "maxClinicalStage": "APPROVAL",
+            "disease": {
+              "id": "EFO_0000729",
+              "name": "ulcerative colitis"
+            }
+          },
+          {
+            "maxClinicalStage": "APPROVAL",
+            "disease": {
+              "id": "EFO_0003778",
+              "name": "psoriatic arthritis"
+            }
+          },
+          {
+            "maxClinicalStage": "PHASE_2",
+            "disease": {
+              "id": "MONDO_0004979",
+              "name": "asthma"
+            }
+          },
+          {
+            "maxClinicalStage": "PHASE_3",
+            "disease": {
+              "id": "EFO_1001209",
+              "name": "temporal arteritis"
+            }
+          },
+          {
+            "maxClinicalStage": "PHASE_3",
+            "disease": {
+              "id": "EFO_0008507",
+              "name": "interstitial cystitis"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,109 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    name: Backend gate
+    runs-on: ubuntu-latest
+
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_DB: biograph
+          POSTGRES_USER: biograph
+          POSTGRES_PASSWORD: biograph_dev
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U biograph -d biograph"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 10
+
+      search:
+        image: getmeili/meilisearch:v1.6
+        env:
+          MEILI_MASTER_KEY: biograph_dev_key
+          MEILI_ENV: development
+        ports:
+          - 7700:7700
+
+      redis:
+        image: redis:7-alpine
+        ports:
+          - 6379:6379
+
+    defaults:
+      run:
+        working-directory: backend
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.14
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.14"
+          cache: pip
+          cache-dependency-path: backend/requirements.txt
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: Copy .env from .env.example
+        working-directory: .
+        run: cp .env.example .env
+
+      - name: Guardrail - no skills imports in API layer
+        working-directory: .
+        run: |
+          if grep -rnE "^\s*(from|import)\s+skills" backend/app/api/ 2>/dev/null; then
+            echo "::error::API layer imports from skills/"
+            exit 1
+          fi
+          echo "ok: no MCP imports in backend/app/api/"
+
+      - name: Guardrail - no ChEMBL drug_search by indication
+        working-directory: .
+        run: |
+          if grep -rnE "chembl[^\n]*drug_search[^\n]*indication" backend/app/ 2>/dev/null; then
+            echo "::error::ChEMBL drug_search by indication banned"
+            exit 1
+          fi
+          echo "ok: no banned ChEMBL drug_search pattern"
+
+      - name: Alembic upgrade head
+        run: alembic upgrade head
+
+      - name: Seed fixture data (no network)
+        run: PYTHONPATH=. python scripts/seed_phase_0.py
+
+      - name: Pytest full suite
+        run: PYTHONPATH=. pytest -v
+
+      - name: QA gate
+        run: PYTHONPATH=. python scripts/qa_check.py --phase 0
+
+  live-smoke:
+    name: Live Open Targets smoke (manual)
+    runs-on: ubuntu-latest
+    if: github.event_name == 'workflow_dispatch'
+    defaults:
+      run:
+        working-directory: backend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.14"
+          cache: pip
+          cache-dependency-path: backend/requirements.txt
+      - run: pip install -r requirements.txt
+      - run: PYTHONPATH=. pytest -m live -v

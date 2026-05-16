@@ -1,0 +1,81 @@
+# Curated Humira claims — golden-entity quality.
+#
+# Each claim references an article from data/curated/humira_articles.yml
+# via article_slug (matching the id_slug there). Loader resolves article
+# slugs → article.id FKs at load time.
+#
+# claim_type values per §7.1 Mode 2 taxonomy:
+#   verified_fact        — citable, numerical/dated facts
+#   attributed_analysis  — analyst/academic interpretation with explicit source
+#   prediction           — forward-looking estimate, author-attributed
+#   opinion              — author's viewpoint, no objective test
+#   disputed             — multiple sources disagree
+#
+# confidence: high / medium / low
+
+drugs:
+  - chembl_id: CHEMBL1201580          # adalimumab (Humira)
+    generic_name: adalimumab
+    claims:
+      - id_slug: humira_2021_revenue_20b
+        statement: "Humira generated $20.694 billion in global net revenue in 2021, the peak annual revenue for any single pharmaceutical product."
+        language: en
+        claim_type: verified_fact
+        evidence_basis: "SEC filing — AbbVie 10-K FY2021 Immunology segment disclosure"
+        confidence: high
+        article_slug: abbvie_10k_2021
+        entities_mentioned: ["AbbVie", "Humira", "adalimumab"]
+
+      - id_slug: humira_247_patents_filed
+        statement: "AbbVie filed 247 patent applications covering Humira; 132 were granted (2002-2018)."
+        language: en
+        claim_type: verified_fact
+        evidence_basis: "USPTO records as enumerated by Harvard Petrie-Flom + I-MAK appendices"
+        confidence: high
+        article_slug: imak_overpatented_2018
+        entities_mentioned: ["AbbVie", "Humira"]
+
+      - id_slug: humira_90pct_post_approval
+        statement: "Approximately 90% of Humira patents were filed after the initial FDA approval in 2002."
+        language: en
+        claim_type: verified_fact
+        evidence_basis: "USPTO filing-date analysis in Harvard Petrie-Flom patent landscape"
+        confidence: high
+        article_slug: harvard_petrie_flom_humira
+        entities_mentioned: ["AbbVie", "Humira"]
+
+      - id_slug: patent_thicket_delayed_biosim
+        statement: "AbbVie's post-approval patent thicket delayed US biosimilar market entry by approximately 6 years beyond the core composition-patent expiry (2016 → 2023)."
+        language: en
+        claim_type: attributed_analysis
+        evidence_basis: "Comparison of US6090382 expiry (Dec 2016) vs. first US biosimilar (Amjevita, Jan 2023); documented in Harvard Petrie-Flom + BioPharma Dive"
+        confidence: high
+        article_slug: harvard_petrie_flom_humira
+        entities_mentioned: ["AbbVie", "Humira", "Amjevita"]
+
+      - id_slug: abbvie_spinoff_valuation_arbitrage
+        statement: "The 2013 AbbVie spinoff from Abbott was driven primarily by valuation arbitrage — separating a high-growth pharma business to command a premium multiple distinct from Abbott's diversified healthcare conglomerate."
+        language: en
+        claim_type: attributed_analysis
+        evidence_basis: "Abbott / AbbVie SEC filings + analyst coverage (BioPharma Dive synthesis)"
+        confidence: medium
+        article_slug: biopharma_dive_biosim_2023
+        entities_mentioned: ["Abbott", "AbbVie", "Humira"]
+
+      - id_slug: humira_us_revenue_decline_2026
+        statement: "Humira US net revenue will decline by more than 50% through 2026 due to biosimilar competition."
+        language: en
+        claim_type: prediction
+        evidence_basis: "Evaluate Pharma consensus forecast + BioPharma Dive 2023 coverage tracking pricing/formulary erosion"
+        confidence: high
+        article_slug: biopharma_dive_biosim_2023
+        entities_mentioned: ["AbbVie", "Humira"]
+
+      - id_slug: china_biosim_learn_humira_strategy
+        statement: "国内biosimilar企业应从Humira的专利策略中学习防御性专利布局,特别是在美国市场的biosimilar审批路径和专利悬崖期后的商业化策略。"
+        language: zh
+        claim_type: opinion
+        evidence_basis: "抗体密码 公众号 industry analysis — opinion piece, not structured research"
+        confidence: low
+        article_slug: kangti_miema_humira_patents
+        entities_mentioned: ["Humira", "AbbVie", "adalimumab"]

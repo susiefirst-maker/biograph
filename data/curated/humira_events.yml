@@ -1,0 +1,220 @@
+# Curated Humira event timeline (design doc §14.2).
+#
+# Events are ordered roughly chronologically but triggered_by links are
+# the authoritative structure. id_slug is a local identifier used to
+# express causal chains; get resolved to UUIDs at load time.
+#
+# event_type vocabulary (loose; expand as narrative needs):
+#   scientific_validation / clinical_development / regulatory_approval /
+#   acquisition / corporate_spinoff / label_expansion / revenue_milestone /
+#   patent_expiry / patent_filing / biosimilar_launch / portfolio_pivot
+
+drugs:
+  - chembl_id: CHEMBL1201580          # adalimumab (Humira)
+    generic_name: adalimumab
+    events:
+      - id_slug: feldmann_maini_tnf_1993
+        event_type: scientific_validation
+        event_date: "1993-06-01"
+        significance: landmark
+        headline: "Feldmann & Maini demonstrate anti-TNF-α as rheumatoid arthritis target"
+        triggered_by: null
+        description: |
+          Kennedy Institute of Rheumatology Phase 1/2 work established
+          TNF-α inhibition as a therapeutic strategy for RA, triggering
+          the anti-TNF biologic development race that produced infliximab,
+          etanercept, adalimumab, and golimumab.
+        source_refs:
+          - "Feldmann & Maini, Lancet 1994"
+          - "Kennedy Institute press archives"
+
+      - id_slug: d2e7_clinical_1995
+        event_type: clinical_development
+        event_date: "1995-05-01"
+        significance: major
+        headline: "D2E7 (adalimumab) enters clinical development at Knoll/BASF"
+        triggered_by: feldmann_maini_tnf_1993
+        description: |
+          Cambridge Antibody Technology + Knoll Pharmaceuticals (BASF subsidiary)
+          advance D2E7 — the first fully human anti-TNF mAb — into Phase 1.
+          Selected via CAT's phage-display platform.
+        source_refs:
+          - "Knoll / BASF R&D disclosures 1995-1996"
+          - "Cambridge Antibody Technology corporate history"
+
+      - id_slug: abbott_acquires_knoll_2001
+        event_type: acquisition
+        event_date: "2001-03-01"
+        significance: landmark
+        headline: "Abbott Laboratories acquires Knoll Pharmaceuticals ($6.9B) — adalimumab included"
+        triggered_by: d2e7_clinical_1995
+        description: |
+          BASF divests Knoll to Abbott in the largest pharma acquisition of 2001.
+          D2E7 (adalimumab) is mid-Phase 3 at deal close. Deal valued Knoll
+          entirely on pipeline assets including adalimumab.
+        source_refs:
+          - "Abbott Laboratories 10-K FY2001"
+          - "BASF Annual Report 2001"
+
+      - id_slug: fda_humira_2002
+        event_type: regulatory_approval
+        event_date: "2002-12-31"
+        significance: landmark
+        headline: "FDA approves Humira (adalimumab) for rheumatoid arthritis (BLA 125057)"
+        triggered_by: d2e7_clinical_1995
+        description: |
+          First US approval, nearly a decade after Kennedy TNF validation.
+          Initially indicated for moderate-to-severe RA refractory to DMARDs.
+        source_refs:
+          - "FDA approval letter 2002-12-31"
+          - "AbbVie clinical dossier archives"
+
+      - id_slug: ema_humira_2003
+        event_type: regulatory_approval
+        event_date: "2003-09-08"
+        significance: major
+        headline: "EMA approves Humira across EU member states"
+        triggered_by: fda_humira_2002
+        description: |
+          European Medicines Agency approval 9 months after FDA, harmonizing
+          label across EU. Sets up global commercial expansion.
+        source_refs:
+          - "EMA EPAR for adalimumab"
+
+      - id_slug: humira_1b_2005
+        event_type: revenue_milestone
+        event_date: "2005-12-31"
+        significance: moderate
+        headline: "Humira crosses $1B annual revenue (blockbuster status)"
+        triggered_by: fda_humira_2002
+        description: |
+          Humira reports its first blockbuster year. Strong RA uptake plus
+          early label expansions drive the crossover.
+        source_refs:
+          - "Abbott 10-K FY2005"
+
+      - id_slug: label_expansion_2008
+        event_type: label_expansion
+        event_date: "2008-06-01"
+        significance: major
+        headline: "Humira label expands to psoriasis, Crohn's, plaque psoriasis"
+        triggered_by: fda_humira_2002
+        description: |
+          FDA approves three new indications, broadening Humira's addressable
+          population well beyond RA. Foundation for the 12+ indication
+          eventual label.
+        source_refs:
+          - "FDA labeling supplements 2008"
+
+      - id_slug: abbvie_spinoff_2013
+        event_type: corporate_spinoff
+        event_date: "2013-01-01"
+        significance: landmark
+        headline: "Abbott spins off AbbVie — Humira becomes the anchor of the new pharma pure-play"
+        triggered_by: abbott_acquires_knoll_2001
+        description: |
+          Abbott separates its research-based pharmaceutical business as
+          AbbVie Inc. Humira represents ~50% of AbbVie's revenue at
+          spinoff. AbbVie's valuation relies heavily on Humira's
+          franchise strength and IP defense.
+        source_refs:
+          - "AbbVie Form 10 filing 2012-11-30"
+          - "Abbott press release 2013-01-01"
+
+      - id_slug: patent_thicket_2014
+        event_type: patent_filing
+        event_date: "2014-06-01"
+        significance: major
+        headline: "AbbVie begins aggressive post-approval patent filing — 'patent thicket' strategy"
+        triggered_by: abbvie_spinoff_2013
+        description: |
+          Following spinoff, AbbVie files hundreds of method-of-use,
+          formulation, and dosing patents. By 2018, 247+ patent applications
+          filed for Humira; 90% post-approval. Strategy designed to delay
+          biosimilar entry past core-patent expiry.
+        source_refs:
+          - "Harvard Petrie-Flom patent landscape analyses"
+          - "I-MAK 'Overpatented, Overpriced' 2018 report"
+
+      - id_slug: core_patent_expiry_2016
+        event_type: patent_expiry
+        event_date: "2016-12-31"
+        significance: landmark
+        headline: "Humira core composition patent (US6090382) expires in the US"
+        triggered_by: d2e7_clinical_1995
+        description: |
+          20-year term from 1996 filing. Opens the door to US biosimilar entry
+          in principle — but the patent thicket strategy effectively delays
+          actual US biosimilar launch to 2023.
+        source_refs:
+          - "USPTO grant record US6090382"
+
+      - id_slug: eu_biosimilars_2018
+        event_type: biosimilar_launch
+        event_date: "2018-10-16"
+        significance: landmark
+        headline: "First Humira biosimilars launch in EU — EU revenue drops 32% in one year"
+        triggered_by: core_patent_expiry_2016
+        description: |
+          Amgevita (Amgen), Imraldi (Samsung Bioepis), Hyrimoz (Sandoz), and
+          others launch in EU. AbbVie had negotiated non-US biosimilar
+          settlements, which blocked US entry until 2023 but not EU.
+          AbbVie EU Humira revenue falls from ~$6.3B (2017) to ~$4.3B (2018).
+        source_refs:
+          - "AbbVie 10-K FY2018 segment disclosure"
+          - "BioPharma Dive biosimilar-launch coverage"
+
+      - id_slug: abbvie_allergan_2020
+        event_type: acquisition
+        event_date: "2020-05-08"
+        significance: landmark
+        headline: "AbbVie acquires Allergan ($63B) — diversification from Humira dependence"
+        triggered_by: eu_biosimilars_2018
+        description: |
+          Defensive acquisition ahead of the 2023 US biosimilar cliff.
+          Adds Botox, Restasis, Vraylar, and aesthetic/neuroscience franchises
+          with different cycle exposure.
+        source_refs:
+          - "AbbVie + Allergan joint press release 2019-06-25"
+          - "AbbVie 10-K FY2019"
+
+      - id_slug: first_us_biosimilar_2023_jan
+        event_type: biosimilar_launch
+        event_date: "2023-01-31"
+        significance: landmark
+        headline: "Amjevita (Amgen) launches — first US Humira biosimilar"
+        triggered_by: patent_thicket_2014
+        description: |
+          Amgen launches Amjevita at ~55% discount to Humira. Begins the
+          long-telegraphed US market erosion of Humira. Multiple other
+          biosimilars follow in 2023.
+        source_refs:
+          - "Amgen press release 2023-01-31"
+
+      - id_slug: biosimilar_wave_2023_jul
+        event_type: biosimilar_launch
+        event_date: "2023-07-01"
+        significance: major
+        headline: "Eight additional US Humira biosimilars enter market"
+        triggered_by: first_us_biosimilar_2023_jan
+        description: |
+          Cyltezo (BI), Hyrimoz (Sandoz), Hadlima (Samsung Bioepis), Yusimry
+          (Coherus), Idacio (Fresenius Kabi), and others begin US sales.
+          Pricing pressure intensifies; Humira loses ~40% of US revenue
+          within six months.
+        source_refs:
+          - "BioPharma Dive biosimilar tracker 2023"
+
+      - id_slug: abbvie_pivot_2024
+        event_type: portfolio_pivot
+        event_date: "2024-02-01"
+        significance: major
+        headline: "AbbVie reports Skyrizi/Rinvoq exceed Humira revenue — post-biosimilar pivot"
+        triggered_by: abbvie_allergan_2020
+        description: |
+          Skyrizi + Rinvoq (successor IL-23 and JAK inhibitors in AbbVie's
+          pipeline) combined revenue exceeds Humira's for the first time
+          in Q4 2023 reported Feb 2024. Validates post-Humira strategy.
+        source_refs:
+          - "AbbVie 10-K FY2023"
+          - "AbbVie Q4 2023 earnings call transcript"

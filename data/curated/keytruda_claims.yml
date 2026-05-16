@@ -1,0 +1,39 @@
+drugs:
+  - chembl_id: CHEMBL3137343
+    generic_name: pembrolizumab
+    claims:
+      - id_slug: keytruda_2023_revenue_25b
+        statement: "Keytruda generated approximately $25.0 billion in global net sales in 2023, surpassing Humira as the top-selling pharmaceutical product globally."
+        language: en
+        claim_type: verified_fact
+        evidence_basis: "Merck FY2023 10-K; AbbVie FY2023 10-K for comparison"
+        confidence: high
+        article_slug: merck_10k_2023
+        entities_mentioned: ["Merck", "Keytruda", "Humira", "AbbVie"]
+
+      - id_slug: keytruda_first_pd1_fda
+        statement: "Keytruda was the first anti-PD-1 checkpoint inhibitor approved by the FDA, narrowly beating Opdivo by approximately 3.5 months (September 2014 vs. December 2014)."
+        language: en
+        claim_type: verified_fact
+        evidence_basis: "FDA approval dates: BLA 125514 (Keytruda) 2014-09-04, BLA 125527 (Opdivo) 2014-12-22"
+        confidence: high
+        article_slug: keytruda_approval_press_2014
+        entities_mentioned: ["Merck", "Keytruda", "BMS", "Opdivo"]
+
+      - id_slug: keytruda_from_organon
+        statement: "Keytruda (MK-3475) originated at Organon BioSciences and entered Merck's pipeline via the 2009 Schering-Plough acquisition, not internal Merck R&D."
+        language: en
+        claim_type: attributed_analysis
+        evidence_basis: "Schering-Plough/Organon acquisition 2007 ($14.4B); Merck/Schering-Plough merger 2009 ($41B); corporate history"
+        confidence: high
+        article_slug: merck_10k_2023
+        entities_mentioned: ["Merck", "Schering-Plough", "Organon BioSciences", "Akzo Nobel"]
+
+      - id_slug: keytruda_keynote024_paradigm
+        statement: "KEYNOTE-024 established pembrolizumab monotherapy as the new first-line standard of care in PD-L1-high (≥50%) advanced NSCLC, displacing platinum-doublet chemotherapy."
+        language: en
+        claim_type: attributed_analysis
+        evidence_basis: "Reck et al., NEJM 2016 KEYNOTE-024 primary result; FDA 2016-10-24 label expansion"
+        confidence: high
+        article_slug: biopharma_dive_keynote024
+        entities_mentioned: ["Merck", "Keytruda", "pembrolizumab"]

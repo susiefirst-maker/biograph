@@ -1,0 +1,43 @@
+drugs:
+  - chembl_id: CHEMBL3137343
+    generic_name: pembrolizumab
+    articles:
+      - id_slug: keytruda_approval_press_2014
+        title: "FDA approves Keytruda for advanced melanoma — first PD-1 inhibitor"
+        source_name: "FDA"
+        source_type: press_release
+        language: en
+        publish_date: "2014-09-04"
+        credibility_tier: tier_1_primary
+        url: "https://www.fda.gov/news-events/press-announcements/fda-approves-keytruda-advanced-melanoma-2014"
+        summary: |
+          FDA press release announcing accelerated approval of pembrolizumab
+          for advanced melanoma (BLA 125514). First anti-PD-1 approved in
+          the US, narrowly preceding nivolumab.
+
+      - id_slug: merck_10k_2023
+        title: "Merck & Co. Form 10-K for FY2023"
+        source_name: "SEC EDGAR"
+        source_type: sec_filing
+        language: en
+        publish_date: "2024-02-27"
+        credibility_tier: tier_1_primary
+        url: "https://www.sec.gov/Archives/edgar/data/310158/000031015824000048/mrk-20231231.htm"
+        summary: |
+          Merck FY2023 10-K reports Keytruda global net sales of $25.0
+          billion — first-time top-selling drug globally. Sections
+          cover patent-cliff exposure (2028 US core composition patent)
+          and subcutaneous-formulation development.
+
+      - id_slug: biopharma_dive_keynote024
+        title: "KEYNOTE-024: Pembrolizumab rewrites first-line NSCLC standard of care"
+        source_name: "BioPharma Dive"
+        source_type: news
+        language: en
+        publish_date: "2016-10-25"
+        credibility_tier: tier_2_vetted
+        url: "https://www.biopharmadive.com/news/keytruda-nsclc-keynote-024-approval-2016/"
+        summary: |
+          Trade-press coverage of KEYNOTE-024 Phase 3 results and FDA
+          approval for first-line NSCLC (PD-L1 ≥50%). Frames Merck's
+          label-expansion strategy as the core commercial moat.

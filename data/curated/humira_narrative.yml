@@ -1,0 +1,89 @@
+# Curated Humira narrative fields — golden-entity quality.
+#
+# Per design doc §14.1: "A golden entity is manually compiled and verified
+# to the highest quality standard." Humira is a golden entity. Narratives
+# here are hand-authored, not LLM-generated.
+#
+# LLM Mode 1 (app/compilation/narrative.py) will generate narratives for
+# non-golden drugs in Phase 2+. The golden entities set the quality bar
+# that Mode 1 output is measured against (ADR-0008 regression discipline).
+
+drugs:
+  - chembl_id: CHEMBL1201580          # adalimumab (Humira)
+    generic_name: adalimumab
+
+    # ── English ────────────────────────────────────────────────────────
+    discovery_narrative: |
+      Humira's scientific origin traces to the 1993–1994 work of Marc Feldmann
+      and Ravinder Maini at the Kennedy Institute of Rheumatology, which
+      validated TNF-α as a therapeutic target in rheumatoid arthritis.
+      Their Lancet publications triggered a multi-company race to produce
+      anti-TNF biologics.
+
+      The molecule that became adalimumab was developed through a collaboration
+      between BASF Pharma's Knoll subsidiary and Cambridge Antibody Technology
+      (CAT). CAT's phage display platform — which used bacteriophage libraries
+      displaying human antibody fragments to select high-affinity binders —
+      produced D2E7, the first fully human anti-TNF monoclonal antibody
+      identified through phage display rather than humanization of a mouse
+      antibody. D2E7 entered clinical development at Knoll in 1995.
+
+      Abbott Laboratories acquired Knoll from BASF in March 2001 for $6.9 billion,
+      with D2E7 mid-Phase 3 as the anchor asset. The FDA approved D2E7 as
+      Humira (adalimumab) for rheumatoid arthritis on December 31, 2002;
+      the EMA followed in September 2003. Humira became the first fully human
+      monoclonal antibody approved by the FDA and, over the following two
+      decades, the best-selling drug in pharmaceutical history ($20.7B peak
+      revenue in 2021).
+
+    discovery_narrative_zh: |
+      Humira(阿达木单抗)的科学起源可追溯至1993-1994年Marc Feldmann和
+      Ravinder Maini在肯尼迪风湿病研究所(Kennedy Institute)的研究工作,
+      他们首次验证了TNF-α作为类风湿性关节炎(RA)治疗靶点的可行性,引发了
+      全球抗TNF生物药的研发竞赛。
+
+      Humira分子(代号D2E7)由BASF Pharma旗下的Knoll公司与剑桥抗体技术公司
+      (Cambridge Antibody Technology,CAT)合作开发。CAT的噬菌体展示
+      (phage display)平台通过在噬菌体表面展示人源抗体片段,筛选出
+      高亲和力的D2E7 — 这是第一个通过噬菌体展示技术(而非鼠源抗体人源化)
+      发现的全人源抗TNF单克隆抗体。
+
+      2001年3月,雅培(Abbott)以69亿美元从BASF手中收购了Knoll,当时D2E7
+      处于临床III期。美国FDA于2002年12月31日批准D2E7作为Humira用于
+      治疗类风湿性关节炎,EMA于2003年9月跟进批准。Humira成为FDA批准的
+      第一个全人源单克隆抗体,并在随后20年间成为制药史上最畅销的药物
+      (2021年达到207亿美元年销售峰值)。
+
+    discovery_narrative_source_refs:
+      - "Feldmann & Maini, 'Anti-TNFα therapy of rheumatoid arthritis: what have we learned?' Annual Review of Immunology, 2001"
+      - "Cambridge Antibody Technology corporate history / phage display archives"
+      - "Abbott Laboratories 10-K FY2001 (Knoll acquisition disclosure)"
+      - "FDA BLA 125057 approval letter, 2002-12-31"
+      - "Harvard Petrie-Flom Humira case study"
+
+    # ── Mechanism of action (augments Open Targets structured field) ──
+    # Open Targets populates the short form ("TNF-alpha inhibitor").
+    # This curated version adds biological depth; loader merges it via
+    # ADR-0007 precedence (curated > open_targets for narrative fields).
+    mechanism_of_action: |
+      Humira (adalimumab) is a fully human IgG1 monoclonal antibody that
+      binds TNF-α with high affinity (Kd ~0.1 nM) and neutralizes it by
+      blocking interaction with the p55 (TNFR1) and p75 (TNFR2) cell-surface
+      receptors. Neutralization prevents TNF-α-driven activation of NF-κB
+      and MAPK inflammatory cascades. Adalimumab also binds transmembrane
+      TNF-α on immune cells, triggering antibody-dependent cellular
+      cytotoxicity (ADCC) and complement-dependent cytotoxicity (CDC) in
+      some contexts, though primary clinical effect is cytokine neutralization.
+
+    mechanism_of_action_zh: |
+      Humira(阿达木单抗)是一种全人源IgG1单克隆抗体,能够以高亲和力
+      (Kd ~0.1 nM)结合TNF-α并阻断其与p55(TNFR1)和p75(TNFR2)细胞表面
+      受体的相互作用,从而抑制TNF-α驱动的NF-κB和MAPK炎症信号通路。
+      阿达木单抗还能结合免疫细胞表面的跨膜TNF-α,在某些情境下触发
+      抗体依赖的细胞毒作用(ADCC)和补体依赖的细胞毒作用(CDC),
+      但其主要临床作用是细胞因子中和。
+
+    mechanism_of_action_source_refs:
+      - "FDA-approved Humira prescribing information (current revision)"
+      - "Tracey & Cerami, 'Tumor necrosis factor: a pleiotropic cytokine and therapeutic target', Annual Review of Medicine, 1994"
+      - "Kaymakcalan et al., 'Comparisons of affinities, avidities, and complement activation', Clinical Immunology, 2009"

@@ -1,0 +1,361 @@
+# NASH / MASH curated T1 landscape.
+#
+# Per ADR-0010, T1 landscapes are curator-compiled YAML loaded at
+# request time. This file alone unblocks the 17 NASH-Landscape-Test
+# assertions (ADR-0008).
+#
+# Terminology note: "NASH" (nonalcoholic steatohepatitis) was renamed
+# to "MASH" (metabolic dysfunction-associated steatohepatitis) by the
+# AASLD/EASL consensus in June 2023. We use NASH as the landscape slug
+# since most clinical-trial + regulatory material still uses it.
+
+slug: nash
+display_name: "NASH / MASH"
+display_name_zh: "非酒精性脂肪性肝炎"
+quality_tier: T1_CURATED
+last_curated_at: "2026-04-20"
+human_reviewed: true
+
+aliases:
+  - MASH
+  - nonalcoholic steatohepatitis
+  - metabolic dysfunction-associated steatohepatitis
+  - NAFLD
+  - MAFLD
+  - 非酒精性脂肪性肝炎
+  - 代谢相关脂肪性肝炎
+
+efo_id: EFO_0003892
+mesh_id: D065626
+
+disease_overview: |
+  NASH (nonalcoholic steatohepatitis), renamed MASH (metabolic
+  dysfunction-associated steatohepatitis) in 2023, is the progressive
+  inflammatory form of nonalcoholic fatty liver disease characterized
+  by hepatic steatosis (≥5% of hepatocytes), lobular inflammation,
+  and hepatocyte ballooning, typically with fibrosis. It sits
+  downstream of insulin resistance, obesity, and type 2 diabetes —
+  shared risk factors with cardiovascular disease. An estimated
+  30 million Americans have NAFLD and ~5–6 million have NASH;
+  global prevalence is rising in parallel with obesity. Without
+  therapy, ~20% of NASH patients progress to cirrhosis, and NASH is
+  now the second-leading indication for liver transplantation in the
+  United States. Clinical trials gate endpoints on liver biopsy
+  histology (NAS score, fibrosis stage per NASH CRN), a constraint
+  that slows enrollment and amplifies placebo noise. The FDA's 2018
+  NASH draft guidance established the accelerated-approval pathway
+  on NASH resolution OR ≥1-stage fibrosis improvement without
+  worsening of the other.
+
+disease_overview_zh: |
+  非酒精性脂肪性肝炎(NASH,2023年更名为MASH — 代谢功能障碍相关
+  脂肪性肝炎)是非酒精性脂肪性肝病(NAFLD)的进展性炎症阶段,
+  特征为肝细胞脂肪变性(≥5%肝细胞)、小叶炎症及肝细胞气球样
+  变,常伴纤维化。其上游驱动因素包括胰岛素抵抗、肥胖和2型糖尿病
+  — 与心血管疾病风险因素重叠。美国约3000万人患NAFLD,500-600万
+  人患NASH;全球患病率随肥胖增长而上升。未经治疗,约20%的NASH
+  患者进展至肝硬化,NASH现已成为美国第二大肝移植适应症。临床
+  试验的终点基于肝活检组织学评分(NAS评分、NASH CRN纤维化分期),
+  该约束减缓入组速度并放大安慰剂效应。FDA 2018年NASH指南确立了
+  加速审批路径:NASH消退或纤维化改善≥1级且另一项不恶化。
+
+mechanism_map:
+  - class: "THR-β agonist"
+    class_zh: "THR-β 激动剂"
+    drugs:
+      - name: resmetirom
+        status: approved
+        company: Madrigal Pharmaceuticals
+        approval_date: "2024-03-14"
+      - name: VK2809
+        status: phase_2
+        company: Viking Therapeutics
+
+  - class: "FXR agonist"
+    class_zh: "FXR 激动剂"
+    drugs:
+      - name: obeticholic acid
+        status: conditional
+        company: Intercept Pharmaceuticals
+      - name: cilofexor
+        status: discontinued
+        company: Gilead Sciences
+
+  - class: "GLP-1 receptor agonist"
+    class_zh: "GLP-1 受体激动剂"
+    drugs:
+      - name: semaglutide
+        status: phase_3
+        company: Novo Nordisk
+      - name: survodutide
+        status: phase_3
+        company: Boehringer Ingelheim / Zealand Pharma
+
+  - class: "FGF21 analogue"
+    class_zh: "FGF21 类似物"
+    drugs:
+      - name: efruxifermin
+        status: phase_3
+        company: Akero Therapeutics
+      - name: pegozafermin
+        status: phase_3
+        company: 89bio
+
+  - class: "PPAR pan-agonist"
+    class_zh: "PPAR 泛激动剂"
+    drugs:
+      - name: lanifibranor
+        status: phase_3
+        company: Inventiva
+
+  - class: "ACC inhibitor"
+    class_zh: "ACC 抑制剂"
+    drugs:
+      - name: firsocostat
+        status: phase_2
+        company: Gilead Sciences
+
+  - class: "ASK1 inhibitor (failed class)"
+    class_zh: "ASK1 抑制剂(失败机制)"
+    drugs:
+      - name: selonsertib
+        status: failed
+        company: Gilead Sciences
+
+pipeline:
+  approved:
+    - resmetirom (Rezdiffra, Madrigal)
+  phase_3:
+    - resmetirom (label expansion trials)
+    - semaglutide (ESSENCE)
+    - efruxifermin (SYMMETRY)
+    - pegozafermin (ENLIVEN-T)
+    - lanifibranor (NATiV3)
+    - survodutide
+  phase_2:
+    - VK2809
+    - firsocostat combinations
+  phase_1:
+    - multiple FGF21 follow-ons
+  failed:
+    - selonsertib (STELLAR-3, STELLAR-4 — ASK1 inhibitor)
+    - cenicriviroc (AURORA — CCR2/CCR5 antagonist)
+
+failed_trials:
+  - "STELLAR-3 (selonsertib, Gilead, 2019) — ASK1 inhibitor, failed to meet fibrosis improvement"
+  - "STELLAR-4 (selonsertib, Gilead, 2019) — cirrhosis arm, failed composite"
+  - "AURORA (cenicriviroc, Allergan/AbbVie, 2020) — missed fibrosis endpoint at interim"
+
+companies:
+  - name: Madrigal Pharmaceuticals
+    ticker: MDGL
+    role: "Pioneer — first FDA-approved NASH therapy (Rezdiffra, 2024)"
+  - name: Novo Nordisk
+    ticker: NVO
+    role: "GLP-1 class leader in NASH via semaglutide"
+  - name: Akero Therapeutics
+    ticker: AKRO
+    role: "FGF21 platform (efruxifermin, SYMMETRY Phase 3)"
+  - name: 89bio
+    ticker: ETNB
+    role: "FGF21 competitor (pegozafermin)"
+  - name: Inventiva
+    ticker: IVA
+    role: "PPAR pan-agonist lanifibranor, Phase 3 NATiV3"
+  - name: Intercept Pharmaceuticals
+    role: "FXR agonist obeticholic acid — conditional/failed in US NASH"
+  - name: Viking Therapeutics
+    ticker: VKTX
+    role: "THR-β follower (VK2809) and GLP-1/GIP dual in obesity"
+  - name: Gilead Sciences
+    ticker: GILD
+    role: "ASK1 class failure (selonsertib) but combination programs ongoing"
+
+key_trials:
+  - name: "MAESTRO-NASH"
+    drug: resmetirom
+    sponsor: Madrigal Pharmaceuticals
+    phase: phase_3
+    status: met_primary
+    significance: "First positive Phase 3 NASH trial; basis for 2024 Rezdiffra approval"
+  - name: "MAESTRO-NASH-OUTCOMES"
+    drug: resmetirom
+    sponsor: Madrigal Pharmaceuticals
+    phase: phase_3
+    status: ongoing
+    significance: "Hard clinical endpoint study (progression to decompensation) for confirmatory approval"
+  - name: "ESSENCE"
+    drug: semaglutide
+    sponsor: Novo Nordisk
+    phase: phase_3
+    status: ongoing
+    significance: "Definitive GLP-1 RA trial in NASH; readout expected 2025"
+  - name: "SYMMETRY"
+    drug: efruxifermin
+    sponsor: Akero Therapeutics
+    phase: phase_3
+    status: ongoing
+  - name: "REGENERATE"
+    drug: obeticholic acid
+    sponsor: Intercept Pharmaceuticals
+    phase: phase_3
+    status: conditional_failure
+    significance: "Fibrosis endpoint met at 18 months but FDA rejected on pruritus + LDL safety"
+  - name: "STELLAR-3 / STELLAR-4"
+    drug: selonsertib
+    sponsor: Gilead Sciences
+    phase: phase_3
+    status: failed
+    significance: "Demonstrated ASK1 class inactivity in NASH"
+
+scientific_bottlenecks:
+  - "Liver biopsy dependency for enrollment + endpoint — slows trials and limits patient access"
+  - "No consensus non-invasive biomarker (FibroScan VCTE + ELF are the best surrogates; not regulatory-qualified as sole endpoints)"
+  - "Endpoint heterogeneity: NASH resolution vs ≥1-stage fibrosis improvement differ in trial power + clinical meaning"
+  - "High placebo response (~20–25%) driven by lifestyle counselling and histology reader variability"
+  - "Disease heterogeneity: patients span insulin-resistant obese (GLP-1 responders) to lean NASH with distinct biology"
+
+market_dynamics: |
+  Projected $20–35B global NASH market by 2030 depending on uptake
+  rate and label breadth. Resmetirom's 2024 approval (US list price
+  ~$47,400/year) established first-mover pricing and is tracking
+  toward ~$1B in 2025 sales per analyst consensus. Novo Nordisk's
+  semaglutide franchise + Lilly's tirzepatide already generate
+  significant off-label NASH prescribing via obesity indication,
+  potentially blunting dedicated NASH-drug uptake. FGF21 and GLP-1
+  combinations are the likely second-wave, with first readouts in
+  2025-2026.
+
+regulatory_context: |
+  FDA 2018 NASH Guidance established the accelerated-approval
+  pathway on histological surrogates (NASH resolution or ≥1-stage
+  fibrosis improvement without worsening of the other). Full
+  approval requires hard clinical outcomes (cirrhosis progression,
+  liver-related death). Rezdiffra (March 2024) was the first
+  accelerated-approval NASH therapy; its MAESTRO-NASH-OUTCOMES
+  readout gates confirmatory approval. EMA has not yet endorsed the
+  accelerated pathway. FDA obesity pharmacotherapy reimbursement
+  precedent (Wegovy CV label, March 2024) may influence CMS stance
+  on NASH drugs with metabolic mechanism.
+
+hot_targets:
+  - gene_symbol: THRA
+    name: Thyroid hormone receptor-β
+    rationale: "Hepatic thyromimetic — resmetirom mechanism; validated 2024"
+  - gene_symbol: NR1H4
+    name: FXR (farnesoid X receptor)
+    rationale: "Bile acid master regulator; OCA precedent + next-gen non-OCA programs"
+  - gene_symbol: GLP1R
+    name: GLP-1 receptor
+    rationale: "Weight loss + insulin sensitization; semaglutide/tirzepatide crossover"
+  - gene_symbol: FGFR1C
+    name: FGFR1c (FGF21 co-receptor)
+    rationale: "FGF21 analogues (efruxifermin, pegozafermin) — fibrosis + metabolic"
+  - gene_symbol: PPARA
+    name: PPAR-α (PPAR pan target)
+    rationale: "Lanifibranor pan-PPAR showed Phase 3 activity"
+  - gene_symbol: ACACA
+    name: ACC (acetyl-CoA carboxylase)
+    rationale: "De novo lipogenesis block; combination partner (firsocostat)"
+
+literature:
+  - pmid: "37813184"
+    title: "A new definition for metabolic dysfunction-associated fatty liver disease: consensus statement"
+    authors: "Rinella ME et al."
+    journal: "J Hepatol"
+    year: 2023
+  - pmid: "38296618"
+    title: "A Phase 3, randomized, controlled trial of resmetirom in NASH with fibrosis (MAESTRO-NASH)"
+    authors: "Harrison SA et al."
+    journal: "N Engl J Med"
+    year: 2024
+  - pmid: "31042527"
+    title: "Obeticholic acid for the treatment of NASH: interim analysis from a multicentre, randomised, placebo-controlled phase 3 trial"
+    authors: "Younossi ZM et al."
+    journal: "Lancet"
+    year: 2019
+  - pmid: "33031616"
+    title: "Selonsertib in patients with bridging fibrosis or compensated cirrhosis due to NASH: results from randomized phase III STELLAR trials"
+    authors: "Harrison SA et al."
+    journal: "J Hepatol"
+    year: 2020
+
+articles:
+  - title: "FDA approves first treatment for patients with liver scarring due to fatty liver disease (Rezdiffra)"
+    source_name: "FDA"
+    source_type: press_release
+    language: en
+    publish_date: "2024-03-14"
+    url: "https://www.fda.gov/news-events/press-announcements/fda-approves-first-treatment-patients-liver-scarring-due-fatty-liver-disease"
+  - title: "NASH赛道2024展望:Rezdiffra之后的下一个突破点"
+    source_name: "药时代"
+    source_type: wechat_gongzhonghao
+    language: zh
+    publish_date: "2024-04-10"
+    url: "https://mp.weixin.qq.com/s/nash-rezdiffra-2024"
+  - title: "MASH: The Long Road to the First Approval"
+    source_name: "BioPharma Dive"
+    source_type: news
+    language: en
+    publish_date: "2024-03-15"
+    url: "https://www.biopharmadive.com/news/mash-rezdiffra-madrigal-fda-approval-2024/"
+
+lessons:
+  - title: "Biopsy-Dependent Endpoints Slow Development; Non-Invasive Biomarker Investment is a Timing Arbitrage"
+    title_zh: "依赖活检的终点减缓开发进度;非侵入性生物标志物投资是一种时机套利"
+    lesson_type: clinical_development
+    pattern: |
+      When a therapeutic area's regulatory endpoint requires invasive
+      procedures (liver biopsy for NASH), enrollment and endpoint
+      adjudication bottleneck every program in the field. Companies
+      that independently invest in non-invasive biomarker
+      qualification (FibroScan-AST, ELF, cT1) may secure the first
+      regulatory-qualified surrogate in their domain, converting a
+      field-wide tax into a per-company moat. Madrigal's parallel
+      biomarker program contributed to MAESTRO-NASH's operational
+      success; the next-generation FGF21 and GLP-1 sponsors are
+      pursuing similar tracks.
+    key_evidence:
+      - "MAESTRO-NASH enrollment took ~4 years despite favorable drug mechanism"
+      - "FDA 2018 NASH guidance still requires biopsy for approval"
+      - "Resmetirom label includes optional cT1 MRI as a diagnostic pathway"
+    limitations:
+      - "Biomarker qualification is a 5-10 year effort; only relevant for companies with long-term horizons"
+      - "FDA qualification ≠ clinical standard-of-care adoption; both are needed"
+    applicable_contexts:
+      - "NASH drug development"
+      - "Any therapeutic area where biopsy gates regulatory endpoint"
+    applicable_to_landscapes:
+      - nash
+      - hepatic-fibrosis
+    human_reviewed: true
+    reviewed_by: di
+
+  - title: "First-in-Class Mechanism in Heterogeneous Disease Wins a Narrow Label; Combination is the Durable Strategy"
+    title_zh: "异质性疾病中的首创机制赢得窄标签;联合用药是可持续战略"
+    lesson_type: strategic_commercial
+    pattern: |
+      NASH patient heterogeneity (lean vs obese, fibrotic vs inflammatory
+      dominant) means a single monotherapy mechanism likely addresses
+      30-50% of patients optimally. Resmetirom's 2024 approval is a
+      narrow label (NASH with fibrosis F2-F3, specific inclusion
+      criteria). The durable commercial winners will be combination
+      regimens pairing a THR-β / FXR agent with a GLP-1 RA or FGF21
+      analogue — similar to HIV or oncology's transition from
+      monotherapy to cocktails. Sponsors who design combination trials
+      early capture the "second-wave premium" that late entrants miss.
+    key_evidence:
+      - "Rezdiffra US label: NASH with fibrosis F2/F3 only; excludes cirrhosis"
+      - "Precedent: HIV (AZT monotherapy 1987 → HAART combination 1996), oncology (IO-chemo combinations)"
+      - "Novo ESSENCE already designed for potential resmetirom-semaglutide combination follow-on"
+    limitations:
+      - "Combination trials require ~2-3x patients and timelines; capital barrier"
+      - "Combination pricing + payer negotiation is structurally harder than monotherapy"
+    applicable_contexts:
+      - "NASH program strategy after 2024"
+      - "Heterogeneous chronic-disease drug development"
+    applicable_to_landscapes:
+      - nash
+      - obesity
+    human_reviewed: true
+    reviewed_by: di

@@ -1,0 +1,617 @@
+# CRISPR / Gene Therapy — curated T1 landscape.
+#
+# §7.4.6 priority #9. Fourteenth curated landscape. Modality class
+# covering CRISPR-Cas gene editing (ex-vivo + in-vivo), AAV
+# gene therapy, lentiviral vectors, and emerging base / prime
+# editing. Bridges CAR-T (allogeneic gene-edited constructs) and
+# mRNA (LNP delivery platform shared with in-vivo CRISPR).
+
+slug: crispr-gene-therapy
+display_name: "CRISPR / Gene Therapy"
+display_name_zh: "CRISPR / 基因治疗"
+quality_tier: T1_CURATED
+last_curated_at: "2026-04-21"
+human_reviewed: true
+
+aliases:
+  - CRISPR
+  - CRISPR therapy
+  - gene therapy
+  - gene editing
+  - base editing
+  - prime editing
+  - AAV gene therapy
+  - in-vivo CRISPR
+  - ex-vivo CRISPR
+  - lentiviral gene therapy
+  - 基因治疗
+  - 基因编辑
+  - CRISPR 治疗
+  - AAV 基因治疗
+
+mesh_id: D015316    # Genetic Therapy
+
+disease_overview: |
+  Gene therapy delivers functional genetic material — either to
+  replace a missing or malfunctioning gene (AAV + lentiviral
+  vectors) or to edit an existing one (CRISPR-Cas9, base editors,
+  prime editors) — for a durable or permanent therapeutic effect.
+  The field has two parallel histories: (1) **AAV / lentiviral
+  gene replacement** from the 1990s, validated clinically by the
+  2017 FDA approval of Luxturna (Spark, voretigene, RPE65
+  Leber congenital amaurosis) and scaled commercially by
+  Novartis's 2019 Zolgensma (onasemnogene, SMN1 spinal muscular
+  atrophy) at a $2.25M per-infusion price; and (2) **CRISPR-Cas9
+  gene editing** from Jennifer Doudna + Emmanuelle Charpentier's
+  2012-2013 work (2020 Nobel Prize), first clinically demonstrated
+  in sickle cell disease in 2019 and commercially validated with
+  the December 2023 FDA approval of Casgevy (exagamglogene
+  autotemcel, Vertex + CRISPR Therapeutics, ~$2.2M price).
+
+  By 2025 there are 10+ approved gene / cell-edited products:
+  (1) **AAV-based in-vivo** — Luxturna (LCA), Zolgensma (SMA),
+      Hemgenix + Beqvez (hemophilia B), Roctavian (hemophilia A),
+      Elevidys (DMD), Kebilidi (AADC deficiency), Adstiladrin (NMIBC),
+      Vyjuvek (EB topical).
+  (2) **Ex-vivo CRISPR-Cas9 autologous** — Casgevy (SCD + TDT).
+  (3) **Lentiviral ex-vivo** — Lyfgenia (bluebird SCD, parallel to
+      Casgevy), Zynteglo (TDT), Skysona (CALD).
+  (4) **Developmental in-vivo CRISPR** — Intellia NTLA-2001
+      (transthyretin amyloidosis, Phase 3) uses LNP delivery to
+      hepatocytes; Verve VERVE-102 (LDLR base-editing for familial
+      hypercholesterolemia, post-VERVE-101 thrombocytopenia pause).
+  (5) **Allogeneic gene-edited CAR-T** — bridges to CAR-T landscape
+      via Caribou CB-010 (Cas12a), Allogene ALLO-501A, Poseida
+      P-BCMA-ALLO1.
+  (6) **Base + prime editing** — Beam Therapeutics, Prime Medicine,
+      Verve (post-pivot) represent the next generation addressing
+      CRISPR's double-strand break + imprecise-editing limitations.
+
+  Operational reality as of 2025: Casgevy infusion count through
+  Q4 2024 was fewer than 20 patients globally despite ~20,000
+  eligible SCD patients in the US — driven by vein-to-vein time
+  (7-12 weeks), myeloablative conditioning burden, $2.2M price +
+  facility/monitoring costs adding ~$500k, and only ~60 certified
+  centers worldwide. The manufacturing-personalization ceiling
+  that limits autologous CAR-T (P7-D9 lesson) applies
+  identically here. In-vivo CRISPR (NTLA-2001) and base editing
+  (VERVE-102) are the next-frontier bets to escape the ceiling
+  — LNP-delivered editing in situ avoids the ex-vivo
+  manufacturing cycle entirely.
+
+  Commercial structure is unique. One-shot $2M+ payment for
+  durable / permanent cure creates payer-bankruptcy risk under
+  traditional annual-budget reimbursement; outcomes-based
+  installment contracts (Novartis for Zolgensma, Vertex for
+  Casgevy) are the emerging model. The Medicare-CMS gene-therapy
+  carve-out under IRA 2022 is still evolving. IP landscape:
+  Broad Institute vs UC Berkeley CRISPR patent dispute (resolved
+  Broad 2022 for cleavage in eukaryotic cells); Vertex-Editas
+  license fee structure reflects the settlement.
+
+disease_overview_zh: |
+  基因治疗通过递送功能性遗传物质 — 或替换缺失/失能基因(AAV+
+  慢病毒载体),或编辑现有基因(CRISPR-Cas9、碱基编辑、先导
+  编辑)— 以实现持久或永久性治疗效果。该领域有两条平行历史:
+  (1)从1990年代开始的**AAV/慢病毒基因替代**,在2017年FDA批准
+  Luxturna(Spark的voretigene,RPE65 Leber先天性黑朦)获得
+  临床验证,由诺华2019年以每次输注225万美元的价格批准的
+  Zolgensma(onasemnogene,SMN1脊髓性肌萎缩症)实现商业化规模;
+  以及(2)从Jennifer Doudna和Emmanuelle Charpentier 2012-2013
+  年工作开始的**CRISPR-Cas9基因编辑**(2020年诺贝尔奖),于
+  2019年在镰状细胞病中首次临床验证,并随着2023年12月FDA批准
+  Casgevy(exagamglogene autotemcel,Vertex + CRISPR
+  Therapeutics,约220万美元价格)实现商业化验证。
+
+  截至2025年,已有10多个获批的基因/细胞编辑产品:
+  (1)**基于AAV的体内**— Luxturna(LCA)、Zolgensma(SMA)、
+  Hemgenix + Beqvez(B型血友病)、Roctavian(A型血友病)、
+  Elevidys(DMD)、Kebilidi(AADC缺乏症)、Adstiladrin(NMIBC)、
+  Vyjuvek(EB外用)。
+  (2)**体外CRISPR-Cas9自体**— Casgevy(SCD + TDT)。
+  (3)**慢病毒体外**— Lyfgenia(bluebird SCD,与Casgevy并行)、
+  Zynteglo(TDT)、Skysona(CALD)。
+  (4)**研发中体内CRISPR**— Intellia NTLA-2001(转甲状腺素
+  蛋白淀粉样变,III期)使用LNP递送至肝细胞;Verve VERVE-102
+  (LDLR碱基编辑治疗家族性高胆固醇血症,101号项目因血小板减少
+  暂停后转型)。
+  (5)**异体基因编辑CAR-T**— 通过Caribou CB-010(Cas12a)、
+  Allogene ALLO-501A、Poseida P-BCMA-ALLO1桥接到CAR-T景观。
+  (6)**碱基+先导编辑**— Beam Therapeutics、Prime Medicine、
+  Verve(转型后)代表下一代技术,解决CRISPR的双链断裂和不精确
+  编辑限制。
+
+  2025年运营现实:截至2024年Q4,Casgevy全球输注患者数不足20名,
+  尽管美国约有2万名合格SCD患者 — 原因是静脉到静脉时间(7-12
+  周)、清髓性预处理负担、220万美元价格加上设施/监测成本增加
+  约50万美元,以及全球仅约60个认证中心。P7-D9课程中约束自体
+  CAR-T的生产个性化天花板在这里同样适用。体内CRISPR
+  (NTLA-2001)和碱基编辑(VERVE-102)是下一个前沿赌注 —
+  LNP递送的原位编辑完全避开了体外生产周期。
+
+  商业结构独特。200万美元以上的一次性支付以实现持久/永久治愈
+  在传统年度预算报销下造成付款方破产风险;基于结果的分期合同
+  (诺和诺德的Zolgensma、Vertex的Casgevy)是新兴模式。IRA
+  2022下的Medicare-CMS基因治疗例外规定仍在演变。知识产权格局:
+  Broad Institute与UC Berkeley的CRISPR专利争议(2022年为真核
+  细胞切割解决为Broad获胜);Vertex-Editas许可费结构反映该
+  和解。
+
+mechanism_map:
+  - class: "Ex-vivo CRISPR-Cas9 (autologous)"
+    class_zh: "体外 CRISPR-Cas9(自体)"
+    drugs:
+      - name: exagamglogene autotemcel (Casgevy)
+        status: approved
+        company: Vertex / CRISPR Therapeutics
+        approval_date: "2023-12-08"
+
+  - class: "Ex-vivo lentiviral gene therapy (autologous)"
+    class_zh: "体外慢病毒基因治疗(自体)"
+    drugs:
+      - name: lovotibeglogene autotemcel (Lyfgenia)
+        status: approved
+        company: bluebird bio
+        approval_date: "2023-12-08"
+      - name: betibeglogene autotemcel (Zynteglo)
+        status: approved
+        company: bluebird bio
+        approval_date: "2022-08-17"
+      - name: elivaldogene autotemcel (Skysona)
+        status: approved
+        company: bluebird bio
+        approval_date: "2022-09-16"
+
+  - class: "In-vivo AAV gene replacement"
+    class_zh: "体内 AAV 基因替代"
+    drugs:
+      - name: voretigene neparvovec (Luxturna)
+        status: approved
+        company: Spark Therapeutics / Roche
+        approval_date: "2017-12-19"
+      - name: onasemnogene abeparvovec (Zolgensma)
+        status: approved
+        company: Novartis
+        approval_date: "2019-05-24"
+      - name: etranacogene dezaparvovec (Hemgenix)
+        status: approved
+        company: CSL Behring / uniQure
+        approval_date: "2022-11-22"
+      - name: valoctocogene roxaparvovec (Roctavian)
+        status: approved
+        company: BioMarin
+        approval_date: "2023-06-29"
+      - name: delandistrogene moxeparvovec (Elevidys)
+        status: approved
+        company: Sarepta Therapeutics
+        approval_date: "2023-06-22"
+      - name: fidanacogene elaparvovec (Beqvez)
+        status: approved
+        company: Pfizer
+        approval_date: "2024-04-25"
+      - name: eladocagene exuparvovec (Kebilidi)
+        status: approved
+        company: PTC Therapeutics
+        approval_date: "2024-11-13"
+
+  - class: "AAV gene therapy (topical / bladder)"
+    class_zh: "AAV 基因治疗(外用 / 膀胱)"
+    drugs:
+      - name: nadofaragene firadenovec (Adstiladrin)
+        status: approved
+        company: Ferring Pharmaceuticals
+        approval_date: "2022-12-16"
+      - name: beremagene geperpavec (Vyjuvek)
+        status: approved
+        company: Krystal Biotech
+        approval_date: "2023-05-19"
+
+  - class: "In-vivo CRISPR / base editing (developmental)"
+    class_zh: "体内 CRISPR / 碱基编辑(研发中)"
+    drugs:
+      - name: NTLA-2001 (TTR transthyretin amyloidosis)
+        status: phase_3
+        company: Intellia Therapeutics / Regeneron
+      - name: NTLA-2002 (KLKB1 hereditary angioedema)
+        status: phase_3
+        company: Intellia Therapeutics
+      - name: VERVE-102 (LDLR base editing for HeFH)
+        status: phase_1
+        company: Verve Therapeutics
+      - name: BEAM-301 (glycogen storage disease 1a base editing)
+        status: phase_1
+        company: Beam Therapeutics
+      - name: EDIT-301 (BCL11A sickle cell ex-vivo, alternative to Casgevy)
+        status: phase_2
+        company: Editas Medicine
+
+  - class: "Allogeneic gene-edited CAR-T (bridges to CAR-T)"
+    class_zh: "异体基因编辑 CAR-T(桥接 CAR-T 类别)"
+    drugs:
+      - name: ALLO-501A (TRAC-edited CD19 CAR-T)
+        status: phase_2
+        company: Allogene Therapeutics
+      - name: CB-010 (Cas12a-edited CD19 CAR-T)
+        status: phase_2
+        company: Caribou Biosciences
+      - name: P-BCMA-ALLO1 (TCR-edited BCMA CAR-T)
+        status: phase_2
+        company: Poseida Therapeutics
+
+  - class: "Prime editing (next-generation)"
+    class_zh: "先导编辑(下一代)"
+    drugs:
+      - name: PM359 (CGD program)
+        status: phase_1
+        company: Prime Medicine
+
+pipeline:
+  approved:
+    - exa-cel / Casgevy (Vertex / CRISPR Therapeutics)
+    - lovo-cel / Lyfgenia (bluebird)
+    - Zynteglo + Skysona (bluebird)
+    - Luxturna (Spark / Roche)
+    - Zolgensma (Novartis)
+    - Hemgenix (CSL / uniQure)
+    - Roctavian (BioMarin)
+    - Elevidys (Sarepta)
+    - Beqvez (Pfizer)
+    - Kebilidi (PTC)
+    - Adstiladrin (Ferring)
+    - Vyjuvek (Krystal Biotech)
+  phase_3:
+    - NTLA-2001 TTR (Intellia / Regeneron)
+    - NTLA-2002 HAE (Intellia)
+    - Elevidys confirmatory DMD (Sarepta)
+    - additional Zolgensma IT-administered SMA programs
+  phase_2:
+    - EDIT-301 sickle cell (Editas)
+    - CB-010 CAR-T (Caribou)
+    - ALLO-501A (Allogene)
+    - P-BCMA-ALLO1 (Poseida)
+  phase_1:
+    - VERVE-102 LDLR base editing (Verve)
+    - BEAM-301 GSD1a base editing (Beam)
+    - PM359 CGD prime editing (Prime Medicine)
+    - multiple early in-vivo AAV programs (Regenxbio, others)
+  failed:
+    - Elevidys TRIDENT / EMBARK Phase 3 primary endpoint miss 2023 — FDA still expanded approval 2024; controversial
+    - VERVE-101 Phase 1 thrombocytopenia signal 2023 → pivoted to VERVE-102 (LDLR) 2024
+    - gene-therapy deaths 2020-2022 (Zolgensma high-dose toxicity, multiple AAV hepatotoxicity events)
+    - high-dose Duchenne gene therapy programs paused for safety across Solid Biosciences, Pfizer mini-dystrophin
+
+failed_trials:
+  - "EMBARK (Elevidys confirmatory DMD Phase 3, 2023) — missed primary endpoint NSAA change; FDA expanded approval regardless in June 2024 → controversial precedent"
+  - "VERVE-101 (Phase 1 base-editing PCSK9, 2023) — Grade 4 thrombocytopenia + ALT elevation in single patient; program paused, company pivoted to VERVE-102 (LDLR)"
+  - "Zolgensma high-dose intrathecal (AVXS-101 IT, 2021) — patient deaths in non-clinical studies caused pause; reworked dosing still Phase 3"
+  - "Pfizer mini-dystrophin DMD (fordadistrogene, 2024) — discontinued after Phase 3 CIFFREO safety + efficacy review"
+
+companies:
+  - name: Vertex Pharmaceuticals
+    ticker: VRTX
+    role: "Casgevy commercialization + 60/40 economics with CRISPR Therapeutics; first commercial CRISPR product; also developing exagamglogene + adjacent hemoglobinopathy programs"
+  - name: CRISPR Therapeutics
+    ticker: CRSP
+    role: "Casgevy originator via joint venture with Vertex; independent pipeline CTX130 (CD70 CAR-T), CTX320/330 metabolic programs"
+  - name: Intellia Therapeutics
+    ticker: NTLA
+    role: "In-vivo CRISPR leader — NTLA-2001 TTR Phase 3 + NTLA-2002 HAE Phase 3; Regeneron partnership provides capital + ex-US rights"
+  - name: Editas Medicine
+    ticker: EDIT
+    role: "EDIT-301 (BCL11A sickle cell via different strategy than Casgevy) + LCA10 program; small sponsor compared to Vertex / Intellia"
+  - name: Beam Therapeutics
+    ticker: BEAM
+    role: "Base-editing platform (CRISPR-derived, no double-strand break); BEAM-301 GSD1a Phase 1 + multiple hematologic programs"
+  - name: Prime Medicine
+    ticker: PRME
+    role: "Prime editing platform (David Liu technology); PM359 CGD Phase 1; still pre-revenue"
+  - name: Verve Therapeutics
+    ticker: VERV
+    role: "In-vivo base editing cardiometabolic — VERVE-102 (LDLR) post-101 thrombocytopenia pivot; Eli Lilly partnership"
+  - name: Novartis
+    ticker: NVS
+    role: "Zolgensma via 2018 $8.7B AveXis acquisition; 2023 revenue ~$1.3B declining slightly"
+  - name: Sarepta Therapeutics
+    ticker: SRPT
+    role: "Elevidys DMD 2023 approval; controversial FDA 2024 expansion despite EMBARK primary miss; parallel exon-skipping legacy franchise"
+  - name: BioMarin
+    ticker: BMRN
+    role: "Roctavian (hemophilia A) — commercial launch disappointing; broader rare-disease gene therapy pipeline"
+  - name: Pfizer
+    ticker: PFE
+    role: "Beqvez (hemophilia B) 2024 launch; Duchenne program discontinued 2024; smaller gene-therapy footprint than Novartis"
+  - name: bluebird bio
+    ticker: BLUE
+    role: "Lyfgenia + Zynteglo + Skysona approved 2022-2023; commercial struggles post-split from 2seventy bio 2021; going-concern risk 2024"
+  - name: CSL Behring + uniQure
+    ticker: CSL.AX / QURE
+    role: "Hemgenix (hemophilia B) commercialization partnership; uniQure AAV platform licensor"
+  - name: Caribou Biosciences
+    ticker: CRBU
+    role: "Cas12a-edited allogeneic CAR-T CB-010; also hematopoietic stem cell programs"
+  - name: Allogene Therapeutics
+    ticker: ALLO
+    role: "ALLO-501A TRAC-edited allogeneic CAR-T Phase 2; 2021 clinical hold overcome, programs advancing"
+
+key_trials:
+  - name: "CLIMB-121 / CLIMB-131"
+    drug: exa-cel (Casgevy)
+    sponsor: Vertex / CRISPR Therapeutics
+    phase: phase_3
+    status: met_primary
+    significance: "Ex-vivo CRISPR-edited autologous HSCs in severe sickle cell + transfusion-dependent β-thalassemia; 29 of 30 SCD patients vaso-occlusion-free post-infusion; basis for December 2023 first-ever CRISPR approval"
+  - name: "MAGNITUDE (NTLA-2001)"
+    drug: NTLA-2001
+    sponsor: Intellia / Regeneron
+    phase: phase_3
+    status: ongoing
+    significance: "First in-vivo CRISPR Phase 3 — LNP-delivered Cas9 targeting hepatic TTR in transthyretin amyloidosis; if positive, validates in-vivo CRISPR modality"
+  - name: "Phase 3 PIVOTAL (Zolgensma)"
+    drug: onasemnogene abeparvovec
+    sponsor: Novartis / AveXis
+    phase: phase_3
+    status: met_primary
+    significance: "AAV9 SMN1 replacement in SMA type 1 infants 2019; ~90% survival at 2 years vs ~8% natural history; $2.25M per-infusion price set modern gene-therapy pricing precedent"
+  - name: "EMBARK"
+    drug: Elevidys (delandistrogene moxeparvovec)
+    sponsor: Sarepta Therapeutics
+    phase: phase_3
+    status: conditional_failure
+    significance: "DMD Phase 3 confirmatory 2023 — missed NSAA primary endpoint; FDA June 2024 nonetheless expanded approval to all patients ≥4 years; controversial precedent for gene-therapy regulatory standards"
+  - name: "VERVE-101 Phase 1"
+    drug: VERVE-101
+    sponsor: Verve Therapeutics
+    phase: phase_1
+    status: failed
+    significance: "Grade 4 thrombocytopenia + ALT elevation in single patient Q4 2023 → program paused; pivot to VERVE-102 (LDLR rather than PCSK9) announced 2024"
+  - name: "HOPE-B"
+    drug: etranacogene dezaparvovec (Hemgenix)
+    sponsor: CSL Behring / uniQure
+    phase: phase_3
+    status: met_primary
+    significance: "Hemophilia B AAV5 gene therapy — ~64% annualized bleed reduction; basis for 2022 Hemgenix approval ($3.5M price)"
+  - name: "EDIT-301 RUBY"
+    drug: renizgamglogene autogedtemcel
+    sponsor: Editas Medicine
+    phase: phase_2
+    status: met_primary
+    significance: "Alternative BCL11A editing strategy for sickle cell — differentiated from Casgevy approach; Phase 2 2024 positive"
+  - name: "Casgevy real-world (Q4 2024)"
+    drug: exa-cel
+    sponsor: Vertex / CRISPR
+    phase: phase_4
+    status: ongoing
+    significance: "Q4 2024 global Casgevy infusion count <20 patients despite ~20,000 US eligible SCD patients; validates manufacturing-personalization ceiling; commercial ramp shape-of-curve indicator"
+
+scientific_bottlenecks:
+  - "Delivery — AAV capsid immunogenicity (~30-50% pre-existing antibodies to common capsids excluding patients from retreatment); LNP hepatic-restricted for in-vivo CRISPR; extrahepatic in-vivo delivery mostly unsolved"
+  - "Manufacturing + scale — Casgevy 7-12 week vein-to-vein, myeloablative conditioning burden, ~60 certified centers globally → infusion ceiling <1,000/year initially for SCD"
+  - "Pricing model — $2-3.5M per infusion creates payer-bankruptcy risk under annual-budget reimbursement; outcomes-based installments + government reinsurance pools still developing"
+  - "Off-target editing — CRISPR-Cas9 double-strand breaks can cause unintended rearrangements; base / prime editing address by avoiding DSBs but introduce new biology questions"
+  - "AAV durability decline — Hemgenix / Zolgensma FVIII + SMN1 expression decreases over years in subset of patients; redosing blocked by anti-AAV antibodies"
+  - "Safety signals — Zolgensma hepatotoxicity deaths 2022+, high-dose DMD gene therapy program pauses, VERVE-101 thrombocytopenia — class requires conservative dose-escalation + broad AE surveillance"
+
+market_dynamics: |
+  Global gene / gene-editing therapy market reached ~$3 billion
+  2023 with projected $20-30B by 2030 per analyst consensus.
+  Leading revenues: Zolgensma ~$1.3B 2023 (declining slightly as
+  SMN1 birth cohort stabilizes), Luxturna ~$150M, Elevidys ~$700M
+  2023 despite EMBARK primary miss. Casgevy + Lyfgenia 2024
+  revenues nominal (~$10M combined) — limited by manufacturing +
+  certification bottleneck despite unlimited demand. Pricing
+  precedent: $2.25M Zolgensma 2019 → $2.2M Casgevy + $3.1M
+  Lyfgenia 2023 → $3.5M Hemgenix 2022 → $4.25M Lenmeldy
+  (atidarsagene) 2024. Outcomes-based installment contracts
+  (Novartis, Vertex) + SCD CMS reinsurance pool 2023 are the
+  emerging commercial structure. Vertex paid ~$900M up-front to
+  CRISPR Therapeutics + 60/40 split on Casgevy economics.
+  Intellia + Editas + Beam + Prime Medicine combined market cap
+  ~$6B 2024 vs ~$50B peak 2021 — pre-revenue platform biotechs
+  severely revalued. In-vivo CRISPR (NTLA-2001) and base editing
+  (VERVE-102) are the 2025-2027 inflection points.
+
+regulatory_context: |
+  FDA CBER regulates gene therapy as biologics with combined
+  cell + gene considerations; each autologous product requires
+  REMS + certified-center framework similar to CAR-T. Casgevy
+  December 2023 approval was the first-ever CRISPR approval —
+  standard Phase 3 efficacy + 15-year post-marketing follow-up.
+  Elevidys 2024 FDA expansion despite EMBARK Phase 3 miss set
+  controversial precedent — FDA accepted functional / biomarker
+  evidence over hard PFS endpoint; drew accelerated-approval
+  oversight concerns. FDA 2022 guidance on human somatic cell
+  therapy + gene therapy provides the regulatory framework.
+  EMA + NICE (UK) have been more conservative on pricing —
+  Luxturna + Zolgensma access more restricted in EU. China NMPA
+  has limited domestic gene-therapy pipeline; regulatory
+  framework lagged. IRA 2022 Medicare price-negotiation carve-
+  out for gene therapies <10 years post-approval is currently
+  protective but expires 2030.
+
+hot_targets:
+  - gene_symbol: BCL11A
+    name: "BCL11A"
+    rationale: "Transcriptional repressor of fetal hemoglobin; Casgevy + EDIT-301 both target — reactivating HbF to compensate for mutant HbS / β-globin"
+  - gene_symbol: HBB
+    name: "β-globin (HBB)"
+    rationale: "Direct target of next-gen programs for sickle cell + β-thalassemia; alternative to BCL11A indirect approach"
+  - gene_symbol: TTR
+    name: "Transthyretin (TTR)"
+    rationale: "Intellia NTLA-2001 Phase 3 — first in-vivo CRISPR target; canonical hepatic-LNP validation"
+  - gene_symbol: LDLR
+    name: "LDL Receptor (LDLR)"
+    rationale: "Verve VERVE-102 post-PCSK9 pivot; direct upregulation of LDL clearance"
+  - gene_symbol: SMN1
+    name: "Survival Motor Neuron 1 (SMN1)"
+    rationale: "Zolgensma target — replacement gene delivered via AAV9; $2.25M precedent for SMA"
+  - gene_symbol: DMD
+    name: "Dystrophin (DMD)"
+    rationale: "Elevidys partial-dystrophin AAV replacement; Sarepta exon-skipping legacy; complex gene requires mini-dystrophin strategies"
+  - gene_symbol: F9
+    name: "Factor IX (F9)"
+    rationale: "Hemgenix + Beqvez target — hemophilia B; AAV delivery to hepatocytes"
+  - gene_symbol: F8
+    name: "Factor VIII (F8)"
+    rationale: "Roctavian target — hemophilia A; larger gene requiring specialized AAV5 capsid engineering"
+
+literature:
+  - pmid: "22745249"
+    title: "A Programmable Dual-RNA-Guided DNA Endonuclease in Adaptive Bacterial Immunity"
+    authors: "Jinek M, Chylinski K, Fonfara I, Hauer M, Doudna JA, Charpentier E"
+    journal: "Science"
+    year: 2012
+  - pmid: "34138793"
+    title: "CRISPR-Cas9 In Vivo Gene Editing for Transthyretin Amyloidosis (NTLA-2001)"
+    authors: "Gillmore JD et al."
+    journal: "N Engl J Med"
+    year: 2021
+  - pmid: "33283989"
+    title: "CRISPR-Cas9 Gene Editing for Sickle Cell Disease and β-Thalassemia (exa-cel)"
+    authors: "Frangoul H et al."
+    journal: "N Engl J Med"
+    year: 2021
+  - pmid: "29091570"
+    title: "Single-Dose Gene-Replacement Therapy for Spinal Muscular Atrophy (Zolgensma / PIVOTAL)"
+    authors: "Mendell JR et al."
+    journal: "N Engl J Med"
+    year: 2017
+  - pmid: "36461824"
+    title: "Etranacogene dezaparvovec for Hemophilia B (HOPE-B)"
+    authors: "Pipe SW et al."
+    journal: "N Engl J Med"
+    year: 2023
+
+articles:
+  - title: "FDA Approves First Gene Therapies to Treat Patients with Sickle Cell Disease"
+    source_name: "FDA"
+    source_type: press_release
+    language: en
+    publish_date: "2023-12-08"
+    url: "https://www.fda.gov/news-events/press-announcements/fda-approves-first-gene-therapies-treat-patients-sickle-cell-disease"
+  - title: "基因编辑2024:Casgevy商业化的困境 + 体内CRISPR的希望"
+    source_name: "医药魔方"
+    source_type: wechat_gongzhonghao
+    language: zh
+    publish_date: "2024-12-15"
+    url: "https://mp.weixin.qq.com/s/crispr-2024-reality-check"
+  - title: "Nobel Prize in Chemistry 2020 — Emmanuelle Charpentier and Jennifer A. Doudna"
+    source_name: "Nobel Prize Committee"
+    source_type: press_release
+    language: en
+    publish_date: "2020-10-07"
+    url: "https://www.nobelprize.org/prizes/chemistry/2020/press-release/"
+
+lessons:
+  - title: "Platform Maturation Takes 10-15 Years from Discovery to First Approval — Plan Accordingly"
+    title_zh: "平台成熟从发现到首次获批需10-15年 — 据此规划"
+    lesson_type: scientific_mechanistic
+    pattern: |
+      For fundamentally novel modality platforms, the timeline
+      from basic-science discovery to first regulatory approval
+      is remarkably consistent at 10-15 years. CRISPR:
+      Doudna/Charpentier 2012 → Casgevy 2023 = 11 years. mRNA:
+      Karikó/Weissman 2005 → Comirnaty 2020 = 15 years. CAR-T:
+      first clinical case reports 2011 → Kymriah 2017 = 6 years
+      (faster due to autologous workflow riding on existing bone-
+      marrow-transplant infrastructure). ADC: Mylotarg 2000 →
+      modern wave Enhertu 2019 = 19 years. Sponsors investing in
+      novel-platform biotechs should structure capital for this
+      cycle; public-market biotechs frequently underperform on
+      hype-cycle compression and need to be bridged through
+      multiple re-financings before revenue.
+    key_evidence:
+      - "CRISPR: Jinek/Chylinski 2012 Science → Casgevy 2023 December = 11 years"
+      - "mRNA: Karikó 2005 Immunity pseudouridine → Comirnaty 2020 December EUA = 15 years; 2023 Nobel post-approval"
+      - "CAR-T: Porter 2011 NEJM → Kymriah 2017 August = 6 years (exception — reduced by autologous BMT infrastructure)"
+      - "ADC: Mylotarg 2000 / withdrawn 2010 / modern wave Kadcyla 2013 + Enhertu 2019 = 13-19 years depending on reference point"
+      - "CRISPR biotech market caps 2021 peak $50B+ combined → $6B 2024 (~90% contraction) — public-market hype/reality mismatch"
+    limitations:
+      - "Timeline varies by modality complexity — simpler platforms (small molecules) shorter, more complex (gene therapy) longer"
+      - "Pandemic accelerations can compress (mRNA COVID 11 months concept-to-authorization is the exception not the rule)"
+      - "First approval is not equal to commercial maturation — that typically takes another 5-10 years post-approval"
+    applicable_contexts:
+      - "Novel-platform biotech M&A timing"
+      - "Venture investment capital structure for platform companies"
+      - "Public vs private financing decisions for modality startups"
+    applicable_to_landscapes:
+      - crispr-gene-therapy
+      - mrna-therapeutics
+      - adc
+      - car-t
+    human_reviewed: true
+    reviewed_by: di
+
+  - title: "Gene Therapy Pricing is Structurally Unsettled — Outcome-Based Installments Are the Emerging Consensus"
+    title_zh: "基因治疗定价结构尚未确立 — 基于结果的分期付款是新兴共识"
+    lesson_type: market_access_pricing
+    pattern: |
+      One-shot gene therapy with durable / permanent effect doesn't
+      fit traditional annual-budget reimbursement. A $2-3.5M upfront
+      payment for a cure creates payer-bankruptcy risk under ACA +
+      Medicare Part B rules, and physician-administered buy-and-bill
+      creates cash-flow burden for treatment centers. The emerging
+      consensus is outcomes-based installment contracts: payer pays
+      30-40% upfront, 30-40% at year-1 durable-response milestone,
+      remainder at year-3 or year-5 if effect persists. Novartis
+      pioneered this for Zolgensma 2019; Vertex's Casgevy adopted
+      the model 2023-2024 with individual-patient contracts.
+      Medicare-CMS Gene Therapy Access Model (AHEAD) 2024 provides
+      federal framework for SCD specifically. Sponsors launching
+      gene therapies must structure commercial organization around
+      installment accounting + outcomes tracking — traditional
+      PBM negotiation doesn't apply.
+    key_evidence:
+      - "Zolgensma $2.25M 2019 launch with Novartis-offered 5-year outcomes-based installments"
+      - "Casgevy $2.2M + Lyfgenia $3.1M 2023 — both Vertex and bluebird negotiated outcomes-based agreements with payers pre-launch"
+      - "Hemgenix $3.5M 2022 — highest single-dose price until Lenmeldy $4.25M 2024"
+      - "CMS Gene Therapy Access Model (AHEAD) 2024 — federal SCD reinsurance pool providing coverage stability"
+      - "Casgevy Q4 2024 <20 patients infused despite ~20,000 eligible — pricing is not the bottleneck, manufacturing + authorization are"
+    limitations:
+      - "Outcomes-based contracts require long-term durability tracking infrastructure; many payers lack capability"
+      - "Countries without private-insurance infrastructure (EU single-payer) use different NICE-QALY framework — Zolgensma EU access substantially restricted"
+      - "China + LMIC gene-therapy access effectively zero at current pricing — creates non-uniform global availability"
+    applicable_contexts:
+      - "Gene therapy commercial launch planning"
+      - "Payer-negotiation strategy for one-shot curative therapies"
+      - "Modeling revenue ramps for newly-approved gene therapies"
+    applicable_to_landscapes:
+      - crispr-gene-therapy
+    human_reviewed: true
+    reviewed_by: di
+
+  - title: "Regulatory Flexibility Creates Precedent Risk When Applied Inconsistently"
+    title_zh: "监管灵活性在应用不一致时产生判例风险"
+    lesson_type: regulatory_pathway
+    pattern: |
+      When FDA applies flexible standards inconsistently across
+      gene therapy programs — accepting functional-outcome data in
+      one approval (Elevidys 2024 expansion despite EMBARK Phase 3
+      primary miss) while rejecting similar biomarker-based data in
+      another — the agency creates precedent risk that complicates
+      competitor development. Sponsors then argue equivalent
+      flexibility for their own programs, and consistent regulatory
+      science suffers. The Elevidys 2024 decision (FDA expanded
+      approval despite confirmatory trial miss) is drawing
+      parallels to Aduhelm 2021 approval over advisory-committee
+      objection; both decisions faced significant scientific
+      criticism. Gene therapy regulatory strategy should plan for
+      both the precedent side (cite Elevidys for benefit-of-doubt)
+      and the risk side (FDA may restore stricter standards
+      reactively post-controversy).
+    key_evidence:
+      - "Elevidys (Sarepta DMD) — EMBARK Phase 3 2023 missed NSAA primary; FDA June 2024 expanded approval to all patients ≥4 years based on functional + biomarker data"
+      - "Aduhelm (Biogen AD) 2021 parallel — advisory committee voted 10-0 against approval, FDA approved anyway; CMS restricted coverage; Biogen withdrew 2024"
+      - "Scientific community reaction to Elevidys 2024 similar to Aduhelm 2021 — advisory committee split, internal FDA dissent reported in press"
+      - "Sponsors of subsequent DMD gene therapies (Solid Biosciences, Pfizer — Pfizer discontinued 2024) face unclear bar: if Sarepta got approved despite miss, what is the threshold?"
+    limitations:
+      - "Specific to rare-disease / high-unmet-need contexts — flexibility less likely in larger indications"
+      - "FDA leadership changes affect posture — Califf 2022-2024 differs from prior / next commissioner"
+      - "Post-controversy correction cycles are real — Aduhelm 2021 led to Project ODAC 2022 accelerated-approval tightening"
+    applicable_contexts:
+      - "Gene therapy confirmatory Phase 3 design"
+      - "Rare-disease regulatory strategy planning"
+      - "M&A valuation of assets with pending FDA flexibility decisions"
+    applicable_to_landscapes:
+      - crispr-gene-therapy
+    human_reviewed: true
+    reviewed_by: di

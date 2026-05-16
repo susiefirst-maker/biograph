@@ -1,0 +1,48 @@
+services:
+  db:
+    image: postgres:16
+    container_name: biograph-db
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-biograph}
+      POSTGRES_USER: ${POSTGRES_USER:-biograph}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-biograph_dev}
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-biograph} -d ${POSTGRES_DB:-biograph}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  search:
+    image: getmeili/meilisearch:v1.6
+    container_name: biograph-search
+    environment:
+      MEILI_MASTER_KEY: ${MEILI_MASTER_KEY:-biograph_dev_key}
+      MEILI_ENV: development
+    ports:
+      - "7700:7700"
+    volumes:
+      - meilidata:/meili_data
+    healthcheck:
+      test: ["CMD-SHELL", "curl -fsS http://localhost:7700/health || exit 1"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  redis:
+    image: redis:7-alpine
+    container_name: biograph-redis
+    ports:
+      - "6379:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  pgdata:
+  meilidata:

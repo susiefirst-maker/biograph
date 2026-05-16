@@ -1,0 +1,78 @@
+drugs:
+  - chembl_id: CHEMBL3137343
+    generic_name: pembrolizumab
+    lessons:
+      - title: "First-in-Class Timing Beats First-in-Development for Blockbuster Class Wins"
+        title_zh: "同类首创(时间优先)比首先立项更能赢得同类冠军"
+        lesson_type: competitive_dynamics
+        pattern: |
+          In a validated mechanistic class with ≥2 credible competitors,
+          the commercial winner is typically the first-to-market in the
+          first big indication, not the first-discovered or first-developed.
+          Merck entered the anti-PD-1 race later than BMS (MK-3475 was
+          deprioritized until 2010) but narrowly beat Opdivo to FDA
+          approval for melanoma in 2014 via accelerated-pathway execution,
+          and that 3.5-month head start compounded through the KEYNOTE
+          program into a $25B franchise.
+        pattern_zh: |
+          在机制已验证、至少有两家可靠竞争者的类别中,商业赢家通常
+          是在第一个重磅适应症上最早上市的,而不是最早发现或最早
+          立项的。默沙东进入抗PD-1赛道晚于BMS(MK-3475曾被降低优先
+          级直到2010年),但凭借加速审批路径的执行,在2014年黑色
+          素瘤适应症上以3.5个月的优势领先Opdivo获批,这一先发优势
+          通过KEYNOTE项目复合放大,最终形成250亿美元的大产品。
+        key_evidence:
+          - "MK-3475 revived 2010 after BMS nivolumab Phase I readout"
+          - "FDA breakthrough designation 2013-04-24"
+          - "Keytruda FDA approval 2014-09-04; Opdivo 2014-12-22"
+          - "Keytruda 2023 revenue ~$25B; Opdivo 2023 revenue ~$9B"
+          - "KEYNOTE program 1000+ trials, 30+ indications; Opdivo label narrower"
+        limitations:
+          - "Applies to validated mechanistic classes, not truly novel mechanisms"
+          - "Requires regulatory + commercial execution — being first without label breadth yields only a temporary lead"
+          - "Subsidized by accelerated pathway availability; in non-accelerated jurisdictions the timing edge is smaller"
+        applicable_contexts:
+          - "Evaluating second-entrant commercial potential in a validated class"
+          - "Prioritization among close competitors racing to first-indication approval"
+        applicable_to_landscapes:
+          - "pembrolizumab"
+          - "pd1-pdl1"
+        human_reviewed: true
+        reviewed_by: di
+
+      - title: "Label-Expansion as Commercial Moat in Pan-Tumor Mechanisms"
+        title_zh: "标签扩展作为泛肿瘤机制药物的商业护城河"
+        lesson_type: strategic_commercial
+        pattern: |
+          For a mechanism with broad anti-tumor rationale, an aggressive
+          post-approval indication-expansion program can lock in market
+          position even against comparably-dosed competitors. Merck's
+          KEYNOTE program (1000+ trials across 30+ indications) turned
+          Keytruda's 3.5-month first-mover lead over Opdivo into a 3x
+          revenue lead by 2023. BMS's narrower Opdivo label development
+          strategy left share on the table despite comparable efficacy.
+        pattern_zh: |
+          对于具有广泛抗肿瘤理论基础的机制,积极的获批后适应症扩展
+          项目可以锁定市场地位,即使面对剂量相当的竞品。默沙东的
+          KEYNOTE项目(涵盖30多个适应症的1000余项试验)将Keytruda
+          相对Opdivo的3.5个月先发优势,到2023年放大为3倍的收入差距。
+          BMS较为保守的Opdivo标签扩展策略,尽管疗效相当,仍然让出了
+          市场份额。
+        key_evidence:
+          - "KEYNOTE-024 first-line NSCLC (2016) — paradigm shift"
+          - "Keytruda approved in 30+ indications by 2024 vs Opdivo ~15"
+          - "Keytruda 2023 revenue ~$25B; Opdivo ~$9B despite comparable potency"
+          - "KEYNOTE-189 (NSCLC + chemo combo), KEYNOTE-426 (RCC), KEYNOTE-048 (H&N), etc."
+        limitations:
+          - "Only applies to pan-tumor mechanisms; narrow mechanisms can't expand"
+          - "Trial execution costs scale linearly with indications — requires deep pockets"
+          - "Competitor fast-follows on best indications erode share even in pan-tumor classes"
+        applicable_contexts:
+          - "Checkpoint inhibitor launch planning"
+          - "Any biologic with broad tumor-microenvironment rationale (TGF-β, LAG-3, TIGIT)"
+        applicable_to_landscapes:
+          - "pembrolizumab"
+          - "pd1-pdl1"
+          - "io-oncology"
+        human_reviewed: true
+        reviewed_by: di

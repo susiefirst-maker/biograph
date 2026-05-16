@@ -1,0 +1,39 @@
+drugs:
+  - chembl_id: CHEMBL2108724
+    generic_name: semaglutide
+    claims:
+      - id_slug: semaglutide_franchise_21b_2023
+        statement: "Novo Nordisk's semaglutide franchise (Ozempic + Wegovy + Rybelsus) generated over $21 billion in 2023 revenue, making it one of the top-selling pharmaceutical products globally."
+        language: en
+        claim_type: verified_fact
+        evidence_basis: "Novo Nordisk FY2023 Annual Report segment reporting; Evaluate Pharma top-drug rankings"
+        confidence: high
+        article_slug: novo_annual_2023
+        entities_mentioned: ["Novo Nordisk", "Ozempic", "Wegovy", "Rybelsus", "semaglutide"]
+
+      - id_slug: select_cv_20pct
+        statement: "In the SELECT trial, semaglutide 2.4 mg/week reduced major adverse cardiovascular events by approximately 20% in overweight/obese adults with established cardiovascular disease and without diabetes."
+        language: en
+        claim_type: verified_fact
+        evidence_basis: "Lincoff et al., SELECT primary results, NEJM 2023 (HR 0.80, 95% CI 0.72-0.90, p<0.001)"
+        confidence: high
+        article_slug: select_nejm_2023
+        entities_mentioned: ["Novo Nordisk", "Wegovy", "semaglutide"]
+
+      - id_slug: wegovy_cv_first
+        statement: "Wegovy's March 2024 cardiovascular-risk-reduction approval is the first for any obesity pharmacotherapy, creating a reimbursement pathway through CV indication rather than weight loss alone."
+        language: en
+        claim_type: attributed_analysis
+        evidence_basis: "FDA label expansion 2024-03-08; Medicare Part D obesity-drug exclusion statute (1003.1(C))"
+        confidence: high
+        article_slug: novo_annual_2023
+        entities_mentioned: ["Novo Nordisk", "Wegovy", "FDA", "CMS"]
+
+      - id_slug: tirzepatide_superior_weight
+        statement: "Lilly's tirzepatide (Zepbound) demonstrates superior weight reduction versus semaglutide (SURMOUNT-1: ~22.5% at 72 weeks vs Wegovy STEP-1: ~15%), though head-to-head trial readouts remain pending."
+        language: en
+        claim_type: attributed_analysis
+        evidence_basis: "SURMOUNT-1 (NEJM 2022) vs STEP-1 (NEJM 2021) cross-trial comparison; SURMOUNT-5 head-to-head expected 2025"
+        confidence: medium
+        article_slug: select_nejm_2023
+        entities_mentioned: ["Eli Lilly", "Zepbound", "tirzepatide", "Novo Nordisk", "Wegovy"]

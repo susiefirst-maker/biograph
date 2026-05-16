@@ -1,0 +1,13 @@
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+asyncio_mode = "auto"
+# Session-scoped loops: module-level async engine (app/db.py) is shared
+# across all async tests, so it must live on a loop that outlasts them.
+asyncio_default_fixture_loop_scope = "session"
+asyncio_default_test_loop_scope = "session"
+addopts = "-ra --strict-markers -m 'not live and not integration'"
+markers = [
+    "live: tests that hit external APIs (skipped by default; run with `-m live`)",
+    "integration: tests that spin up a separate database / long-running infra (skipped by default; run with `-m integration`)",
+]

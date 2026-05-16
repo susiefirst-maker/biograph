@@ -1,0 +1,105 @@
+# Curated drug patents.
+#
+# Why this file exists:
+#   USPTO PatentsView API requires a registered key (patentsview.org/terms).
+#   FDA Purple Book lists biologic licensure/exclusivity but NO patents.
+#   FDA Orange Book covers small molecules only — doesn't apply to biologics.
+#   Until PatentsView access is set up, we curate high-confidence patents
+#   here with explicit citations.
+#
+# source_register values (per ADR-0005 PatentSourceRegister enum):
+#   orange_book       — FDA Orange Book (small molecules with patent linkage)
+#   purple_book       — FDA Purple Book (biologics — rarely lists patents directly)
+#   uspto_manual      — manually curated from USPTO records
+#   litigation        — patents surfaced via litigation records
+#   article_citation  — cited in analyst / academic articles
+#
+# When PatentsView access lands (Phase 1 Day 5+), bulk ingest from API
+# takes precedence; curated entries here remain as authoritative anchors.
+
+drugs:
+  - chembl_id: CHEMBL1201580          # adalimumab (Humira)
+    generic_name: adalimumab
+    patents:
+      - patent_number: "6090382"
+        title: "Human antibodies that bind human TNFα"
+        filing_date: "1996-02-09"
+        expiry_date: "2016-12-31"
+        source_register: "uspto_manual"
+        notes: |
+          Core composition-of-matter patent for adalimumab. Filed by Cambridge
+          Antibody Technology + BASF Pharma (Knoll AG) in 1996; acquired by
+          Abbott in 2001 with Knoll acquisition; assigned to AbbVie after the
+          2013 spinoff. Foundational patent anchor of Humira's IP thicket —
+          US expired Dec 2016 (20-year term from priority); EU variant
+          expired 2018. After core expiry, AbbVie's ~247 later-filed patents
+          (90% post-approval) delayed US biosimilar entry to 2023.
+        citations:
+          - "USPTO grant record US6090382, issued 2000-07-18"
+          - "Harvard Petrie-Flom Center, Humira patent landscape analyses"
+          - "I-MAK 'Overpatented, Overpriced' report (2018), Humira appendix"
+          - "AbbVie 10-K filings 2013-2023, Humira patent disclosures"
+
+    # Phase 1 Day 5+ backfill target (tracked for C-option workflow):
+    #   When PatentsView key is set or a Humira patent list (I-MAK appendix,
+    #   Harvard Petrie-Flom list) is pasted here, add entries under the
+    #   `patents:` list above. Natural key on (patent_number, source_register).
+    #   Humira test patent_thicket requires ≥100 entries.
+    patent_backfill_note: |
+      Core patent (US6090382) seeded Phase 1 Day 4. 100+ patent rows needed
+      to unblock test_humira_golden[patent_thicket]. Options:
+        A. Register for PatentsView API (patentsview.org/api-key-request),
+           set PATENTSVIEW_API_KEY in .env, run backfill ingester (Phase 1 Day 5).
+        B. Paste I-MAK Humira patent list / Harvard Petrie-Flom list under
+           this drug's `patents:` array, run seed_phase_0.py to apply.
+
+  - chembl_id: CHEMBL2108724            # semaglutide (Ozempic / Wegovy / Rybelsus)
+    generic_name: semaglutide
+    patents:
+      - patent_number: "8129343"
+        title: "GLP-1 derivatives (semaglutide composition)"
+        filing_date: "2006-03-10"
+        expiry_date: "2033-03-20"
+        source_register: "uspto_manual"
+        notes: |
+          Core composition-of-matter patent for semaglutide (C18
+          diacid fatty acid linker to Lys26 via AEEAc spacer plus
+          Aib8, Arg34 substitutions). Assigned Novo Nordisk A/S.
+          US expiry ~2033; EU and key Asian markets run 2032-2036
+          depending on patent-term extensions and SPCs.
+        citations:
+          - "USPTO grant record US8129343, issued 2012-03-06"
+          - "Novo Nordisk FY2023 Annual Report patent exclusivity disclosure"
+          - "IP-Checkups 'Ozempic patent landscape' analysis, 2023"
+
+      - patent_number: "8536122"
+        title: "Oral semaglutide formulation with SNAC absorption enhancer"
+        filing_date: "2009-04-13"
+        expiry_date: "2031-04-13"
+        source_register: "uspto_manual"
+        notes: |
+          Rybelsus formulation patent combining semaglutide with SNAC
+          (sodium N-(8-(2-hydroxybenzoyl)amino)caprylate) permeation
+          enhancer licensed, then acquired, from Emisphere Technologies.
+          Underpins the first oral GLP-1 RA.
+        citations:
+          - "USPTO grant record US8536122, issued 2013-09-17"
+          - "Novo Nordisk acquisition of Emisphere Technologies, 2020"
+
+  - chembl_id: CHEMBL3137343            # pembrolizumab (Keytruda)
+    generic_name: pembrolizumab
+    patents:
+      - patent_number: "8354509"
+        title: "Antibodies to human programmed death receptor PD-1"
+        filing_date: "2007-06-19"
+        expiry_date: "2028-06-19"
+        source_register: "uspto_manual"
+        notes: |
+          Core composition-of-matter patent for pembrolizumab.
+          Originally assigned to Organon BioSciences; transferred to
+          Schering-Plough (2007) then Merck (2009) via successive
+          acquisitions. Expires June 2028 (20-year term from priority),
+          making 2028 Merck's primary IV Keytruda patent cliff.
+        citations:
+          - "USPTO grant record US8354509"
+          - "Merck FY2023 10-K — patent exclusivity disclosures"

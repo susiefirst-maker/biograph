@@ -1,0 +1,493 @@
+# ADC (Antibody-Drug Conjugates) — curated T1 landscape.
+#
+# §7.4.6 priority #4. Fourth curated landscape. Modality class (not
+# disease). Bridge to HER2 and oncology landscapes via T-DXd.
+# Explosive commercial momentum post-2019 (DESTINY-Breast readouts);
+# Seagen / Pfizer 2023 $43B acquisition was the defining M&A event.
+
+slug: adc
+display_name: "ADC (Antibody-Drug Conjugates)"
+display_name_zh: "ADC(抗体偶联药物)"
+quality_tier: T1_CURATED
+last_curated_at: "2026-04-21"
+human_reviewed: true
+
+aliases:
+  - ADC
+  - antibody-drug conjugate
+  - antibody drug conjugate
+  - antibody-drug conjugates
+  - 抗体偶联药物
+  - 抗体偶联
+  - ADCs
+
+mesh_id: D061067    # Immunoconjugates
+
+disease_overview: |
+  Antibody-drug conjugates (ADCs) couple tumor-targeting monoclonal
+  antibodies with cytotoxic small-molecule payloads via a chemical
+  linker, delivering highly potent chemotherapy to antigen-expressing
+  cells while sparing normal tissue. The architecture was proposed
+  by Paul Ehrlich as the "magic bullet" concept in the early 1900s;
+  the first clinical-grade ADC (gemtuzumab ozogamicin, Mylotarg)
+  reached FDA in 2000, was withdrawn in 2010 over safety + efficacy
+  concerns, and was re-approved in 2017 with a reworked dose. The
+  modality's current explosive momentum dates to 2019 — the
+  approvals of trastuzumab deruxtecan (Enhertu, Daiichi Sankyo /
+  AstraZeneca), enfortumab vedotin (Padcev, Astellas / Seagen /
+  Pfizer), and polatuzumab vedotin (Polivy, Roche) all within six
+  months.
+
+  By 2025 there are 14+ FDA-approved ADCs across hematologic and
+  solid-tumor indications. The defining 2022 readout was DESTINY-
+  Breast04: T-DXd cut risk of progression by 50% vs physician's
+  choice chemotherapy in HER2-low breast cancer — creating an
+  entirely new diagnostic category (IHC 1+ or 2+/ISH-) and
+  roughly doubling the addressable population of HER2-directed
+  therapy. T-DXd followed in 2023 with DESTINY-Breast06 extending
+  to HER2-ultralow and in 2024 with DESTINY-Lung04 in NSCLC.
+
+  Pfizer's 2023 $43 billion acquisition of Seagen consolidated
+  four approved ADCs (Adcetris, Padcev, Tivdak, Tukysa-partnered)
+  and the industry's deepest linker/payload platform — the largest
+  ADC-driven M&A deal to date. The Chinese ADC pipeline has
+  exploded in parallel, with DualityBio, Innovent, Junshi, and
+  RemeGen driving a wave of large out-licensing deals (DualityBio
+  / BioNTech $1.5B 2023; DualityBio / GSK $1.5B 2024). Linker-
+  payload chemistry is iterating fast — DM1/DM4 maytansinoids and
+  MMAE/MMAF auristatins dominated 2011-2019; topoisomerase I
+  inhibitor payloads (deruxtecan / exatecan / SN-38) dominate
+  2019-present.
+
+disease_overview_zh: |
+  抗体偶联药物(ADC)通过化学连接体将肿瘤靶向单克隆抗体与高效
+  细胞毒小分子载荷偶联,向表达特定抗原的细胞精准递送化疗药物,
+  同时减少正常组织毒性。该架构最早由Paul Ehrlich在20世纪初提
+  出"魔法子弹"概念;首个临床级ADC(gemtuzumab ozogamicin,
+  Mylotarg)于2000年获FDA批准,2010年因安全性和有效性问题撤
+  市,2017年以修订剂量重新获批。该模态当前的爆发式增长始于
+  2019年 — 曲妥珠单抗德鲁替康(Enhertu,第一三共/阿斯利康)、
+  恩沛妥珠单抗维多汀(Padcev,Astellas/Seagen/辉瑞)、博纳吐
+  单抗维多汀(Polivy,罗氏)均在六个月内相继获批。
+
+  截至2025年,FDA已批准14种以上ADC,涵盖血液肿瘤和实体瘤适
+  应症。2022年DESTINY-Breast04是里程碑数据:T-DXd在HER2低表
+  达乳腺癌中较医生选择的化疗将进展风险降低50%,由此开辟全新
+  诊断类别(IHC 1+或2+/ISH-),HER2靶向治疗的潜在适用人群扩
+  大约一倍。T-DXd在2023年DESTINY-Breast06中进一步延伸至
+  HER2超低表达,2024年DESTINY-Lung04拓展至非小细胞肺癌。
+
+  辉瑞2023年以430亿美元收购Seagen,整合了四个已获批ADC
+  (Adcetris、Padcev、Tivdak、合作Tukysa)以及业内最深厚的
+  连接体-载荷平台 — 这是迄今为止最大的ADC驱动型并购交易。
+  与此同时,中国ADC管线同步爆发,DualityBio、信达、君实、
+  荣昌等驱动了一波大额对外授权交易(DualityBio/BioNTech
+  2023年15亿美元、DualityBio/GSK 2024年15亿美元)。连接体-
+  载荷化学快速迭代 — DM1/DM4美登素类和MMAE/MMAF奥瑞他汀类
+  在2011-2019年占主导,拓扑异构酶I抑制剂载荷(deruxtecan /
+  exatecan / SN-38)在2019年至今占主导。
+
+mechanism_map:
+  - class: "Maytansinoid payload (DM1 / DM4)"
+    class_zh: "美登素类载荷(DM1 / DM4)"
+    drugs:
+      - name: trastuzumab emtansine (Kadcyla)
+        status: approved
+        company: Roche / Genentech
+        approval_date: "2013-02-22"
+      - name: mirvetuximab soravtansine (Elahere)
+        status: approved
+        company: ImmunoGen / AbbVie
+        approval_date: "2022-11-14"
+
+  - class: "Auristatin payload (MMAE / MMAF)"
+    class_zh: "奥瑞他汀类载荷(MMAE / MMAF)"
+    drugs:
+      - name: brentuximab vedotin (Adcetris)
+        status: approved
+        company: Seagen / Takeda / Pfizer
+        approval_date: "2011-08-19"
+      - name: polatuzumab vedotin (Polivy)
+        status: approved
+        company: Roche / Genentech
+        approval_date: "2019-06-10"
+      - name: enfortumab vedotin (Padcev)
+        status: approved
+        company: Astellas / Seagen / Pfizer
+        approval_date: "2019-12-18"
+      - name: tisotumab vedotin (Tivdak)
+        status: approved
+        company: Seagen / Genmab / Pfizer
+        approval_date: "2021-09-20"
+      - name: disitamab vedotin (Aidixi)
+        status: approved
+        company: RemeGen
+        approval_date: "2021-06-08"
+
+  - class: "Calicheamicin payload"
+    class_zh: "卡奇霉素类载荷"
+    drugs:
+      - name: gemtuzumab ozogamicin (Mylotarg)
+        status: approved
+        company: Pfizer
+        approval_date: "2017-09-01"
+      - name: inotuzumab ozogamicin (Besponsa)
+        status: approved
+        company: Pfizer
+        approval_date: "2017-08-17"
+
+  - class: "Topoisomerase I inhibitor payload (deruxtecan / exatecan / SN-38)"
+    class_zh: "拓扑异构酶I抑制剂载荷(deruxtecan / exatecan / SN-38)"
+    drugs:
+      - name: trastuzumab deruxtecan (Enhertu)
+        status: approved
+        company: Daiichi Sankyo / AstraZeneca
+        approval_date: "2019-12-20"
+      - name: sacituzumab govitecan (Trodelvy)
+        status: approved
+        company: Gilead Sciences
+        approval_date: "2020-04-22"
+      - name: datopotamab deruxtecan (Datroway)
+        status: approved
+        company: Daiichi Sankyo / AstraZeneca
+        approval_date: "2025-01-17"
+
+  - class: "PBD payload (pyrrolobenzodiazepine)"
+    class_zh: "PBD 载荷(吡咯并苯二氮卓)"
+    drugs:
+      - name: loncastuximab tesirine (Zynlonta)
+        status: approved
+        company: ADC Therapeutics
+        approval_date: "2021-04-23"
+
+  - class: "Next-generation payload (TOP1i/TOP2i dual, STING agonist)"
+    class_zh: "下一代载荷(TOP1i/TOP2i 双作用、STING 激动剂)"
+    drugs:
+      - name: raludotatug deruxtecan
+        status: phase_2
+        company: Daiichi Sankyo / AstraZeneca
+      - name: ifinatamab deruxtecan
+        status: phase_3
+        company: Daiichi Sankyo / AstraZeneca
+
+pipeline:
+  approved:
+    - trastuzumab deruxtecan / Enhertu (Daiichi Sankyo / AstraZeneca)
+    - trastuzumab emtansine / Kadcyla (Roche)
+    - sacituzumab govitecan / Trodelvy (Gilead)
+    - datopotamab deruxtecan / Datroway (Daiichi / AZ)
+    - enfortumab vedotin / Padcev (Astellas / Pfizer)
+    - brentuximab vedotin / Adcetris (Pfizer)
+    - polatuzumab vedotin / Polivy (Roche)
+    - tisotumab vedotin / Tivdak (Pfizer / Genmab)
+    - disitamab vedotin / Aidixi (RemeGen)
+    - gemtuzumab ozogamicin / Mylotarg (Pfizer)
+    - inotuzumab ozogamicin / Besponsa (Pfizer)
+    - mirvetuximab soravtansine / Elahere (AbbVie)
+    - loncastuximab tesirine / Zynlonta (ADC Therapeutics)
+  phase_3:
+    - ifinatamab deruxtecan (Daiichi / AZ)
+    - patritumab deruxtecan (Daiichi / AZ)
+    - sacituzumab tirumotecan (Merck-licensed from Kelun)
+    - BNT323 / DualityBio-BioNTech HER2
+    - GSK5764227 / HS-20093 (DualityBio / GSK B7-H3 ADC)
+  phase_2:
+    - dozens of Chinese-originator ADCs in varied targets (CEACAM5, CLDN18.2, B7-H3, Nectin-4 follow-ons)
+    - raludotatug deruxtecan (CDH6, Daiichi / AZ)
+  phase_1:
+    - first-in-human STING-agonist payload ADCs
+    - dual-payload ADCs
+  failed:
+    - depatuxizumab mafodotin (AbbVie, EGFRvIII glioblastoma, Phase 3 failed 2019)
+    - belantamab mafodotin (GSK, BCMA MM, Phase 3 DREAMM-3 missed primary 2022; re-reviewed 2024)
+
+failed_trials:
+  - "INTELLANCE-1 (depatuxizumab mafodotin, AbbVie, 2019) — EGFRvIII glioblastoma Phase 3 stopped at interim; terminated the program"
+  - "DREAMM-3 (belantamab mafodotin, GSK, 2022) — missed PFS primary; accelerated approval withdrawn; re-entered review with DREAMM-7/-8 2024"
+  - "TUXEDO-3 concerns — Enhertu ILD signal (~10-15% any-grade incidence, 1-2% Grade ≥3) remains a monitoring burden"
+
+companies:
+  - name: AstraZeneca
+    ticker: AZN
+    role: "Enhertu + Datroway co-commercialized with Daiichi; anchor ADC franchise via 2019 + 2020 Daiichi deals (~$6.9B + $6B upfront-plus-milestone)"
+  - name: Daiichi Sankyo
+    ticker: 4568.T
+    role: "Enhertu originator; deepest TOP1i / exatecan payload platform globally; 7 ADCs in Phase 2/3"
+  - name: Pfizer
+    ticker: PFE
+    role: "Seagen acquisition 2023 ($43B) — consolidated Adcetris + Padcev + Tivdak + Tukysa-partnered; now largest ADC vendor by approved-count"
+  - name: Roche / Genentech
+    ticker: RHHBY
+    role: "Kadcyla (first HER2 ADC) + Polivy; investing in next-gen payload R&D internally"
+  - name: Gilead Sciences
+    ticker: GILD
+    role: "Trodelvy (sacituzumab govitecan) via Immunomedics 2020 $21B acquisition; TROP2 franchise"
+  - name: AbbVie
+    ticker: ABBV
+    role: "Elahere via ImmunoGen 2023 acquisition ($10B); ovarian-cancer franchise"
+  - name: Astellas
+    ticker: 4503.T
+    role: "Padcev co-commercialization (with Pfizer/Seagen); major Japanese ADC partner"
+  - name: Genmab
+    ticker: GMAB
+    role: "Tivdak co-originator with Seagen; HexaBody platform for next-gen bispecific ADCs"
+  - name: ImmunoGen (acquired by AbbVie 2023)
+    role: "FRα Elahere originator; maytansinoid payload platform"
+  - name: DualityBio
+    role: "Chinese ADC platform — $1.5B BioNTech deal 2023 + $1.5B GSK deal 2024 = pattern-setting Chinese out-licensing"
+  - name: RemeGen
+    ticker: 9995.HK
+    role: "Disitamab vedotin / Aidixi China + Seagen 2021 ex-China licensing deal"
+
+key_trials:
+  - name: "DESTINY-Breast01"
+    drug: trastuzumab deruxtecan
+    sponsor: Daiichi Sankyo / AstraZeneca
+    phase: phase_2
+    status: met_primary
+    significance: "Single-arm 184-patient heavily-pretreated HER2+ metastatic breast; 60.9% ORR. Basis for 2019 accelerated approval"
+  - name: "DESTINY-Breast03"
+    drug: trastuzumab deruxtecan vs trastuzumab emtansine
+    sponsor: Daiichi Sankyo / AstraZeneca
+    phase: phase_3
+    status: met_primary
+    significance: "Head-to-head win vs Kadcyla in HER2+ 2L metastatic BC — superseded Kadcyla as standard of care"
+  - name: "DESTINY-Breast04"
+    drug: trastuzumab deruxtecan
+    sponsor: Daiichi Sankyo / AstraZeneca
+    phase: phase_3
+    status: met_primary
+    significance: "Created HER2-low category (IHC 1+ or 2+/ISH-); reduced risk of progression 50% vs chemo. Paradigm shift 2022"
+  - name: "DESTINY-Breast06"
+    drug: trastuzumab deruxtecan
+    sponsor: Daiichi Sankyo / AstraZeneca
+    phase: phase_3
+    status: met_primary
+    significance: "Extended to HER2-ultralow (IHC 0 with membrane staining); further expanded addressable population 2023"
+  - name: "ASCENT"
+    drug: sacituzumab govitecan
+    sponsor: Gilead (Immunomedics)
+    phase: phase_3
+    status: met_primary
+    significance: "Trodelvy approval in metastatic TNBC 2020 — established TROP2 ADC class"
+  - name: "EV-301"
+    drug: enfortumab vedotin
+    sponsor: Astellas / Seagen
+    phase: phase_3
+    status: met_primary
+    significance: "Padcev full approval urothelial post-platinum+IO 2021"
+  - name: "EV-302"
+    drug: enfortumab vedotin + pembrolizumab
+    sponsor: Astellas / Seagen / Merck
+    phase: phase_3
+    status: met_primary
+    significance: "First-line urothelial EV+pembro beat chemo 2023 — first chemotherapy-free standard for advanced UC"
+  - name: "TROPION-Breast01"
+    drug: datopotamab deruxtecan
+    sponsor: Daiichi Sankyo / AstraZeneca
+    phase: phase_3
+    status: met_primary
+    significance: "Datroway PFS win in HR+/HER2- metastatic BC; led to 2025 approval"
+
+scientific_bottlenecks:
+  - "Interstitial lung disease (ILD) — ~10-15% any-grade with T-DXd, 1-2% Grade ≥3; mechanism unclear; requires rigorous monitoring + dose-reduction algorithms"
+  - "On-target off-tumor toxicity — payloads are ultra-potent; low-level target expression on normal tissue (e.g., TROP2 in skin, epithelia) drives mucositis / diarrhea / neutropenia"
+  - "Linker stability in circulation — premature payload release before internalization causes systemic toxicity; cleavable vs non-cleavable tradeoff not solved"
+  - "Manufacturing complexity — 3-step synthesis (antibody + linker + payload), low DAR heterogeneity control, QC is expensive; COGS roughly 2-4x a naked antibody"
+  - "Bystander-effect double-edge — membrane-permeable payloads kill neighboring antigen-negative cells (efficacy benefit) but also spread toxicity"
+  - "Target antigen heterogeneity — tumor ~20-40% of cells often express target; payload potency + bystander have to overcome that"
+
+market_dynamics: |
+  Global ADC market crossed $10 billion in 2023 and is projected to
+  exceed $50 billion by 2030 per analyst consensus. Enhertu alone
+  reached ~$3.8 billion in 2024 with trajectory to $10-12 billion
+  peak; Padcev reached ~$1.6 billion; Trodelvy ~$1.3 billion. The
+  2023 Pfizer-Seagen $43 billion acquisition (~4x Seagen 2022
+  revenue) was the largest ADC-driven M&A deal and repriced the
+  entire ADC M&A market — AbbVie-ImmunoGen $10B (2023), Merck-Kelun
+  $1.4B upfront + $9.3B milestones (2022) followed at premium
+  multiples. Chinese out-licensing has become the dominant
+  partnership structure: DualityBio-BioNTech $1.5B 2023,
+  DualityBio-GSK $1.5B 2024, LaNova-Merck $590M 2024.
+
+regulatory_context: |
+  FDA accelerated approval pathway used heavily in 2019-2023 ADC
+  wave; Project ODAC confirmatory-data tightening has pulled some
+  early accelerated approvals (blinatumomab-comparator confusion,
+  Mylotarg 2010 withdrawal historical precedent). T-DXd's HER2-low
+  label expansion required FDA to essentially re-categorize HER2
+  diagnostics — the 2022 label change was the biggest companion-
+  diagnostic redefinition since HER2 itself in 1998. ILD guidance
+  updated 2023 with class-specific monitoring requirements. FDA is
+  signaling heightened scrutiny of Chinese single-region pivotal
+  data post-sintilimab 2022 (PD-1) rejection; multi-region trials
+  are now the safer path for Chinese-originator ADCs seeking US
+  approval.
+
+hot_targets:
+  - gene_symbol: ERBB2
+    name: "HER2 (ERBB2)"
+    rationale: "Dominant validated ADC target — T-DXd, Kadcyla, disitamab, BNT323. HER2-low redefinition (2022) expanded addressable population ~2x"
+  - gene_symbol: TACSTD2
+    name: "TROP2 (TACSTD2)"
+    rationale: "Trodelvy + Datroway + sacituzumab tirumotecan + multiple Chinese programs; broad epithelial-tumor expression"
+  - gene_symbol: NECTIN4
+    name: "Nectin-4"
+    rationale: "Padcev urothelial + follow-ons; head & neck + other epithelial extensions in development"
+  - gene_symbol: FOLR1
+    name: "FRα (Folate receptor alpha)"
+    rationale: "Elahere ovarian; companion diagnostic required (IHC 75% ≥2+)"
+  - gene_symbol: TNFRSF8
+    name: "CD30 (TNFRSF8)"
+    rationale: "Adcetris Hodgkin + T-cell lymphoma; first successful non-HER2 solid-tumor-adjacent ADC target"
+  - gene_symbol: CD276
+    name: "B7-H3 (CD276)"
+    rationale: "Broad solid-tumor expression; DualityBio-GSK HS-20093 + Macrogenics + multiple Phase 2 programs"
+  - gene_symbol: CLDN18
+    name: "Claudin 18.2"
+    rationale: "Gastric + pancreatic; zolbetuximab (naked mAb, approved 2024) + multiple Chinese ADC programs in Phase 2"
+
+literature:
+  - pmid: "31825192"
+    title: "Trastuzumab Deruxtecan in Previously Treated HER2-Positive Breast Cancer (DESTINY-Breast01)"
+    authors: "Modi S et al."
+    journal: "N Engl J Med"
+    year: 2020
+  - pmid: "35671349"
+    title: "Trastuzumab Deruxtecan in Previously Treated HER2-Low Advanced Breast Cancer (DESTINY-Breast04)"
+    authors: "Modi S et al."
+    journal: "N Engl J Med"
+    year: 2022
+  - pmid: "34437634"
+    title: "Enfortumab Vedotin in Previously Treated Advanced Urothelial Carcinoma (EV-301)"
+    authors: "Powles T et al."
+    journal: "N Engl J Med"
+    year: 2021
+  - pmid: "33528086"
+    title: "Sacituzumab Govitecan in Metastatic Triple-Negative Breast Cancer (ASCENT)"
+    authors: "Bardia A et al."
+    journal: "N Engl J Med"
+    year: 2021
+
+articles:
+  - title: "FDA approves fam-trastuzumab deruxtecan-nxki for HER2-low breast cancer"
+    source_name: "FDA"
+    source_type: press_release
+    language: en
+    publish_date: "2022-08-05"
+    url: "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-fam-trastuzumab-deruxtecan-nxki-her2-low-breast-cancer"
+  - title: "中国ADC出海年:2024年DualityBio/GSK交易解读"
+    source_name: "医药魔方"
+    source_type: wechat_gongzhonghao
+    language: zh
+    publish_date: "2024-11-20"
+    url: "https://mp.weixin.qq.com/s/china-adc-licensing-2024"
+  - title: "Pfizer Completes Acquisition of Seagen"
+    source_name: "BioPharma Dive"
+    source_type: news
+    language: en
+    publish_date: "2023-12-14"
+    url: "https://www.biopharmadive.com/news/pfizer-seagen-acquisition-closes-december-2023/"
+
+lessons:
+  - title: "Companion-Diagnostic Redefinition as a Market-Expansion Moat"
+    title_zh: "通过伴随诊断重新定义来扩大市场的护城河"
+    lesson_type: strategic_commercial
+    pattern: |
+      When a therapy's efficacy extends beyond the historical
+      biomarker cutoff used to define its eligible population,
+      working with regulators to formally redefine the diagnostic
+      category can double or triple the addressable market without
+      requiring a new molecule. Enhertu's 2022 HER2-low expansion
+      (IHC 1+ or 2+/ISH-) didn't just add patients — it
+      operationally created a new category that every HER2
+      diagnostic had to support, entrenching Enhertu's incumbent
+      position. Sponsors who invest in the diagnostic redefinition
+      capture category-definition benefit beyond molecule-level
+      differentiation.
+    key_evidence:
+      - "HER2+ breast cancer prevalence ~15-20%; HER2-low adds ~40-50% → total addressable roughly doubles"
+      - "T-DXd HER2-low sales segment from 2022 approval → $1B+ by 2024"
+      - "FDA HER2 scoring guidance updated 2023 to formalize HER2-low; all IHC vendors had to re-validate"
+      - "Kadcyla (HER2+ only) did not follow — failed DESTINY-Breast03 head-to-head, left the expansion to Enhertu"
+    limitations:
+      - "Requires a therapy with real activity below the historical threshold — this is mechanism-dependent"
+      - "Diagnostic redefinition is a 3-5 year regulatory effort; small sponsors can't lead this alone"
+      - "Concentrates revenue on one molecule; follow-on entrants face a recategorized bar, not an incremental one"
+    applicable_contexts:
+      - "ADC programs targeting well-known biomarkers (HER2, TROP2, FRα)"
+      - "Any therapeutic area with graded biomarker expression and historical binary cutoffs"
+      - "Commercial strategy discussions for potential label expansions"
+    applicable_to_landscapes:
+      - adc
+      - her2
+      - oncology-biomarkers
+    human_reviewed: true
+    reviewed_by: di
+
+  - title: "Payload-Generation Compounding Rewards Platform Depth Over Single-Asset Focus"
+    title_zh: "载荷代际的复利优势回报于平台深度而非单一资产"
+    lesson_type: scientific_mechanistic
+    pattern: |
+      ADC commercial leaders own the payload platform, not the
+      single molecule. The DM1 → MMAE → exatecan/deruxtecan
+      progression shows each payload generation widens the
+      therapeutic window by 2-3x and addresses previous-generation
+      limitations (bystander effect, stability, toxicity).
+      Daiichi's exatecan-derived deruxtecan platform now supports
+      Enhertu, Datroway, patritumab deruxtecan, ifinatamab
+      deruxtecan, raludotatug deruxtecan — five ADCs from one
+      chemistry. Sponsors with a single-asset strategy can win a
+      molecule but lose the franchise.
+    key_evidence:
+      - "Daiichi deruxtecan platform: 7 ADCs in Phase 2/3 as of 2025"
+      - "AstraZeneca paid $6.9B + $6B milestones to Daiichi for exclusive ex-Japan rights — priced the platform, not molecules"
+      - "Pfizer-Seagen $43B = platform price for linker/payload + target-discovery + 4 approved assets"
+      - "ImmunoGen (maytansinoid platform) → AbbVie $10B 2023; single-payload franchise valued at ~25% of Seagen's multi-payload one"
+    limitations:
+      - "Payload platform investment is $500M-$2B cumulative R&D over 10+ years — only realistic for top-20 pharmas or platform-focused biotechs"
+      - "Next-generation payloads (STING agonists, dual-payload, immune-modulator) still early — any platform may become obsolete"
+      - "China-originator platforms are iterating faster than some Western sponsors — competitive advantage time-limited"
+    applicable_contexts:
+      - "ADC sponsor strategy — platform vs single-asset"
+      - "Pharma M&A valuation of ADC targets (Seagen, ImmunoGen, DualityBio-style platforms)"
+      - "China ADC outbound-licensing terms structuring"
+    applicable_to_landscapes:
+      - adc
+      - peptide-therapeutics
+    human_reviewed: true
+    reviewed_by: di
+
+  - title: "Chinese Out-Licensing as the Dominant ADC Deal Structure Post-2023"
+    title_zh: "中国对外授权作为2023年后ADC领域主导的交易结构"
+    lesson_type: market_access_pricing
+    pattern: |
+      Chinese biotechs have shifted from direct commercialization
+      ambitions to upfront-plus-milestone out-licensing as the
+      economically rational way to monetize early-stage ADC assets.
+      The DualityBio-BioNTech 2023 and DualityBio-GSK 2024 deals
+      (both $1.5B total) set the template: $150-300M upfront,
+      $1-1.3B milestones, split ex-China rights. Western buyers
+      get de-risked Phase 2 assets at fraction of internal R&D
+      cost; Chinese biotechs get non-dilutive capital without the
+      regulatory + commercial cost of ex-China launch. The model
+      works because Chinese Phase 1-2 execution is fast and costs
+      are 40-60% below Western benchmarks.
+    key_evidence:
+      - "DualityBio-BioNTech HER2 ADC (BNT323), 2023 — $170M upfront + $1.3B milestones"
+      - "DualityBio-GSK B7-H3 ADC (HS-20093), 2024 — $1.5B total"
+      - "LaNova-Merck PD-1×VEGF ADC, 2024 — $590M; similar structure"
+      - "Merck-Kelun 2022 — $1.4B upfront + $9.3B milestones for three ADC candidates"
+    limitations:
+      - "FDA has raised the bar on single-region Chinese pivotal data post-sintilimab (PD-1, 2022)"
+      - "Western ADC target space is crowded; low-differentiation Chinese programs face tougher deal terms"
+      - "Deal heat cooled in 2024 vs 2023 peak; future deals likely at lower multiples"
+    applicable_contexts:
+      - "Chinese biotech business development strategy"
+      - "Western BD evaluation of China-originator ADC assets"
+      - "ADC competitive-landscape analysis at the deal-flow level"
+    applicable_to_landscapes:
+      - adc
+      - china-pharma
+    human_reviewed: true
+    reviewed_by: di

@@ -1,0 +1,506 @@
+# CAR-T / Cell Therapy — curated T1 landscape.
+#
+# §7.4.6 priority #5. Sixth curated landscape. Modality class
+# standalone from the antibody / small-molecule ecosystem — different
+# supply-chain, different economics, different regulatory framework.
+# Seven approved autologous products as of 2025; allogeneic still
+# unproven at commercial scale.
+
+slug: car-t
+display_name: "CAR-T / Cell Therapy"
+display_name_zh: "CAR-T / 细胞治疗"
+quality_tier: T1_CURATED
+last_curated_at: "2026-04-21"
+human_reviewed: true
+
+aliases:
+  - CAR-T
+  - CAR T
+  - CART
+  - chimeric antigen receptor
+  - chimeric antigen receptor T cell
+  - cell therapy
+  - autologous cell therapy
+  - adoptive cell therapy
+  - CAR-T 细胞治疗
+  - 嵌合抗原受体 T 细胞
+  - 细胞治疗
+
+mesh_id: D000074324    # Receptors, Chimeric Antigen
+
+disease_overview: |
+  Chimeric antigen receptor (CAR) T-cell therapy reprograms a
+  patient's own T-cells ex vivo to recognize and kill tumor cells
+  expressing a chosen surface antigen. The approach originated at
+  Memorial Sloan Kettering (Michel Sadelain) and UPenn (Carl June)
+  across the 2000s-2010s; the watershed was a 2011 NEJM case
+  report of sustained complete remission in chronic lymphocytic
+  leukemia after anti-CD19 CAR-T. Novartis's tisagenlecleucel
+  (Kymriah) became the first FDA-approved cell therapy in August
+  2017 for pediatric relapsed/refractory B-ALL, followed within
+  weeks by Kite's axicabtagene ciloleucel (Yescarta) in diffuse
+  large B-cell lymphoma.
+
+  By 2025 seven autologous CAR-T products are FDA-approved: five
+  targeting CD19 (Kymriah, Yescarta, Tecartus, Breyanzi, Aucatzyl)
+  and two targeting BCMA (Abecma, Carvykti). Indications span
+  B-ALL, diffuse large B-cell lymphoma, mantle cell lymphoma, CLL,
+  follicular lymphoma, and multiple myeloma. Cilta-cel (Carvykti,
+  Legend / J&J) is the fastest-ramping with ~$1B trajectory in
+  2024 driven by CARTITUDE-4 (2L MM) approval. Second-generation
+  autologous constructs are iterating on scFv affinity, co-
+  stimulatory domains (4-1BB vs CD28), vector backbone (lentiviral
+  vs retroviral), and manufacturing turnaround.
+
+  The defining operational challenge remains vein-to-vein time
+  (3-6 weeks from apheresis to infusion), manufacturing failure
+  rate (~5-10%), and a $400-500k list price per infusion that only
+  ~150 certified centers globally can administer. The FDA's January
+  2024 class-wide boxed warning for secondary T-cell malignancies
+  (T-NHL / T-ALL cases post-CAR-T) reframed the benefit-risk
+  calculation and triggered 15-year patient registries. Allogeneic
+  ("off-the-shelf") CAR-T programs (Allogene ALLO-501, Caribou
+  Biosciences, Poseida) are the next frontier but remain
+  commercially unproven — durability lags autologous in published
+  data as of 2025.
+
+disease_overview_zh: |
+  嵌合抗原受体(CAR)T细胞治疗将患者自身的T细胞在体外重新编程,
+  使其识别并杀伤表达特定表面抗原的肿瘤细胞。该方法由Memorial
+  Sloan Kettering的Michel Sadelain以及UPenn的Carl June在2000-
+  2010年代开创;分水岭是2011年《新英格兰医学杂志》发表的抗CD19
+  CAR-T治疗慢性淋巴细胞白血病实现持续完全缓解的病例报告。2017
+  年8月,诺华的替沙仑赛(Kymriah)成为FDA批准的首个细胞治疗,
+  用于儿童复发/难治B-ALL;Kite的阿基仑赛(Yescarta)随后数周
+  内获批,用于弥漫大B细胞淋巴瘤。
+
+  到2025年,FDA已批准7款自体CAR-T产品:五款靶向CD19
+  (Kymriah、Yescarta、Tecartus、Breyanzi、Aucatzyl),两款靶
+  向BCMA(Abecma、Carvykti)。适应症涵盖B-ALL、弥漫大B细胞
+  淋巴瘤、套细胞淋巴瘤、CLL、滤泡性淋巴瘤和多发性骨髓瘤。
+  Cilta-cel(Carvykti,传奇生物/强生)增长最快,2024年销售
+  轨迹约10亿美元,由CARTITUDE-4(二线MM)获批驱动。第二代自
+  体构建在scFv亲和力、共刺激结构域(4-1BB与CD28)、载体骨架
+  (慢病毒vs逆转录病毒)以及生产周转方面持续迭代。
+
+  决定性的运营挑战仍是"静脉到静脉"时间(采集至回输3-6周)、
+  生产失败率(约5-10%),以及每次输注40-50万美元的标价 —
+  全球仅约150个认证中心能够实施。FDA 2024年1月对整个类别发布
+  的继发性T细胞恶性肿瘤黑框警告(CAR-T治疗后发生T-NHL/T-ALL
+  的病例)重新定义了风险收益评估,并触发了15年患者登记要求。
+  异体("即用型")CAR-T项目(Allogene ALLO-501、Caribou
+  Biosciences、Poseida)是下一个前沿,但截至2025年商业上仍未
+  被证明 — 已发表数据显示持久性仍落后于自体产品。
+
+mechanism_map:
+  - class: "CD19 CAR-T (autologous)"
+    class_zh: "CD19 CAR-T(自体)"
+    drugs:
+      - name: tisagenlecleucel (Kymriah)
+        status: approved
+        company: Novartis
+        approval_date: "2017-08-30"
+      - name: axicabtagene ciloleucel (Yescarta)
+        status: approved
+        company: Kite / Gilead
+        approval_date: "2017-10-18"
+      - name: brexucabtagene autoleucel (Tecartus)
+        status: approved
+        company: Kite / Gilead
+        approval_date: "2020-07-24"
+      - name: lisocabtagene maraleucel (Breyanzi)
+        status: approved
+        company: Bristol-Myers Squibb (Juno)
+        approval_date: "2021-02-05"
+      - name: obecabtagene autoleucel (Aucatzyl)
+        status: approved
+        company: Autolus Therapeutics
+        approval_date: "2024-11-08"
+
+  - class: "BCMA CAR-T (autologous, multiple myeloma)"
+    class_zh: "BCMA CAR-T(自体,多发性骨髓瘤)"
+    drugs:
+      - name: idecabtagene vicleucel (Abecma)
+        status: approved
+        company: BMS / 2seventy bio (formerly bluebird)
+        approval_date: "2021-03-26"
+      - name: ciltacabtagene autoleucel (Carvykti)
+        status: approved
+        company: Legend Biotech / J&J
+        approval_date: "2022-02-28"
+
+  - class: "Allogeneic / off-the-shelf CAR-T (developmental)"
+    class_zh: "异体 / 即用型 CAR-T(研发中)"
+    drugs:
+      - name: ALLO-501A
+        status: phase_2
+        company: Allogene Therapeutics
+      - name: CB-010
+        status: phase_2
+        company: Caribou Biosciences
+      - name: P-BCMA-ALLO1
+        status: phase_2
+        company: Poseida Therapeutics
+
+  - class: "GPRC5D / dual-target / next-gen (developmental)"
+    class_zh: "GPRC5D / 双靶 / 下一代(研发中)"
+    drugs:
+      - name: CART-ddBCMA
+        status: phase_2
+        company: Arcellx
+      - name: BMS-986393 (GPRC5D CAR-T)
+        status: phase_3
+        company: Bristol-Myers Squibb / Arcellx
+      - name: equecabtagene autoleucel
+        status: approved
+        company: IASO Bio / Innovent
+        approval_date: "2023-06-30"
+
+  - class: "Chinese-originator CAR-T (domestic approvals)"
+    class_zh: "中国原研 CAR-T(国内获批)"
+    drugs:
+      - name: relmacabtagene autoleucel (Carteyva)
+        status: approved
+        company: JW Therapeutics
+        approval_date: "2021-09-03"
+      - name: zevorcabtagene autoleucel (Zevor-cel)
+        status: approved
+        company: CARsgen Therapeutics
+        approval_date: "2024-02-23"
+
+pipeline:
+  approved:
+    - tisagenlecleucel (Kymriah, Novartis)
+    - axicabtagene ciloleucel (Yescarta, Gilead/Kite)
+    - brexucabtagene autoleucel (Tecartus, Gilead/Kite)
+    - lisocabtagene maraleucel (Breyanzi, BMS)
+    - obecabtagene autoleucel (Aucatzyl, Autolus)
+    - idecabtagene vicleucel (Abecma, BMS/2seventy)
+    - ciltacabtagene autoleucel (Carvykti, Legend/JNJ)
+    - equecabtagene autoleucel (Fucaso, IASO/Innovent, China)
+    - relmacabtagene autoleucel (Carteyva, JW Therapeutics, China)
+    - zevorcabtagene autoleucel (Zevor-cel, CARsgen, China)
+  phase_3:
+    - BMS-986393 (GPRC5D, BMS/Arcellx)
+    - allogeneic follow-ons in specific indications
+  phase_2:
+    - ALLO-501A (Allogene)
+    - CB-010 (Caribou)
+    - P-BCMA-ALLO1 (Poseida)
+    - solid-tumor CAR-T (GD2 in neuroblastoma, mesothelin, CLDN18.2)
+  phase_1:
+    - in-vivo CAR-T (Capstan, Umoja, Orna) — LNP-delivered mRNA
+    - dual-target / switchable / armored CAR constructs
+  failed:
+    - JCAR015 (Juno, 2017) — neurotoxicity deaths halted program
+    - several solid-tumor CAR-T programs (mesothelin PD) paused on low durability
+    - Poseida PBCAR269A shelved 2023 — durability concerns
+
+failed_trials:
+  - "ROCKET (JCAR015, Juno 2017) — cerebral edema fatalities halted Phase 2; catalyzed industry shift to 4-1BB and safer constructs"
+  - "Allogene ALLO-501 chromosomal aberration pause (2021) — FDA clinical hold on gene-edit concerns; resolved but delayed program"
+  - "Multiple solid-tumor CAR-T programs (mesothelin, ROR1) — durability <6 months in ph 1 / 2; not pursued"
+
+companies:
+  - name: Novartis
+    ticker: NVS
+    role: "Kymriah first-in-class 2017; smaller current share than late-entrants due to manufacturing + commercial constraints"
+  - name: Gilead Sciences
+    ticker: GILD
+    role: "Kite acquisition 2017 ($11.9B) brought Yescarta + Tecartus; #2 CAR-T vendor by revenue"
+  - name: Bristol-Myers Squibb
+    ticker: BMY
+    role: "Juno + Celgene mergers brought Breyanzi; bluebird partnership brought Abecma; Arcellx partnership brings BMS-986393 (GPRC5D Phase 3)"
+  - name: Johnson & Johnson
+    ticker: JNJ
+    role: "Carvykti ex-China rights via Legend 2017 deal — fastest-ramping CAR-T; CARTITUDE-4 2L MM 2024 approval"
+  - name: Legend Biotech
+    ticker: LEGN
+    role: "Cilta-cel originator (GenScript spin-off); J&J partnership globally + domestic China rights; first Chinese-originator CAR-T success story"
+  - name: Autolus Therapeutics
+    ticker: AUTL
+    role: "Obe-cel approval 2024 — safer construct (slow-on-fast-off binding kinetics) vs prior CD19 CAR-T"
+  - name: 2seventy bio (ex-bluebird)
+    ticker: TSVT
+    role: "Abecma co-commercialization; struggled post-bluebird split; BMS absorbed operational share 2024"
+  - name: Allogene Therapeutics
+    ticker: ALLO
+    role: "Allogeneic CAR-T leader — ALLO-501A Phase 2; cost-of-goods leader if durability problem solved"
+  - name: Arcellx
+    role: "CART-ddBCMA (BMS partner); Phase 3 2L+ MM; fast-track approach to simpler manufacturing"
+  - name: Caribou Biosciences
+    ticker: CRBU
+    role: "CRISPR-Cas12a edited allogeneic CAR-T; Phase 2 CB-010 DLBCL"
+  - name: Legend / JW Therapeutics / CARsgen / IASO
+    role: "Chinese CAR-T cluster — domestic approvals; outbound-licensing deals in progress"
+
+key_trials:
+  - name: "ELIANA"
+    drug: tisagenlecleucel
+    sponsor: Novartis
+    phase: phase_2
+    status: met_primary
+    significance: "Pediatric R/R B-ALL basis for 2017 Kymriah approval; 81% overall remission"
+  - name: "ZUMA-1"
+    drug: axicabtagene ciloleucel
+    sponsor: Kite / Gilead
+    phase: phase_2
+    status: met_primary
+    significance: "R/R DLBCL ≥3L basis for 2017 Yescarta approval; 83% ORR / 54% CR"
+  - name: "ZUMA-7"
+    drug: axicabtagene ciloleucel vs SOC
+    sponsor: Kite / Gilead
+    phase: phase_3
+    status: met_primary
+    significance: "Moved axi-cel to 2L LBCL (2022) — first CAR-T approved earlier in treatment sequence"
+  - name: "TRANSCEND NHL 001"
+    drug: lisocabtagene maraleucel
+    sponsor: BMS (Juno)
+    phase: phase_1
+    status: met_primary
+    significance: "Breyanzi LBCL approval 2021; differentiated tolerability vs axi-cel"
+  - name: "KarMMa"
+    drug: idecabtagene vicleucel
+    sponsor: BMS / bluebird
+    phase: phase_2
+    status: met_primary
+    significance: "First BCMA CAR-T approval 2021; triple-class R/R MM"
+  - name: "CARTITUDE-1"
+    drug: ciltacabtagene autoleucel
+    sponsor: Legend / J&J
+    phase: phase_1b_2
+    status: met_primary
+    significance: "Cilta-cel MM approval 2022; 83% sCR in heavily pretreated population"
+  - name: "CARTITUDE-4"
+    drug: ciltacabtagene autoleucel
+    sponsor: Legend / J&J
+    phase: phase_3
+    status: met_primary
+    significance: "Cilta-cel 2L+ MM approval 2024 — moved CAR-T upstream in MM treatment paradigm"
+  - name: "KarMMa-3"
+    drug: idecabtagene vicleucel
+    sponsor: BMS
+    phase: phase_3
+    status: met_primary
+    significance: "Ide-cel 3L MM 2024; FDA imposed post-approval access restrictions due to KarMMa-3 OS analysis"
+  - name: "FELIX"
+    drug: obecabtagene autoleucel
+    sponsor: Autolus
+    phase: phase_2
+    status: met_primary
+    significance: "Aucatzyl adult B-ALL approval 2024; differentiated by lower CRS/ICANS rates"
+
+scientific_bottlenecks:
+  - "Vein-to-vein time — 3-6 weeks from apheresis to infusion; during this window patients may progress past eligibility"
+  - "Manufacturing failure rate ~5-10% — apheresis product fails expansion / viability QC; patient waits out another cycle"
+  - "Secondary T-cell malignancies — FDA January 2024 class-wide boxed warning; mechanism not fully understood (integration-site vs lineage-shift vs pre-existing clone)"
+  - "Cytokine release syndrome (CRS) + ICANS neurotoxicity — grade ≥3 CRS 10-40% depending on construct; ICANS 3-25%; tocilizumab and steroid rescue mandatory"
+  - "Cost + access — $400-500k per infusion; ~150 certified centers globally; capacity bottleneck limits TAM independent of demand"
+  - "Solid-tumor hostility — tumor microenvironment (Tregs, MDSCs, checkpoint upregulation) suppresses adoptive T-cells; no approvals in solid tumors after 10+ years of programs"
+  - "Allogeneic durability — 3-6 month response durability in current allo programs vs ~2+ year durability in autologous; host-vs-graft + persistence gaps unsolved"
+
+market_dynamics: |
+  Global CAR-T market reached ~$4 billion in 2023 with Carvykti
+  driving 2024 growth toward ~$1 billion single-product trajectory.
+  Yescarta + Tecartus combined $2.1 billion 2023 (Gilead); Kymriah
+  $508 million; Breyanzi $300M; Abecma $406 million. The commercial
+  profile is unique: high list price ($400-500k), limited certified-
+  site capacity, vein-to-vein bottleneck, and insurance-coverage
+  frictions all cap revenue below what clinical demand would
+  support. M&A: Kite-Gilead 2017 ($11.9B), Celgene-Juno 2018 ($9B),
+  Bristol-Celgene 2019 ($74B) — all priced CAR-T platforms well.
+  Post-2023 Chinese CAR-T pricing at $50-200k / infusion in domestic
+  market is establishing a cost precedent that Western payers
+  eventually leverage. 2024 FDA secondary-T-cell-malignancy boxed
+  warning did not materially reduce uptake but added risk-management
+  overhead to every infusion.
+
+regulatory_context: |
+  FDA's Center for Biologics Evaluation and Research regulates CAR-T
+  as biologics with combined cellular therapy + gene therapy
+  considerations. Each autologous product requires REMS (Risk
+  Evaluation and Mitigation Strategy) program with certified
+  treatment centers only. January 2024 class-wide boxed warning for
+  secondary T-cell malignancies (22 reported cases as of Q4 2023)
+  requires 15-year patient registries and revised patient consent.
+  The FDA has been flexible on single-arm accelerated approvals
+  (ZUMA-1, KarMMa, CARTITUDE-1) but increasingly requires Phase 3
+  confirmatory data (ZUMA-7, CARTITUDE-4) before first-line moves.
+  Chinese NMPA approves CAR-T under parallel framework — equecabtagene
+  + relmacabtagene + zevorcabtagene all approved 2021-2024 domestically.
+  Allogeneic CAR-T faces additional gene-editing disclosure under
+  FDA 2022 guidance.
+
+hot_targets:
+  - gene_symbol: MS4A1
+    name: "CD20"
+    rationale: "Alternative B-cell target; dual CD19/CD20 CAR-T programs under study for relapse post-CD19"
+  - gene_symbol: CD19
+    name: "CD19"
+    rationale: "Dominant validated target — 5 approved CAR-T products (Kymriah, Yescarta, Tecartus, Breyanzi, Aucatzyl)"
+  - gene_symbol: TNFRSF17
+    name: "BCMA (TNFRSF17)"
+    rationale: "Multiple myeloma CAR-T target — Abecma, Carvykti, next-gen programs"
+  - gene_symbol: GPRC5D
+    name: "GPRC5D"
+    rationale: "MM second target post-BCMA; BMS-986393 / Arcellx Phase 3"
+  - gene_symbol: CD22
+    name: "CD22"
+    rationale: "Alternative B-ALL target; dual CD19/CD22 programs address CD19-loss escape"
+  - gene_symbol: B2M
+    name: "B2M (β2-microglobulin)"
+    rationale: "Gene-editing target for allogeneic CAR-T (HLA class I knockout avoids graft rejection)"
+
+literature:
+  - pmid: "21830940"
+    title: "Chimeric antigen receptor-modified T cells in chronic lymphoid leukemia"
+    authors: "Porter DL et al."
+    journal: "N Engl J Med"
+    year: 2011
+  - pmid: "28316309"
+    title: "Tisagenlecleucel in Children and Young Adults with B-Cell Lymphoblastic Leukemia (ELIANA)"
+    authors: "Maude SL et al."
+    journal: "N Engl J Med"
+    year: 2018
+  - pmid: "29226797"
+    title: "Axicabtagene Ciloleucel CAR T-Cell Therapy in Refractory Large B-Cell Lymphoma (ZUMA-1)"
+    authors: "Neelapu SS et al."
+    journal: "N Engl J Med"
+    year: 2017
+  - pmid: "34904799"
+    title: "Ciltacabtagene Autoleucel, a B-cell Maturation Antigen-Directed CAR T-cell Therapy in Relapsed/Refractory Multiple Myeloma (CARTITUDE-1)"
+    authors: "Berdeja JG et al."
+    journal: "Lancet"
+    year: 2021
+  - pmid: "37272512"
+    title: "Ciltacabtagene Autoleucel for the Second-Line Treatment of Multiple Myeloma (CARTITUDE-4)"
+    authors: "San-Miguel J et al."
+    journal: "N Engl J Med"
+    year: 2023
+
+articles:
+  - title: "FDA Approves First Cell-Based Gene Therapy for Adult Patients (Yescarta)"
+    source_name: "FDA"
+    source_type: press_release
+    language: en
+    publish_date: "2017-10-18"
+    url: "https://www.fda.gov/news-events/press-announcements/fda-approves-car-t-cell-therapy-treat-adults-certain-types-large-b-cell-lymphoma"
+  - title: "FDA Investigating Risk of T-cell Malignancies Following CAR-T Therapy (boxed-warning update)"
+    source_name: "FDA"
+    source_type: press_release
+    language: en
+    publish_date: "2024-01-19"
+    url: "https://www.fda.gov/vaccines-blood-biologics/safety-availability-biologics/fda-investigating-serious-risk-t-cell-malignancy-following-bcma-directed-or-cd19-directed-autologous"
+  - title: "中国CAR-T产业化之路:Carvykti出海+国产获批的2024格局"
+    source_name: "医药魔方"
+    source_type: wechat_gongzhonghao
+    language: zh
+    publish_date: "2024-05-12"
+    url: "https://mp.weixin.qq.com/s/china-cart-2024"
+
+lessons:
+  - title: "Autologous Manufacturing is a Structural Moat and a Structural Ceiling"
+    title_zh: "自体生产既是结构性护城河也是结构性天花板"
+    lesson_type: manufacturing_cmc
+    pattern: |
+      Personalized manufacturing (one infusion, one batch, one
+      patient) creates a moat against fast-followers — the
+      facility, process engineering, and supply chain take 5-7
+      years to build — but also hard-caps revenue at total
+      certified-slot capacity. A $500k list-price infusion with
+      vein-to-vein of 3-6 weeks limits annual infusions per site
+      and limits annual revenue per product regardless of demand.
+      Sponsors that accept the ceiling and price accordingly
+      (Carvykti, Yescarta) win within the cap; sponsors that fight
+      the ceiling via aggressive manufacturing scale-up often
+      sacrifice quality (JCAR015 neurotoxicity) or fail QC ramps.
+      Allogeneic solves the ceiling in principle but has not yet
+      solved durability.
+    key_evidence:
+      - "Kymriah 2017-2023 revenue plateaued at ~$500M despite growing demand — manufacturing + site certification bottleneck"
+      - "Carvykti 2024 ramp to ~$1B driven by new plant opening (Raritan NJ 2023); revenue tracked plant capacity"
+      - "Allogene 2021 FDA clinical hold — chromosomal aberration concerns; allogeneic still <5% of CAR-T infusions 2024"
+      - "Chinese manufacturing (Legend, JW, CARsgen) at domestic prices $50-200k showed cost ceiling can be lowered — but has not translated to higher volume ex-China"
+    limitations:
+      - "Applies to autologous cell therapy specifically; allogeneic and in-vivo CAR-T may break the ceiling if durability solves"
+      - "Requires healthcare-system investment in certified centers — not purely a manufacturing problem"
+      - "Insurance coverage + reimbursement mechanics interact with the manufacturing ceiling; not analyzable independently"
+    applicable_contexts:
+      - "CAR-T platform investment decisions"
+      - "Cell + gene therapy M&A valuation (Kite/Gilead, Juno/Celgene precedents)"
+      - "Strategic framing for allogeneic / in-vivo alternatives"
+    applicable_to_landscapes:
+      - car-t
+      - cell-gene-therapy
+      - manufacturing-cmc
+    human_reviewed: true
+    reviewed_by: di
+
+  - title: "Construct-Level Differentiation Matters More Than Target in Crowded CAR-T Subspaces"
+    title_zh: "在拥挤的CAR-T细分领域中,结构差异比靶点更重要"
+    lesson_type: competitive_dynamics
+    pattern: |
+      Within a validated CAR-T target (CD19, BCMA), later entrants
+      compete on construct-level features: co-stimulatory domain
+      (4-1BB vs CD28), scFv binding kinetics (high vs slow-on-fast-
+      off), manufacturing turnaround, and safety profile. Carvykti
+      beat Abecma on response depth (dual-epitope BCMA binding);
+      Aucatzyl differentiates on low CRS / ICANS rates (slow-on-
+      fast-off kinetics); Breyanzi positioned as the "tolerability
+      option" vs Yescarta. Sponsors that enter a crowded target
+      without meaningful construct differentiation fail to gain
+      share — target overlap alone is not viable.
+    key_evidence:
+      - "Abecma vs Carvykti: same target (BCMA), different constructs (single- vs dual-epitope scFv) → Carvykti 2x share by 2024"
+      - "Yescarta (CD28) vs Breyanzi (4-1BB): similar efficacy, different toxicity profiles drove different positioning"
+      - "Aucatzyl (Autolus 2024): slow-on-fast-off construct reduced Grade 3+ CRS to <5% vs 10-40% for prior CD19 CAR-T"
+      - "JCAR015 failure (2017): insufficient construct-level differentiation + higher toxicity than competitors"
+    limitations:
+      - "Requires deep cell-engineering capability; not a short-cycle R&D effort"
+      - "Late-entrant disadvantage if target's addressable market is saturated even with differentiation"
+      - "Toxicity-profile benefits don't always translate to commercial uptake — payer + physician habit weigh heavily"
+    applicable_contexts:
+      - "CAR-T programs entering BCMA / CD19 / GPRC5D subspaces"
+      - "Cell therapy platform R&D prioritization"
+      - "Late-stage competitive positioning decisions"
+    applicable_to_landscapes:
+      - car-t
+      - cell-gene-therapy
+    human_reviewed: true
+    reviewed_by: di
+
+  - title: "Class-Wide Boxed Warnings Don't Kill Modalities With Clear Mortality-Reduction Benefit"
+    title_zh: "对于有明确降低死亡率获益的治疗模式,类别黑框警告不会扼杀其临床应用"
+    lesson_type: regulatory_pathway
+    pattern: |
+      When a modality has demonstrated clear mortality-reduction
+      benefit in otherwise terminal populations, even a class-wide
+      boxed warning for a serious secondary risk does not
+      materially reduce uptake. FDA's January 2024 class-wide
+      boxed warning for secondary T-cell malignancies post-CAR-T
+      added consent + registry overhead but did not slow
+      infusions through 2024. Contrast with JAK inhibitors (2021
+      FDA boxed warning for cardiovascular + malignancy risk in
+      RA), which did reduce uptake — because RA patients have
+      safer alternatives and non-terminal baseline risk. Sponsors
+      can work through class warnings when the benefit-risk
+      calculation at patient level is clear; the warning becomes
+      existential only when alternatives exist.
+    key_evidence:
+      - "FDA 2024-01-19 class-wide CAR-T boxed warning (secondary T-cell malignancies)"
+      - "Carvykti 2024 revenue grew ~80% YoY post-warning — uptake decoupled from boxed warning"
+      - "Contrast: Xeljanz (JAK) 2021 boxed warning reduced first-line RA uptake ~30%"
+      - "Driver: terminal disease (R/R MM, R/R LBCL, R/R ALL) changes risk-benefit math"
+    limitations:
+      - "Applies only where alternatives are clearly inferior on survival"
+      - "Registry + consent overhead still imposes real operational burden"
+      - "Long-term (5-10 year) effects on uptake unknown; 2024 data is early"
+    applicable_contexts:
+      - "Regulatory risk modeling for high-severity modalities"
+      - "Cell + gene therapy safety communication planning"
+      - "Boxed-warning impact projections"
+    applicable_to_landscapes:
+      - car-t
+      - cell-gene-therapy
+    human_reviewed: true
+    reviewed_by: di

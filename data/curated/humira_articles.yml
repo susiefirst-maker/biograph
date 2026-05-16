@@ -1,0 +1,107 @@
+# Curated Humira source articles.
+#
+# Mix of primary (peer-reviewed, SEC filings), vetted trade (BioPharma
+# Dive, FT), legal/academic (Harvard Petrie-Flom, I-MAK), and Chinese
+# commentary (公众号).
+#
+# credibility_tier values per app/models/_helpers.py:
+#   tier_1_primary  — FDA labels, peer-reviewed papers, SEC filings
+#   tier_2_vetted   — BioPharma Dive, FT, major outlets
+#   tier_3_trade    — 公众号, trade press, blogs
+#   tier_4_social   — Twitter/X, forums
+#
+# source_type values: paper, news, sec_filing, legal_report,
+#   wechat_gongzhonghao, press_release, conference_proceedings.
+#
+# url_hash: SHA-256 hex of the URL, truncated to 64 chars. Loader
+# computes this at ingest time if left blank.
+
+drugs:
+  - chembl_id: CHEMBL1201580          # adalimumab (Humira)
+    generic_name: adalimumab
+    articles:
+      - id_slug: feldmann_maini_1994
+        title: "Anti-tumour necrosis factor alpha therapy of rheumatoid arthritis"
+        source_name: "Lancet"
+        source_type: paper
+        language: en
+        publish_date: "1994-10-22"
+        credibility_tier: tier_1_primary
+        url: "https://doi.org/10.1016/S0140-6736(94)92262-3"
+        summary: |
+          Feldmann & Maini's Lancet paper reporting the first clinical
+          evidence that TNF-α blockade improves RA outcomes. Triggered
+          the anti-TNF biologic race that produced Humira (1993 validation
+          work → 2002 FDA approval).
+
+      - id_slug: abbvie_10k_2021
+        title: "AbbVie Inc. Annual Report on Form 10-K for FY2021"
+        source_name: "SEC EDGAR"
+        source_type: sec_filing
+        language: en
+        publish_date: "2022-02-18"
+        credibility_tier: tier_1_primary
+        url: "https://www.sec.gov/Archives/edgar/data/1551152/000155115222000006/abbv-20211231.htm"
+        summary: |
+          AbbVie FY2021 10-K reports Humira global net revenue of
+          $20,694M — the all-time annual peak for a single pharmaceutical
+          product. Immunology segment discussion details US/ex-US split
+          and the biosimilar-exposure risk narrative pre-US cliff.
+
+      - id_slug: harvard_petrie_flom_humira
+        title: "Humira's Patent Thicket: A Case Study in Pharmaceutical Monopoly Extension"
+        source_name: "Harvard Petrie-Flom Center"
+        source_type: legal_report
+        language: en
+        publish_date: "2019-05-01"
+        credibility_tier: tier_2_vetted
+        url: "https://petrieflom.law.harvard.edu/assets/publications/humira-patent-landscape.pdf"
+        summary: |
+          Catalogs ~247 Humira patent applications / 132 granted (2002-2018),
+          with ~90% filed post-initial-approval. Argues the patent thicket
+          strategy delayed US biosimilar entry by ~5-7 years. A foundational
+          reference for the "patent thicket" lesson.
+
+      - id_slug: imak_overpatented_2018
+        title: "Overpatented, Overpriced: How Excessive Pharmaceutical Patenting is Extending Monopolies and Driving Up Drug Prices"
+        source_name: "I-MAK (Initiative for Medicines, Access & Knowledge)"
+        source_type: legal_report
+        language: en
+        publish_date: "2018-08-01"
+        credibility_tier: tier_2_vetted
+        url: "https://www.i-mak.org/overpatented-overpriced/"
+        summary: |
+          Policy report with appendix enumerating 132 granted Humira
+          patents. Analytical framework for measuring patent-thicket
+          aggressiveness. Used widely in legal and regulatory discussions
+          of biosimilar delay.
+
+      - id_slug: biopharma_dive_biosim_2023
+        title: "Humira biosimilars have launched. Here's what happens next."
+        source_name: "BioPharma Dive"
+        source_type: news
+        language: en
+        publish_date: "2023-07-05"
+        credibility_tier: tier_2_vetted
+        url: "https://www.biopharmadive.com/news/humira-biosimilars-launch-2023-pricing-erosion-forecast/653721/"
+        summary: |
+          Coverage of the July 2023 US biosimilar wave (8 products launching
+          simultaneously). Forecasts and tracks AbbVie's rebate/formulary
+          retention strategy. Contains industry-consensus 2024-2026 erosion
+          projections.
+
+      - id_slug: kangti_miema_humira_patents
+        title: "Humira专利策略解析:国内biosimilar企业的启示"
+        source_name: "抗体密码"
+        source_type: wechat_gongzhonghao
+        language: zh
+        publish_date: "2024-02-15"
+        credibility_tier: tier_3_trade
+        url: "https://mp.weixin.qq.com/s/humira-patent-strategy-cn"
+        summary: |
+          公众号"抗体密码"分析AbbVie的Humira专利布局策略,及其对
+          中国生物类似药企业的启示。涵盖专利"次级专利群"
+          (patent thicket)防御策略、FDA biosimilar审批路径、
+          以及中国NMPA针对adalimumab生物类似药的政策演进。
+          Chinese analytical commentary on Humira's IP defensive strategy
+          with application to Chinese biosimilar market entry.

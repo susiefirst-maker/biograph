@@ -1,0 +1,515 @@
+# PD-1 / PD-L1 (Immuno-oncology) — curated T1 landscape.
+#
+# §7.4.6 priority #3. Third curated landscape. Reuses the Keytruda
+# golden-entity narrative (P2-D5) as an anchor and expands to the
+# full class across 12+ drugs, 8+ companies, and the KEYNOTE /
+# CheckMate / IMpower trial programs.
+#
+# Slug: pd1-pdl1 per design doc §7.4.3 canonical example. My current
+# canonicalize_slug() produces "pd-1-pd-l1" for raw "PD-1/PD-L1"; the
+# alias list below covers both forms so both resolve.
+
+slug: pd1-pdl1
+display_name: "PD-1 / PD-L1 (Immuno-oncology)"
+display_name_zh: "PD-1 / PD-L1(免疫肿瘤)"
+quality_tier: T1_CURATED
+last_curated_at: "2026-04-21"
+human_reviewed: true
+
+aliases:
+  - PD-1
+  - PD-L1
+  - PD-1/PD-L1
+  - anti-PD-1
+  - anti-PD-L1
+  - checkpoint inhibitor
+  - immune checkpoint inhibitor
+  - immuno-oncology
+  - IO
+  - PD-1-PD-L1
+  - pd-1-pd-l1
+  - 免疫检查点抑制剂
+  - PD-1 抑制剂
+  - PD-L1 抑制剂
+
+mesh_id: D000077546    # Immune Checkpoint Inhibitors
+
+disease_overview: |
+  The PD-1 / PD-L1 axis is the dominant therapeutic class of modern
+  immuno-oncology. PD-1 (PDCD1) is a T-cell co-inhibitory receptor
+  whose engagement by its ligands PD-L1 (CD274) and PD-L2 (PDCD1LG2)
+  — often upregulated on tumor cells and tumor-infiltrating myeloid
+  cells — suppresses cytotoxic T-cell function. Antibody blockade of
+  the axis restores anti-tumor immunity. Tasuku Honjo (Kyoto) and
+  James Allison (MDACC) shared the 2018 Nobel Prize for checkpoint
+  biology; Allison's CTLA-4 program (ipilimumab, 2011) and the
+  subsequent anti-PD-1 wave (nivolumab + pembrolizumab, both 2014)
+  established checkpoint inhibition as the fourth pillar of oncology
+  treatment alongside surgery, chemotherapy, and radiation.
+
+  By 2025, the class contains 13+ approved antibodies: pembrolizumab
+  (Keytruda, Merck), nivolumab (Opdivo, BMS), cemiplimab (Libtayo,
+  Regeneron), dostarlimab (Jemperli, GSK), tislelizumab (Tevimbra,
+  BeiGene), toripalimab (Loqtorzi, Junshi/Coherus), retifanlimab
+  (Zynyz, Incyte) on the PD-1 side; atezolizumab (Tecentriq, Roche),
+  durvalumab (Imfinzi, AstraZeneca), avelumab (Bavencio, Merck KGaA/
+  Pfizer), cosibelimab (Unloxcyt, Checkpoint Therapeutics) on the
+  PD-L1 side. Combinations with CTLA-4 (nivolumab + ipilimumab),
+  LAG-3 (nivolumab + relatlimab = Opdualag), and VEGF/TKI partners
+  dominate second-generation strategy.
+
+  The class has transformed melanoma, non-small-cell lung cancer
+  (NSCLC), renal cell carcinoma, head & neck squamous cell, urothelial,
+  classical Hodgkin lymphoma, MSI-H / dMMR solid tumors, triple-
+  negative breast cancer, cervical, endometrial, gastric, esophageal,
+  and hepatocellular carcinoma. Keytruda alone reached ~$25B in 2023
+  sales, displacing Humira as the top-selling pharmaceutical product
+  globally. Keytruda's 2028 composition-patent cliff and an unusually
+  crowded China-domestic pipeline define the class's next decade.
+
+disease_overview_zh: |
+  PD-1/PD-L1轴是现代免疫肿瘤学的主导治疗靶点。PD-1(PDCD1)是T
+  细胞共抑制受体,其与配体PD-L1(CD274)和PD-L2(PDCD1LG2)的
+  结合 — 常在肿瘤细胞和肿瘤浸润髓系细胞上过度表达 — 会抑制细胞
+  毒性T细胞功能。抗体阻断该轴可恢复抗肿瘤免疫。本庶佑(京都
+  大学)与James Allison(MD安德森)因免疫检查点生物学研究共同
+  获得2018年诺贝尔奖;Allison的CTLA-4项目(ipilimumab,2011年)
+  以及随后的抗PD-1浪潮(nivolumab与pembrolizumab,均2014年获批)
+  确立了免疫检查点抑制作为肿瘤治疗的第四支柱 — 与手术、化疗、
+  放疗并列。
+
+  到2025年,该类药物已有13种以上获批抗体:PD-1方面包括
+  pembrolizumab(Keytruda,默沙东)、nivolumab(Opdivo,BMS)、
+  cemiplimab(Libtayo,Regeneron)、dostarlimab(Jemperli,GSK)、
+  替雷利珠单抗(Tevimbra,百济神州)、特瑞普利单抗(Loqtorzi,
+  君实生物/Coherus)、retifanlimab(Zynyz,Incyte);PD-L1方面包括
+  atezolizumab(Tecentriq,罗氏)、durvalumab(Imfinzi,阿斯利康)、
+  avelumab(Bavencio,默克雪兰诺/辉瑞)、cosibelimab(Unloxcyt,
+  Checkpoint Therapeutics)。与CTLA-4(nivolumab+ipilimumab)、
+  LAG-3(nivolumab+relatlimab = Opdualag)以及VEGF/TKI联合用药
+  主导了第二代策略。
+
+  该药物类别已经改变了黑色素瘤、非小细胞肺癌(NSCLC)、肾细胞
+  癌、头颈鳞癌、尿路上皮癌、经典霍奇金淋巴瘤、MSI-H/dMMR实体瘤、
+  三阴性乳腺癌、宫颈癌、子宫内膜癌、胃癌、食管癌及肝细胞癌的
+  治疗格局。仅Keytruda一款药物在2023年销售额就达约250亿美元,
+  超越Humira成为全球销售额第一的药品。Keytruda 2028年的组成物
+  专利悬崖,加上异常拥挤的中国国产管线,定义了该类药物未来十
+  年的竞争格局。
+
+mechanism_map:
+  - class: "PD-1 inhibitor (Western originator)"
+    class_zh: "PD-1 抑制剂(西方原研)"
+    drugs:
+      - name: pembrolizumab
+        status: approved
+        company: Merck & Co.
+        approval_date: "2014-09-04"
+      - name: nivolumab
+        status: approved
+        company: Bristol-Myers Squibb
+        approval_date: "2014-12-22"
+      - name: cemiplimab
+        status: approved
+        company: Regeneron / Sanofi
+        approval_date: "2018-09-28"
+      - name: dostarlimab
+        status: approved
+        company: GSK
+        approval_date: "2021-04-22"
+      - name: retifanlimab
+        status: approved
+        company: Incyte
+        approval_date: "2023-03-22"
+
+  - class: "PD-1 inhibitor (China originator, global-approved)"
+    class_zh: "PD-1 抑制剂(中国原研,全球获批)"
+    drugs:
+      - name: tislelizumab
+        status: approved
+        company: BeiGene
+        approval_date: "2024-03-13"
+      - name: toripalimab
+        status: approved
+        company: Junshi Biosciences / Coherus
+        approval_date: "2023-10-27"
+
+  - class: "PD-L1 inhibitor"
+    class_zh: "PD-L1 抑制剂"
+    drugs:
+      - name: atezolizumab
+        status: approved
+        company: Roche / Genentech
+        approval_date: "2016-05-18"
+      - name: durvalumab
+        status: approved
+        company: AstraZeneca
+        approval_date: "2017-05-01"
+      - name: avelumab
+        status: approved
+        company: Merck KGaA / Pfizer
+        approval_date: "2017-03-23"
+      - name: cosibelimab
+        status: approved
+        company: Checkpoint Therapeutics
+        approval_date: "2024-12-13"
+
+  - class: "PD-1 + CTLA-4 fixed-dose combination"
+    class_zh: "PD-1 + CTLA-4 固定剂量联合"
+    drugs:
+      - name: nivolumab + ipilimumab
+        status: approved
+        company: Bristol-Myers Squibb
+        approval_date: "2015-09-30"
+
+  - class: "PD-1 + LAG-3 fixed-dose combination"
+    class_zh: "PD-1 + LAG-3 固定剂量联合"
+    drugs:
+      - name: nivolumab + relatlimab (Opdualag)
+        status: approved
+        company: Bristol-Myers Squibb
+        approval_date: "2022-03-18"
+
+  - class: "PD-1 + VEGF / TKI combination"
+    class_zh: "PD-1 + VEGF / TKI 联合"
+    drugs:
+      - name: pembrolizumab + axitinib
+        status: approved
+        company: Merck / Pfizer
+      - name: pembrolizumab + lenvatinib
+        status: approved
+        company: Merck / Eisai
+      - name: nivolumab + cabozantinib
+        status: approved
+        company: BMS / Exelixis
+
+  - class: "PD-1 + TIGIT / next-gen combos (developmental)"
+    class_zh: "PD-1 + TIGIT / 下一代联合(研发中)"
+    drugs:
+      - name: tiragolumab + atezolizumab
+        status: phase_3
+        company: Roche
+      - name: domvanalimab + zimberelimab
+        status: phase_3
+        company: Arcus Biosciences / Gilead
+      - name: ociperlimab + tislelizumab
+        status: phase_3
+        company: BeiGene
+
+pipeline:
+  approved:
+    - pembrolizumab (Keytruda, Merck)
+    - nivolumab (Opdivo, BMS)
+    - cemiplimab (Libtayo, Regeneron)
+    - dostarlimab (Jemperli, GSK)
+    - tislelizumab (Tevimbra, BeiGene)
+    - toripalimab (Loqtorzi, Junshi/Coherus)
+    - retifanlimab (Zynyz, Incyte)
+    - atezolizumab (Tecentriq, Roche)
+    - durvalumab (Imfinzi, AstraZeneca)
+    - avelumab (Bavencio, Merck KGaA/Pfizer)
+    - cosibelimab (Unloxcyt, Checkpoint Therapeutics)
+    - nivolumab + ipilimumab (Opdivo+Yervoy, BMS)
+    - nivolumab + relatlimab (Opdualag, BMS)
+  phase_3:
+    - tiragolumab + atezolizumab (anti-TIGIT, Roche)
+    - domvanalimab + zimberelimab (anti-TIGIT, Arcus/Gilead)
+    - subcutaneous pembrolizumab (KEYNOTE-555)
+    - subcutaneous nivolumab (CheckMate-67T)
+    - ivonescimab (PD-1×VEGF bispecific, Akeso/Summit)
+  phase_2:
+    - multiple PD-1×VEGF, PD-1×CTLA-4, PD-1×4-1BB bispecifics
+    - tebotelimab (PD-1×LAG-3, MacroGenics)
+  failed:
+    - sugemalimab advancement halted in some indications (CStone)
+    - several IDO1 combinations (epacadostat KEYNOTE-252, 2018)
+
+failed_trials:
+  - "KEYNOTE-252 (epacadostat + pembrolizumab, Incyte/Merck, 2018) — IDO1 inhibitor combination failed in melanoma, catalyzed class-wide retreat from IDO1"
+  - "IMpower150 OS benefit narrowed post-FDA subset-concerns 2021 — atezolizumab-bevacizumab-chemo NSCLC"
+  - "MYSTIC (durvalumab ± tremelimumab, AZ, 2018) — failed first-line NSCLC primary endpoint"
+
+companies:
+  - name: Merck & Co.
+    ticker: MRK
+    role: "Category leader — Keytruda ~$25B 2023 revenue; KEYNOTE program (1000+ trials, 30+ indications); 2028 composition-patent cliff"
+  - name: Bristol-Myers Squibb
+    ticker: BMY
+    role: "First-mover on CTLA-4 (Yervoy 2011) and tied-second on PD-1 (Opdivo 2014); Opdualag 2022 LAG-3 combo; Opdivo ~$9B 2023"
+  - name: Roche
+    ticker: RHHBY
+    role: "PD-L1 leader via atezolizumab (Tecentriq 2016); tiragolumab Phase 3 TIGIT follow-on"
+  - name: AstraZeneca
+    ticker: AZN
+    role: "Durvalumab (Imfinzi 2017); PACIFIC trial established consolidation post-CRT NSCLC"
+  - name: Regeneron
+    ticker: REGN
+    role: "Cemiplimab (Libtayo 2018); CSCC + NSCLC; Sanofi commercialization partner"
+  - name: GSK
+    ticker: GSK
+    role: "Dostarlimab (Jemperli 2021); MSI-H endometrial + rectal cancer; 100% rectal-cancer response in small trial drove 2023 excitement"
+  - name: BeiGene
+    ticker: BGNE
+    role: "Tislelizumab (Tevimbra) — first Chinese-originator PD-1 with broad FDA approval (2024); ociperlimab TIGIT follow-on"
+  - name: Junshi Biosciences
+    ticker: 1877.HK
+    role: "Toripalimab (Loqtorzi via Coherus) — first Chinese-originator PD-1 approved in the US (2023)"
+  - name: Innovent Biologics
+    ticker: 1801.HK
+    role: "Sintilimab (Tyvyt) — China-approved 2018; US FDA rejected 2022 (ORIENT-11 single-region data)"
+  - name: Akeso + Summit Therapeutics
+    ticker: SMMT
+    role: "Ivonescimab (PD-1×VEGF bispecific) — beat pembrolizumab head-to-head in HARMONi-2 NSCLC 2024 (first such result for any IO)"
+
+key_trials:
+  - name: "KEYNOTE-001"
+    drug: pembrolizumab
+    sponsor: Merck & Co.
+    phase: phase_1
+    status: met_primary
+    significance: "Dose-finding + melanoma expansion cohort that launched the Keytruda program and earned breakthrough designation (2013)"
+  - name: "KEYNOTE-024"
+    drug: pembrolizumab
+    sponsor: Merck & Co.
+    phase: phase_3
+    status: met_primary
+    significance: "First-line NSCLC PD-L1 ≥50% monotherapy vs platinum-doublet chemo; paradigm shift 2016"
+  - name: "KEYNOTE-189"
+    drug: pembrolizumab + pemetrexed/platinum
+    sponsor: Merck & Co.
+    phase: phase_3
+    status: met_primary
+    significance: "Broadened first-line NSCLC to all-comers via chemo-IO combo (2018)"
+  - name: "CheckMate-067"
+    drug: nivolumab + ipilimumab
+    sponsor: Bristol-Myers Squibb
+    phase: phase_3
+    status: met_primary
+    significance: "Landmark nivo-ipi melanoma combo trial establishing durable responses"
+  - name: "CheckMate-9ER"
+    drug: nivolumab + cabozantinib
+    sponsor: BMS / Exelixis
+    phase: phase_3
+    status: met_primary
+    significance: "First-line RCC — IO+TKI template"
+  - name: "PACIFIC"
+    drug: durvalumab
+    sponsor: AstraZeneca
+    phase: phase_3
+    status: met_primary
+    significance: "Consolidation post-chemoradiation in unresectable Stage III NSCLC — defined a new standard of care"
+  - name: "KEYNOTE-252"
+    drug: epacadostat + pembrolizumab
+    sponsor: Incyte / Merck
+    phase: phase_3
+    status: failed
+    significance: "IDO1 combination failure that derailed an entire adjacent class"
+  - name: "HARMONi-2"
+    drug: ivonescimab
+    sponsor: Akeso / Summit Therapeutics
+    phase: phase_3
+    status: met_primary
+    significance: "First head-to-head superiority vs pembrolizumab in NSCLC (September 2024) — triggered the PD-1×VEGF bispecific race"
+
+scientific_bottlenecks:
+  - "PD-L1 biomarker heterogeneity — different assays (22C3 for Keytruda, 28-8 for Opdivo, SP142/SP263 for Roche/AZ) and different cutoffs (TPS vs CPS) across indications; non-interchangeable"
+  - "Hyperprogression in 9-29% of patients depending on indication — no prospective biomarker to exclude at baseline"
+  - "Immune-related adverse events (colitis, pneumonitis, hepatitis, hypothyroidism, myocarditis) affect ~15-40% depending on combination; myocarditis with nivo+ipi carries mortality"
+  - "Combination fatigue — dozens of PD-1 + X trials have failed (IDO1, 4-1BB agonists early versions, CSF1R, many others) with no clear mechanistic rationale for the failures"
+  - "Post-PD-1 resistance poorly characterized — second-line IO options limited, mechanisms (LAG-3, TIGIT) still unproven at scale"
+  - "Head-to-head trials between Western originator PD-1s almost non-existent; cross-trial comparison is unreliable"
+
+market_dynamics: |
+  The class crossed $50 billion in global sales in 2023 led by
+  Keytruda ($25B), Opdivo ($9B), Tecentriq ($3.3B), Imfinzi ($4.2B),
+  and a long tail. Keytruda's 2028 US composition-patent cliff is
+  the defining commercial event of the next decade — Merck's
+  response is a subcutaneous formulation (KEYNOTE-555 Phase 3)
+  that creates a new 20-year dosing-form patent window and shifts
+  standard-of-care before IV biosimilars arrive. BMS is running
+  CheckMate-67T for the same SC-Opdivo play. Meanwhile China-
+  originator PD-1s (tislelizumab, toripalimab) are landing in the
+  US at 40-70% list-price discount to Keytruda, pressuring net
+  prices even before patent expiry. The first head-to-head win
+  against pembrolizumab (ivonescimab in HARMONi-2, September 2024)
+  opened a second competitive axis around PD-1×VEGF bispecifics.
+  Net: class revenue still growing, but pricing power peaked.
+
+regulatory_context: |
+  FDA used accelerated approval liberally in the 2014-2020 era —
+  many indications were approved on ORR / PFS before OS confirmation.
+  2021's Project ODAC tightened subsequent-approval standards;
+  several accelerated approvals (KEYNOTE hepatocellular, nivolumab
+  hepatocellular, atezolizumab TNBC, others) have been voluntarily
+  withdrawn or restricted. New FDA posture: confirmatory OS data
+  required, single-region (Chinese-only) trials rejected
+  (sintilimab ORIENT-11 2022). China's NMPA operates parallel
+  approval tracks for domestic originators; the US-China pricing
+  arbitrage (HLX10 / tislelizumab / toripalimab) is creating
+  policy friction. EU is slower on label expansions but broadly
+  aligned with FDA.
+
+hot_targets:
+  - gene_symbol: PDCD1
+    name: "PD-1 (Programmed cell death protein 1)"
+    rationale: "Canonical T-cell checkpoint receptor target for pembrolizumab, nivolumab, cemiplimab, dostarlimab, tislelizumab, toripalimab, retifanlimab"
+  - gene_symbol: CD274
+    name: "PD-L1 (Programmed death-ligand 1)"
+    rationale: "Dominant tumor-expressed ligand; targeted by atezolizumab, durvalumab, avelumab, cosibelimab; also biomarker for PD-1 inhibitor selection"
+  - gene_symbol: PDCD1LG2
+    name: "PD-L2 (Programmed death-ligand 2)"
+    rationale: "Second PD-1 ligand; PD-L1-only inhibitors leave this axis open"
+  - gene_symbol: CTLA4
+    name: "CTLA-4 (Cytotoxic T-lymphocyte-associated protein 4)"
+    rationale: "Combination partner (ipilimumab/tremelimumab); first-in-class checkpoint"
+  - gene_symbol: LAG3
+    name: "LAG-3 (Lymphocyte activation gene 3)"
+    rationale: "Validated second-generation combo target via Opdualag (nivolumab+relatlimab, 2022)"
+  - gene_symbol: TIGIT
+    name: "TIGIT (T-cell immunoreceptor with Ig and ITIM domains)"
+    rationale: "Phase 3 combo target; Roche tiragolumab + Arcus domvanalimab still proving out mechanism"
+
+literature:
+  - pmid: "25482239"
+    title: "Safety and activity of anti-PD-L1 antibody in patients with advanced cancer"
+    authors: "Topalian SL et al."
+    journal: "N Engl J Med"
+    year: 2012
+  - pmid: "25891173"
+    title: "Pembrolizumab versus Ipilimumab in Advanced Melanoma (KEYNOTE-006)"
+    authors: "Robert C et al."
+    journal: "N Engl J Med"
+    year: 2015
+  - pmid: "27718847"
+    title: "Pembrolizumab versus Chemotherapy for PD-L1–Positive Non–Small-Cell Lung Cancer (KEYNOTE-024)"
+    authors: "Reck M et al."
+    journal: "N Engl J Med"
+    year: 2016
+  - pmid: "35353659"
+    title: "Relatlimab and Nivolumab versus Nivolumab in Untreated Advanced Melanoma (RELATIVITY-047)"
+    authors: "Tawbi HA et al."
+    journal: "N Engl J Med"
+    year: 2022
+
+articles:
+  - title: "FDA approves Keytruda for advanced melanoma — first PD-1 inhibitor"
+    source_name: "FDA"
+    source_type: press_release
+    language: en
+    publish_date: "2014-09-04"
+    url: "https://www.fda.gov/news-events/press-announcements/fda-approves-keytruda-advanced-melanoma-2014"
+  - title: "PD-1/PD-L1国产化浪潮:2024年全景与出海机会"
+    source_name: "医药魔方"
+    source_type: wechat_gongzhonghao
+    language: zh
+    publish_date: "2024-08-15"
+    url: "https://mp.weixin.qq.com/s/pd1-china-landscape-2024"
+  - title: "Summit's ivonescimab beats Keytruda head-to-head — the first IO result of its kind"
+    source_name: "Endpoints News"
+    source_type: news
+    language: en
+    publish_date: "2024-09-08"
+    url: "https://endpts.com/summit-ivonescimab-harmoni-2-readout/"
+
+lessons:
+  - title: "First-Indication-Approval Timing Beats First-Discovery Timing in Validated Mechanistic Classes"
+    title_zh: "在机制已验证的类别中,首先获批的适应症时机比首先发现时机更关键"
+    lesson_type: competitive_dynamics
+    pattern: |
+      When two or more credible sponsors pursue the same validated
+      mechanism, the commercial winner is typically the first to
+      secure regulatory approval in the first big indication — not
+      the first to discover or file IND. Merck's MK-3475 entered
+      clinical development *later* than BMS's nivolumab but narrowly
+      beat Opdivo to FDA approval for melanoma (September 4 vs
+      December 22, 2014) via aggressive accelerated-pathway
+      execution. That 3.5-month head start compounded through the
+      KEYNOTE program into a 3x revenue lead by 2023. BMS's
+      comparable molecule with comparable efficacy never closed the
+      gap.
+    key_evidence:
+      - "MK-3475 revived 2010 after BMS nivolumab Phase I readout validated the class — Merck was years behind at that point"
+      - "FDA breakthrough designation for MK-3475 on 2013-04-24"
+      - "Keytruda FDA approval 2014-09-04; Opdivo 2014-12-22"
+      - "Keytruda 2023 revenue ~$25B vs Opdivo 2023 revenue ~$9B despite similar per-patient efficacy"
+      - "Keytruda label reached 30+ indications vs Opdivo ~15 via KEYNOTE vs CheckMate program breadth"
+    limitations:
+      - "Applies to validated mechanistic classes; truly novel mechanisms reward first-to-discover"
+      - "Requires regulatory + commercial execution; being first without label breadth delivers only a temporary lead"
+      - "Subsidized by accelerated-pathway availability; in non-accelerated jurisdictions the timing edge is smaller"
+    applicable_contexts:
+      - "Evaluating second-entrant commercial potential in validated classes"
+      - "Prioritization among close competitors racing to first-indication approval"
+      - "Board-level decisions on whether to accelerate a Phase 2 despite risk"
+    applicable_to_landscapes:
+      - pd1-pdl1
+      - pembrolizumab
+      - io-oncology
+    human_reviewed: true
+    reviewed_by: di
+
+  - title: "Label-Expansion as a Durable Moat in Pan-Tumor Mechanisms"
+    title_zh: "标签扩展作为泛肿瘤机制药物的持久护城河"
+    lesson_type: strategic_commercial
+    pattern: |
+      For mechanisms with broad anti-tumor rationale, aggressive
+      post-approval indication-expansion programs convert a narrow
+      time-to-market advantage into a durable share advantage.
+      Merck's KEYNOTE program (1000+ trials across 30+ indications)
+      turned Keytruda's 3.5-month first-mover lead over Opdivo into
+      a 3x revenue lead by 2023. BMS's narrower CheckMate program
+      and label-development strategy — despite near-identical
+      underlying efficacy — left share on the table. Roche's
+      IMpower and AZ's PACIFIC programs show the middle-path: broad
+      but not Keytruda-broad.
+    key_evidence:
+      - "KEYNOTE-024 established first-line NSCLC PD-L1 ≥50% in 2016 — Merck then extended to KEYNOTE-189 (all-comer NSCLC with chemo), KEYNOTE-048 (H&N), KEYNOTE-426 (RCC+axitinib), KEYNOTE-522 (early TNBC), KEYNOTE-716 (adjuvant melanoma)"
+      - "Keytruda approved in 30+ indications by 2024 vs Opdivo ~15"
+      - "Revenue ratio (Keytruda ~$25B vs Opdivo ~$9B in 2023) despite comparable potency and similar pricing"
+    limitations:
+      - "Only works for pan-tumor mechanisms; narrow mechanisms can't expand label by definition"
+      - "Trial costs scale linearly with indications — requires deep pockets and long horizons"
+      - "Fast-follow competitors on the best indications erode share even in broad classes"
+    applicable_contexts:
+      - "Checkpoint inhibitor launch and lifecycle planning"
+      - "Any mechanism with broad tumor-microenvironment or immune-system rationale"
+      - "Commercial vs clinical tradeoff decisions on follow-on trials"
+    applicable_to_landscapes:
+      - pd1-pdl1
+      - pembrolizumab
+      - io-oncology
+    human_reviewed: true
+    reviewed_by: di
+
+  - title: "China-Originator Biologic Discount Pricing Pressures Net Prices Before Patents Expire"
+    title_zh: "中国原研生物药折扣定价在专利到期前已压低净价"
+    lesson_type: market_access_pricing
+    pattern: |
+      When Chinese-originator molecules in a validated class reach
+      FDA approval at 40-70% list-price discount to the Western
+      incumbent, they create downward pressure on NET realized
+      pricing (via payer negotiation leverage) even while list
+      prices stay nominal. Tislelizumab (BeiGene, 2024) and
+      toripalimab (Junshi/Coherus, 2023) US launches priced well
+      below Keytruda. Payers + PBMs use the low-cost comparators
+      to extract larger rebates from incumbents. Net effect: the
+      incumbent's effective pricing power declines years before the
+      composition-patent cliff.
+    key_evidence:
+      - "Loqtorzi (toripalimab) US list price ~40% below Keytruda at 2023 launch"
+      - "Tevimbra (tislelizumab) US launch 2024 with similar positioning"
+      - "Merck disclosed rising US rebate percentages on Keytruda 2023-2024 investor calls"
+      - "China NMPA parallel-approval pathway creates the low-cost supply that US payers leverage"
+    limitations:
+      - "Requires Chinese-originator molecules to clear FDA single-region data hurdle (sintilimab ORIENT-11 failure 2022 shows this is not automatic)"
+      - "Effect is net-price, not list-price — headline pricing often unchanged"
+      - "Specific to drug classes where efficacy differences are small and positioning is similar"
+    applicable_contexts:
+      - "Western branded biologic market-defense strategy"
+      - "Pricing projections for incumbents facing Chinese-originator competition"
+      - "Biosimilar / similar-molecule strategic analysis across classes"
+    applicable_to_landscapes:
+      - pd1-pdl1
+      - biosimilar-dynamics
+    human_reviewed: true
+    reviewed_by: di

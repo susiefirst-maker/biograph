@@ -1,0 +1,494 @@
+# KRAS — curated T1 landscape.
+#
+# §7.4.6 priority #13. Eighth curated landscape. The "undruggable
+# → druggable" narrative: 40 years of saying you can't drug KRAS,
+# then Shokat's 2013 switch-II-pocket discovery and a 2021 first
+# approval. Currently in the "sobering second-act": narrow G12C
+# success, broader pan-RAS bet still in progress.
+
+slug: kras
+display_name: "KRAS"
+display_name_zh: "KRAS"
+quality_tier: T1_CURATED
+last_curated_at: "2026-04-21"
+human_reviewed: true
+
+aliases:
+  - KRAS
+  - K-RAS
+  - K-ras
+  - KRAS G12C
+  - KRAS G12D
+  - RAS oncogene
+  - RAS pathway
+  - pan-RAS
+  - pan-KRAS
+  - KRAS 突变
+  - RAS 信号通路
+  - undruggable KRAS
+
+mesh_id: D008956    # Proto-Oncogene Proteins p21(ras)
+
+disease_overview: |
+  KRAS is the most frequently mutated oncogene in human cancer —
+  ~90% of pancreatic adenocarcinomas, ~40% of colorectal cancers,
+  ~25-30% of non-small-cell lung cancers, and smaller percentages
+  across gastric, endometrial, cervical, and hematologic malignancies.
+  The protein was identified in 1982 (Harvey + Kirsten rat sarcoma
+  viruses) and was immediately recognized as a transformative
+  oncology target; for the next 40 years it was labeled
+  "undruggable" due to the protein's smooth, small GTP-binding
+  pocket, its picomolar substrate affinity, and the absence of
+  obvious allosteric binding sites.
+
+  The watershed was Kevan Shokat's 2013 structural discovery of
+  the switch-II pocket — a cryptic groove that opens transiently in
+  the GDP-bound state of KRAS G12C and can be covalently trapped by
+  small molecules containing an acrylamide warhead that binds the
+  Cys12 thiol. Within seven years this insight produced sotorasib
+  (Amgen, Lumakras, FDA 2021) and adagrasib (Mirati, Krazati, FDA
+  2022) — the first two KRAS-directed drugs in history, both
+  G12C-selective and both approved initially for pre-treated
+  KRAS-G12C NSCLC. Confirmatory CodeBreaK 200 (2023) missed OS,
+  resulting in FDA label tightening. BMS paid $5.8 billion for
+  Mirati in November 2023 — a platform-bet valuation for the
+  broader KRAS portfolio, not for Krazati's stand-alone economics.
+
+  The next wave of drugs broadens the target scope: divarasib
+  (Roche/Genentech) targets G12C with higher selectivity, multiple
+  Chinese-originator G12C molecules are advancing (glecirasib,
+  garsorasib, olomorasib — note Lilly's olomorasib is US-developed),
+  and Revolution Medicines' RMC-6236 (pan-RAS non-covalent multi-
+  selective) is the most-watched late-stage molecule — potentially
+  addressing the ~87% of KRAS mutations that aren't G12C (G12D,
+  G12V, G13D, Q61H/L). Mirati's MRTX1133 (G12D) and RMC-9805
+  (G12D-selective) target pancreatic cancer specifically, where
+  G12D is the dominant mutation.
+
+disease_overview_zh: |
+  KRAS是人类癌症中最常发生突变的致癌基因 — 约90%的胰腺导管腺
+  癌、40%的结直肠癌、25-30%的非小细胞肺癌,以及胃癌、子宫内膜
+  癌、宫颈癌和血液肿瘤中较小比例。该蛋白于1982年被发现(Harvey
+  和Kirsten大鼠肉瘤病毒),立即被认为是具有变革意义的肿瘤学
+  靶点;然而在随后40年里,它因蛋白结构光滑、GTP结合口袋狭小、
+  与底物纳摩尔级亲和力、缺乏明显的别构结合位点而被贴上"不可
+  成药"的标签。
+
+  分水岭是Kevan Shokat于2013年发现的转换II口袋 — 一个在KRAS
+  G12C的GDP结合态中瞬时开放的隐蔽凹槽,可被含有丙烯酰胺弹头
+  并与Cys12硫醇形成共价键的小分子捕获。七年内,这一洞见催生
+  了索托雷塞(Sotorasib,安进,Lumakras,FDA 2021)和阿达格雷
+  西(Adagrasib,Mirati,Krazati,FDA 2022)— 史上第一批KRAS
+  靶向药物,均为G12C选择性,均首先获批用于经治KRAS G12C非小
+  细胞肺癌。2023年确证性CodeBreaK 200试验未达到OS终点,导致
+  FDA收紧了标签。2023年11月,BMS以58亿美元收购Mirati — 是
+  基于更广KRAS组合的平台估值,而非Krazati的单品经济。
+
+  下一波药物拓宽了靶点范围:divarasib(罗氏/基因泰克)针对
+  G12C具有更高选择性,多款中国原研G12C分子在推进(glecirasib、
+  garsorasib、olomorasib — 注意礼来的olomorasib为美国研发),
+  Revolution Medicines的RMC-6236(pan-RAS非共价多选择性)是
+  最受关注的晚期分子 — 有可能覆盖非G12C的约87%KRAS突变
+  (G12D、G12V、G13D、Q61H/L)。Mirati的MRTX1133(G12D)和
+  RMC-9805(G12D选择性)专门针对胰腺癌,后者是G12D主导的
+  癌种。
+
+mechanism_map:
+  - class: "KRAS G12C covalent inhibitor"
+    class_zh: "KRAS G12C 共价抑制剂"
+    drugs:
+      - name: sotorasib (Lumakras)
+        status: approved
+        company: Amgen
+        approval_date: "2021-05-28"
+      - name: adagrasib (Krazati)
+        status: approved
+        company: Bristol-Myers Squibb (ex-Mirati)
+        approval_date: "2022-12-12"
+      - name: divarasib (GDC-6036)
+        status: phase_3
+        company: Roche / Genentech
+      - name: olomorasib (LY3537982)
+        status: phase_3
+        company: Eli Lilly
+      - name: glecirasib (JAB-21822)
+        status: approved
+        company: Jacobio Pharmaceuticals
+        approval_date: "2024-08-22"
+      - name: garsorasib (D-1553)
+        status: phase_3
+        company: InventisBio
+
+  - class: "KRAS G12D-selective inhibitor"
+    class_zh: "KRAS G12D 选择性抑制剂"
+    drugs:
+      - name: MRTX1133
+        status: phase_2
+        company: Bristol-Myers Squibb (ex-Mirati)
+      - name: RMC-9805
+        status: phase_1
+        company: Revolution Medicines
+      - name: HRS-4642
+        status: phase_1
+        company: Hengrui Medicine
+
+  - class: "Pan-RAS multiselective (non-covalent)"
+    class_zh: "泛 RAS 多选择性(非共价)"
+    drugs:
+      - name: RMC-6236 (daraxonrasib)
+        status: phase_3
+        company: Revolution Medicines
+      - name: RMC-6291 (G12C second-gen)
+        status: phase_2
+        company: Revolution Medicines
+
+  - class: "Upstream SOS1 / SHP2 modulators"
+    class_zh: "上游 SOS1 / SHP2 调节剂"
+    drugs:
+      - name: BI 1701963 (SOS1 inhibitor)
+        status: phase_2
+        company: Boehringer Ingelheim
+      - name: RMC-4630 (SHP2 inhibitor)
+        status: phase_2
+        company: Revolution Medicines / Sanofi
+
+  - class: "KRAS combinations (G12C + partner)"
+    class_zh: "KRAS 联合方案(G12C + 伙伴药物)"
+    drugs:
+      - name: sotorasib + panitumumab (CodeBreaK 300)
+        status: approved
+        company: Amgen
+        approval_date: "2025-01-16"
+      - name: adagrasib + cetuximab
+        status: approved
+        company: Bristol-Myers Squibb
+        approval_date: "2024-06-21"
+
+pipeline:
+  approved:
+    - sotorasib (Lumakras, Amgen)
+    - adagrasib (Krazati, BMS via Mirati)
+    - glecirasib (Jacobio, China 2024)
+    - sotorasib + panitumumab (CodeBreaK 300, 2025)
+    - adagrasib + cetuximab (KRYSTAL-10, 2024)
+  phase_3:
+    - divarasib (Roche)
+    - olomorasib (Eli Lilly)
+    - garsorasib (InventisBio)
+    - RMC-6236 / daraxonrasib (Revolution Medicines, pan-RAS)
+  phase_2:
+    - MRTX1133 (G12D, BMS/Mirati)
+    - RMC-6291 (G12C 2nd-gen, Revolution Medicines)
+    - multiple combination trials (KRAS + SHP2, KRAS + MEK, KRAS + IO)
+  phase_1:
+    - RMC-9805 (G12D, Revolution Medicines)
+    - HRS-4642 (G12D, Hengrui)
+    - multiple Q61H / G13D-selective programs
+    - KRAS protein degraders (PROTACs)
+  failed:
+    - CodeBreaK 200 confirmatory OS endpoint missed (2023) — sotorasib label retained but tightened
+    - multiple MEK-inhibitor combinations failed historically (precedent for KRAS pathway complexity)
+
+failed_trials:
+  - "CodeBreaK 200 (sotorasib vs docetaxel, confirmatory 2L NSCLC, 2023) — met PFS HR 0.66 but missed OS HR 1.01; FDA kept approval but restricted label and required additional post-marketing data"
+  - "KRYSTAL-7 (adagrasib 1L NSCLC, preliminary 2023) — single-agent activity insufficient to displace chemo-IO standard; combination strategies now required for 1L"
+  - "CodeBreaK 301 (sotorasib + pembrolizumab NSCLC, 2023) — increased hepatotoxicity without PFS benefit; killed KRAS + IO combination hopes"
+
+companies:
+  - name: Amgen
+    ticker: AMGN
+    role: "Sotorasib / Lumakras first-in-class 2021; CodeBreaK 200 OS miss 2023 pressured launch; CodeBreaK 300 CRC combo approval 2025 opens second indication"
+  - name: Bristol-Myers Squibb
+    ticker: BMY
+    role: "$5.8B Mirati acquisition November 2023; Krazati + MRTX1133 G12D platform + KRAS combinations; platform bet, not single-molecule bet"
+  - name: Revolution Medicines
+    ticker: RVMD
+    role: "Pan-RAS RMC-6236 — most-watched next-generation molecule; Phase 3 PDAC + NSCLC; Sanofi SHP2 partnership via RMC-4630"
+  - name: Roche / Genentech
+    ticker: RHHBY
+    role: "Divarasib (GDC-6036) — higher selectivity, cleaner tolerability profile than sotorasib/adagrasib; Phase 3"
+  - name: Eli Lilly
+    ticker: LLY
+    role: "Olomorasib — G12C + broader KRAS activity; Phase 3"
+  - name: Boehringer Ingelheim
+    role: "SOS1 inhibitor BI 1701963 — upstream pathway approach; limited momentum after 2022 portfolio review"
+  - name: Jacobio Pharmaceuticals
+    ticker: 1167.HK
+    role: "Glecirasib — first Chinese-originator KRAS G12C approval (2024); AbbVie partnership ex-China"
+  - name: InventisBio
+    role: "Garsorasib (D-1553) — Chinese G12C; Phase 3 NSCLC"
+  - name: Hengrui Medicine
+    ticker: 600276.SS
+    role: "HRS-4642 G12D; broader MAPK portfolio in Chinese oncology market"
+  - name: Mirati Therapeutics (acquired 2023)
+    role: "Adagrasib + MRTX1133 originator; BMS paid $5.8B for platform"
+
+key_trials:
+  - name: "CodeBreaK 100"
+    drug: sotorasib
+    sponsor: Amgen
+    phase: phase_2
+    status: met_primary
+    significance: "G12C NSCLC ORR 37.1% — basis for 2021 Lumakras approval; first-ever KRAS-directed approval"
+  - name: "CodeBreaK 200"
+    drug: sotorasib vs docetaxel
+    sponsor: Amgen
+    phase: phase_3
+    status: conditional_failure
+    significance: "Confirmatory 2L NSCLC 2023 — met PFS (HR 0.66) but missed OS (HR 1.01); FDA kept accelerated approval with label restriction"
+  - name: "CodeBreaK 300"
+    drug: sotorasib + panitumumab vs investigator choice
+    sponsor: Amgen
+    phase: phase_3
+    status: met_primary
+    significance: "KRAS G12C CRC 3L+ 2024 — doubled PFS vs investigator choice; established combo KRAS + anti-EGFR strategy"
+  - name: "KRYSTAL-1"
+    drug: adagrasib
+    sponsor: Mirati
+    phase: phase_2
+    status: met_primary
+    significance: "G12C NSCLC ORR 42.9% — basis for 2022 Krazati approval"
+  - name: "KRYSTAL-10"
+    drug: adagrasib + cetuximab
+    sponsor: BMS (Mirati)
+    phase: phase_3
+    status: met_primary
+    significance: "KRAS G12C CRC with cetuximab 2024 approval — parallel to CodeBreaK 300 pathway"
+  - name: "KRYSTAL-12"
+    drug: adagrasib vs docetaxel
+    sponsor: BMS (Mirati)
+    phase: phase_3
+    status: met_primary
+    significance: "Confirmatory 2L NSCLC 2024 — met PFS + OS; saved the adagrasib program from CodeBreaK-200-style label risk"
+  - name: "CodeBreaK 301"
+    drug: sotorasib + pembrolizumab
+    sponsor: Amgen
+    phase: phase_2
+    status: failed
+    significance: "KRAS + PD-1 combination trial halted 2023 for hepatotoxicity without PFS benefit — closed the door on KRAS + IO combos"
+
+scientific_bottlenecks:
+  - "Acquired resistance within 6-9 months — secondary KRAS mutations (Y96D, Y96C), RTK reactivation (MET, EGFR amplification), MAPK pathway re-activation, mesenchymal transition; no durable monotherapy"
+  - "G12C is only ~13% of KRAS mutations — G12D (30%), G12V (25%), G13D (9%) are structurally distinct and require separate drug chemistry; current G12C molecules do not cross-cover"
+  - "Tumor-type-dependent efficacy — G12C NSCLC ORR ~40%; G12C CRC monotherapy ORR <10% (needs anti-EGFR combo); mechanism of tissue selectivity unclear"
+  - "Pan-RAS therapeutic window — Revolution Medicines RMC-6236 inhibits wild-type RAS too; toxicity management is the central open question for the program"
+  - "Combination toxicity — KRAS + MEK combinations cause hyperactivation skin toxicity; KRAS + IO combinations cause hepatitis (CodeBreaK 301); safe combination partners limited"
+  - "Pancreatic cancer penetration — KRAS G12D is ~44% of pancreatic adenocarcinoma; MRTX1133 + RMC-9805 activity still unproven; stromal barrier limits drug delivery"
+
+market_dynamics: |
+  Global KRAS G12C inhibitor market reached ~$300-400 million in
+  2023 — well below 2021 launch-era projections of $1B+ for
+  sotorasib alone. The commercial shortfall is partly clinical
+  (CodeBreaK 200 OS miss) and partly structural (G12C is only
+  ~13% of KRAS mutations). BMS's $5.8B Mirati acquisition
+  (November 2023) was priced as a platform bet — Krazati standalone
+  economics don't justify the multiple; the portfolio
+  (MRTX1133 G12D + adagrasib combinations + Mirati's broader MAPK
+  pipeline) drove the valuation. Revolution Medicines' RMC-6236
+  is the next major inflection — Phase 3 pancreatic + NSCLC
+  readouts 2025-2026 will determine whether pan-RAS inhibitors
+  reach the $2-5B peak analyst consensus projects. Chinese KRAS
+  cluster (Jacobio glecirasib 2024 approval, Hengrui HRS-4642,
+  InventisBio garsorasib) is growing but has minimal ex-China
+  economics so far. 2025 CodeBreaK 300 + KRYSTAL-10 CRC combo
+  approvals opened the second indication; CRC KRAS G12C TAM
+  ~$1-2B globally.
+
+regulatory_context: |
+  FDA used accelerated approval for both initial KRAS G12C
+  launches (sotorasib 2021 single-arm CodeBreaK 100, adagrasib
+  2022 single-arm KRYSTAL-1). Post-CodeBreaK 200's 2023 OS miss,
+  FDA signaled heightened scrutiny for accelerated-approval KRAS
+  programs — required confirmatory trials must now read OS
+  convincingly, not just PFS. Label language for sotorasib was
+  tightened 2024 to reinforce 2L NSCLC indication boundaries.
+  China NMPA approved glecirasib (Jacobio) 2024 under its fast-
+  track for domestic innovation. The EMA has been more conservative
+  — sotorasib conditional approval only, full approval pending
+  CodeBreaK 200 data package resolution. CRC combination approvals
+  (CodeBreaK 300, KRYSTAL-10) in 2024-2025 used conventional full
+  approval pathway based on PFS superiority over active comparator.
+
+hot_targets:
+  - gene_symbol: KRAS
+    name: "KRAS (K-Ras GTPase)"
+    rationale: "Canonical target — 40 years undruggable; G12C covalent inhibitors 2021+; G12D + pan-RAS follow-ons"
+  - gene_symbol: NRAS
+    name: "NRAS"
+    rationale: "Closely related RAS family; NRAS Q61-mutant melanoma historically undruggable; pan-RAS molecules (RMC-6236) target NRAS too"
+  - gene_symbol: HRAS
+    name: "HRAS"
+    rationale: "Third RAS family member; HRAS-mutant head/neck cancer; tipifarnib (farnesyltransferase inhibitor) approved 2021"
+  - gene_symbol: SOS1
+    name: "SOS1 (Son of Sevenless 1)"
+    rationale: "Upstream GEF that activates RAS; BI 1701963 inhibitor + RMC-5552 in development"
+  - gene_symbol: PTPN11
+    name: "SHP2 (PTPN11)"
+    rationale: "Phosphatase downstream of RTKs that reactivates RAS post-inhibition; combination partner for G12C TKIs"
+  - gene_symbol: MAP2K1
+    name: "MEK1 (MAP2K1)"
+    rationale: "Downstream of RAS; trametinib + selumetinib combination history with RAS-pathway modulators"
+
+literature:
+  - pmid: "24256730"
+    title: "K-Ras(G12C) inhibitors allosterically control GTP affinity and effector interactions"
+    authors: "Ostrem JM, Peters U, Sos ML, Wells JA, Shokat KM"
+    journal: "Nature"
+    year: 2013
+  - pmid: "34019457"
+    title: "Sotorasib for Lung Cancers with KRAS p.G12C Mutation (CodeBreaK 100)"
+    authors: "Skoulidis F et al."
+    journal: "N Engl J Med"
+    year: 2021
+  - pmid: "36546659"
+    title: "Adagrasib in Non-Small-Cell Lung Cancer Harboring a KRAS(G12C) Mutation (KRYSTAL-1)"
+    authors: "Jänne PA et al."
+    journal: "N Engl J Med"
+    year: 2022
+  - pmid: "37870976"
+    title: "Sotorasib versus Docetaxel for Previously Treated Non-Small-Cell Lung Cancer with KRAS-G12C Mutation (CodeBreaK 200)"
+    authors: "de Langen AJ et al."
+    journal: "Lancet"
+    year: 2023
+  - pmid: "38579149"
+    title: "Sotorasib plus Panitumumab in Refractory Colorectal Cancer with Mutated KRAS G12C (CodeBreaK 300)"
+    authors: "Fakih MG et al."
+    journal: "N Engl J Med"
+    year: 2023
+
+articles:
+  - title: "FDA grants accelerated approval to sotorasib for KRAS G12C mutated NSCLC"
+    source_name: "FDA"
+    source_type: press_release
+    language: en
+    publish_date: "2021-05-28"
+    url: "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-sotorasib-kras-g12c-mutated-nsclc"
+  - title: "Bristol Myers Squibb to Acquire Mirati Therapeutics"
+    source_name: "BMS"
+    source_type: press_release
+    language: en
+    publish_date: "2023-10-08"
+    url: "https://news.bms.com/news/corporate-financial/2023/Bristol-Myers-Squibb-to-Acquire-Mirati-Therapeutics/default.aspx"
+  - title: "KRAS抑制剂2024格局:从G12C到pan-RAS,中国原研与Revolution Medicines的赛跑"
+    source_name: "医药魔方"
+    source_type: wechat_gongzhonghao
+    language: zh
+    publish_date: "2024-09-08"
+    url: "https://mp.weixin.qq.com/s/kras-pan-ras-2024"
+
+lessons:
+  - title: "Structural-Biology Breakthroughs Reset 40-Year Undruggable Labels — But Commercial Reality Lags Scientific Excitement"
+    title_zh: "结构生物学突破打破40年不可成药的标签 — 但商业现实滞后于科学兴奋"
+    lesson_type: scientific_mechanistic
+    pattern: |
+      When a validated target is labeled "undruggable" for decades,
+      a structural-biology discovery that reveals a cryptic binding
+      site can open the target within a few years (Shokat's 2013
+      KRAS G12C switch-II pocket → Lumakras 2021). But first-
+      generation drugs in these "reopened" classes frequently
+      disappoint commercially because (a) they typically address
+      a narrow mutation subset, not the full target, and (b)
+      acquired-resistance mechanisms emerge within months. The
+      commercial winners are pan-target second-generation
+      molecules or combination regimens that address the broader
+      mutation landscape — not the pioneering molecules. Same
+      story played out with BCL-2 (navitoclax → venetoclax
+      selective), CDK4/6 (palbociclib → ribociclib / abemaciclib
+      differentiation), and now KRAS (sotorasib/adagrasib narrow
+      G12C → RMC-6236 pan-RAS ambition).
+    key_evidence:
+      - "Shokat 2013 Nature KRAS switch-II discovery → Lumakras 2021 FDA = 8 year target-to-drug cycle (fast by oncology standards)"
+      - "Sotorasib 2023 revenue ~$200M vs 2021 launch-era $1B+ projections; shortfall driven by narrow G12C subset (~13% of KRAS) + CodeBreaK 200 OS miss"
+      - "BMS paid $5.8B for Mirati = platform valuation, not Krazati-standalone valuation"
+      - "Revolution Medicines RMC-6236 pan-RAS Phase 3 — analyst consensus $2-5B peak if TAM expansion works"
+    limitations:
+      - "Applies specifically to mutation-narrow oncology targets with structural-biology limits; doesn't generalize to all 'undruggable' classes"
+      - "Time from breakthrough to commercial maturation is 10-15 years; sponsors need long-horizon capital"
+      - "Narrow-first-generation economics can still be solid ($200-500M molecule) even when they miss blockbuster expectations"
+    applicable_contexts:
+      - "KRAS, TP53, MYC, MCL-1 — undruggable class reopening candidates"
+      - "Early-stage M&A valuation of pioneering molecules in reopened classes"
+      - "Pan-target vs narrow-selective strategic decisions in kinase inhibitor classes"
+    applicable_to_landscapes:
+      - kras
+      - oncology-biomarkers
+    human_reviewed: true
+    reviewed_by: di
+
+  - title: "PFS-Met-OS-Missed Outcomes Are Survivable But Permanent Label Anchors"
+    title_zh: "PFS达标但OS未达的结果虽可生存但会永久锚定标签"
+    lesson_type: regulatory_pathway
+    pattern: |
+      When a confirmatory Phase 3 meets PFS but misses OS, FDA
+      increasingly keeps accelerated approval but tightens label
+      language, restricts expansion into earlier lines, and
+      signals heightened scrutiny for future programs in the same
+      class. The CodeBreaK 200 2023 readout for sotorasib is the
+      canonical recent case: PFS HR 0.66 (met), OS HR 1.01
+      (missed). FDA kept approval but restricted 1L expansion
+      ambitions and required additional post-marketing data.
+      Adagrasib's KRYSTAL-12 in 2024 met both PFS and OS,
+      avoiding this trap — which now creates a permanent competitive
+      asymmetry between the two G12C molecules even though they
+      are clinically similar. Sponsors should plan for OS-convincing
+      confirmatory designs, not PFS-sufficient ones, when moving
+      into class-wide tight regulatory posture.
+    key_evidence:
+      - "CodeBreaK 200 2023: sotorasib PFS HR 0.66 met, OS HR 1.01 missed; FDA kept approval with tightened label"
+      - "KRYSTAL-12 2024: adagrasib PFS HR 0.58 + OS HR 0.81 — saved program from CodeBreaK-200-style trap"
+      - "FDA Project ODAC 2021 raised confirmatory-data bar — OS-convincing now the working standard for accelerated-approval confirmation"
+      - "Precedent in other accelerated approvals: hepatocellular carcinoma IO withdrawals 2021-2023; triple-negative atezolizumab 2021 withdrawal"
+    limitations:
+      - "Applies to confirmatory Phase 3 in crowded classes; single-arm accelerated approvals with no comparator face different dynamics"
+      - "OS-missed-PFS-met doesn't always trigger withdrawal — depends on magnitude, pre-specified hypothesis, confounding crossover"
+      - "Post-marketing data from real-world use can rehabilitate label — not a terminal outcome"
+    applicable_contexts:
+      - "Phase 3 confirmatory design in accelerated-approval drugs"
+      - "Regulatory-strategy planning for KRAS, IO, ADC programs"
+      - "Head-to-head vs real-world-evidence tradeoff analysis"
+    applicable_to_landscapes:
+      - kras
+      - pd1-pdl1
+      - oncology-regulatory
+    human_reviewed: true
+    reviewed_by: di
+
+  - title: "Chinese-Originator Parallel Programs Are Now the Default, Not the Exception"
+    title_zh: "中国原研并行项目现已成为默认模式而非例外"
+    lesson_type: competitive_dynamics
+    pattern: |
+      Every validated oncology target since 2020 has multiple
+      Chinese-originator programs approved or in Phase 3 at close
+      parallel timing to the Western first-mover. KRAS G12C:
+      Jacobio (glecirasib, NMPA 2024), InventisBio (garsorasib,
+      Phase 3), Hengrui (HRS-4642, G12D). PD-1: tislelizumab,
+      toripalimab, sintilimab. ADC: DualityBio, RemeGen,
+      Innovent. EGFR NSCLC: Hansoh aumolertinib, Allist
+      furmonertinib, Dizal sunvozertinib. The competitive
+      implication: Western sponsors can no longer plan on a
+      5-year first-mover window; Chinese molecules reach Phase 3
+      within 2-3 years of Western approval at 30-60% list-price
+      discount, pressuring ex-China pricing through payer
+      negotiation and driving outbound-licensing deal structures.
+      This is now the dominant oncology competitive dynamic, not
+      a novelty.
+    key_evidence:
+      - "Glecirasib (Jacobio) NMPA approval August 2024, ~3 years after sotorasib US 2021"
+      - "Garsorasib (InventisBio) Phase 3 2024 NSCLC"
+      - "Parallel pattern: tislelizumab (BeiGene) FDA 2024 vs pembrolizumab 2014; DualityBio BNT323 HER2 ADC vs Enhertu"
+      - "Outbound-licensing volume: Chinese biotech ex-China deal value $50B+ 2021-2024 per Morgan Stanley 2024 report"
+    limitations:
+      - "FDA single-region data bar (post-sintilimab ORIENT-11 2022) still applies; US approval requires multi-region designs"
+      - "Quality differentiation can matter — not every Chinese-originator molecule is commercially viable ex-China"
+      - "Geopolitical risk affects deal-flow — US BIOSECURE Act 2024 created uncertainty for WuXi-associated programs"
+    applicable_contexts:
+      - "Competitive analysis for any validated oncology target"
+      - "Pricing projections for Western first-movers facing Chinese parallel launches"
+      - "Strategic evaluation of Chinese out-licensing partnership terms"
+    applicable_to_landscapes:
+      - kras
+      - pd1-pdl1
+      - adc
+      - egfr-nsclc
+    human_reviewed: true
+    reviewed_by: di

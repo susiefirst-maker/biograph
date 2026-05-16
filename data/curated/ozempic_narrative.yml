@@ -1,0 +1,120 @@
+# Curated Ozempic (semaglutide) golden narrative.
+#
+# Third golden entity. Validates the framework beyond antibodies:
+# semaglutide is a modified peptide (long-acting GLP-1 RA), with a
+# metabolic/obesity commercial narrative very different from Humira's
+# immunology or Keytruda's immuno-oncology.
+
+drugs:
+  - chembl_id: CHEMBL2108724
+    generic_name: semaglutide
+
+    discovery_narrative: |
+      Semaglutide (Ozempic / Wegovy / Rybelsus) is the flagship product
+      of Novo Nordisk's decades-long GLP-1 receptor agonist program.
+      GLP-1, an incretin hormone secreted by intestinal L-cells in
+      response to food, was characterized in the mid-1980s as a potent
+      stimulator of glucose-dependent insulin secretion. Native GLP-1's
+      ~2-minute half-life (rapid DPP-4 cleavage and renal clearance)
+      made direct therapeutic use impractical.
+
+      Novo Nordisk's peptide-engineering group — led for most of the
+      era by Lotte Bjerre Knudsen — pursued long-acting analogues
+      throughout the 1990s and 2000s. Liraglutide (Victoza, once-daily,
+      FDA-approved 2010) was the first-generation product, using a
+      C16 fatty acid side chain to promote reversible albumin binding
+      and extend half-life to ~13 hours. Semaglutide was the second
+      generation: a C18 diacid fatty acid linker with an additional
+      2-(2-(2-aminoethoxy)ethoxy)acetyl spacer, two amino-acid
+      substitutions (Aib8, Arg34), and subcutaneous once-weekly dosing
+      from a ~165-hour half-life.
+
+      Ozempic (subcutaneous, type 2 diabetes) gained FDA approval on
+      December 5, 2017. Rybelsus (oral semaglutide co-formulated with
+      SNAC — the sodium N-(8-(2-hydroxybenzoyl)amino)caprylate permeation
+      enhancer licensed from Emisphere Technologies) followed in
+      September 2019 as the first oral GLP-1 RA. Wegovy — the same
+      molecule at a 2.4 mg/week dose for chronic weight management —
+      was approved June 4, 2021 for adults with BMI ≥30 (or ≥27 with
+      weight-related comorbidity). The 2023 STEP/SELECT readouts
+      confirmed a ~20% reduction in major adverse cardiovascular events
+      independent of glycemic effect, driving the March 8, 2024 label
+      expansion to cardiovascular risk reduction in overweight/obese
+      adults — the first obesity drug approved on a cardiovascular
+      outcome.
+
+      By 2023 the semaglutide franchise (Ozempic + Wegovy + Rybelsus)
+      generated over $21 billion in sales, pushed Novo Nordisk past
+      LVMH as Europe's most valuable company, and catalyzed the
+      "GLP-1 era" in metabolic disease. Eli Lilly's tirzepatide
+      (Mounjaro/Zepbound, a GIP/GLP-1 dual agonist, FDA-approved 2022
+      and 2023) quickly emerged as the principal competitor with
+      greater average weight loss.
+
+    discovery_narrative_zh: |
+      司美格鲁肽(Ozempic / Wegovy / Rybelsus)是诺和诺德(Novo
+      Nordisk)GLP-1受体激动剂项目数十年研发的旗舰产品。GLP-1
+      是肠道L细胞在进食后分泌的一种肠促胰岛素激素,1980年代中期
+      被确认为一种强效的葡萄糖依赖性胰岛素促分泌剂。天然GLP-1
+      的半衰期仅约2分钟(DPP-4酶快速切割及肾脏清除),直接治疗
+      使用不切实际。
+
+      诺和诺德的多肽工程团队(由Lotte Bjerre Knudsen长期领导)
+      在1990年代和2000年代一直致力于长效类似物的研发。第一代
+      产品利拉鲁肽(Victoza,每日一次,2010年FDA获批)采用C16
+      脂肪酸侧链促进可逆性白蛋白结合,将半衰期延长至约13小时。
+      司美格鲁肽是第二代产品:采用C18二酸脂肪酸连接体加2-(2-
+      (2-aminoethoxy)ethoxy)acetyl间隔基,两个氨基酸替换
+      (Aib8、Arg34),半衰期约165小时,支持每周一次皮下给药。
+
+      Ozempic(皮下注射,用于2型糖尿病)于2017年12月5日获FDA
+      批准。Rybelsus(口服司美格鲁肽,与从Emisphere公司授权的
+      SNAC渗透促进剂共配方)于2019年9月作为首个口服GLP-1 RA
+      获批。Wegovy — 相同分子以2.4 mg/周剂量用于慢性体重管理 —
+      于2021年6月4日获批,适用于BMI≥30(或≥27合并体重相关
+      合并症)的成人。2023年STEP/SELECT试验读出证实与降糖效应
+      独立的约20%主要不良心血管事件风险降低,推动2024年3月8日
+      扩展标签至超重/肥胖成人的心血管风险降低 — 这是首个基于
+      心血管结局获批的肥胖药物。
+
+      到2023年,司美格鲁肽特许经营权(Ozempic + Wegovy + Rybelsus)
+      销售额超过210亿美元,推动诺和诺德超越LVMH成为欧洲市值
+      最高的公司,并在代谢疾病领域开启"GLP-1时代"。礼来公司的
+      替尔泊肽(Mounjaro / Zepbound,GIP/GLP-1双激动剂,2022和
+      2023年FDA获批)迅速成为主要竞争对手,平均减重幅度更大。
+
+    discovery_narrative_source_refs:
+      - "Knudsen & Lau, 'The discovery and development of liraglutide and semaglutide', Frontiers in Endocrinology 2019"
+      - "FDA Ozempic approval letter, BLA 209637, 2017-12-05"
+      - "FDA Rybelsus approval letter, NDA 213051, 2019-09-20"
+      - "FDA Wegovy approval letter, BLA 215256, 2021-06-04"
+      - "Lincoff et al., SELECT trial primary results, NEJM 2023"
+      - "Novo Nordisk FY2023 Annual Report (revenue + market cap disclosures)"
+
+    mechanism_of_action: |
+      Semaglutide is a glucagon-like peptide-1 receptor agonist (GLP-1
+      RA). It binds the GLP-1 receptor, a G-protein-coupled receptor
+      expressed on pancreatic β-cells, gut, CNS appetite centers, and
+      cardiovascular tissues. Activation amplifies glucose-dependent
+      insulin secretion, suppresses glucagon release, slows gastric
+      emptying, and reduces appetite via hypothalamic signaling. The
+      molecule is a 31-amino-acid analogue of native GLP-1 with three
+      modifications extending half-life from ~2 minutes to ~165 hours:
+      (1) Aib8 substitution resisting DPP-4 cleavage, (2) Arg34
+      substitution, and (3) a C18 diacid fatty-acid linker via an
+      AEEAc spacer at Lys26 enabling reversible albumin binding.
+
+    mechanism_of_action_zh: |
+      司美格鲁肽是一种胰高血糖素样肽-1受体激动剂(GLP-1 RA)。
+      它与GLP-1受体结合 — 这是一种G蛋白偶联受体,在胰岛β细胞、
+      肠道、中枢神经系统食欲中枢及心血管组织中均有表达。激活
+      后放大葡萄糖依赖的胰岛素分泌,抑制胰高血糖素释放,减缓
+      胃排空,并通过下丘脑信号通路减少食欲。该分子是天然GLP-1
+      的31个氨基酸类似物,含三处修饰使半衰期从约2分钟延长至
+      约165小时:(1)Aib8替换抵抗DPP-4酶切割;(2)Arg34替换;
+      (3)通过AEEAc间隔基在Lys26位连接的C18二酸脂肪酸链实现
+      可逆性白蛋白结合。
+
+    mechanism_of_action_source_refs:
+      - "FDA-approved Ozempic prescribing information (current revision)"
+      - "Lau et al., 'Discovery of the Once-Weekly Glucagon-Like Peptide-1 (GLP-1) Analogue Semaglutide', J Med Chem 2015"

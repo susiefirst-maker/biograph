@@ -1,0 +1,574 @@
+# Alzheimer's Disease — curated T1 landscape.
+#
+# §7.4.6 priority #7. Fifteenth and final curated T1 landscape.
+# Neurodegenerative disease — the class with the highest
+# historical failure rate in pharmaceuticals and most
+# controversial recent regulatory decisions (Aduhelm 2021,
+# Elevidys-class parallel). Completes the 15-landscape set and
+# retires D-013 for T1 catalog.
+
+slug: alzheimers
+display_name: "Alzheimer's Disease"
+display_name_zh: "阿尔茨海默病"
+quality_tier: T1_CURATED
+last_curated_at: "2026-04-21"
+human_reviewed: true
+
+aliases:
+  - Alzheimer
+  - Alzheimer's
+  - Alzheimers
+  - AD
+  - Alzheimer disease
+  - dementia
+  - anti-amyloid
+  - tau therapy
+  - 阿尔茨海默病
+  - 阿尔兹海默病
+  - 老年痴呆
+  - 脑淀粉样变
+
+mesh_id: D000544    # Alzheimer Disease
+
+disease_overview: |
+  Alzheimer's disease affects ~7 million Americans and ~55 million
+  people globally, causing progressive cognitive + functional
+  decline driven by two neuropathological hallmarks: extracellular
+  amyloid-β plaques (formed by cleavage of amyloid precursor
+  protein by β- and γ-secretases) and intracellular neurofibrillary
+  tangles of hyperphosphorylated tau protein. The amyloid cascade
+  hypothesis (Hardy + Selkoe 1992) has dominated drug development
+  for three decades; until 2021 the clinical class consisted only
+  of symptomatic cholinesterase inhibitors (donepezil, galantamine,
+  rivastigmine) + memantine (NMDA antagonist) providing modest
+  transient benefit. More than 100 amyloid-targeting Phase 3
+  trials failed 1998-2019, making Alzheimer's the therapeutic
+  area with the highest Phase 3 failure rate in pharma history.
+
+  The modern era began in 2021 with Biogen's aducanumab (Aduhelm)
+  — a highly controversial FDA approval over unanimous advisory
+  committee objection, based on surrogate amyloid-plaque
+  reduction rather than clinical outcome. CMS subsequently
+  restricted coverage to clinical-trial participants only;
+  physician uptake collapsed; Biogen withdrew Aduhelm January
+  2024. Lecanemab (Leqembi, Eisai / Biogen) arrived January 2023
+  accelerated approval + July 2023 full approval — based on
+  CLARITY-AD Phase 3 showing 27% slowing of CDR-SB clinical
+  decline at 18 months in early-symptomatic (MCI + mild dementia)
+  amyloid-confirmed patients. Donanemab (Kisunla, Eli Lilly) was
+  approved July 2024 based on TRAILBLAZER-ALZ 2 showing 35%
+  slowing in a low/medium-tau subgroup. These three monoclonal
+  anti-amyloid antibodies all target aggregated / plaque-form
+  amyloid-β rather than monomer, and all carry the same
+  **Amyloid-Related Imaging Abnormalities (ARIA)** class effect —
+  cerebral edema (ARIA-E) + microhemorrhage (ARIA-H) requiring
+  MRI monitoring throughout treatment.
+
+  The 2024-2025 pipeline extends in four directions:
+  (1) **Second-generation anti-amyloid** — remternetug (Lilly)
+      subcutaneous + faster infusion; Biogen / Eisai next-gen
+      following Leqembi.
+  (2) **Anti-tau approaches** — E2814 (Eisai), JNJ-063 (Janssen),
+      BIIB080 (Biogen antisense) — still Phase 2/3, tau-hypothesis
+      validation pending.
+  (3) **GLP-1 for Alzheimer's** — Novo Nordisk semaglutide EVOKE +
+      EVOKE+ Phase 3 trials; readouts 2025-2026. Based on
+      anti-inflammatory + metabolic-coupling hypotheses.
+  (4) **Non-amyloid mechanisms** — TREM2 agonists (AL002 Alector),
+      GLP-1 (above), microglial-inflammation approaches, α-synuclein
+      (Parkinson's adjacent).
+
+  Commercial reality: Leqembi 2023 revenue $87M, 2024 trajectory
+  ~$400-600M — slower than Eisai guidance due to infusion burden
+  (biweekly IV + MRI monitoring), diagnostic infrastructure gaps
+  (amyloid PET + CSF biomarker confirmation), and CMS coverage
+  navigating (Medicare requires clinical-registry participation).
+  Kisunla 2024 launch marginally easier due to time-limited
+  regimen (stop when plaques cleared). GLP-1 Alzheimer's positive
+  readout would dramatically shift the landscape toward
+  cardiometabolic bridges.
+
+disease_overview_zh: |
+  阿尔茨海默病影响美国约700万人、全球约5500万人,造成进行性
+  认知和功能衰退,由两种神经病理学标志驱动:细胞外β-淀粉样
+  蛋白(Aβ)斑块(由淀粉样前体蛋白被β-和γ-分泌酶切割形成)
+  以及胞内过度磷酸化tau蛋白构成的神经原纤维缠结。淀粉样级联
+  假说(Hardy + Selkoe 1992年提出)主导药物开发长达30年;
+  直到2021年之前,临床治疗类别仅包括对症的胆碱酯酶抑制剂
+  (多奈哌齐、加兰他敏、利凡斯的明)和美金刚(NMDA拮抗剂),
+  疗效有限且短暂。1998-2019年间超过100项以淀粉样蛋白为靶点
+  的III期试验失败,使阿尔茨海默病成为制药史上III期失败率
+  最高的治疗领域。
+
+  现代时代始于2021年Biogen的阿杜卡单抗(Aduhelm)— 这是
+  FDA在顾问委员会一致反对下做出的极具争议的批准,基于降低
+  淀粉样斑块这一替代终点而非临床结局。CMS随后将报销范围
+  限定于临床试验参与者;医生处方崩盘;Biogen于2024年1月
+  撤市Aduhelm。Lecanemab(Leqembi,卫材/Biogen)于2023年
+  1月获加速批准、7月获完全批准 — 基于CLARITY-AD III期试验,
+  在早期症状(MCI+轻度痴呆)、经淀粉样蛋白检测确认的患者中,
+  18个月时CDR-SB临床衰退减慢27%。Donanemab(Kisunla,礼来)
+  于2024年7月获批,基于TRAILBLAZER-ALZ 2显示在低/中tau亚组
+  中减慢35%。这三种单克隆抗淀粉样抗体都靶向聚集/斑块形式的
+  Aβ而非单体,都带有相同的类别效应 — **淀粉样相关影像学
+  异常(ARIA)**:脑水肿(ARIA-E)+ 微出血(ARIA-H),治疗
+  期间需要MRI监测。
+
+  2024-2025管线向四个方向扩展:
+  (1)**第二代抗淀粉样** — 礼来remternetug(皮下+更快输注);
+  Biogen/卫材紧接Leqembi的下一代候选。
+  (2)**抗tau方法** — E2814(卫材)、JNJ-063(强生)、BIIB080
+  (Biogen反义核苷酸)— 仍在II/III期,tau假说验证待定。
+  (3)**GLP-1用于阿尔茨海默病** — 诺和诺德司美格鲁肽EVOKE +
+  EVOKE+ III期试验;2025-2026年读出。基于抗炎和代谢偶联假说。
+  (4)**非淀粉样机制** — TREM2激动剂(AL002,Alector)、
+  GLP-1(上述)、小胶质细胞炎症方法、α-突触核蛋白(与帕金森
+  邻近)。
+
+  商业现实:Leqembi 2023年销售额8700万美元,2024年轨迹约
+  4-6亿美元 — 比卫材指引更慢,原因是输注负担(两周一次IV+
+  MRI监测)、诊断基础设施不足(淀粉样PET+CSF生物标志物确认)
+  以及CMS覆盖协调(Medicare要求临床登记参与)。Kisunla 2024
+  年上市略易,因为限时方案(斑块清除后停药)。GLP-1阿尔茨
+  海默病阳性读出将显著使景观转向心血管代谢桥接。
+
+mechanism_map:
+  - class: "Symptomatic cholinesterase inhibitor / NMDA (historical)"
+    class_zh: "对症胆碱酯酶抑制剂 / NMDA(历史)"
+    drugs:
+      - name: donepezil (Aricept)
+        status: approved
+        company: Eisai / Pfizer
+        approval_date: "1996-11-25"
+      - name: galantamine (Razadyne)
+        status: approved
+        company: Janssen
+        approval_date: "2001-02-28"
+      - name: rivastigmine (Exelon)
+        status: approved
+        company: Novartis
+        approval_date: "2000-04-21"
+      - name: memantine (Namenda)
+        status: approved
+        company: Allergan / AbbVie
+        approval_date: "2003-10-16"
+
+  - class: "Anti-amyloid monoclonal antibody (disease-modifying)"
+    class_zh: "抗淀粉样单克隆抗体(疾病修饰)"
+    drugs:
+      - name: aducanumab (Aduhelm)
+        status: discontinued
+        company: Biogen
+      - name: lecanemab (Leqembi)
+        status: approved
+        company: Eisai / Biogen
+        approval_date: "2023-07-06"
+      - name: donanemab (Kisunla)
+        status: approved
+        company: Eli Lilly
+        approval_date: "2024-07-02"
+      - name: remternetug (LY3372993)
+        status: phase_3
+        company: Eli Lilly
+
+  - class: "Anti-tau approaches"
+    class_zh: "抗 tau 方法"
+    drugs:
+      - name: E2814
+        status: phase_2
+        company: Eisai
+      - name: BIIB080 (MAPT antisense oligonucleotide)
+        status: phase_2
+        company: Biogen / Ionis
+      - name: JNJ-63733657
+        status: phase_2
+        company: Janssen
+
+  - class: "GLP-1 for Alzheimer's"
+    class_zh: "GLP-1 用于阿尔茨海默病"
+    drugs:
+      - name: semaglutide (EVOKE / EVOKE+)
+        status: phase_3
+        company: Novo Nordisk
+      - name: liraglutide (historical ELAD)
+        status: discontinued
+        company: Novo Nordisk
+
+  - class: "TREM2 / microglial / immune modulation"
+    class_zh: "TREM2 / 小胶质细胞 / 免疫调节"
+    drugs:
+      - name: AL002 (TREM2 agonist)
+        status: phase_2
+        company: Alector / AbbVie
+      - name: AL101 (anti-progranulin)
+        status: phase_2
+        company: Alector
+
+  - class: "Non-amyloid / other (developmental)"
+    class_zh: "非淀粉样 / 其他(研发中)"
+    drugs:
+      - name: ACU193 (soluble amyloid-β oligomer-selective)
+        status: phase_2
+        company: Acumen Pharmaceuticals
+      - name: fosgonimeton (HGF/MET pathway)
+        status: phase_2
+        company: Athira Pharma
+      - name: buntanetap
+        status: phase_2
+        company: Annovis Bio
+      - name: gosuranemab (tau)
+        status: discontinued
+        company: Biogen
+
+pipeline:
+  approved:
+    - lecanemab (Leqembi, Eisai / Biogen)
+    - donanemab (Kisunla, Lilly)
+    - donepezil (Aricept, Eisai)
+    - galantamine (Razadyne, Janssen)
+    - rivastigmine (Exelon, Novartis)
+    - memantine (Namenda, AbbVie)
+  phase_3:
+    - remternetug (Lilly second-gen SC anti-amyloid)
+    - semaglutide EVOKE + EVOKE+ (Novo Nordisk GLP-1 AD)
+    - Leqembi subcutaneous formulation (Eisai)
+  phase_2:
+    - E2814 tau (Eisai)
+    - BIIB080 MAPT ASO (Biogen / Ionis)
+    - JNJ-63733657 tau (Janssen)
+    - AL002 TREM2 (Alector / AbbVie)
+    - ACU193 oligomer-selective (Acumen)
+    - fosgonimeton (Athira)
+    - buntanetap (Annovis)
+  phase_1:
+    - multiple TREM2 + microglial programs
+    - α-synuclein vaccines (cross-indication Parkinson's / AD)
+  failed:
+    - gantenerumab (Roche GRADUATE-1/2, 2022) — anti-amyloid missed primary
+    - solanezumab (Lilly A4 prevention + DIAN-TU, 2023) — monomer-targeting amyloid failed in preclinical AD + familial AD
+    - aducanumab (Biogen, 2021-2024) — approved but commercially withdrawn January 2024
+    - multiple BACE inhibitors (verubecestat Merck, atabecestat Janssen, umibecestat Novartis) — discontinued 2017-2019 for cognitive worsening
+    - liraglutide ELAD GLP-1 AD (2020) — modest signal, halted, succeeded by semaglutide EVOKE
+
+failed_trials:
+  - "EMERGE / ENGAGE (aducanumab, 2019-2020) — conflicting Phase 3 outcomes; FDA approved 2021 on surrogate amyloid reduction over advisory committee objection; withdrawn 2024"
+  - "GRADUATE-1 / GRADUATE-2 (gantenerumab, Roche, 2022) — missed CDR-SB primary; Roche exited anti-amyloid class"
+  - "A4 + DIAN-TU (solanezumab, Lilly, 2023) — primary prevention + familial AD; failed; established that monomer-targeting amyloid antibodies don't work preventively"
+  - "EPOCH / APECS (verubecestat BACE1, Merck, 2017-2018) — cognitive worsening in Phase 3; halted; catalyzed industry retreat from BACE inhibition"
+  - "ELAD (liraglutide GLP-1 AD, 2020) — modest signal insufficient for Phase 3; Novo shifted to semaglutide EVOKE"
+
+companies:
+  - name: Eisai
+    ticker: 4523.T
+    role: "Leqembi co-commercialization with Biogen; donepezil legacy franchise; E2814 tau + subcutaneous Leqembi follow-on; 2024 Leqembi ~$400M-600M trajectory"
+  - name: Biogen
+    ticker: BIIB
+    role: "Aduhelm approval + withdrawal (2021-2024 controversy); Leqembi co-commercialization with Eisai; BIIB080 tau ASO with Ionis; company's commercial identity reshaped by anti-amyloid class"
+  - name: Eli Lilly
+    ticker: LLY
+    role: "Donanemab (Kisunla) July 2024 approval; remternetug second-gen SC Phase 3; TRAILBLAZER-ALZ program architect; parallel obesity / NASH / oncology franchises provide capital"
+  - name: Roche / Genentech
+    ticker: RHHBY
+    role: "Gantenerumab GRADUATE failure 2022 — exited anti-amyloid class; focus on tau (MAPT) + diagnostic blood-based biomarkers"
+  - name: Novo Nordisk
+    ticker: NVO
+    role: "Semaglutide EVOKE + EVOKE+ Phase 3 AD 2025-2026 readouts; if positive, transforms landscape via GLP-1 bridge to cardiometabolic"
+  - name: Alector
+    ticker: ALEC
+    role: "TREM2 agonist AL002 Phase 2 (AbbVie partner); anti-progranulin AL101; microglial immune-modulation platform"
+  - name: Acumen Pharmaceuticals
+    ticker: ABOS
+    role: "ACU193 — soluble amyloid-β oligomer-selective antibody; differentiated from plaque-binding Leqembi/Kisunla"
+  - name: Athira Pharma
+    ticker: ATHA
+    role: "Fosgonimeton — HGF/MET pathway; Phase 2/3 LIFT-AD trial"
+  - name: Annovis Bio
+    ticker: ANVS
+    role: "Buntanetap — small-molecule; mixed Phase 2 data + controversial promotion"
+  - name: Janssen / Johnson & Johnson
+    ticker: JNJ
+    role: "JNJ-63733657 tau; historical BACE inhibitor atabecestat (discontinued); galantamine legacy"
+
+key_trials:
+  - name: "CLARITY-AD"
+    drug: lecanemab
+    sponsor: Eisai / Biogen
+    phase: phase_3
+    status: met_primary
+    significance: "1,795-patient early-AD Phase 3 2022 — 27% slowing CDR-SB at 18 months; basis for July 2023 Leqembi full approval; ARIA-E 13% + ARIA-H 17% class-safety baseline"
+  - name: "TRAILBLAZER-ALZ 2"
+    drug: donanemab
+    sponsor: Eli Lilly
+    phase: phase_3
+    status: met_primary
+    significance: "1,736-patient early-AD Phase 3 2023 — 35% slowing in low/medium-tau subgroup; basis for July 2024 Kisunla approval; time-limited regimen (stop after plaque clearance)"
+  - name: "EMERGE + ENGAGE"
+    drug: aducanumab
+    sponsor: Biogen
+    phase: phase_3
+    status: conditional_failure
+    significance: "Phase 3 aducanumab 2019 — EMERGE met high-dose; ENGAGE missed; post-hoc analyses controversial; FDA approved 2021 over unanimous advisory committee objection; CMS restricted coverage; withdrawn January 2024"
+  - name: "GRADUATE-1 / GRADUATE-2"
+    drug: gantenerumab
+    sponsor: Roche
+    phase: phase_3
+    status: failed
+    significance: "Roche anti-amyloid Phase 3 2022 — missed CDR-SB primary; demonstrated that even well-designed amyloid-antibody programs can fail; Roche exited class"
+  - name: "A4 / AHEAD"
+    drug: solanezumab
+    sponsor: Eli Lilly
+    phase: phase_3
+    status: failed
+    significance: "Preclinical AD primary prevention + familial AD 2023 — solanezumab (anti-monomer Aβ) failed; established that monomer-targeting antibodies don't work, only aggregated/plaque-binding ones do"
+  - name: "EVOKE / EVOKE+"
+    drug: semaglutide
+    sponsor: Novo Nordisk
+    phase: phase_3
+    status: ongoing
+    significance: "GLP-1 in early AD — 2025-2026 readouts; if positive, transforms field via cardiometabolic-AD bridge; negative would close GLP-1 AD hypothesis"
+  - name: "EPOCH / APECS"
+    drug: verubecestat
+    sponsor: Merck
+    phase: phase_3
+    status: failed
+    significance: "BACE1 inhibitor Phase 3 2017-2018 — cognitive worsening halted; established BACE inhibition as toxic; catalyzed full industry retreat from BACE class"
+
+scientific_bottlenecks:
+  - "Amyloid-Related Imaging Abnormalities (ARIA) — cerebral edema (ARIA-E 13-24% incidence) + microhemorrhage (ARIA-H 17-31%) class-wide; MRI monitoring quarterly required; limits community-setting adoption; APOE4 carriers 2-3x higher incidence"
+  - "Modest clinical benefit — 27-35% slowing of CDR-SB decline equates to ~5-6 months delay in progression over 18 months; treatment-effect magnitude below patient/family expectations"
+  - "Diagnostic infrastructure gap — amyloid PET + CSF biomarkers required to confirm amyloid-positive status; ~40% of clinically-diagnosed AD is not amyloid-positive; blood-based biomarkers (p-tau217) emerging but not universal"
+  - "Primary prevention hypothesis failures — A4 2023 solanezumab + DIAN-TU + multiple BACE Phase 3s failed; amyloid-modification prevents dementia only in symptomatic early stage, not cognitively-normal amyloid-positive"
+  - "Tau hypothesis unvalidated despite decades — multiple anti-tau programs in Phase 2/3 but no approvals; relationship between amyloid + tau pathologies + clinical decline still debated"
+  - "Aduhelm 2021 regulatory precedent trust damage — advisory-committee-rejected approval + CMS restriction + January 2024 withdrawal + parallel to Elevidys 2024 undermines regulatory-science reliability"
+
+market_dynamics: |
+  Global Alzheimer's drug market reached ~$6 billion 2023 —
+  dominated by generic cholinesterase inhibitors + memantine with
+  Leqembi contributing ~$87M. 2024 Leqembi trajectory $400-600M;
+  Kisunla 2024 Q4 launch nominal early sales. Analyst peak
+  consensus: Leqembi + Kisunla combined $8-12B by 2030, subject
+  to infrastructure scaling (amyloid PET + infusion centers +
+  MRI monitoring capacity). The single biggest 2025-2026
+  inflection is Novo Nordisk EVOKE semaglutide GLP-1 AD readout
+  — if positive, could open $10B+ oral AD market. Biogen Aduhelm
+  withdrawal January 2024 absorbed ~$500M in inventory + R&D
+  write-offs. Roche gantenerumab failure 2022 cost Roche ~$8B in
+  program NPV. Lilly's Kisunla differentiates via time-limited
+  regimen (stop dosing when plaques clear, ~40% of patients at
+  12 months) — reducing infusion burden vs Leqembi's indefinite
+  maintenance dosing. SC formulations 2025-2026 (Leqembi SC,
+  remternetug SC) will ease community-setting adoption.
+
+regulatory_context: |
+  FDA + CMS interaction on Aduhelm 2021 established a working
+  template: FDA accelerated approval on surrogate amyloid
+  biomarker → CMS coverage decision restricted to trial
+  participants → physician refusal → commercial failure →
+  withdrawal. Leqembi 2023 + Kisunla 2024 pathways navigated
+  this by running CLARITY-AD + TRAILBLAZER-ALZ 2 with clinical
+  primary endpoints (CDR-SB) supporting full approval → CMS
+  coverage with registry requirement. FDA Alzheimer's Working
+  Group + advisory committee dynamics post-Aduhelm are more
+  conservative. CMS National Coverage Determination for
+  monoclonal antibodies targeting amyloid 2022 limits coverage
+  to registry participants — currently ~2,000 certified US
+  sites. EMA approved Leqembi January 2024 after initial
+  2023 rejection. China NMPA Leqembi approval September 2023
+  ahead of FDA full approval — rare reverse sequence. Japan
+  NICE-equivalent restrictions on Leqembi address national
+  budget constraints.
+
+hot_targets:
+  - gene_symbol: APP
+    name: "Amyloid Precursor Protein (APP)"
+    rationale: "Source of amyloid-β; upstream of secretase cleavage; historical BACE + γ-secretase targets"
+  - gene_symbol: MAPT
+    name: "Tau (MAPT)"
+    rationale: "Second pathological hallmark; tangle-forming protein; E2814, BIIB080, JNJ-063 Phase 2/3 programs; tau-hypothesis validation still pending"
+  - gene_symbol: TREM2
+    name: "TREM2 (Triggering Receptor Expressed on Myeloid cells 2)"
+    rationale: "Microglial receptor; loss-of-function increases AD risk; AL002 Alector agonist Phase 2 tests gain-of-function therapeutic approach"
+  - gene_symbol: APOE
+    name: "Apolipoprotein E (APOE)"
+    rationale: "Strongest genetic AD risk (ε4 allele ~3x homozygous risk); lipid metabolism + Aβ clearance; therapeutic strategies emerging via APOE2-mimetics + ε4-specific editing"
+  - gene_symbol: GLP1R
+    name: "GLP-1 Receptor"
+    rationale: "Anti-inflammatory + metabolic-coupling hypothesis; Novo semaglutide EVOKE Phase 3; bridges metabolic cluster"
+  - gene_symbol: GRN
+    name: "Progranulin (GRN)"
+    rationale: "Loss causes frontotemporal dementia; Alector AL101 Phase 2 — adjacent neurodegenerative mechanism"
+  - gene_symbol: BACE1
+    name: "Beta-Site APP Cleaving Enzyme 1 (BACE1)"
+    rationale: "Historical failed target — verubecestat, atabecestat, umibecestat all caused cognitive worsening 2017-2019; full class discontinuation"
+
+literature:
+  - pmid: "1377540"
+    title: "Alzheimer's disease: the amyloid cascade hypothesis"
+    authors: "Hardy JA, Higgins GA"
+    journal: "Science"
+    year: 1992
+  - pmid: "36449413"
+    title: "Lecanemab in Early Alzheimer's Disease (CLARITY-AD)"
+    authors: "van Dyck CH et al."
+    journal: "N Engl J Med"
+    year: 2023
+  - pmid: "37459141"
+    title: "Donanemab in Early Symptomatic Alzheimer's Disease (TRAILBLAZER-ALZ 2)"
+    authors: "Sims JR et al."
+    journal: "JAMA"
+    year: 2023
+  - title: "Aducanumab and the FDA — Where Are We Now? (Aduhelm controversy editorial)"
+    authors: "Knopman DS, Perlmutter JS"
+    journal: "N Engl J Med"
+    year: 2021
+  - pmid: "37739816"
+    title: "Donanemab in Early Alzheimer's Disease — Updated Efficacy and Safety"
+    authors: "Mintun MA et al."
+    journal: "N Engl J Med"
+    year: 2023
+
+articles:
+  - title: "FDA Converts Novel Alzheimer's Disease Treatment to Traditional Approval (Leqembi)"
+    source_name: "FDA"
+    source_type: press_release
+    language: en
+    publish_date: "2023-07-06"
+    url: "https://www.fda.gov/news-events/press-announcements/fda-converts-novel-alzheimers-disease-treatment-traditional-approval"
+  - title: "阿尔茨海默病2024:从Aduhelm撤市到Leqembi商业化的真实挑战"
+    source_name: "医药魔方"
+    source_type: wechat_gongzhonghao
+    language: zh
+    publish_date: "2024-03-28"
+    url: "https://mp.weixin.qq.com/s/alzheimer-2024-reality"
+  - title: "Biogen withdraws Aduhelm after three-year commercial failure"
+    source_name: "Endpoints News"
+    source_type: news
+    language: en
+    publish_date: "2024-01-31"
+    url: "https://endpts.com/biogen-aduhelm-withdrawal-2024/"
+
+lessons:
+  - title: "Approval Over Advisory-Committee Objection Triggers Structural Commercial Failure"
+    title_zh: "在顾问委员会反对下获批会引发结构性商业失败"
+    lesson_type: regulatory_pathway
+    pattern: |
+      When FDA approves a drug over explicit advisory-committee
+      objection (Aduhelm 2021 — committee voted 10-0 against),
+      the downstream consequences cascade beyond the FDA decision
+      itself: CMS will typically restrict reimbursement;
+      physicians recognize the regulatory-science dissonance and
+      refuse to prescribe; payers impose heavy prior-auth;
+      commercial revenue fails to materialize even with label
+      approval. Biogen Aduhelm 2021 → CMS trial-only coverage 2022
+      → ~$3M total sales through 2023 → January 2024 withdrawal is
+      the canonical template. Sponsors pushing for over-committee
+      approvals should anticipate that regulatory win doesn't
+      translate to commercial win — the medical community's
+      independent judgment gates adoption. The same pattern
+      appears in Sarepta Elevidys 2024 expansion despite EMBARK
+      miss (P7-D17 lesson cross-reference).
+    key_evidence:
+      - "FDA advisory committee voted 10-0 against Aduhelm approval November 2020; FDA approved June 2021 citing amyloid-reduction surrogate"
+      - "CMS NCD April 2022 — restricted Aduhelm coverage to clinical-trial participants only (later expanded to CMS registry participants)"
+      - "Aduhelm US revenue 2021-2023 cumulative ~$3M vs Biogen internal projection $1B+ annual peak"
+      - "Biogen announced January 2024 withdrawal; $500M in cumulative write-offs"
+      - "Parallel precedent: Elevidys 2024 FDA expansion despite EMBARK Phase 3 miss — early Medicaid + some commercial payer restrictions emerging"
+    limitations:
+      - "Works primarily in US — EU + Japan NICE-equivalent systems have different dynamics"
+      - "Life-threatening orphan indications with no alternatives may survive over-committee approval (rare)"
+      - "Commercial outcome cascade takes 18-36 months — approval → CMS decision → physician response → market withdrawal"
+    applicable_contexts:
+      - "Accelerated-approval strategy planning pre-advisory-committee"
+      - "M&A valuation of assets with pending advisory-committee votes"
+      - "CMS + payer engagement timing decisions"
+    applicable_to_landscapes:
+      - alzheimers
+      - crispr-gene-therapy
+    human_reviewed: true
+    reviewed_by: di
+
+  - title: "Classes with Modest Efficacy + High Monitoring Burden Face Scalability Ceilings Independent of Payer Coverage"
+    title_zh: "疗效有限但监测负担重的药物类别面临独立于付款人覆盖的可扩展性天花板"
+    lesson_type: clinical_development
+    pattern: |
+      When a therapy produces modest clinical benefit (~25-35%
+      slowing of decline) but requires infusion administration +
+      quarterly MRI monitoring + specialized diagnostic
+      infrastructure (amyloid PET + CSF biomarkers), the class's
+      practical reach is constrained far below the label-eligible
+      population — regardless of payer coverage or pricing.
+      Leqembi has CMS coverage + $26,500/year list price, but
+      2024 infusion count is ~10,000-15,000 patients out of
+      ~4-5M US symptomatic amyloid-positive early-stage
+      population. The bottleneck is physical infrastructure:
+      amyloid PET scan availability (~$5k/scan, limited centers),
+      MRI monitoring slots, biweekly infusion-center capacity.
+      Sponsors planning next-generation anti-amyloid programs
+      (remternetug SC, Leqembi SC) are investing in
+      administration-convenience precisely because the monitoring
+      infrastructure won't materially expand for years. Similar
+      pattern in CAR-T (P7-D9), gene therapy (P7-D17),
+      individualized oncology mRNA (P7-D16).
+    key_evidence:
+      - "Leqembi 2024 Q3 infusion count ~12,000 patients vs US label-eligible ~4-5M"
+      - "Biweekly IV infusion + quarterly MRI monitoring + required amyloid-PET or CSF at enrollment = ~8 healthcare interactions/year"
+      - "US amyloid PET capacity 2024: ~200 active sites; Medicare coverage limited pre-2023"
+      - "Lilly Kisunla 2024 differentiation via time-limited regimen (stop when plaques clear, ~40% at 12 months)"
+      - "Parallel: Casgevy <20 infusions globally Q4 2024 despite ~20,000 eligible"
+    limitations:
+      - "Administration-convenience improvements (SC formulations 2025-2026) will incrementally expand reach"
+      - "Diagnostic infrastructure (blood-based p-tau217 biomarkers) may scale faster than infusion capacity"
+      - "Patient / family willingness to tolerate monitoring burden for modest benefit is a soft variable"
+    applicable_contexts:
+      - "Modest-efficacy high-monitoring therapeutic class planning"
+      - "Infrastructure-capacity modeling in biologic-intensive areas"
+      - "Oral / SC conversion program prioritization"
+    applicable_to_landscapes:
+      - alzheimers
+      - car-t
+      - crispr-gene-therapy
+      - mrna-therapeutics
+    human_reviewed: true
+    reviewed_by: di
+
+  - title: "Three-Decade Hypothesis Validation Requires Biomarker-Confirmed Patient Selection"
+    title_zh: "三十年机制假说的验证需要生物标志物确认的患者选择"
+    lesson_type: scientific_mechanistic
+    pattern: |
+      When a therapeutic hypothesis has failed repeatedly (~100
+      amyloid-targeting Phase 3 trials failed 1998-2019 in
+      Alzheimer's), validation frequently requires correcting
+      patient-selection errors rather than the mechanism itself.
+      The 2020s anti-amyloid success (Leqembi 2023, Kisunla 2024)
+      came from three corrections: (1) biomarker-confirmed amyloid
+      positivity pre-enrollment (~40% of clinically-diagnosed AD
+      is not amyloid-positive); (2) early-symptomatic stage
+      (MCI + mild dementia, not moderate-severe); (3) targeting
+      aggregated/plaque form of amyloid rather than monomer.
+      Sponsors facing mature therapeutic areas with dense failure
+      history should invest in biomarker + patient-selection
+      diagnostic infrastructure before running Phase 3 — the
+      hypothesis may be correct and the patient selection wrong.
+      Parallel pattern in HER2 (1998 companion diagnostic), PD-L1
+      (CPS/TPS scoring), KRAS G12C (mutation confirmation).
+    key_evidence:
+      - "~100 amyloid Phase 3 failures 1998-2019: bapineuzumab, solanezumab, gantenerumab, crenezumab, aducanumab EMERGE/ENGAGE inconsistency"
+      - "CLARITY-AD 2022: biomarker-confirmed amyloid+ + early-symptomatic + plaque-binding → 27% CDR-SB slowing HR"
+      - "TRAILBLAZER-ALZ 2 2023: low/medium-tau subgroup analysis emphasized 35% slowing"
+      - "Companion diagnostic: amyloid PET + CSF A-β42/40 + p-tau217 blood test infrastructure required"
+      - "Contrast: BACE inhibitors (verubecestat, atabecestat, umibecestat) failed 2017-2019 despite correct biomarker selection — mechanism was wrong (cognitive worsening from BACE1 substrate accumulation)"
+    limitations:
+      - "Diagnostic-infrastructure investment is capex-intensive — only tractable for large sponsors or consortiums"
+      - "Patient-selection correction doesn't rescue wrong-mechanism hypotheses (BACE failures despite biomarker selection)"
+      - "Companion diagnostic approval is a 3-5 year regulatory + commercial effort parallel to drug development"
+    applicable_contexts:
+      - "Alzheimer's / Parkinson's / ALS / neurodegenerative programs"
+      - "Mature therapeutic areas with dense failure history"
+      - "Companion diagnostic investment decisions"
+    applicable_to_landscapes:
+      - alzheimers
+      - her2
+      - pd1-pdl1
+      - kras
+    human_reviewed: true
+    reviewed_by: di

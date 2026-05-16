@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+/* Tailwind v4: opt out of the default `prefers-color-scheme` query so the
+   `dark:` variant only activates when our ThemeToggle adds class="dark"
+   to <html>. Without this, OS preference and in-app toggle can disagree. */
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+:root.dark {
+  --background: #0a0a0a;
+  --foreground: #ededed;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}

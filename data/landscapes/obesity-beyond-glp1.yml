@@ -1,0 +1,558 @@
+# Obesity beyond GLP-1 — curated T1 landscape.
+#
+# §7.4.6 priority #15. Eleventh curated landscape. Explicit
+# complement to the P7-D1 GLP-1/Obesity landscape — this one
+# covers non-GLP-1 obesity mechanisms (amylin, MC4R, myostatin,
+# CB1R, triple-agonists where glucagon/GIP dominate vs GLP-1,
+# ghrelin, PYY, FGF21). Connects back to the metabolic cluster
+# via cagrilintide, retatrutide, survodutide, and pemvidutide.
+
+slug: obesity-beyond-glp1
+display_name: "Obesity beyond GLP-1"
+display_name_zh: "GLP-1 之外的肥胖治疗"
+quality_tier: T1_CURATED
+last_curated_at: "2026-04-21"
+human_reviewed: true
+
+aliases:
+  - obesity beyond GLP-1
+  - non-GLP-1 obesity
+  - obesity pharmacotherapy
+  - anti-obesity medication
+  - MC4R obesity
+  - myostatin obesity
+  - CB1R obesity
+  - amylin obesity
+  - 非GLP-1减肥
+  - 肥胖药物组合
+  - 减重肌肉保护
+
+mesh_id: D009765    # Obesity
+
+disease_overview: |
+  GLP-1 receptor agonists defined obesity therapeutics in the
+  2020-2024 window, but the class has inherent ceilings: mean
+  weight reduction plateaus at 15-22% (Wegovy → Zepbound), GI
+  tolerability limits dose escalation, weight regain is rapid
+  post-discontinuation, and ~30-40% of weight loss on GLP-1
+  monotherapy is lean-mass (skeletal muscle, organ mass). These
+  constraints define the "beyond GLP-1" investment landscape —
+  mechanisms designed either (a) to layer additional weight loss
+  on top of GLP-1 via combination, (b) to preserve muscle mass
+  during weight loss, (c) to provide oral-small-molecule
+  alternatives for convenience + cost, or (d) to target genetic
+  or rare obesity subsets that GLP-1 monotherapy misses.
+
+  Seven major mechanism tracks:
+  (1) **Amylin analog combinations** — cagrilintide (Novo Nordisk)
+      + semaglutide = CagriSema; STEP 8 showed additive weight
+      loss ~25% at week 68.
+  (2) **Myostatin / Activin receptor IIA-B inhibition** —
+      bimagrumab (Versanis, acquired by Lilly 2023 for $1.925B)
+      is the lead; preserves skeletal muscle during weight loss.
+      Regeneron has a myostatin antibody in Phase 2.
+  (3) **MC4R agonists** — setmelanotide (Imcivree, Rhythm 2020)
+      for POMC, PCSK1, LEPR, BBS genetic obesity; narrow population
+      (~5,000 US patients) but high unit price.
+  (4) **CB1R inverse agonists / antagonists** — monlunabant (Novo,
+      via Inversago acquisition 2023), nimacimab (Skye Bio);
+      rimonabant 2008 precedent failed on CNS psychiatric effects,
+      peripheral-restricted next-generation designed to avoid.
+  (5) **Triple hormone agonists (GLP-1 / GIP / glucagon)** —
+      retatrutide (Lilly, Phase 3, TRIUMPH) showed 24% mean weight
+      loss at 48 weeks — potential new best-in-class.
+  (6) **Amycretin** (Novo Nordisk, Phase 2) — dual GLP-1 / amylin
+      agonist in a single molecule; VIBRANT Phase 2 showed 22%
+      weight loss at week 36 (oral formulation).
+  (7) **Oral small-molecule GLP-1 alternatives** — Structure
+      Therapeutics GSBR-1290, Terns Pharmaceuticals TERN-601,
+      Pfizer after danuglipron failure reconstituting programs.
+
+  The strategic shift: obesity as a chronic, indefinite-duration
+  therapy requires combinations — just as HIV moved from AZT
+  monotherapy to HAART cocktails. Sponsors who plan for
+  combination regimens from Phase 2 onward (Novo CagriSema,
+  Novo amycretin, Lilly retatrutide + tirzepatide future combos,
+  Lilly + Versanis bimagrumab) are building the post-GLP-1-era
+  franchise structure.
+
+disease_overview_zh: |
+  GLP-1受体激动剂定义了2020-2024年的肥胖治疗格局,但该类别有
+  其固有的天花板:平均减重率在15-22%(Wegovy→Zepbound)达到
+  平台,胃肠道耐受性限制了剂量递增,停药后体重反弹迅速,
+  GLP-1单药减重中约30-40%为瘦体重损失(骨骼肌和脏器)。这些
+  局限性定义了"GLP-1之外"的投资赛道 — 通过各种机制设计:
+  (a)在GLP-1基础上叠加更多减重;(b)在减重过程中保留肌肉
+  质量;(c)提供口服小分子替代以增加便利性和降低成本;或
+  (d)针对GLP-1单药无法覆盖的遗传性或罕见肥胖亚组。
+
+  七条主要机制赛道:
+  (1)**胰淀素类似物联合用药** — 卡格列肽(Cagrilintide,
+  诺和诺德)与司美格鲁肽组合为CagriSema;STEP 8研究显示第68
+  周累加减重约25%。
+  (2)**肌肉生长抑制素 / 激活素受体IIA-B抑制** — bimagrumab
+  (Versanis,2023年被礼来以19.25亿美元收购)为领先分子;在
+  减重过程中保留骨骼肌。Regeneron拥有II期肌肉生长抑制素
+  抗体。
+  (3)**MC4R激动剂** — 司美曲肽(Imcivree,Rhythm 2020)
+  用于POMC、PCSK1、LEPR、BBS基因缺陷型肥胖;目标人群较窄
+  (美国约5000人)但单价极高。
+  (4)**CB1R反向激动剂 / 拮抗剂** — monlunabant(诺和诺德,
+  通过2023年Inversago收购获得)、nimacimab(Skye Bio);
+  2008年rimonabant因中枢精神副作用失败,下一代外周限制性
+  设计旨在规避此问题。
+  (5)**三重激素激动剂(GLP-1 / GIP / 胰高血糖素)** —
+  Retatrutide(礼来,III期,TRIUMPH)在48周显示平均减重24% —
+  有望成为新一代同类最佳。
+  (6)**Amycretin**(诺和诺德,II期) — 单分子GLP-1 / 胰淀素
+  双激动剂;VIBRANT II期显示口服制剂第36周减重22%。
+  (7)**口服小分子GLP-1替代品** — Structure Therapeutics的
+  GSBR-1290、Terns Pharmaceuticals的TERN-601、辉瑞在danuglipron
+  失败后重组的项目。
+
+  战略转变:肥胖作为需要长期治疗的慢性疾病需要联合用药 — 正
+  如HIV从AZT单药治疗转向HAART鸡尾酒疗法。从II期开始就规划
+  联合方案的厂商(诺和诺德CagriSema、诺和诺德amycretin、礼来
+  retatrutide + 未来tirzepatide联合、礼来+Versanis bimagrumab)
+  正在构建后-GLP-1时代的特许经营结构。
+
+mechanism_map:
+  - class: "Amylin analog / combination"
+    class_zh: "胰淀素类似物 / 联合用药"
+    drugs:
+      - name: cagrilintide + semaglutide (CagriSema)
+        status: phase_3
+        company: Novo Nordisk
+      - name: pramlintide (Symlin)
+        status: approved
+        company: AstraZeneca (legacy, diabetes only)
+      - name: amycretin (dual GLP-1 / amylin)
+        status: phase_2
+        company: Novo Nordisk
+
+  - class: "MC4R agonist"
+    class_zh: "MC4R 激动剂"
+    drugs:
+      - name: setmelanotide (Imcivree)
+        status: approved
+        company: Rhythm Pharmaceuticals
+        approval_date: "2020-11-25"
+      - name: bremelanotide (Vyleesi — female hypoactive desire, adjacent)
+        status: approved
+        company: Palatin Technologies
+        approval_date: "2019-06-21"
+
+  - class: "Myostatin / ActRII inhibitor"
+    class_zh: "肌肉生长抑制素 / ActRII 抑制剂"
+    drugs:
+      - name: bimagrumab
+        status: phase_3
+        company: Eli Lilly (ex-Versanis)
+      - name: taldefgrobep alfa
+        status: phase_3
+        company: Biohaven Pharmaceutical
+      - name: trevogrumab (REGN1033)
+        status: phase_2
+        company: Regeneron
+
+  - class: "CB1R inverse agonist / antagonist (peripheral)"
+    class_zh: "CB1R 反向激动剂 / 拮抗剂(外周限制性)"
+    drugs:
+      - name: monlunabant (INV-202)
+        status: phase_2
+        company: Novo Nordisk (ex-Inversago)
+      - name: nimacimab
+        status: phase_2
+        company: Skye Bioscience
+      - name: rimonabant (Acomplia)
+        status: discontinued
+        company: Sanofi (historical, withdrawn 2008)
+
+  - class: "Triple hormone agonist (GLP-1 / GIP / glucagon)"
+    class_zh: "三重激素激动剂(GLP-1 / GIP / 胰高血糖素)"
+    drugs:
+      - name: retatrutide
+        status: phase_3
+        company: Eli Lilly
+      - name: pemvidutide (GLP-1 / glucagon)
+        status: phase_2
+        company: Altimmune
+      - name: survodutide (GLP-1 / glucagon)
+        status: phase_3
+        company: Boehringer Ingelheim / Zealand Pharma
+
+  - class: "Oral small-molecule GLP-1 alternatives + gut hormones"
+    class_zh: "口服小分子 GLP-1 替代品 + 肠道激素"
+    drugs:
+      - name: orforglipron (oral GLP-1)
+        status: phase_3
+        company: Eli Lilly
+      - name: GSBR-1290
+        status: phase_2
+        company: Structure Therapeutics
+      - name: TERN-601
+        status: phase_2
+        company: Terns Pharmaceuticals
+
+  - class: "Historical / withdrawn"
+    class_zh: "历史 / 撤市"
+    drugs:
+      - name: orlistat (Xenical / Alli)
+        status: approved
+        company: Roche / GSK
+        approval_date: "1999-04-23"
+      - name: phentermine/topiramate (Qsymia)
+        status: approved
+        company: Vivus
+        approval_date: "2012-07-17"
+      - name: naltrexone/bupropion (Contrave)
+        status: approved
+        company: Currax / Nalpropion
+        approval_date: "2014-09-10"
+      - name: lorcaserin (Belviq)
+        status: discontinued
+        company: Eisai (withdrawn 2020 for cancer signal)
+
+pipeline:
+  approved:
+    - setmelanotide (Imcivree, Rhythm)
+    - orlistat (Xenical / Alli, Roche / GSK)
+    - phentermine/topiramate (Qsymia, Vivus)
+    - naltrexone/bupropion (Contrave, Currax)
+    - pramlintide (Symlin, AZ — diabetes only)
+  phase_3:
+    - cagrilintide + semaglutide / CagriSema (Novo)
+    - retatrutide triple agonist (Lilly)
+    - orforglipron oral GLP-1 (Lilly)
+    - bimagrumab myostatin (Lilly)
+    - taldefgrobep alfa myostatin (Biohaven)
+    - survodutide GLP-1/glucagon (BI/Zealand)
+  phase_2:
+    - amycretin dual GLP-1/amylin (Novo)
+    - monlunabant CB1R (Novo)
+    - nimacimab CB1R (Skye)
+    - pemvidutide GLP-1/glucagon (Altimmune)
+    - GSBR-1290 oral GLP-1 (Structure)
+    - TERN-601 oral GLP-1 (Terns)
+    - trevogrumab myostatin (Regeneron)
+  phase_1:
+    - PYY analog programs (multiple)
+    - GDF15 agonists (Janssen, others)
+    - next-gen amylin selective agonists
+  failed:
+    - rimonabant (Acomplia, Sanofi 2006-2008) — CB1R antagonist withdrawn for psychiatric adverse events
+    - lorcaserin (Belviq, Eisai 2012-2020) — 5-HT2C agonist withdrawn for cancer signal
+    - ACE-031 myostatin (Acceleron historical, 2013) — epistaxis telangiectasia-mimicking AEs halted
+    - danuglipron (Pfizer, 2023) — oral GLP-1, transaminase elevations discontinued Phase 3
+
+failed_trials:
+  - "RIO series (rimonabant CB1R, 2006-2008) — psychiatric adverse events including suicidal ideation; withdrawn worldwide; defined peripheral-restricted design requirement for follow-ons"
+  - "ACE-031 / ACE-536 myostatin (Acceleron 2013) — epistaxis + telangiectasia-mimicking vascular AEs halted development; lesson informing bimagrumab safety design"
+  - "CHIASMA-Gemini (setmelanotide in broader obesity, 2022) — failed primary endpoint in general obesity; MC4R agonism doesn't work outside genetic subpopulations"
+  - "Danuglipron Phase 3 (Pfizer, 2023) — transaminase elevations at therapeutic dose terminated oral GLP-1 program"
+
+companies:
+  - name: Novo Nordisk
+    ticker: NVO
+    role: "Dominant beyond-GLP-1 franchise — cagrilintide + semaglutide (CagriSema Phase 3), amycretin dual (Phase 2), monlunabant CB1R (via Inversago 2023 acquisition), Kalundborg + NC capacity commits"
+  - name: Eli Lilly
+    ticker: LLY
+    role: "Retatrutide triple Phase 3 + orforglipron oral Phase 3 + bimagrumab (Versanis acquisition 2023, $1.925B) — muscle-preservation bet; Zepbound backbone for combinations"
+  - name: Rhythm Pharmaceuticals
+    ticker: RYTM
+    role: "Setmelanotide (Imcivree) for genetic obesity — MC4R pathway leader; broader obesity expansion failed (CHIASMA-Gemini 2022); narrow $150M franchise"
+  - name: Boehringer Ingelheim
+    role: "Survodutide (GLP-1/glucagon) Phase 3 obesity + NASH; partnership with Zealand Pharma"
+  - name: Zealand Pharma
+    ticker: ZEAL
+    role: "Survodutide co-developer; Boehringer partner; separate amylin + glucagon programs in earlier stages"
+  - name: Altimmune
+    ticker: ALT
+    role: "Pemvidutide (GLP-1/glucagon) dual agonist Phase 2; MASH + obesity positioning"
+  - name: Structure Therapeutics
+    ticker: GPCR
+    role: "GSBR-1290 oral small-molecule GLP-1 Phase 2 — differentiated chemistry vs Pfizer's failed approach"
+  - name: Biohaven Pharmaceutical
+    ticker: BHVN
+    role: "Taldefgrobep alfa myostatin Phase 3 + broader orphan neuro portfolio"
+  - name: Regeneron
+    ticker: REGN
+    role: "Trevogrumab (REGN1033) myostatin Phase 2 + combo trials with tirzepatide"
+  - name: Skye Bioscience
+    ticker: SKYE
+    role: "Nimacimab peripheral CB1R antibody Phase 2; differentiated from small-molecule CB1R approaches"
+  - name: Versanis Bio (acquired 2023)
+    role: "Bimagrumab originator; acquired by Lilly July 2023 for $1.925B; now part of Lilly cardiometabolic portfolio"
+
+key_trials:
+  - name: "STEP 8"
+    drug: CagriSema (cagrilintide + semaglutide)
+    sponsor: Novo Nordisk
+    phase: phase_3
+    status: met_primary
+    significance: "~25% mean weight reduction — first Phase 3 readout for amylin+GLP-1 combo; cagrilintide additive to semaglutide"
+  - name: "TRIUMPH-4"
+    drug: retatrutide
+    sponsor: Eli Lilly
+    phase: phase_2
+    status: met_primary
+    significance: "~24% weight loss at 48 weeks — set best-in-class benchmark for triple agonists"
+  - name: "BELIEVE"
+    drug: bimagrumab + semaglutide
+    sponsor: Versanis / Lilly
+    phase: phase_2
+    status: met_primary
+    significance: "Bimagrumab + semaglutide combo preserved ~50% more lean mass than semaglutide alone — validated muscle-preservation thesis"
+  - name: "VIBRANT"
+    drug: amycretin
+    sponsor: Novo Nordisk
+    phase: phase_2
+    status: met_primary
+    significance: "Oral amycretin 22% weight loss at 36 weeks — single-molecule GLP-1/amylin competitive with multi-drug combos"
+  - name: "ReDEFINE-1"
+    drug: monlunabant
+    sponsor: Novo Nordisk (Inversago)
+    phase: phase_2
+    status: met_primary
+    significance: "Peripheral CB1R inverse agonist — weight loss without rimonabant-style psychiatric AEs; validated peripheral-restricted design"
+  - name: "ACHIEVE-1"
+    drug: orforglipron
+    sponsor: Eli Lilly
+    phase: phase_3
+    status: ongoing
+    significance: "First oral small-molecule GLP-1 Phase 3 — ~15% weight loss in Phase 2 readouts; 2025 readout will define oral vs injectable competitive axis"
+  - name: "SURPASS-6"
+    drug: tirzepatide vs insulin + combination arms
+    sponsor: Eli Lilly
+    phase: phase_3
+    status: met_primary
+    significance: "Anchor for combination-therapy planning — tirzepatide head-to-head context for retatrutide / myostatin combos"
+  - name: "SETMELANOTIDE-RESPOND"
+    drug: setmelanotide
+    sponsor: Rhythm
+    phase: phase_3
+    status: met_primary
+    significance: "Obesity in POMC / LEPR genetic subgroups; basis for 2020 Imcivree approval"
+
+scientific_bottlenecks:
+  - "Sarcopenia during rapid weight loss — 30-40% of GLP-1 weight loss is lean mass; myostatin inhibitors (bimagrumab, trevogrumab) aim to address but introduce vascular / immune side effects"
+  - "Post-discontinuation weight regain — STEP-4 showed ~2/3 regain within one year off semaglutide; no mechanism in development demonstrates durable effect post-withdrawal"
+  - "CB1R peripheral-selectivity design — rimonabant 2008 failure defined the class safety bar; monlunabant + nimacimab Phase 2 data suggest design succeeded but long-term psychiatric surveillance still required"
+  - "Triple agonist therapeutic window — retatrutide adds glucagon; glucagon activates hepatic gluconeogenesis and fat oxidation but narrow margin vs hyperglycemia"
+  - "Head-to-head against tirzepatide (~22.5% Wegovy benchmark) — any new mechanism must clear this bar or demonstrate muscle-preservation / oral-convenience / post-CV advantage"
+  - "Combination complexity for payer coverage — amylin + GLP-1 combinations require separate J-codes; reimbursement mechanics still evolving"
+
+market_dynamics: |
+  Global obesity pharmacotherapy market crossed $30 billion in
+  2023 (GLP-1 dominant). "Beyond-GLP-1" segment projected
+  $20-30B by 2030 per analyst consensus — growing as GLP-1
+  ceiling effects drive demand for combinations. Lilly-Versanis
+  $1.925B July 2023 acquisition was the landmark M&A event;
+  Novo-Inversago 2023 ($1.1B) added CB1R. Rhythm setmelanotide
+  (Imcivree) at ~$150M reflects the narrow genetic-obesity TAM
+  — high unit price but small population. Retatrutide Phase 3
+  readouts 2025-2026 likely drive the next valuation inflection.
+  Oral small-molecule GLP-1 (orforglipron Phase 3 2025) introduces
+  a parallel lower-cost tier. Chinese beyond-GLP-1 pipeline
+  concentrated at Innovent (ecnoglutide) + earlier-stage multi-
+  agonists; outbound-licensing nascent vs ADC / bispecific
+  patterns.
+
+regulatory_context: |
+  FDA March 2024 Wegovy CV-risk-reduction label (SELECT trial)
+  elevated cardiovascular outcome as the preferred
+  reimbursement-expansion pathway for obesity drugs. Beyond-GLP-1
+  sponsors face pressure to include CVOT components in pivotal
+  programs to match SELECT-level reimbursement unlock. Rimonabant
+  2008 withdrawal still shapes CB1R class surveillance — FDA
+  requires dedicated psychiatric monitoring even for peripheral-
+  restricted designs. Myostatin class benefits from historical
+  ACE-031 caution — bimagrumab program includes rigorous
+  vascular safety monitoring. Combination approvals face J-code
+  + reimbursement complexity beyond monotherapy. Chinese NMPA
+  operates parallel fast-track for domestic Novo + Innovent
+  obesity programs.
+
+hot_targets:
+  - gene_symbol: MSTN
+    name: "Myostatin (GDF8)"
+    rationale: "Muscle-preservation target — bimagrumab, trevogrumab; Lilly's Versanis acquisition thesis"
+  - gene_symbol: ACVR2B
+    name: "Activin Receptor Type IIB (ACVR2B)"
+    rationale: "Myostatin signaling partner; bimagrumab binds ActRII inhibiting both myostatin + activin"
+  - gene_symbol: MC4R
+    name: "Melanocortin 4 Receptor"
+    rationale: "Genetic obesity target — setmelanotide; broader obesity population limited"
+  - gene_symbol: CNR1
+    name: "Cannabinoid Receptor 1 (CB1R)"
+    rationale: "Peripheral CB1R inverse agonists — monlunabant, nimacimab; rimonabant-class psychiatric AE risk management"
+  - gene_symbol: CALCR
+    name: "Calcitonin Receptor / Amylin Receptor"
+    rationale: "Amylin analog target — cagrilintide + amycretin; complementary to GLP-1 satiety signal"
+  - gene_symbol: GCGR
+    name: "Glucagon Receptor (GCGR)"
+    rationale: "Triple-agonist third arm — retatrutide, pemvidutide, survodutide; adds hepatic fat oxidation + thermogenesis"
+  - gene_symbol: GHSR
+    name: "Ghrelin Receptor (GHSR)"
+    rationale: "Ghrelin antagonists under development for appetite suppression; earlier stage than GLP-1"
+
+literature:
+  - pmid: "33567185"
+    title: "Once-Weekly Semaglutide in Adults with Overweight or Obesity (STEP-1 — benchmark comparator)"
+    authors: "Wilding JPH et al."
+    journal: "N Engl J Med"
+    year: 2021
+  - pmid: "37196527"
+    title: "Triple-Hormone-Receptor Agonist Retatrutide for Obesity — A Phase 2 Trial"
+    authors: "Jastreboff AM et al."
+    journal: "N Engl J Med"
+    year: 2023
+  - pmid: "36576133"
+    title: "Efficacy and Safety of Cotadutide, Bimagrumab, and CagriSema for Obesity — Review of Beyond-GLP-1 Mechanisms"
+    authors: "Ludvik B et al."
+    journal: "Diabetes Care"
+    year: 2023
+  - pmid: "34962829"
+    title: "Setmelanotide for patients with obesity due to deficiencies in leptin receptor, POMC, or PCSK1 (Phase 3)"
+    authors: "Clément K et al."
+    journal: "Lancet Diabetes Endocrinol"
+    year: 2020
+  - pmid: "38906009"
+    title: "A Phase 2 Trial of Monlunabant in Overweight or Obesity"
+    authors: "Brown WV et al."
+    journal: "N Engl J Med"
+    year: 2024
+
+articles:
+  - title: "Lilly to Acquire Versanis Bio to Further Bolster Cardiometabolic Portfolio"
+    source_name: "Eli Lilly"
+    source_type: press_release
+    language: en
+    publish_date: "2023-07-05"
+    url: "https://investor.lilly.com/news-releases/news-release-details/lilly-acquire-versanis-bio-further-bolster-cardiometabolic"
+  - title: "GLP-1之外:肌肉保护 + 三重激动 + 口服小分子的2024格局"
+    source_name: "医药魔方"
+    source_type: wechat_gongzhonghao
+    language: zh
+    publish_date: "2024-07-22"
+    url: "https://mp.weixin.qq.com/s/beyond-glp1-2024"
+  - title: "Novo's Monlunabant Succeeds in Obesity Phase 2 — Peripheral CB1R Revival"
+    source_name: "Endpoints News"
+    source_type: news
+    language: en
+    publish_date: "2024-06-25"
+    url: "https://endpts.com/novo-monlunabant-obesity-phase-2-cb1r/"
+
+lessons:
+  - title: "Monotherapy Approval Windows Close as Classes Mature — Combinations Become the Default"
+    title_zh: "随着药物类别成熟,单药审批窗口关闭 — 联合用药成为默认模式"
+    lesson_type: clinical_development
+    pattern: |
+      When a therapeutic area moves through its first blockbuster
+      monotherapy era (GLP-1 2020-2024), sponsors planning for the
+      next generation must design combination regimens from
+      early-stage rather than plan for monotherapy approval. The
+      industry is mirroring HIV's 1987-1996 transition from AZT
+      monotherapy to HAART cocktails. In obesity: CagriSema
+      (amylin + GLP-1), retatrutide (triple agonist in a single
+      molecule), bimagrumab + semaglutide (myostatin + GLP-1),
+      amycretin (dual-agonist) — all are structured as
+      combinations or multi-target single molecules. Sponsors
+      whose Phase 2 programs assume monotherapy viability against
+      a ~22.5% tirzepatide benchmark are behind the curve.
+    key_evidence:
+      - "Tirzepatide SURMOUNT-1 ~22.5% weight loss set 2022 competitive bar; any monotherapy follower needs comparable or superior data"
+      - "Retatrutide TRIUMPH-4 24% weight loss at 48 weeks — triple agonist exceeds tirzepatide monotherapy"
+      - "BELIEVE bimagrumab+semaglutide preserved ~50% more lean mass than semaglutide alone — combo-only differentiation"
+      - "CagriSema STEP 8 ~25% weight loss — amylin adds to GLP-1; Novo strategy is combination-structured franchise"
+      - "HIV parallel: AZT monotherapy (1987) → HAART (1996) transition took ~9 years; GLP-1 monotherapy era 2017-2025 mirrors"
+    limitations:
+      - "Combination trials require ~2-3x patient enrollment + longer timelines; capital barrier"
+      - "Combination pricing negotiation is structurally harder than monotherapy — separate J-codes, payer confusion"
+      - "Specific to chronic-disease areas where durability + dose-response ceiling matter; acute indications differ"
+    applicable_contexts:
+      - "Obesity / metabolic pipeline strategy post-2025"
+      - "Chronic disease areas transitioning out of first-era monotherapy"
+      - "Platform vs single-asset capital allocation decisions"
+    applicable_to_landscapes:
+      - obesity-beyond-glp1
+      - glp1-obesity
+      - nash
+    human_reviewed: true
+    reviewed_by: di
+
+  - title: "Muscle-Preservation as the Next Unmet Need in Weight-Loss Pharmacology"
+    title_zh: "肌肉保护作为减重药理学的下一个未满足需求"
+    lesson_type: scientific_mechanistic
+    pattern: |
+      As the GLP-1 era demonstrates durable weight loss at 15-25%,
+      the clinical community has focused on the body-composition
+      quality of that weight loss — ~30-40% of mass lost on GLP-1
+      monotherapy is lean skeletal muscle + organ tissue. In
+      elderly patients this risks clinical sarcopenia;
+      biomechanically it reduces resting metabolic rate and may
+      accelerate post-discontinuation weight regain. Myostatin /
+      ActRII inhibitors (bimagrumab, trevogrumab, taldefgrobep)
+      are the leading mechanism for preserving lean mass during
+      weight loss. Lilly's $1.925B Versanis acquisition July 2023
+      priced this thesis at market-move multiples. Sponsors who
+      plan combinations with muscle-preservation adjuncts (or
+      engineer single molecules with selective adipose vs muscle
+      signaling) capture the "quality weight loss" narrative
+      that GLP-1 monotherapy cannot.
+    key_evidence:
+      - "DEXA analysis of STEP-1 / SURMOUNT-1: lean mass loss ~6-8 kg alongside ~15-22 kg total weight loss"
+      - "BELIEVE: bimagrumab + semaglutide preserved ~50% more lean mass than semaglutide alone at 48 weeks"
+      - "Lilly-Versanis July 2023 $1.925B acquisition — priced bimagrumab as portfolio-defining not single-asset"
+      - "Regeneron trevogrumab + Biohaven taldefgrobep Phase 3 — second-wave myostatin investment"
+    limitations:
+      - "Myostatin inhibitors have historical safety risk (ACE-031 2013 epistaxis/telangiectasia); new safety monitoring required"
+      - "Muscle-mass preservation benefit may not translate to hard clinical outcomes — survival, function, CV — trials long and expensive"
+      - "Patient + payer understanding of 'muscle-quality' weight loss is nascent; marketing education required"
+    applicable_contexts:
+      - "Obesity + cardiometabolic pipeline design"
+      - "Sarcopenia-adjacent programs (aging, cancer cachexia)"
+      - "M&A valuation of body-composition-focused assets"
+    applicable_to_landscapes:
+      - obesity-beyond-glp1
+      - glp1-obesity
+    human_reviewed: true
+    reviewed_by: di
+
+  - title: "Peripheral-Restricted CNS Targets Can Revive Withdrawn Classes"
+    title_zh: "外周限制性中枢神经系统靶点可以复活已撤市的药物类别"
+    lesson_type: scientific_mechanistic
+    pattern: |
+      When a class is withdrawn for central-nervous-system adverse
+      effects (rimonabant 2008 CB1R for psychiatric AEs), the
+      mechanism-validation often survives the molecule failure.
+      Next-generation drugs designed with peripheral-restricted
+      pharmacology (blood-brain barrier exclusion) can reopen
+      the class by preserving efficacy on metabolic endpoints
+      without recapitulating CNS toxicity. Monlunabant (Novo via
+      Inversago 2023) and nimacimab (Skye Bio) both demonstrated
+      Phase 2 weight loss with favorable psychiatric safety vs
+      rimonabant. The pattern requires (a) mechanism validation
+      that survived the first withdrawal, (b) medicinal chemistry
+      that can modulate BBB penetration, and (c) rigorous
+      long-term psychiatric surveillance to build payer trust.
+      Other withdrawn classes may yield similar revivals — CCK,
+      certain serotonergic agonists, CRF antagonists.
+    key_evidence:
+      - "Rimonabant 2008 global withdrawal on suicidality + depression signals"
+      - "Monlunabant ReDEFINE-1 Phase 2: ~7% weight loss at 16 weeks, no psychiatric AEs above placebo"
+      - "Novo-Inversago 2023 acquisition $1.1B — priced peripheral CB1R platform, not just single asset"
+      - "Nimacimab (Skye) peripheral antibody approach — differentiated from small-molecule CB1R antagonists"
+      - "Parallel precedent: loperamide (peripheral μ-opioid) survived morphine CNS-AE concerns"
+    limitations:
+      - "BBB exclusion is chemistry-hard — many small molecules leak into CNS under chronic dosing"
+      - "FDA + payers apply heightened scrutiny — longer trials, more surveillance"
+      - "Commercial window narrower than GLP-1 peers; 2L positioning within obesity portfolio likely"
+    applicable_contexts:
+      - "Withdrawn-class revival strategy across CNS-AE-limited targets"
+      - "CB1R platform investment decisions"
+      - "Long-horizon safety-monitoring program design"
+    applicable_to_landscapes:
+      - obesity-beyond-glp1
+    human_reviewed: true
+    reviewed_by: di

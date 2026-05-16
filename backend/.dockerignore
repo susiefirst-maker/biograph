@@ -1,0 +1,43 @@
+# Keep the build context lean. Repo-root build context means this
+# .dockerignore is read by the Dockerfile at backend/Dockerfile but
+# applied to paths under the repo root.
+
+# Python bytecode + venv — never baked into the image.
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+
+backend/.venv/
+backend/.pytest_cache/
+backend/tests/         # Tests are not shipped to prod.
+backend/.coverage
+backend/htmlcov/
+
+# Frontend workspace — separate deploy target.
+frontend/
+
+# Local editor + OS cruft.
+.DS_Store
+**/.DS_Store
+.idea/
+.vscode/
+
+# Secrets + dev-only env.
+.env
+.env.local
+.env.*.local
+
+# Docs live alongside source but are not needed in the backend image.
+docs/
+skills/
+*.md
+LICENSE
+
+# Git + CI metadata.
+.git/
+.github/
+.gitignore

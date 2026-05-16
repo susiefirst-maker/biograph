@@ -1,0 +1,45 @@
+drugs:
+  - chembl_id: CHEMBL2108724
+    generic_name: semaglutide
+    articles:
+      - id_slug: fda_ozempic_approval_2017
+        title: "FDA approves new drug treatment for type 2 diabetes (Ozempic)"
+        source_name: "FDA"
+        source_type: press_release
+        language: en
+        publish_date: "2017-12-05"
+        credibility_tier: tier_1_primary
+        url: "https://www.fda.gov/drugs/resources-information-approved-drugs/ozempic-semaglutide-injection"
+        summary: |
+          FDA announcement of Ozempic (semaglutide) approval for adults
+          with type 2 diabetes. BLA 209637. Summarizes SUSTAIN clinical
+          program, including the SUSTAIN-6 cardiovascular outcome result.
+
+      - id_slug: novo_annual_2023
+        title: "Novo Nordisk Annual Report 2023"
+        source_name: "Novo Nordisk"
+        source_type: annual_report
+        language: en
+        publish_date: "2024-02-01"
+        credibility_tier: tier_1_primary
+        url: "https://www.novonordisk.com/investors/financial-reports.html"
+        summary: |
+          FY2023 annual report disclosing semaglutide franchise revenue
+          (~DKK 145B combined Ozempic + Wegovy + Rybelsus), capacity
+          expansion plans, and patent landscape (composition US8129343
+          and formulation US8536122 through 2033-2036).
+
+      - id_slug: select_nejm_2023
+        title: "Semaglutide and Cardiovascular Outcomes in Obesity without Diabetes (SELECT)"
+        source_name: "NEJM"
+        source_type: peer_reviewed
+        language: en
+        publish_date: "2023-11-11"
+        credibility_tier: tier_1_primary
+        url: "https://www.nejm.org/doi/full/10.1056/NEJMoa2307563"
+        summary: |
+          Lincoff et al. report SELECT trial primary result: 20%
+          reduction in MACE (cardiovascular death, non-fatal MI,
+          non-fatal stroke) with Wegovy 2.4 mg/week in patients
+          BMI ≥27 with established cardiovascular disease, without
+          diabetes. Independent of glycemic effect.

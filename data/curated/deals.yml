@@ -1,0 +1,141 @@
+# Curated drug deals.
+#
+# Why this file exists:
+#   Deal entity ships per ADR-0012 but no ingester populates it (no
+#   M&A API with clean structure). Hand-curated from public SEC filings,
+#   press releases, and trade-press coverage. Each entry cites sources.
+#
+# Dates are in YYYY-MM-DD format (month-resolution acceptable; day=01 for
+# "announced in Month YYYY" style entries).
+#
+# deal_type vocabulary (ADR-0012):
+#   acquisition / licensing / collaboration / spinoff / option
+
+drugs:
+  - chembl_id: CHEMBL1201580          # adalimumab (Humira)
+    generic_name: adalimumab
+    deals:
+      - deal_type: acquisition
+        headline: "Abbott Laboratories acquires Knoll Pharmaceuticals from BASF for $6.9B, gaining adalimumab (D2E7)"
+        announcement_date: "2001-03-01"
+        value_usd: 6900000000
+        acquirer_name: "Abbott Laboratories"
+        acquirer_ticker: "ABT"
+        target_name: "Knoll Pharmaceuticals"
+        description: |
+          Abbott's 2001 acquisition of Knoll (BASF's pharmaceutical subsidiary)
+          included D2E7, the antibody that became adalimumab. The deal was
+          widely viewed at the time as overpriced; Humira's subsequent
+          decade-long $20B+ revenue run vindicated it.
+        strategic_rationale: |
+          BASF divested Knoll to refocus on core chemicals; Abbott sought
+          an immunology franchise. Adalimumab was mid-clinical-development
+          (Phase 3 for RA) at deal close. No US/EU approvals yet.
+        source_refs:
+          - "Abbott Laboratories press release, 2001-12-14 (deal close)"
+          - "BASF Annual Report 2001 (divestiture disclosure)"
+          - "FT / Bloomberg coverage, March 2001"
+          - "Harvard Petrie-Flom Humira case study"
+
+      - deal_type: acquisition
+        headline: "AbbVie acquires Allergan for $63B — diversification from Humira concentration"
+        announcement_date: "2019-06-25"
+        value_usd: 63000000000
+        acquirer_name: "AbbVie Inc."
+        acquirer_ticker: "ABBV"
+        target_name: "Allergan plc"
+        target_ticker: "AGN"
+        description: |
+          AbbVie's 2019 bid for Allergan closed in May 2020. Valued at
+          $63B, it added Botox, Restasis, Vraylar, and ~20 other products
+          to AbbVie's portfolio ahead of Humira's 2023 US biosimilar
+          cliff. Widely analyzed as a defensive acquisition against
+          revenue concentration risk.
+        strategic_rationale: |
+          Humira peaked at ~$20B/yr (~60% of AbbVie revenue). Biosimilar
+          competition was projected to erode ~50% of US revenue within
+          2 years of 2023 entry. Allergan's aesthetic + neuroscience
+          franchises (Botox especially) had different cycle dynamics and
+          minimal biosimilar exposure.
+        source_refs:
+          - "AbbVie + Allergan joint press release, 2019-06-25"
+          - "AbbVie 10-K FY2019 (merger disclosure)"
+          - "BioPharma Dive, 'AbbVie-Allergan deal close' coverage"
+
+  - chembl_id: CHEMBL3137343           # pembrolizumab (Keytruda)
+    generic_name: pembrolizumab
+    deals:
+      - deal_type: acquisition
+        headline: "Schering-Plough acquires Organon BioSciences from Akzo Nobel ($14.4B) — MK-3475 enters SP pipeline"
+        announcement_date: "2007-03-12"
+        value_usd: 14400000000
+        acquirer_name: "Schering-Plough Corporation"
+        target_name: "Organon BioSciences"
+        description: |
+          Schering-Plough's 2007 acquisition of Organon BioSciences from
+          Dutch firm Akzo Nobel added ~100 pipeline assets including
+          MK-3475 (future pembrolizumab). Organon's anti-PD-1 program
+          was one of many early-clinical molecules; commercial potential
+          wasn't yet understood — BMS nivolumab Phase I results came 3
+          years later.
+        strategic_rationale: |
+          Akzo Nobel refocused on specialty chemicals; Schering-Plough
+          sought depth in reproductive health (Organon's core franchise)
+          plus diversified pipeline.
+        source_refs:
+          - "Schering-Plough / Akzo Nobel joint announcement 2007-03-12"
+          - "Akzo Nobel 2007 Annual Report divestiture disclosure"
+
+      - deal_type: acquisition
+        headline: "Merck acquires Schering-Plough ($41B) — MK-3475 enters Merck pipeline"
+        announcement_date: "2009-03-09"
+        value_usd: 41100000000
+        acquirer_name: "Merck & Co., Inc."
+        acquirer_ticker: "MRK"
+        target_name: "Schering-Plough Corporation"
+        description: |
+          One of the largest pharma M&A deals of the decade. Among ~100
+          pipeline assets, MK-3475 was initially deprioritized; revived
+          in 2010 after BMS nivolumab Phase I validated the anti-PD-1
+          class. Eventual Keytruda franchise ($25B annual peak) vastly
+          exceeded the $41B total deal value.
+        strategic_rationale: |
+          Merck sought scale in cardiovascular, women's health, and
+          respiratory portfolios. Immuno-oncology was not a deal driver —
+          the checkpoint-inhibitor class's commercial potential only
+          became clear post-2010 BMS readouts. MK-3475 is a canonical
+          example of how M&A-acquired pipelines can become franchise-
+          defining assets years after close.
+        source_refs:
+          - "Merck + Schering-Plough merger announcement 2009-03-09"
+          - "Merck 2009 10-K merger disclosures"
+          - "Schering-Plough proxy materials 2009"
+
+  - chembl_id: CHEMBL2108724           # semaglutide (Ozempic / Wegovy / Rybelsus)
+    generic_name: semaglutide
+    deals:
+      - deal_type: acquisition
+        headline: "Novo Nordisk acquires Emisphere Technologies for $1.35B — consolidates SNAC oral-peptide platform"
+        announcement_date: "2020-11-06"
+        value_usd: 1350000000
+        acquirer_name: "Novo Nordisk A/S"
+        acquirer_ticker: "NVO"
+        target_name: "Emisphere Technologies, Inc."
+        target_ticker: "EMIS"
+        description: |
+          Novo had licensed Emisphere's SNAC (sodium N-(8-(2-hydroxybenzoyl)-
+          amino)caprylate) permeation enhancer in 2008 to enable oral
+          semaglutide (Rybelsus, approved 2019). The 2020 acquisition
+          brought the platform fully in-house, eliminating ongoing royalty
+          payments and securing the oral-peptide technology for follow-on
+          programs (amycretin, oral GLP-1/GIP dual agonists).
+        strategic_rationale: |
+          Royalty economics on Rybelsus — which at deal close was annualizing
+          to ~$1B in sales — favored buy-vs-continue-license. Additional
+          strategic logic: protect oral-peptide platform from Eli Lilly or
+          other competitor acquisition; consolidate IP and manufacturing
+          know-how for Novo's next-generation metabolic pipeline.
+        source_refs:
+          - "Novo Nordisk / Emisphere deal announcement, 2020-11-06"
+          - "Novo Nordisk FY2020 Annual Report — intangible asset disclosure"
+          - "BioPharma Dive coverage, November 2020"

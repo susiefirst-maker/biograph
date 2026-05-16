@@ -1,0 +1,526 @@
+# EGFR NSCLC — curated T1 landscape.
+#
+# §7.4.6 priority #6. Seventh curated landscape. Target-indication
+# pair (EGFR-mutant non-small-cell lung cancer). Dense generational
+# story — four TKI generations over 20 years, each addressing the
+# prior's resistance pattern. Pairs naturally with HER2 (both RTKs,
+# similar clinical-development arcs).
+
+slug: egfr-nsclc
+display_name: "EGFR NSCLC"
+display_name_zh: "EGFR 非小细胞肺癌"
+quality_tier: T1_CURATED
+last_curated_at: "2026-04-21"
+human_reviewed: true
+
+aliases:
+  - EGFR NSCLC
+  - EGFR non-small cell lung cancer
+  - EGFR-mutant NSCLC
+  - EGFR+ NSCLC
+  - EGFR mutation lung cancer
+  - EGFR 突变肺癌
+  - EGFR 非小细胞肺癌
+  - EGFRm NSCLC
+  - EGFR exon 19
+  - EGFR L858R
+  - EGFR T790M
+  - EGFR exon 20
+
+mesh_id: D002289    # Carcinoma, Non-Small-Cell Lung
+
+disease_overview: |
+  EGFR-mutant non-small-cell lung cancer (NSCLC) is the
+  paradigmatic precision-oncology story. Activating mutations in
+  the epidermal growth factor receptor (EGFR) kinase domain —
+  predominantly exon 19 deletions and L858R point mutations, plus
+  ~5-10% exon 20 insertions and rarer variants — occur in ~15-20%
+  of Caucasian and ~40-50% of Asian lung adenocarcinoma. The
+  discovery (Lynch, Paez, 2004 linking gefitinib responders to
+  specific EGFR mutations) retroactively rescued a failed
+  all-comer drug and launched targeted oncology as a discipline.
+
+  The class has cycled through four TKI generations in twenty years,
+  each one designed to overcome the prior generation's dominant
+  resistance mechanism:
+  (1) First-generation reversible inhibitors (gefitinib/Iressa,
+      erlotinib/Tarceva, icotinib/Conmana) — active against
+      sensitizing mutations but selected for T790M gatekeeper
+      resistance in ~50-60% of progressors.
+  (2) Second-generation irreversible pan-HER (afatinib, dacomitinib)
+      — marginally better PFS but same T790M limitation; tolerability
+      worse.
+  (3) Third-generation T790M-selective covalent inhibitors
+      (osimertinib, aumolertinib, lazertinib, furmonertinib) —
+      active against both sensitizing mutations AND T790M; better
+      CNS penetration; osimertinib moved to first-line in FLAURA
+      (2017 → 2018 approval) and to adjuvant in ADAURA (2020).
+      Tagrisso is now a ~$6B single molecule.
+  (4) Fourth-generation C797S-selective inhibitors (developmental
+      — BLU-945, WJ13404) target the dominant resistance mutation
+      after 3rd-gen therapy.
+
+  Parallel tracks: EGFR Exon 20 insertions (historically TKI-
+  resistant) are now addressable with amivantamab (Rybrevant,
+  EGFR/MET bispecific, J&J 2021) and sunvozertinib (Aiyansa, Dizal
+  2023 China / 2024 US). Amivantamab + lazertinib combination
+  (MARIPOSA, 2024) challenged osimertinib for front-line standard.
+  Mobocertinib (Takeda) was withdrawn 2023 after PAPILLON head-to-
+  head failure vs ami-chemo combination.
+
+disease_overview_zh: |
+  EGFR突变非小细胞肺癌(NSCLC)是精准肿瘤学的典范故事。表皮
+  生长因子受体(EGFR)激酶结构域的激活突变 — 主要为外显子19
+  缺失和L858R点突变,加上约5-10%的外显子20插入及罕见变异 —
+  在约15-20%的白人和40-50%的亚洲肺腺癌患者中出现。2004年
+  Lynch和Paez将吉非替尼应答者与特定EGFR突变联系起来的发现,
+  追溯性地"拯救"了一个失败的全适应症药物,并开启了靶向肿瘤
+  学作为一门学科。
+
+  该药物类别在20年间经历了四代TKI更迭,每一代都针对上一代的
+  主导耐药机制:
+  (1)第一代可逆抑制剂(吉非替尼/Iressa、厄洛替尼/Tarceva、
+  埃克替尼/Conmana) — 对敏感突变有效,但在约50-60%的进展
+  患者中选择出T790M看门人耐药突变。
+  (2)第二代不可逆泛HER(阿法替尼、达可替尼) — PFS略优,但
+  T790M限制相同,耐受性更差。
+  (3)第三代T790M选择性共价抑制剂(奥希替尼、阿美替尼、
+  lazertinib、伏美替尼) — 对敏感突变及T790M均有效,中枢神经
+  系统穿透性更好;奥希替尼在FLAURA试验(2017→2018获批)中
+  进入一线,在ADAURA(2020)中进入辅助治疗。Tagrisso现已
+  是单分子约60亿美元销售额。
+  (4)第四代C797S选择性抑制剂(研发中 — BLU-945、WJ13404)
+  针对三代治疗后的主导耐药突变。
+
+  并行赛道:EGFR外显子20插入(历史上对TKI耐药)现可由
+  amivantamab(Rybrevant,EGFR/MET双抗,强生2021)和舒沃替尼
+  (Aiyansa,迪哲2023年中国/2024年美国)治疗。amivantamab +
+  lazertinib联合方案(MARIPOSA,2024)挑战奥希替尼作为一线
+  标准。Mobocertinib(武田)在PAPILLON头对头试验输给ami-化疗
+  联合后于2023年撤市。
+
+mechanism_map:
+  - class: "1st-generation reversible EGFR TKI"
+    class_zh: "第一代可逆 EGFR TKI"
+    drugs:
+      - name: gefitinib (Iressa)
+        status: approved
+        company: AstraZeneca
+        approval_date: "2003-05-05"
+      - name: erlotinib (Tarceva)
+        status: approved
+        company: Roche / OSI / Genentech
+        approval_date: "2004-11-18"
+      - name: icotinib (Conmana)
+        status: approved
+        company: Betta Pharmaceuticals
+        approval_date: "2011-06-07"
+
+  - class: "2nd-generation irreversible pan-HER TKI"
+    class_zh: "第二代不可逆泛 HER TKI"
+    drugs:
+      - name: afatinib (Gilotrif)
+        status: approved
+        company: Boehringer Ingelheim
+        approval_date: "2013-07-12"
+      - name: dacomitinib (Vizimpro)
+        status: approved
+        company: Pfizer
+        approval_date: "2018-09-27"
+
+  - class: "3rd-generation T790M-selective covalent TKI"
+    class_zh: "第三代 T790M 选择性共价 TKI"
+    drugs:
+      - name: osimertinib (Tagrisso)
+        status: approved
+        company: AstraZeneca
+        approval_date: "2015-11-13"
+      - name: aumolertinib (Ameile)
+        status: approved
+        company: Hansoh Pharmaceutical
+        approval_date: "2020-03-17"
+      - name: lazertinib (Lazcluze / Leclaza)
+        status: approved
+        company: Yuhan / Johnson & Johnson
+        approval_date: "2024-08-19"
+      - name: furmonertinib (Alflutinib)
+        status: approved
+        company: Allist Pharmaceuticals
+        approval_date: "2021-03-03"
+
+  - class: "4th-generation C797S-selective TKI (developmental)"
+    class_zh: "第四代 C797S 选择性 TKI(研发中)"
+    drugs:
+      - name: BLU-945
+        status: phase_1
+        company: Blueprint Medicines
+      - name: WJ13404
+        status: phase_1
+        company: Wanje Pharmaceuticals
+      - name: BLU-525
+        status: phase_1
+        company: Blueprint Medicines
+
+  - class: "EGFR Exon 20 insertion-targeted"
+    class_zh: "EGFR 外显子 20 插入靶向"
+    drugs:
+      - name: amivantamab (Rybrevant)
+        status: approved
+        company: Johnson & Johnson
+        approval_date: "2021-05-21"
+      - name: sunvozertinib (Aiyansa / Zegfrovy)
+        status: approved
+        company: Dizal Pharmaceutical
+        approval_date: "2023-08-22"
+      - name: mobocertinib (Exkivity)
+        status: discontinued
+        company: Takeda
+
+  - class: "Bispecific + combination regimens"
+    class_zh: "双特异性 + 联合方案"
+    drugs:
+      - name: amivantamab + lazertinib (MARIPOSA regimen)
+        status: approved
+        company: Johnson & Johnson
+        approval_date: "2024-08-19"
+      - name: amivantamab + chemo (PAPILLON regimen, exon 20 1L)
+        status: approved
+        company: Johnson & Johnson
+        approval_date: "2024-03-01"
+      - name: osimertinib + chemo (FLAURA2 regimen, 1L)
+        status: approved
+        company: AstraZeneca
+        approval_date: "2024-02-16"
+
+pipeline:
+  approved:
+    - osimertinib (Tagrisso, AstraZeneca)
+    - gefitinib (Iressa, AZ)
+    - erlotinib (Tarceva, Roche)
+    - icotinib (Conmana, Betta)
+    - afatinib (Gilotrif, BI)
+    - dacomitinib (Vizimpro, Pfizer)
+    - aumolertinib (Ameile, Hansoh)
+    - lazertinib (Lazcluze, Yuhan / J&J)
+    - furmonertinib (Alflutinib, Allist)
+    - amivantamab (Rybrevant, J&J)
+    - sunvozertinib (Aiyansa, Dizal)
+    - amivantamab + lazertinib (MARIPOSA, J&J)
+    - amivantamab + chemo (PAPILLON, J&J)
+    - osimertinib + chemo (FLAURA2, AZ)
+  phase_3:
+    - BLU-945 (Blueprint, 4th-gen C797S)
+    - patritumab deruxtecan (Daiichi/Merck HER3 ADC post-EGFR-TKI)
+    - osimertinib + savolitinib (SAVANNAH, AZ MET bypass)
+    - amivantamab + lazertinib + chemo (MARIPOSA-2)
+  phase_2:
+    - multiple 4th-gen C797S TKIs
+    - EGFR-directed ADCs (reviving after depatuxizumab 2019 failure)
+  phase_1:
+    - EGFR × CD3 bispecific T-cell engagers
+    - fully oral C797S-selective programs
+  failed:
+    - mobocertinib (Exkivity) — withdrawn 2023 after PAPILLON vs ami-chemo failure
+    - depatuxizumab mafodotin (AbbVie EGFRvIII ADC glioblastoma) — INTELLANCE-1 Phase 3 halt 2019
+    - multiple osimertinib + IO combo trials — increased ILD without PFS benefit
+
+failed_trials:
+  - "INSIGHT (tepotinib + gefitinib, 2020) — first-line MET amp combo missed primary endpoint"
+  - "CAURAL (osimertinib + durvalumab, 2019) — terminated early due to ILD signal; established IO+3rd-gen TKI as unfavorable combination"
+  - "EXCLAIM-2 (mobocertinib 1L exon 20, 2023) — failed head-to-head vs ami-chemo in PAPILLON; drove 2023 market withdrawal"
+
+companies:
+  - name: AstraZeneca
+    ticker: AZN
+    role: "Dominant franchise — gefitinib 2003 pioneer + osimertinib ($5.8B 2023 peak). FLAURA2 + ADAURA + LAURA lifecycle moves; 2028-2031 patent cliff looms"
+  - name: Johnson & Johnson
+    ticker: JNJ
+    role: "Amivantamab (Rybrevant) + lazertinib (via Yuhan) — MARIPOSA 1L challenge to osimertinib. Second-place franchise after AZ"
+  - name: Roche / Genentech
+    ticker: RHHBY
+    role: "Erlotinib (Tarceva) legacy franchise; limited current EGFR NSCLC investment — pivoted to immuno-oncology + ADC"
+  - name: Boehringer Ingelheim
+    role: "Afatinib (Gilotrif) 2nd-gen legacy; limited ex-Japan momentum post-3rd-gen wave"
+  - name: Pfizer
+    ticker: PFE
+    role: "Dacomitinib (Vizimpro) niche; minimal current EGFR investment"
+  - name: Takeda
+    ticker: TAK
+    role: "Mobocertinib (Exkivity) developer; withdrew 2023 after PAPILLON failure"
+  - name: Hansoh Pharmaceutical
+    ticker: 3692.HK
+    role: "Aumolertinib — China-dominant 3rd-gen originator; licensed ex-China rights to EQRx (since acquired/dissolved)"
+  - name: Allist Pharmaceuticals
+    ticker: 688578.SS
+    role: "Furmonertinib — China 3rd-gen; ex-China development ongoing"
+  - name: Dizal Pharmaceutical
+    ticker: 688192.SS
+    role: "Sunvozertinib — first Chinese-originator EGFR exon 20 approval (China 2023, US FDA 2024)"
+  - name: Blueprint Medicines
+    ticker: BPMC
+    role: "BLU-945 / BLU-525 — 4th-gen C797S-selective; Phase 1; Takeda partnership for some programs"
+
+key_trials:
+  - name: "IPASS"
+    drug: gefitinib
+    sponsor: AstraZeneca
+    phase: phase_3
+    status: met_primary
+    significance: "First-line gefitinib vs carbo-paclitaxel Asian NSCLC 2009; established EGFR mutation as predictive biomarker after post-hoc analysis"
+  - name: "LUX-Lung 3"
+    drug: afatinib
+    sponsor: Boehringer Ingelheim
+    phase: phase_3
+    status: met_primary
+    significance: "Afatinib vs chemo in del19/L858R 2013 — basis for 2nd-gen approval"
+  - name: "FLAURA"
+    drug: osimertinib
+    sponsor: AstraZeneca
+    phase: phase_3
+    status: met_primary
+    significance: "Osimertinib 1L vs 1st-gen TKI 2017; moved 3rd-gen upstream. HR 0.46 PFS, HR 0.80 OS (later readouts)"
+  - name: "FLAURA2"
+    drug: osimertinib + chemotherapy
+    sponsor: AstraZeneca
+    phase: phase_3
+    status: met_primary
+    significance: "Osi + chemo vs osi 1L 2023; extends PFS ~9 months; defensive move vs MARIPOSA competitive threat"
+  - name: "ADAURA"
+    drug: osimertinib (adjuvant)
+    sponsor: AstraZeneca
+    phase: phase_3
+    status: met_primary
+    significance: "Adjuvant osimertinib in resected stage IB-IIIA 2020; HR 0.20 DFS; transformative for early-stage EGFR+ NSCLC"
+  - name: "MARIPOSA"
+    drug: amivantamab + lazertinib vs osimertinib
+    sponsor: Johnson & Johnson
+    phase: phase_3
+    status: met_primary
+    significance: "First head-to-head challenge to osimertinib 1L 2023; met PFS (HR 0.70) but higher toxicity; 2024 approval"
+  - name: "PAPILLON"
+    drug: amivantamab + chemo vs chemo
+    sponsor: Johnson & Johnson
+    phase: phase_3
+    status: met_primary
+    significance: "Exon 20 insertion 1L 2023 approval; killed mobocertinib competitive threat"
+  - name: "CHRYSALIS"
+    drug: amivantamab
+    sponsor: Johnson & Johnson
+    phase: phase_1
+    status: met_primary
+    significance: "EGFR exon 20 post-platinum basis for 2021 Rybrevant accelerated approval"
+  - name: "CAURAL"
+    drug: osimertinib + durvalumab
+    sponsor: AstraZeneca
+    phase: phase_3
+    status: failed
+    significance: "IO + 3rd-gen TKI combination terminated for ILD; established the 'don't combine IO with osi' rule"
+
+scientific_bottlenecks:
+  - "Acquired resistance heterogeneity — post-osimertinib progression has ≥20 described mechanisms (C797S, MET amp, HER2 amp, small-cell transformation, HER3 upregulation, PIK3CA, RB1 loss, etc.); no single resistance regimen covers them all"
+  - "C797S resistance requires 4th-gen TKI — configurationally incompatible with 1st/3rd-gen binding modes; development difficult"
+  - "Brain-metastasis penetration — 1st/2nd-gen TKIs poor; osimertinib + amivantamab + lazertinib all better but still imperfect"
+  - "EGFR exon 20 insertions are structurally diverse (20+ variants) with different drug sensitivities; single-drug coverage incomplete"
+  - "IO + TKI combinations uniformly failed (CAURAL, CheckMate-370) — increased ILD without PFS benefit; immunotherapy addition is a closed door"
+  - "Adjuvant space crowded but uncertain — ADAURA OS benefit modest; choice between adjuvant osimertinib and systemic surveillance is cost- and genotype-dependent"
+
+market_dynamics: |
+  Global EGFR NSCLC TKI market reached ~$7-8 billion in 2023,
+  dominated by osimertinib / Tagrisso (~$5.8 billion, ~75% share).
+  AstraZeneca's franchise is approaching peak but faces 2028-2031
+  patent-cliff timing — composition claims expire 2028 US, 2032 EU.
+  J&J's MARIPOSA-driven amivantamab + lazertinib launch creates
+  the first meaningful competitive pressure since 2018; analyst
+  consensus projects MARIPOSA regimen to ~$2-3 billion peak by
+  2028. Chinese 3rd-gen originators (aumolertinib, furmonertinib)
+  dominate China domestic market at ~30-50% price discount but
+  have limited ex-China uptake. Dizal's sunvozertinib 2024 FDA
+  approval for exon 20 is the first Chinese-originator EGFR NSCLC
+  success in the US; outbound-licensing interest is rising. Next
+  major inflection: first 4th-gen C797S approval (likely 2027-2028)
+  + patritumab deruxtecan post-TKI HER3 ADC Phase 3 readouts.
+
+regulatory_context: |
+  EGFR NSCLC was the first solid-tumor genotype with FDA-required
+  companion diagnostic (gefitinib 2004 post-hoc restriction). FDA
+  has accepted PFS endpoint for all major 1L approvals (FLAURA,
+  MARIPOSA); OS confirmation typically follows but is not
+  gating. Adjuvant ADAURA approval (2020) was based on DFS hazard
+  ratio of 0.20 — a historically favorable regulatory threshold.
+  Post-sintilimab 2022 rejection (PD-1, separate issue), FDA has
+  tightened stance on single-region Chinese data; Dizal's
+  sunvozertinib 2024 approval was notable in clearing this bar
+  with a multi-region Phase 2. China NMPA operates parallel
+  approval tracks at faster timelines for domestic originators —
+  aumolertinib and furmonertinib approved in China years before
+  they sought (or succeeded in seeking) FDA review.
+
+hot_targets:
+  - gene_symbol: EGFR
+    name: "EGFR (ERBB1) — Epidermal Growth Factor Receptor"
+    rationale: "Canonical target — all 4 TKI generations, amivantamab, sunvozertinib, mobocertinib (discontinued), EGFR-directed ADC programs"
+  - gene_symbol: MET
+    name: "MET (HGF Receptor)"
+    rationale: "Amplification in 5-15% of osimertinib-resistant cases; amivantamab's bispecific arm + savolitinib + tepotinib combinations"
+  - gene_symbol: ERBB3
+    name: "HER3 (ERBB3)"
+    rationale: "Upregulated post-EGFR TKI; patritumab deruxtecan (HER3 ADC) Phase 3 in post-TKI EGFR+ NSCLC"
+  - gene_symbol: TP53
+    name: "TP53"
+    rationale: "Co-mutation common in EGFR+ NSCLC; prognostic (worse survival); not directly druggable but gates adjuvant decision"
+  - gene_symbol: ERBB2
+    name: "HER2 (ERBB2)"
+    rationale: "HER2 amplification in ~5% of osimertinib-resistant cases; T-DXd DESTINY-Lung02 active"
+  - gene_symbol: RB1
+    name: "RB1 (Retinoblastoma-1)"
+    rationale: "Loss associated with small-cell transformation in ~5-15% of osimertinib progressors; no effective targeted therapy"
+
+literature:
+  - pmid: "15118073"
+    title: "Activating mutations in the epidermal growth factor receptor underlying responsiveness of non-small-cell lung cancer to gefitinib"
+    authors: "Lynch TJ et al."
+    journal: "N Engl J Med"
+    year: 2004
+  - pmid: "19692680"
+    title: "Gefitinib or carboplatin-paclitaxel in pulmonary adenocarcinoma (IPASS)"
+    authors: "Mok TS et al."
+    journal: "N Engl J Med"
+    year: 2009
+  - pmid: "29151359"
+    title: "Osimertinib in Untreated EGFR-Mutated Advanced Non-Small-Cell Lung Cancer (FLAURA)"
+    authors: "Soria JC et al."
+    journal: "N Engl J Med"
+    year: 2018
+  - pmid: "32955177"
+    title: "Osimertinib in Resected EGFR-Mutated Non-Small-Cell Lung Cancer (ADAURA)"
+    authors: "Wu YL et al."
+    journal: "N Engl J Med"
+    year: 2020
+  - pmid: "37937763"
+    title: "Amivantamab plus Lazertinib in Previously Untreated EGFR-Mutated Advanced NSCLC (MARIPOSA)"
+    authors: "Cho BC et al."
+    journal: "N Engl J Med"
+    year: 2023
+
+articles:
+  - title: "FDA approves osimertinib as adjuvant therapy for non-small cell lung cancer with EGFR mutations"
+    source_name: "FDA"
+    source_type: press_release
+    language: en
+    publish_date: "2020-12-18"
+    url: "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-osimertinib-adjuvant-therapy-non-small-cell-lung-cancer-egfr-mutations"
+  - title: "EGFR赛道2024:MARIPOSA挑战Tagrisso + 国产TKI出海"
+    source_name: "医药魔方"
+    source_type: wechat_gongzhonghao
+    language: zh
+    publish_date: "2024-05-28"
+    url: "https://mp.weixin.qq.com/s/egfr-nsclc-2024"
+  - title: "Takeda pulls Exkivity after confirmatory trial failure"
+    source_name: "Endpoints News"
+    source_type: news
+    language: en
+    publish_date: "2023-10-02"
+    url: "https://endpts.com/takeda-exkivity-exon-20-withdrawal-2023/"
+
+lessons:
+  - title: "Resistance-Driven Generational Development as a Predictable Cadence"
+    title_zh: "耐药驱动的迭代式开发作为可预测的节奏"
+    lesson_type: scientific_mechanistic
+    pattern: |
+      In kinase-driven cancers, each TKI generation selects for a
+      predictable resistance mutation (T790M post-1st/2nd gen,
+      C797S post-3rd gen) that the next generation is engineered
+      to address. The generational cadence is ~5-7 years and the
+      commercial winner of each generation is typically not the
+      first-to-market but the one with the broadest CNS + safety
+      profile. Sponsors that invest in the resistance-mutation
+      screen early and have chemistry platform depth (AstraZeneca's
+      osimertinib, Blueprint's BLU-945) capture generation N+1;
+      sponsors betting on single-generation dominance lose share
+      at every cycle.
+    key_evidence:
+      - "1st-gen (gefitinib 2003) → T790M resistance in 50-60% → 3rd-gen (osimertinib 2015) → C797S resistance in ~20% → 4th-gen in clinic 2024-2025"
+      - "Cadence: ~8 years between gefitinib 2003 approval and T790M structural understanding (2011-2012); ~3 years between osimertinib approval and first C797S-selective programs in development"
+      - "Tagrisso (osimertinib) captured 75%+ share of the 3rd-gen wave — had better CNS and 1L FLAURA head-to-head; Chinese 3rd-gen molecules took domestic but not global share"
+      - "4th-gen race includes BLU-945, WJ13404, multiple Chinese programs; Phase 3 likely 2026-2027"
+    limitations:
+      - "Applies to kinase-driven cancers with defined gatekeeper residues; does not apply to tumor-suppressor or non-kinase targets"
+      - "Requires structural biology + medicinal chemistry platform investment measured in decades, not quarters"
+      - "Patent-life tradeoff — 4th-gen development starts before 3rd-gen even launches; cannibalizes own market if timed wrong"
+    applicable_contexts:
+      - "EGFR / ALK / ROS1 / RET / NTRK NSCLC TKI strategy"
+      - "KRAS G12C resistance (adagrasib post-sotorasib)"
+      - "FLT3, BTK, other kinase inhibitor classes with resistance signatures"
+    applicable_to_landscapes:
+      - egfr-nsclc
+      - her2
+      - kinase-oncology
+    human_reviewed: true
+    reviewed_by: di
+
+  - title: "CNS-Penetrant Profile Wins Generation Races in Brain-Mets-Prone Cancers"
+    title_zh: "在脑转移高发癌症中透脑性决定一代药物竞赛胜负"
+    lesson_type: clinical_development
+    pattern: |
+      EGFR+ NSCLC has ~30% baseline and ~60%+ lifetime CNS
+      metastasis rates. First-generation TKIs (gefitinib, erlotinib)
+      cross the blood-brain barrier poorly; osimertinib was
+      designed with explicit CNS penetration and won FLAURA 1L on
+      an overall survival + CNS-benefit story, not on peripheral
+      PFS alone. The MARIPOSA combination (amivantamab + lazertinib)
+      similarly emphasized CNS-PFS to differentiate vs osimertinib.
+      Sponsors whose candidate molecules can't cross BBB get
+      structurally disadvantaged in CNS-heavy cancers regardless
+      of systemic activity. Same rule that applied in HER2 (tucatinib
+      HER2CLIMB) applies here.
+    key_evidence:
+      - "FLAURA 1L: osimertinib vs 1st-gen HR 0.46 PFS with pronounced CNS-PFS benefit"
+      - "Gefitinib + erlotinib CNS concentration ~5-10% of serum; osimertinib >100% with active transporter affinity"
+      - "MARIPOSA 2023 emphasized CNS-PFS in publication / FDA briefing"
+      - "Parallel: tucatinib HER2CLIMB 2020, osimertinib ADAURA adjuvant"
+    limitations:
+      - "Requires initial choice of molecule with CNS-friendly physicochemistry — not easily engineered in late-stage"
+      - "CNS-benefit evaluation needs explicit trial design (active CNS-disease inclusion, CNS-PFS endpoint)"
+      - "Advantage time-limited — next-generation competitors also engineer for CNS"
+    applicable_contexts:
+      - "EGFR, ALK, HER2, BRAF NSCLC / melanoma / BC programs"
+      - "Late-entrant differentiation in brain-mets-prone cancers"
+      - "Neurodegenerative program design (adjacent use of CNS-penetrance logic)"
+    applicable_to_landscapes:
+      - egfr-nsclc
+      - her2
+    human_reviewed: true
+    reviewed_by: di
+
+  - title: "Head-to-Head Failure Can Retire a Competitor Class Immediately"
+    title_zh: "头对头试验失败可以立即终结一个竞品类别"
+    lesson_type: regulatory_pathway
+    pattern: |
+      Unlike in many therapeutic areas where head-to-head trials
+      are rare, EGFR Exon 20 had enough commercial pressure that
+      Takeda and J&J both ran pivotal trials in 2023. Takeda's
+      mobocertinib lost EXCLAIM-2 vs ami-chemo regimen;
+      mobocertinib was withdrawn from the US market within weeks
+      of the readout. A head-to-head loss in a small indication
+      (EGFR exon 20 is ~3-5% of EGFR NSCLC) can be immediately
+      fatal — unlike in large indications where niche positioning
+      survives. Sponsors should plan for the asymmetric risk when
+      committing to head-to-head trials in small subsets.
+    key_evidence:
+      - "Mobocertinib FDA accelerated approval 2021 → withdrawal 2023 after confirmatory PAPILLON failure"
+      - "Exon 20 addressable population in US: ~4,000-6,000 patients/year — too small to sustain a losing molecule"
+      - "Contrast: failed head-to-head in CLL (acalabrutinib ELEVATE-RR vs ibrutinib, 2021) did not kill acalabrutinib — larger market sustained both"
+      - "Head-to-head failure → 2-3 month market reaction window → commercial decision"
+    limitations:
+      - "Small-indication asymmetry doesn't apply in larger markets"
+      - "Regulatory context matters — accelerated approvals are more vulnerable to confirmatory failure than full approvals"
+      - "Sponsor capital structure affects ability to absorb failure (Takeda kept research; smaller sponsor might fold)"
+    applicable_contexts:
+      - "Rare-indication commercial strategy"
+      - "Head-to-head trial risk / reward analysis"
+      - "Accelerated-approval confirmation timing"
+    applicable_to_landscapes:
+      - egfr-nsclc
+      - rare-oncology
+    human_reviewed: true
+    reviewed_by: di

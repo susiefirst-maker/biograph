@@ -1,0 +1,86 @@
+drugs:
+  - chembl_id: CHEMBL2108724
+    generic_name: semaglutide
+    lessons:
+      - title: "Category Validation via Cardiovascular Outcome Trials Converts Weight-Loss Drugs into Reimbursed Cardiometabolic Therapy"
+        title_zh: "通过心血管结局试验进行类别验证:将减肥药转化为可报销的心血管代谢治疗"
+        lesson_type: regulatory_pathway
+        pattern: |
+          Obesity pharmacotherapy historically faced structural
+          reimbursement barriers (Medicare Part D exclusion, commercial
+          payer restrictions). A properly-designed cardiovascular outcome
+          trial in overweight patients without diabetes can generate a
+          hard-endpoint label that routes reimbursement through CV
+          indication rather than weight loss. The SELECT-to-Wegovy CV
+          label path is the template: spend ~$1B on a 17,000-patient
+          CVOT, land a 20% MACE reduction, secure March 2024 FDA CV
+          risk-reduction indication, unlock Part D coverage.
+        pattern_zh: |
+          肥胖药物治疗历史上面临结构性报销障碍(Medicare Part D
+          排除、商业付款方限制)。针对非糖尿病超重患者设计合理
+          的心血管结局试验,可以产生一个硬终点标签,将报销路径
+          从减重指示转到心血管指示。SELECT到Wegovy心血管标签的
+          路径是模板:投入约10亿美元开展17000例患者的CVOT,获得
+          20%的MACE降低,取得2024年3月FDA的心血管风险降低适应症,
+          打通Part D报销通道。
+        key_evidence:
+          - "Medicare Part D statute excludes obesity drugs from coverage"
+          - "SELECT trial: 17,604 patients, ~$1B+ cost, 20% MACE reduction (HR 0.80)"
+          - "FDA 2024-03-08 Wegovy label expansion to CV risk reduction"
+          - "Parallel precedent: SGLT2-inhibitor empagliflozin (EMPA-REG, 2015) → CV label → HF indication"
+        limitations:
+          - "Requires a drug class with mechanism-plausible CV benefit; fat-only mechanisms (e.g., lipase inhibitors) can't replicate this"
+          - "CVOT cost gate (~$500M-$1B) excludes small-cap developers without partnership"
+          - "Payer coverage still variable despite CV label — Part D picks up, commercial plans lag"
+        applicable_contexts:
+          - "Obesity programs seeking reimbursement alongside efficacy"
+          - "Cardiometabolic drug classes weighing CVOT investment vs faster weight-loss label"
+          - "Late-stage GLP-1, amylin, GIP agonist programs"
+        applicable_to_landscapes:
+          - "semaglutide"
+          - "glp1-obesity"
+          - "cardiometabolic"
+        human_reviewed: true
+        reviewed_by: di
+
+      - title: "Long-Acting Peptide Engineering as a Durable Moat Against Small-Molecule Disruption"
+        title_zh: "长效多肽工程作为抵御小分子颠覆的持久护城河"
+        lesson_type: scientific_mechanistic
+        pattern: |
+          Where a therapeutic hormone's native pharmacology can be
+          preserved, extended-half-life peptide engineering (fatty-acid
+          anchors, albumin binding, pegylation) delivers both clinical
+          efficacy and a manufacturing moat that small molecules
+          historically struggle to replicate. Novo's 30-year GLP-1
+          program (liraglutide C16 → semaglutide C18 diacid) entrenched
+          a once-weekly subcutaneous standard of care that small-molecule
+          GLP-1 agonists (Pfizer danuglipron, Lilly orforglipron) still
+          chase. Orals are coming, but peptide formulation know-how,
+          patent layering, and manufacturing scale remain defensible.
+        pattern_zh: |
+          在治疗性激素的天然药理作用可以保留的情况下,延长半衰期
+          的多肽工程(脂肪酸锚定、白蛋白结合、聚乙二醇化)既能提供
+          临床疗效,又能形成小分子历来难以复制的生产护城河。诺和
+          诺德30年的GLP-1研发项目(利拉鲁肽C16 → 司美格鲁肽C18
+          二酸)确立了每周一次皮下注射的标准治疗,小分子GLP-1
+          激动剂(辉瑞danuglipron、礼来orforglipron)至今仍在追赶。
+          口服小分子会到来,但多肽配方专有技术、专利层叠及生产
+          规模仍是可防御的优势。
+        key_evidence:
+          - "Liraglutide (2010) → semaglutide (2017) → oral semaglutide (2019) progression over 9 years"
+          - "Semaglutide half-life ~165 hours enables once-weekly dosing with <5% peak-trough variation"
+          - "Pfizer discontinued danuglipron 2023 due to transaminase elevations; Lilly orforglipron still Phase 3"
+          - "Novo's Kalundborg + North Carolina manufacturing expansion budget ~$13B (2023-2029)"
+        limitations:
+          - "Only applies to peptide-accessible biology; small-molecule-only targets (kinase inhibitors) can't use this playbook"
+          - "Manufacturing capacity is a long-lead capex bet — cannot be built reactively during shortage"
+          - "Small-molecule GLP-1s may still disrupt via oral-only convenience + generic pricing once they land"
+        applicable_contexts:
+          - "Peptide hormone classes (GLP-1, amylin, calcitonin, PTH, oxytocin)"
+          - "Modality-selection decisions when both peptide and small-molecule are feasible"
+        applicable_to_landscapes:
+          - "semaglutide"
+          - "glp1-obesity"
+          - "peptide-therapeutics"
+        human_reviewed: true
+        reviewed_by: di

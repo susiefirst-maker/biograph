@@ -1,0 +1,419 @@
+# GLP-1 / Obesity curated T1 landscape.
+#
+# Second T1 landscape (§7.4.6 priority #2). Reuses Ozempic golden-entity
+# data (semaglutide context, peptide engineering lessons) and adds the
+# broader GIP/GLP-1, oral small-molecule, and amylin combinations.
+#
+# Unlike NASH, this landscape is a *drug class crossed with a disease
+# area*. Frames: (1) type-2 diabetes → (2) obesity → (3) cardiometabolic
+# risk reduction → (4) MASH / PCOS / alcohol-use follow-ons.
+
+slug: glp1-obesity
+display_name: "GLP-1 / Obesity"
+display_name_zh: "GLP-1 / 肥胖"
+quality_tier: T1_CURATED
+last_curated_at: "2026-04-20"
+human_reviewed: true
+
+aliases:
+  - GLP-1
+  - GLP-1 receptor agonist
+  - GLP-1 RA
+  - incretin mimetic
+  - obesity pharmacotherapy
+  - anti-obesity medication
+  - 胰高血糖素样肽-1
+  - 肥胖药物
+  - 减重药
+  - semaglutide class
+  - tirzepatide
+  - glp-1-obesity        # hyphenated slug variant
+
+mesh_id: D052216    # Glucagon-Like Peptide 1
+
+disease_overview: |
+  GLP-1 receptor agonists (GLP-1 RAs) are the defining therapeutic
+  class of 2020s cardiometabolic medicine. Native GLP-1 is an
+  incretin hormone released by intestinal L-cells after meals; it
+  amplifies glucose-dependent insulin secretion, suppresses glucagon,
+  slows gastric emptying, and acts on hypothalamic satiety centers.
+  Its 2-minute native half-life made direct use impractical until
+  peptide engineers developed fatty-acid-anchored albumin-binding
+  analogues in the 1990s–2010s.
+
+  Novo Nordisk's liraglutide (Victoza, 2010) was the first long-acting
+  clinical-grade GLP-1 RA; semaglutide (Ozempic 2017, Wegovy 2021,
+  Rybelsus 2019) extended dosing to once-weekly and introduced the
+  first oral GLP-1 RA. Eli Lilly's tirzepatide (Mounjaro 2022,
+  Zepbound 2023) added GIP agonism to GLP-1, yielding ~22.5% mean
+  weight reduction in SURMOUNT-1 vs ~15% with Wegovy in STEP-1.
+  Retatrutide (Lilly, Phase 3) adds glucagon receptor agonism as a
+  triple agonist.
+
+  The 2023 SELECT trial (semaglutide 2.4 mg in overweight/obese
+  patients without diabetes) showed a ~20% reduction in major
+  adverse cardiovascular events independent of glycemic effect —
+  the first obesity drug to demonstrate hard CV outcome benefit.
+  FDA's March 2024 Wegovy CV-risk-reduction label is the first
+  obesity pharmacotherapy approved on a CV outcome, unlocking a
+  reimbursement pathway distinct from the historically-excluded
+  obesity drug category.
+
+  The class now drives the most valuable commercial position in
+  global pharma (Novo Nordisk and Eli Lilly combined market cap
+  exceeded $1T in 2023–2024). Supply constraints, payer friction,
+  and competitive positioning — not efficacy — are the defining
+  market questions for the next three years.
+
+disease_overview_zh: |
+  GLP-1受体激动剂(GLP-1 RA)是2020年代心血管代谢医学中最具代表性
+  的治疗药物类别。天然GLP-1是肠道L细胞在进食后分泌的一种肠促胰
+  岛素激素;它放大葡萄糖依赖的胰岛素分泌,抑制胰高血糖素,延缓
+  胃排空,并作用于下丘脑饱食中枢。其天然2分钟的半衰期使直接治
+  疗应用不切实际,直到1990–2010年代多肽工程师开发出脂肪酸锚定
+  的白蛋白结合类似物。
+
+  诺和诺德的利拉鲁肽(Victoza,2010年)是第一个长效临床级GLP-1
+  RA;司美格鲁肽(Ozempic 2017、Wegovy 2021、Rybelsus 2019)将
+  给药延长至每周一次,并引入了首个口服GLP-1 RA。礼来的替尔泊肽
+  (Mounjaro 2022、Zepbound 2023)在GLP-1基础上增加GIP激动作用,
+  在SURMOUNT-1中达到约22.5%的平均减重,对比Wegovy STEP-1的约15%。
+  Retatrutide(礼来,Ⅲ期)作为三重激动剂进一步增加胰高血糖素受
+  体激动作用。
+
+  2023年SELECT试验(2.4 mg司美格鲁肽用于无糖尿病的超重/肥胖患者)
+  显示重大不良心血管事件(MACE)减少约20%,独立于降糖效应 — 这
+  是首个在心血管硬终点上显示获益的肥胖药物。FDA 2024年3月Wegovy
+  心血管风险降低适应症是首个基于心血管结局获批的肥胖药物,打通了
+  与历史上被排除的肥胖药物类别不同的报销通道。
+
+  该药物类别已成为全球制药业最具商业价值的细分领域(2023–2024年
+  诺和诺德与礼来合计市值超过1万亿美元)。供应约束、支付方摩擦
+  及竞争定位 — 而非疗效 — 是未来三年决定市场格局的关键问题。
+
+mechanism_map:
+  - class: "Long-acting GLP-1 RA (once-weekly peptide)"
+    class_zh: "长效GLP-1 RA(每周一次多肽)"
+    drugs:
+      - name: semaglutide
+        status: approved
+        company: Novo Nordisk
+        approval_date: "2017-12-05"
+      - name: dulaglutide
+        status: approved
+        company: Eli Lilly
+        approval_date: "2014-09-18"
+      - name: liraglutide
+        status: approved
+        company: Novo Nordisk
+        approval_date: "2010-01-25"
+      - name: exenatide (weekly)
+        status: approved
+        company: AstraZeneca
+
+  - class: "GIP / GLP-1 dual agonist"
+    class_zh: "GIP / GLP-1 双激动剂"
+    drugs:
+      - name: tirzepatide
+        status: approved
+        company: Eli Lilly
+        approval_date: "2022-05-13"
+
+  - class: "GLP-1 / glucagon / GIP triple agonist"
+    class_zh: "GLP-1 / 胰高血糖素 / GIP 三重激动剂"
+    drugs:
+      - name: retatrutide
+        status: phase_3
+        company: Eli Lilly
+      - name: survodutide
+        status: phase_3
+        company: Boehringer Ingelheim / Zealand Pharma
+
+  - class: "Oral peptide GLP-1 RA"
+    class_zh: "口服多肽 GLP-1 RA"
+    drugs:
+      - name: oral semaglutide (Rybelsus)
+        status: approved
+        company: Novo Nordisk
+        approval_date: "2019-09-20"
+
+  - class: "Oral small-molecule GLP-1 RA"
+    class_zh: "口服小分子 GLP-1 RA"
+    drugs:
+      - name: orforglipron
+        status: phase_3
+        company: Eli Lilly
+      - name: danuglipron
+        status: failed
+        company: Pfizer
+      - name: lotiglipron
+        status: discontinued
+        company: Pfizer
+
+  - class: "GLP-1 RA + amylin analog combination"
+    class_zh: "GLP-1 RA + 胰淀素类似物联合用药"
+    drugs:
+      - name: CagriSema (cagrilintide + semaglutide)
+        status: phase_3
+        company: Novo Nordisk
+
+  - class: "GLP-1 RA + GIP antagonist / bispecific"
+    class_zh: "GLP-1 RA + GIP 拮抗剂 / 双特异性"
+    drugs:
+      - name: maridebart cafraglutide (MariTide)
+        status: phase_2
+        company: Amgen
+
+pipeline:
+  approved:
+    - semaglutide (Ozempic / Wegovy / Rybelsus, Novo Nordisk)
+    - tirzepatide (Mounjaro / Zepbound, Eli Lilly)
+    - dulaglutide (Trulicity, Eli Lilly)
+    - liraglutide (Victoza / Saxenda, Novo Nordisk)
+  phase_3:
+    - retatrutide (GLP-1 / GIP / glucagon triple, Lilly)
+    - orforglipron (oral small-molecule, Lilly)
+    - survodutide (GLP-1 / glucagon, BI / Zealand)
+    - CagriSema (Novo Nordisk)
+  phase_2:
+    - MariTide / maridebart cafraglutide (Amgen)
+    - HM15275 (Hanmi Pharmaceutical)
+    - ecnoglutide (Innovent Biologics)
+  phase_1:
+    - multiple oral triple-agonist follow-ons
+  failed:
+    - danuglipron (Pfizer, Phase 3 discontinued 2023 — transaminase elevations)
+    - lotiglipron (Pfizer, Phase 2 discontinued 2023 — same tolerability)
+
+failed_trials:
+  - "Pfizer danuglipron (2023) — Phase 3 program discontinued on transaminase elevations despite ~6.9% weight reduction at 26 weeks"
+  - "Pfizer lotiglipron (2023) — Phase 2 discontinued before Phase 3 due to tolerability concerns"
+
+companies:
+  - name: Novo Nordisk
+    ticker: NVO
+    role: "Class pioneer — liraglutide 2010, semaglutide 2017, oral 2019, Wegovy 2021; Europe's most valuable public company 2023"
+  - name: Eli Lilly
+    ticker: LLY
+    role: "Dual / triple agonist leader — tirzepatide 2022/2023, retatrutide + orforglipron Phase 3; largest US pharma by market cap 2024"
+  - name: AstraZeneca
+    ticker: AZN
+    role: "Legacy exenatide franchise (Bydureon); limited pipeline momentum in the class"
+  - name: Amgen
+    ticker: AMGN
+    role: "MariTide (GLP-1 agonist + GIP antagonist bispecific) — Phase 2; differentiated mechanism"
+  - name: Pfizer
+    ticker: PFE
+    role: "Twice-failed small-molecule program (danuglipron, lotiglipron); next-gen oral under development"
+  - name: Boehringer Ingelheim
+    role: "Joint survodutide Phase 3 with Zealand Pharma — GLP-1 / glucagon dual"
+  - name: Zealand Pharma
+    ticker: ZEAL
+    role: "Co-developer of survodutide with BI; long peptide-discovery history"
+  - name: Hanmi Pharmaceutical
+    role: "Asia-focused triple / dual agonist programs; HM15275, efpeglenatide-variant pipeline"
+  - name: Innovent Biologics
+    ticker: 1801.HK
+    role: "Leading China-based GLP-1 program (ecnoglutide, mazdutide) with NMPA approvals"
+
+key_trials:
+  - name: "STEP-1"
+    drug: semaglutide (Wegovy)
+    sponsor: Novo Nordisk
+    phase: phase_3
+    status: met_primary
+    significance: "~15% mean weight reduction — established first-generation anti-obesity GLP-1 bar"
+  - name: "SURMOUNT-1"
+    drug: tirzepatide (Zepbound)
+    sponsor: Eli Lilly
+    phase: phase_3
+    status: met_primary
+    significance: "~22.5% mean weight reduction at 72 weeks — set new best-in-class efficacy benchmark"
+  - name: "SELECT"
+    drug: semaglutide (Wegovy)
+    sponsor: Novo Nordisk
+    phase: phase_3
+    status: met_primary
+    significance: "First obesity pharmacotherapy to show ~20% MACE reduction in patients without diabetes; unlocked March 2024 CV label"
+  - name: "SUSTAIN-6"
+    drug: semaglutide (Ozempic)
+    sponsor: Novo Nordisk
+    phase: phase_3
+    status: met_primary
+    significance: "CVOT in type 2 diabetes establishing class cardiovascular safety + benefit"
+  - name: "SURMOUNT-5"
+    drug: tirzepatide vs semaglutide
+    sponsor: Eli Lilly
+    phase: phase_3
+    status: ongoing
+    significance: "First head-to-head weight-loss comparison; readout expected 2025"
+  - name: "ESSENCE"
+    drug: semaglutide
+    sponsor: Novo Nordisk
+    phase: phase_3
+    status: ongoing
+    significance: "Definitive GLP-1 RA trial in MASH — category bridge to liver disease"
+
+scientific_bottlenecks:
+  - "Manufacturing capacity is a multi-year capex bet; Novo + Lilly each committed >$10B to peptide capacity through 2029"
+  - "Small-molecule GLP-1 tolerability (transaminase elevations in Pfizer's program) — not yet a class property but a structural risk for oral chemotypes"
+  - "GI tolerability (nausea, vomiting) still drives ~20% discontinuation in Phase 3; dose-escalation schemes help but don't eliminate"
+  - "Sarcopenia / muscle-mass loss in patients losing >15% body weight — emerging safety signal needing long-term data"
+  - "Durability post-discontinuation: STEP-4 showed ~2/3 of weight regained within one year off semaglutide"
+
+market_dynamics: |
+  The combined semaglutide + tirzepatide franchise crossed $45 billion
+  in 2023 global sales and is projected to exceed $100 billion by 2030
+  per analyst consensus. Novo Nordisk and Eli Lilly combined market
+  cap exceeded $1 trillion in 2024 — making GLP-1s the most valuable
+  single-class pharmaceutical story since statins. Pricing remains
+  premium (~$1,000-$1,300 US list per month for Wegovy/Zepbound; lower
+  in EU and net of rebates). Medicare Part D has historically excluded
+  "weight-loss drugs"; March 2024 Wegovy CV label opens a reimbursement
+  route, and proposed Congressional legislation (TROA) would expand
+  coverage further. Compounding pharmacies exploit drug-shortage
+  rules to supply off-brand semaglutide and tirzepatide at deep
+  discount — the FDA lifted Wegovy shortage status in February 2025,
+  moving to shut this down. Generic / biosimilar erosion is 2031+
+  (semaglutide) and 2036+ (tirzepatide) based on patent cliffs.
+
+regulatory_context: |
+  FDA accelerated weight-management approval framework (2014 Saxenda
+  precedent) still governs the obesity pathway. CV outcome approval
+  (Wegovy March 2024) is the first of its kind and templates a route
+  for future label expansions. EMA is less flexible — Wegovy CV label
+  pending at time of writing. CMS Part D exclusion on obesity drugs
+  is the single biggest commercial friction; legislation proposed but
+  not enacted. Chinese NMPA has approved semaglutide (2021) and
+  tirzepatide (2024); domestic ecnoglutide and mazdutide programs
+  from Innovent + Shanghai Benemae are advancing.
+
+hot_targets:
+  - gene_symbol: GLP1R
+    name: GLP-1 receptor
+    rationale: "Canonical class target; most drugs in the landscape bind it"
+  - gene_symbol: GIPR
+    name: GIP receptor
+    rationale: "Added by tirzepatide; mechanism contribution still debated (agonist vs antagonist both in development)"
+  - gene_symbol: GCGR
+    name: Glucagon receptor
+    rationale: "Third leg for triple agonists (retatrutide, survodutide) — adds fat oxidation + thermogenesis"
+  - gene_symbol: AMY1R
+    name: Amylin receptor (calcitonin-receptor family)
+    rationale: "Combination partner via cagrilintide (CagriSema)"
+  - gene_symbol: GDF15
+    name: Growth differentiation factor 15
+    rationale: "Emerging anti-obesity target; anti-nausea + appetite suppression without GI side effects"
+  - gene_symbol: MC4R
+    name: Melanocortin 4 receptor
+    rationale: "Adjacent obesity target (setmelanotide approved for genetic obesity); combination potential"
+
+literature:
+  - pmid: "33567185"
+    title: "Once-Weekly Semaglutide in Adults with Overweight or Obesity (STEP-1)"
+    authors: "Wilding JPH et al."
+    journal: "N Engl J Med"
+    year: 2021
+  - pmid: "35658024"
+    title: "Tirzepatide Once Weekly for the Treatment of Obesity (SURMOUNT-1)"
+    authors: "Jastreboff AM et al."
+    journal: "N Engl J Med"
+    year: 2022
+  - pmid: "37888916"
+    title: "Semaglutide and Cardiovascular Outcomes in Obesity without Diabetes (SELECT)"
+    authors: "Lincoff AM et al."
+    journal: "N Engl J Med"
+    year: 2023
+  - pmid: "37196527"
+    title: "Triple–Hormone-Receptor Agonist Retatrutide for Obesity — A Phase 2 Trial"
+    authors: "Jastreboff AM et al."
+    journal: "N Engl J Med"
+    year: 2023
+
+articles:
+  - title: "FDA approves first treatment to reduce risk of serious heart problems in adults with obesity or overweight"
+    source_name: "FDA"
+    source_type: press_release
+    language: en
+    publish_date: "2024-03-08"
+    url: "https://www.fda.gov/news-events/press-announcements/fda-approves-first-treatment-reduce-risk-serious-heart-problems-specifically-adults-obesity-or"
+  - title: "GLP-1赛道2024全景:从减重到心血管,下一个十年"
+    source_name: "药时代"
+    source_type: wechat_gongzhonghao
+    language: zh
+    publish_date: "2024-03-20"
+    url: "https://mp.weixin.qq.com/s/glp1-landscape-2024"
+  - title: "Ozempic + Zepbound: The Trillion-Dollar Obesity Drug Race"
+    source_name: "Bloomberg"
+    source_type: news
+    language: en
+    publish_date: "2024-02-14"
+    url: "https://www.bloomberg.com/features/ozempic-zepbound-weight-loss-drug-race"
+
+lessons:
+  - title: "Platform-Durability Wins: 30-Year Peptide-Engineering Compound Interest Beats Fast-Follow"
+    title_zh: "平台持久性制胜:30年的多肽工程复利战胜快速跟进"
+    lesson_type: strategic_commercial
+    pattern: |
+      The dominant commercial positions in any hormone-replacement-
+      style class accrue to sponsors willing to invest in platform
+      capability over multiple product generations. Novo Nordisk's
+      GLP-1 program ran 1993 → 2025 across liraglutide → semaglutide
+      → oral semaglutide → CagriSema, compounding manufacturing,
+      formulation, and regulatory know-how that new entrants cannot
+      buy off-the-shelf. Eli Lilly's parallel 2010s investment in
+      dual/triple agonism is producing the only credible
+      next-generation challenge. Fast-followers (Pfizer, AstraZeneca
+      on the legacy exenatide) ceded the high ground.
+    key_evidence:
+      - "Novo 1993 program start → 32-year compounding window before 2025 market leadership"
+      - "Novo + Lilly combined $25B+ peptide manufacturing capex through 2029"
+      - "Pfizer small-molecule program (danuglipron, lotiglipron) twice-failed without platform depth"
+      - "AstraZeneca exenatide legacy loses share despite first-mover once-weekly (2012)"
+    limitations:
+      - "Applies to hormone/peptide classes; small-molecule kinase / GPCR classes are more fast-follower-friendly"
+      - "Requires long-horizon capital — public-market pressure on quarterly results makes this hard to sustain"
+      - "Disruption still possible via new modality (oral small-molecule, oral peptide, once-monthly); the lesson is about *generation-over-generation* persistence, not immunity"
+    applicable_contexts:
+      - "Entering any validated peptide hormone class as a new sponsor"
+      - "Prioritization between fast-follow vs platform investment"
+      - "Board / investor education on long-horizon R&D returns"
+    applicable_to_landscapes:
+      - glp1-obesity
+      - peptide-therapeutics
+    human_reviewed: true
+    reviewed_by: di
+
+  - title: "Outcome-Trial Reimbursement Arbitrage: Obesity → CV Label Unlocks Excluded Coverage Pools"
+    title_zh: "结局试验的报销套利:肥胖 → 心血管标签打通被排除的报销通道"
+    lesson_type: regulatory_pathway
+    pattern: |
+      When a regulatory-reimbursement dichotomy exists — one
+      indication covered, another excluded — and a drug can
+      credibly pursue both, the CVOT-driven label-route pays for
+      itself many times over. The Medicare Part D obesity-drug
+      exclusion structurally capped Wegovy's US market. Novo
+      invested ~$1B+ in SELECT (17,000 patients, 4 years) to secure
+      a 20% MACE reduction label; result is CV-indication coverage
+      that sidesteps the exclusion. Lilly's SURMOUNT-MMO and
+      Amgen's MariTide follow the template. Sponsors who short-cut
+      the CVOT miss the reimbursement moat and compete on list
+      price alone.
+    key_evidence:
+      - "Medicare Part D obesity exclusion statute (Social Security Act 1860D-2(e)(2)(A))"
+      - "SELECT trial: 17,604 patients, ~$1B cost, HR 0.80 for MACE"
+      - "FDA 2024-03-08 Wegovy CV risk reduction label"
+      - "Parallel precedent: SGLT2 empagliflozin EMPA-REG 2015 → HF label / reimbursement"
+    limitations:
+      - "Requires drug class with plausible CV mechanism; fat-only mechanisms (e.g., lipase inhibitors) can't replicate"
+      - "CVOT cost gate (~$500M-$1B) excludes small-cap sponsors without partnership"
+      - "Payer response still variable post-label — Part D updated but commercial + state Medicaid lag"
+    applicable_contexts:
+      - "Obesity + cardiometabolic programs with CV hypothesis"
+      - "Classes straddling excluded / covered indications"
+    applicable_to_landscapes:
+      - glp1-obesity
+      - cardiometabolic
+      - semaglutide
+    human_reviewed: true
+    reviewed_by: di

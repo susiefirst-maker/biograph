@@ -1,0 +1,2505 @@
+{
+  "count": 500,
+  "drugs": [
+    {
+      "chembl_id": "CHEMBL2",
+      "generic_name": "prazosin",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL3",
+      "generic_name": "nicotine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL4",
+      "generic_name": "ofloxacin",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL5",
+      "generic_name": "nalidixic acid",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL6",
+      "generic_name": "indomethacin",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL403",
+      "generic_name": "sulbactam",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL404",
+      "generic_name": "tazobactam",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL8",
+      "generic_name": "ciprofloxacin",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL9",
+      "generic_name": "norfloxacin",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL405",
+      "generic_name": "amphetamine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL6622",
+      "generic_name": "isosorbide dinitrate",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL6437",
+      "generic_name": "mianserin",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL11",
+      "generic_name": "imipramine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL406",
+      "generic_name": "indapamide",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL407",
+      "generic_name": "flumazenil",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL408",
+      "generic_name": "troglitazone",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL409",
+      "generic_name": "bicalutamide",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL12",
+      "generic_name": "diazepam",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL13",
+      "generic_name": "metoprolol",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL411",
+      "generic_name": "diethylstilbestrol",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL267936",
+      "generic_name": "mecamylamine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL14",
+      "generic_name": "carbachol",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL16",
+      "generic_name": "phenytoin",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL413",
+      "generic_name": "sirolimus",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL269732",
+      "generic_name": "tacrolimus anhydrous",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL415",
+      "generic_name": "clomipramine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL416",
+      "generic_name": "methoxsalen",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL17",
+      "generic_name": "dichlorphenamide",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL18",
+      "generic_name": "ethoxzolamide",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL417",
+      "generic_name": "epirubicin",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL19",
+      "generic_name": "methazolamide",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL20",
+      "generic_name": "acetazolamide",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL419",
+      "generic_name": "mafenide",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL21",
+      "generic_name": "sulfanilamide",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL420",
+      "generic_name": "guanabenz",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL22",
+      "generic_name": "trimethoprim",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL6966",
+      "generic_name": "verapamil",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL421",
+      "generic_name": "sulfasalazine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL6466",
+      "generic_name": "coumarin",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL23",
+      "generic_name": "diltiazem",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL24",
+      "generic_name": "atenolol",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL25",
+      "generic_name": "aspirin",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL422",
+      "generic_name": "trifluoperazine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL423",
+      "generic_name": "betaxolol",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL425",
+      "generic_name": "olsalazine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL27",
+      "generic_name": "propranolol",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL6995",
+      "generic_name": "practolol",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL427",
+      "generic_name": "mechlorethamine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL29",
+      "generic_name": "penicillin g",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL428",
+      "generic_name": "trovafloxacin",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL30",
+      "generic_name": "cimetidine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL31",
+      "generic_name": "gatifloxacin",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL429",
+      "generic_name": "labetalol",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL32",
+      "generic_name": "moxifloxacin",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL33",
+      "generic_name": "levofloxacin anhydrous",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL430",
+      "generic_name": "gemifloxacin",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL431",
+      "generic_name": "spirapril",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL433",
+      "generic_name": "valproate sodium",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL434",
+      "generic_name": "isoproterenol",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL435",
+      "generic_name": "hydrochlorothiazide",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL35",
+      "generic_name": "furosemide",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL36",
+      "generic_name": "pyrimethamine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL436",
+      "generic_name": "tolrestat",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL437",
+      "generic_name": "sulfathiazole",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL438",
+      "generic_name": "sulfamerazine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL439",
+      "generic_name": "sulfadiazine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL440",
+      "generic_name": "thiamylal",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL441",
+      "generic_name": "thiopental",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL268164",
+      "generic_name": "cyclobarbital",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL442",
+      "generic_name": "ergotamine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL38",
+      "generic_name": "tretinoin",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL7413",
+      "generic_name": "methohexital",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL40",
+      "generic_name": "phenobarbital",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL41",
+      "generic_name": "fluoxetine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL443",
+      "generic_name": "sulfamethoxazole",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL42",
+      "generic_name": "clozapine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL445",
+      "generic_name": "nortriptyline",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL446",
+      "generic_name": "sulfamethazine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL447",
+      "generic_name": "secobarbital",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL448",
+      "generic_name": "pentobarbital",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL7568",
+      "generic_name": "quinacrine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL267894",
+      "generic_name": "amobarbital",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL7728",
+      "generic_name": "hexobarbital",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL449",
+      "generic_name": "butabarbital",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL7863",
+      "generic_name": "aprobarbital",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL450",
+      "generic_name": "metharbital",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL451",
+      "generic_name": "chlordiazepoxide",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL266349",
+      "generic_name": "melagatran",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL452",
+      "generic_name": "clonazepam",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL453",
+      "generic_name": "sulfisoxazole",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL268869",
+      "generic_name": "sulfamethoxypyridazine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL454",
+      "generic_name": "butalbital",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL455",
+      "generic_name": "sulfacetamide",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL43",
+      "generic_name": "amsacrine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL456",
+      "generic_name": "ethacrynic acid",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL267744",
+      "generic_name": "ticrynafen",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL457",
+      "generic_name": "gemfibrozil",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL45",
+      "generic_name": "melatonin",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL46",
+      "generic_name": "ondansetron",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL49",
+      "generic_name": "buspirone",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL459",
+      "generic_name": "methyldopa",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL460",
+      "generic_name": "molindone",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL53",
+      "generic_name": "apomorphine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL54",
+      "generic_name": "haloperidol",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL55",
+      "generic_name": "pentamidine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL463",
+      "generic_name": "aminohippuric acid",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL464",
+      "generic_name": "etretinate",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL57",
+      "generic_name": "nevirapine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL465",
+      "generic_name": "dronabinol",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL58",
+      "generic_name": "mitoxantrone",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL59",
+      "generic_name": "dopamine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL467",
+      "generic_name": "hydroxyurea",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL61",
+      "generic_name": "podofilox",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL64",
+      "generic_name": "isoniazid",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL468",
+      "generic_name": "thalidomide",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL469",
+      "generic_name": "ketorolac",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL471",
+      "generic_name": "sotalol",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL472",
+      "generic_name": "glyburide",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL9225",
+      "generic_name": "hexestrol",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL473",
+      "generic_name": "dofetilide",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL476",
+      "generic_name": "dacarbazine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL477",
+      "generic_name": "adenosine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL479",
+      "generic_name": "thioridazine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL480",
+      "generic_name": "lansoprazole",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL481",
+      "generic_name": "irinotecan",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL70",
+      "generic_name": "morphine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL485",
+      "generic_name": "codeine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL71",
+      "generic_name": "chlorpromazine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL72",
+      "generic_name": "desipramine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL488",
+      "generic_name": "aminoglutethimide",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL74",
+      "generic_name": "cromolyn sodium",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL76",
+      "generic_name": "chloroquine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL490",
+      "generic_name": "paroxetine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL416146",
+      "generic_name": "etoricoxib",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL79",
+      "generic_name": "lidocaine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL492",
+      "generic_name": "etidocaine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL80",
+      "generic_name": "naloxone",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL81",
+      "generic_name": "raloxifene",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL83",
+      "generic_name": "tamoxifen",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL493",
+      "generic_name": "bromocriptine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL494",
+      "generic_name": "iloprost",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL84",
+      "generic_name": "topotecan",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL85",
+      "generic_name": "risperidone",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL428880",
+      "generic_name": "cromolyn",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL86",
+      "generic_name": "metoclopramide",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL428647",
+      "generic_name": "paclitaxel",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL495",
+      "generic_name": "alprostadil",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL496",
+      "generic_name": "hexachlorophene",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL497",
+      "generic_name": "clioquinol",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL10878",
+      "generic_name": "agomelatine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL88",
+      "generic_name": "cyclophosphamide anhydrous",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL498",
+      "generic_name": "chlorpropamide",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL499",
+      "generic_name": "timolol",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL500",
+      "generic_name": "pindolol",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL11359",
+      "generic_name": "cisplatin",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL276832",
+      "generic_name": "hydralazine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL501",
+      "generic_name": "amphetamine sulfate",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL267345",
+      "generic_name": "amphotericin b",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL90",
+      "generic_name": "histamine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL91",
+      "generic_name": "miconazole",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL92",
+      "generic_name": "docetaxel anhydrous",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL93",
+      "generic_name": "zileuton",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL95",
+      "generic_name": "tacrine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL502",
+      "generic_name": "donepezil",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL503",
+      "generic_name": "lovastatin",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL11662",
+      "generic_name": "ozagrel",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL269644",
+      "generic_name": "acetanilide",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL504",
+      "generic_name": "dimethyl sulfoxide",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL505",
+      "generic_name": "chlorpheniramine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL506",
+      "generic_name": "primaquine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL509",
+      "generic_name": "meclofenamic acid",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL511",
+      "generic_name": "pyrilamine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL12713",
+      "generic_name": "sertindole",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL513",
+      "generic_name": "carmustine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL514",
+      "generic_name": "lomustine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL515",
+      "generic_name": "chlorambucil",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL516",
+      "generic_name": "cyproheptadine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL12856",
+      "generic_name": "inamrinone",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL517",
+      "generic_name": "disopyramide",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL98",
+      "generic_name": "vorinostat",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL521",
+      "generic_name": "ibuprofen",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL13376",
+      "generic_name": "clometacin",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL13280",
+      "generic_name": "flunitrazepam",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL524",
+      "generic_name": "methoxamine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL526",
+      "generic_name": "propofol",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL527",
+      "generic_name": "piroxicam",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL528",
+      "generic_name": "ceftizoxime",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL101",
+      "generic_name": "phenylbutazone",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL529",
+      "generic_name": "azithromycin",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL530",
+      "generic_name": "amdinocillin",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL531",
+      "generic_name": "pergolide",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL532",
+      "generic_name": "erythromycin",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL533",
+      "generic_name": "ibutilide",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL103",
+      "generic_name": "progesterone",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL534",
+      "generic_name": "ketotifen",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL535",
+      "generic_name": "sunitinib",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL537",
+      "generic_name": "hydroquinone",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL539",
+      "generic_name": "acetic acid",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL14060",
+      "generic_name": "phenol",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL544",
+      "generic_name": "mequinol",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL104",
+      "generic_name": "clotrimazole",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL105",
+      "generic_name": "mitomycin",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL545",
+      "generic_name": "alcohol",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL546",
+      "generic_name": "oxprenolol",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL106",
+      "generic_name": "fluconazole",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL547",
+      "generic_name": "isotretinoin",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL14376",
+      "generic_name": "iloperidone",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL548",
+      "generic_name": "dinoprostone",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL278020",
+      "generic_name": "neostigmine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL14370",
+      "generic_name": "reboxetine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL549",
+      "generic_name": "citalopram",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL550",
+      "generic_name": "pilocarpine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL107",
+      "generic_name": "colchicine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL553",
+      "generic_name": "erlotinib",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL554",
+      "generic_name": "lapatinib",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL108",
+      "generic_name": "carbamazepine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL109",
+      "generic_name": "valproic acid",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL277100",
+      "generic_name": "temafloxacin",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL110",
+      "generic_name": "benznidazole",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL556",
+      "generic_name": "deferoxamine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL558",
+      "generic_name": "mexiletine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL559",
+      "generic_name": "dextrothyroxine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL111",
+      "generic_name": "rimonabant",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL273575",
+      "generic_name": "nomifensine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL561",
+      "generic_name": "lomefloxacin",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL562",
+      "generic_name": "griseofulvin",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL563",
+      "generic_name": "flurbiprofen",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL564",
+      "generic_name": "promazine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL565",
+      "generic_name": "clofibrate",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL112",
+      "generic_name": "acetaminophen",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL113",
+      "generic_name": "caffeine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL16073",
+      "generic_name": "phenacetin",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL567",
+      "generic_name": "perphenazine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL568",
+      "generic_name": "oxazepam",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL15770",
+      "generic_name": "sulindac",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL15677",
+      "generic_name": "fenclofenac",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL276520",
+      "generic_name": "indalpine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL569",
+      "generic_name": "procaine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL570",
+      "generic_name": "triflupromazine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL571",
+      "generic_name": "ketoprofen",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL572",
+      "generic_name": "nitrofurantoin",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL15870",
+      "generic_name": "indoprofen",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL15891",
+      "generic_name": "lindane",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL573",
+      "generic_name": "niacin",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL575",
+      "generic_name": "methicillin",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL16080",
+      "generic_name": "trichloroethane",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL577",
+      "generic_name": "enalaprilat anhydrous",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL578",
+      "generic_name": "enalapril",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL580",
+      "generic_name": "lorazepam",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL582",
+      "generic_name": "isopropyl alcohol",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL583",
+      "generic_name": "grepafloxacin",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL114",
+      "generic_name": "saquinavir",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL115",
+      "generic_name": "indinavir anhydrous",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL584",
+      "generic_name": "nelfinavir",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL116",
+      "generic_name": "amprenavir",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL585",
+      "generic_name": "triamterene",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL16476",
+      "generic_name": "pronetalol",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL118",
+      "generic_name": "celecoxib",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL119",
+      "generic_name": "trimetrexate",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL588",
+      "generic_name": "fenoldopam",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL589",
+      "generic_name": "ropinirole",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL590",
+      "generic_name": "menadione",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL591",
+      "generic_name": "ethchlorvynol",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL17157",
+      "generic_name": "terfenadine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL592",
+      "generic_name": "levorphanol",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL593",
+      "generic_name": "delavirdine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL594",
+      "generic_name": "emedastine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL595",
+      "generic_name": "pioglitazone",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL596",
+      "generic_name": "fentanyl",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL121",
+      "generic_name": "rosiglitazone",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL17879",
+      "generic_name": "maralixibat chloride",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL17860",
+      "generic_name": "lofexidine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL597",
+      "generic_name": "phentolamine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL18442",
+      "generic_name": "plerixafor",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL18116",
+      "generic_name": "toloxatone",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL599",
+      "generic_name": "meloxicam",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL600",
+      "generic_name": "acetylcysteine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL601",
+      "generic_name": "aminolevulinic acid",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL602",
+      "generic_name": "cysteamine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL19019",
+      "generic_name": "naltrexone",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL603",
+      "generic_name": "zafirlukast",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL276568",
+      "generic_name": "cefprozil anhydrous, (e)-",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL122",
+      "generic_name": "rofecoxib",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL19236",
+      "generic_name": "moxonidine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL604",
+      "generic_name": "cupric sulfate",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL605",
+      "generic_name": "procainamide hydrochloride",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL606",
+      "generic_name": "misoprostol",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL278623",
+      "generic_name": "macimorelin",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL607",
+      "generic_name": "meperidine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL282052",
+      "generic_name": "methaqualone",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL608",
+      "generic_name": "probucol",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL19299",
+      "generic_name": "loxoprofen",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL609",
+      "generic_name": "trientine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL19490",
+      "generic_name": "zomepirac",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL611",
+      "generic_name": "terazosin",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL19393",
+      "generic_name": "levamfetamine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL612",
+      "generic_name": "dextroamphetamine",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL282724",
+      "generic_name": "sitaxentan",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL614",
+      "generic_name": "pyrazinamide",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL19449",
+      "generic_name": "ibudilast",
+      "modality_source": "Small molecule"
+    },
+    {
+      "chembl_id": "CHEMBL1201439",
+      "generic_name": "basiliximab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL1201575",
+      "generic_name": "efalizumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL1201580",
+      "generic_name": "adalimumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL1201583",
+      "generic_name": "bevacizumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL1201586",
+      "generic_name": "palivizumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL1201589",
+      "generic_name": "omalizumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL1201604",
+      "generic_name": "tositumomab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL1201607",
+      "generic_name": "natalizumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL1201579",
+      "generic_name": "capromab pendetide",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL1201584",
+      "generic_name": "abciximab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL1201576",
+      "generic_name": "rituximab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL1201577",
+      "generic_name": "cetuximab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL1201585",
+      "generic_name": "trastuzumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL1201587",
+      "generic_name": "alemtuzumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL1201605",
+      "generic_name": "daclizumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL1201581",
+      "generic_name": "infliximab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL1201825",
+      "generic_name": "ranibizumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL1201827",
+      "generic_name": "panitumumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL1201828",
+      "generic_name": "eculizumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL1201831",
+      "generic_name": "certolizumab pegol",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL1201833",
+      "generic_name": "golimumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL1201834",
+      "generic_name": "canakinumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL1201835",
+      "generic_name": "ustekinumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL1201836",
+      "generic_name": "ofatumumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL1237022",
+      "generic_name": "tocilizumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL1237023",
+      "generic_name": "denosumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL1742991",
+      "generic_name": "benralizumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL1742992",
+      "generic_name": "blinatumomab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL1742996",
+      "generic_name": "brodalumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL1743007",
+      "generic_name": "daratumumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL1743010",
+      "generic_name": "elotuzumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL1743029",
+      "generic_name": "ibalizumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL1743034",
+      "generic_name": "ixekizumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL1743035",
+      "generic_name": "lebrikizumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL1743041",
+      "generic_name": "mogamulizumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL1743047",
+      "generic_name": "necitumumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL1743048",
+      "generic_name": "obinutuzumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL1743049",
+      "generic_name": "olaratumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL1743062",
+      "generic_name": "ramucirumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL1743068",
+      "generic_name": "secukinumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL1743070",
+      "generic_name": "siltuximab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL1743078",
+      "generic_name": "teplizumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL1743079",
+      "generic_name": "teprotumumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL1743081",
+      "generic_name": "tralokinumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL1743087",
+      "generic_name": "vedolizumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL1743090",
+      "generic_name": "technetium tc 99m arcitumomab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL1743091",
+      "generic_name": "indium in 111 satumomab pendetide",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL1789843",
+      "generic_name": "belimumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL1789844",
+      "generic_name": "ipilimumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL2007641",
+      "generic_name": "pertuzumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL2107874",
+      "generic_name": "romosozumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL2107884",
+      "generic_name": "reslizumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL2107902",
+      "generic_name": "technetium tc 99m fanolesomab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL2108021",
+      "generic_name": "besilesomab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL2108041",
+      "generic_name": "ocrelizumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL2108157",
+      "generic_name": "votumumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL2108253",
+      "generic_name": "arcitumomab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL2108354",
+      "generic_name": "ublituximab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL2108429",
+      "generic_name": "mepolizumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL2108581",
+      "generic_name": "catumaxomab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL2108638",
+      "generic_name": "raxibacumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL2108658",
+      "generic_name": "tremelimumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL2108667",
+      "generic_name": "yttrium y 90 ibritumomab tiuxetan",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL2108670",
+      "generic_name": "bezlotoxumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL2108675",
+      "generic_name": "dupilumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL2108681",
+      "generic_name": "tildrakizumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL2108730",
+      "generic_name": "sarilumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL2108738",
+      "generic_name": "nivolumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL2108800",
+      "generic_name": "indium in 111 capromab pendetide",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL2108809",
+      "generic_name": "sulesomab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL2109036",
+      "generic_name": "igovomab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL2109038",
+      "generic_name": "imciromab pentetate",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL2109181",
+      "generic_name": "nebacumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL2109287",
+      "generic_name": "technetium tc 99m nofetumomab merpentan",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL2109334",
+      "generic_name": "inebilizumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL2109427",
+      "generic_name": "zolbetuximab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL2109540",
+      "generic_name": "alirocumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL2109624",
+      "generic_name": "caplacizumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL2364648",
+      "generic_name": "guselkumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL2364649",
+      "generic_name": "margetuximab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL2364653",
+      "generic_name": "anifrolumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL2364655",
+      "generic_name": "evolocumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL3039540",
+      "generic_name": "aducanumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL3137342",
+      "generic_name": "dinutuximab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL3137343",
+      "generic_name": "pembrolizumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL3301587",
+      "generic_name": "durvalumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL3544926",
+      "generic_name": "obiltoxaximab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL3544996",
+      "generic_name": "idarucizumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL3545131",
+      "generic_name": "isatuximab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL3545189",
+      "generic_name": "lanadelumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL3545191",
+      "generic_name": "evinacumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL3707227",
+      "generic_name": "atezolizumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL3707229",
+      "generic_name": "tezepelumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL3707326",
+      "generic_name": "burosumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL3707328",
+      "generic_name": "galcanezumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL3707357",
+      "generic_name": "brolucizumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL3833307",
+      "generic_name": "satralizumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL3833320",
+      "generic_name": "eptinezumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL3833321",
+      "generic_name": "lecanemab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL3833329",
+      "generic_name": "erenumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL3833373",
+      "generic_name": "avelumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL3833393",
+      "generic_name": "emicizumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL3989977",
+      "generic_name": "emapalumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL3989986",
+      "generic_name": "ravulizumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL3990014",
+      "generic_name": "mirikizumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL3990029",
+      "generic_name": "risankizumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL3990039",
+      "generic_name": "marstacimab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL3990044",
+      "generic_name": "relatlimab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL4297245",
+      "generic_name": "donanemab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL4297575",
+      "generic_name": "nirsevimab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL4297700",
+      "generic_name": "bimekizumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL4297723",
+      "generic_name": "cemiplimab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL4297729",
+      "generic_name": "cosibelimab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL4297730",
+      "generic_name": "concizumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL4297734",
+      "generic_name": "crizanlizumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL4297750",
+      "generic_name": "faricimab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL4297756",
+      "generic_name": "fremanezumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL4297774",
+      "generic_name": "amivantamab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL4297788",
+      "generic_name": "mosunetuzumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL4297794",
+      "generic_name": "nemolizumab",
+      "modality_source": "Antibody"
+    },
+    {
+      "chembl_id": "CHEMBL441738",
+      "generic_name": "afamelanotide",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL160",
+      "generic_name": "cyclosporine",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL938",
+      "generic_name": "saralasin",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL1007",
+      "generic_name": "gonadorelin",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL1121",
+      "generic_name": "sincalide",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL1174",
+      "generic_name": "eptifibatide",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL1251",
+      "generic_name": "ganirelix",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL415606",
+      "generic_name": "degarelix",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL1252",
+      "generic_name": "abarelix",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL343448",
+      "generic_name": "romidepsin",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL262135",
+      "generic_name": "gallium oxodotreotide",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL382301",
+      "generic_name": "atosiban",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL373742",
+      "generic_name": "vasopressin",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL1429",
+      "generic_name": "desmopressin",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL190",
+      "generic_name": "theophylline anhydrous",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL414357",
+      "generic_name": "exenatide",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL395429",
+      "generic_name": "oxytocin",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL1472",
+      "generic_name": "protirelin",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL408403",
+      "generic_name": "angiotensin ii",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL1554",
+      "generic_name": "dactinomycin",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL507870",
+      "generic_name": "telavancin",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL525610",
+      "generic_name": "teriparatide",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL525076",
+      "generic_name": "enfuvirtide",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL1680",
+      "generic_name": "octreotide",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL451887",
+      "generic_name": "carfilzomib",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL1200480",
+      "generic_name": "octreotide acetate",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL1200490",
+      "generic_name": "cetrorelix",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL1200501",
+      "generic_name": "goserelin acetate",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL1200509",
+      "generic_name": "histrelin acetate",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL1200511",
+      "generic_name": "gonadorelin acetate",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL1200516",
+      "generic_name": "gonadorelin hydrochloride",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL1200554",
+      "generic_name": "triptorelin pamoate",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL1200556",
+      "generic_name": "desmopressin acetate",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL1200558",
+      "generic_name": "bacitracin",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL1200642",
+      "generic_name": "indium in 111 pentetreotide",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL1200670",
+      "generic_name": "saralasin acetate",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL1200671",
+      "generic_name": "nafarelin acetate",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL1200690",
+      "generic_name": "lypressin",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL1200755",
+      "generic_name": "ceruletide diethylamine",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL1200775",
+      "generic_name": "leuprolide acetate",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL1201184",
+      "generic_name": "lanreotide acetate",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL1201185",
+      "generic_name": "lanreotide",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL1201199",
+      "generic_name": "leuprolide",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL1201247",
+      "generic_name": "goserelin",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL1201255",
+      "generic_name": "histrelin",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL1201309",
+      "generic_name": "nafarelin",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL1201334",
+      "generic_name": "triptorelin",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL1201355",
+      "generic_name": "ceruletide",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL1201565",
+      "generic_name": "epoetin alfa",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL1201568",
+      "generic_name": "pegfilgrastim",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL1201538",
+      "generic_name": "insulin lispro",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL1201550",
+      "generic_name": "denileukin diftitox",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL1201558",
+      "generic_name": "interferon alfa-2b",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL1201488",
+      "generic_name": "secretin synthetic human",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL1201549",
+      "generic_name": "teriparatide acetate",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL1201572",
+      "generic_name": "etanercept",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL1201556",
+      "generic_name": "becaplermin",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL1201620",
+      "generic_name": "somatrem",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL1201497",
+      "generic_name": "insulin glargine",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL1201627",
+      "generic_name": "insulin susp isophane semisynthetic purified human",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL1201569",
+      "generic_name": "rimabotulinumtoxinb",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL1201591",
+      "generic_name": "corticorelin ovine triflutate",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL1201564",
+      "generic_name": "interferon gamma-1b",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL1201554",
+      "generic_name": "antithrombin alfa",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL1201451",
+      "generic_name": "albumin human",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL1201452",
+      "generic_name": "albumin, iodinated i 125 serum",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL1201453",
+      "generic_name": "albumin, iodinated i 131 serum",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL1201528",
+      "generic_name": "vasopressin tannate",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL1201450",
+      "generic_name": "albumin, chromated cr 51 serum",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL1201668",
+      "generic_name": "nesiritide",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL1201522",
+      "generic_name": "technetium tc 99m albumin aggregated",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL1201489",
+      "generic_name": "seractide acetate",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL1201567",
+      "generic_name": "filgrastim",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL1201666",
+      "generic_name": "lepirudin",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL1201545",
+      "generic_name": "insulin susp isophane beef",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL1201496",
+      "generic_name": "insulin aspart",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL1201664",
+      "generic_name": "insulin aspart protamine recombinant",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL1201611",
+      "generic_name": "insulin lispro protamine recombinant",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL1201629",
+      "generic_name": "insulin purified beef",
+      "modality_source": "Protein"
+    },
+    {
+      "chembl_id": "CHEMBL1201438",
+      "generic_name": "aldesleukin",
+      "modality_source": "Protein"
+    }
+  ]
+}
